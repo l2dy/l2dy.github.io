@@ -1118,6 +1118,7 @@ document.addEventListener("nav", async (e) => {
     button.addEventListener("click", () => {
       const targ = resolveRelative(currentSlug, slug2);
       window.spaNavigate(new URL(targ, window.location.toString()));
+      hideSearch();
     });
     return button;
   };
@@ -5289,7 +5290,7 @@ async function renderGraph(container, fullSlug) {
     select_default2(parent).select("text").transition().duration(200).style("opacity", select_default2(parent).select("text").attr("opacityOld")).style("font-size", fontSize + "em");
   }).call(drag(simulation));
   const labels = graphNode.append("text").attr("dx", 0).attr("dy", (d) => -nodeRadius(d) + "px").attr("text-anchor", "middle").text(
-    (d) => data[d.id]?.title || (d.id.charAt(1).toUpperCase() + d.id.slice(2)).replace("-", " ")
+    (d) => data[d.id]?.title || (d.id.charAt(0).toUpperCase() + d.id.slice(1, d.id.length - 1)).replace("-", " ")
   ).style("opacity", (opacityScale - 1) / 3.75).style("pointer-events", "none").style("font-size", fontSize + "em").raise().call(drag(simulation));
   if (enableZoom) {
     svg.call(
