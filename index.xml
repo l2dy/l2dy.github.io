@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🪴 Zero's Garden</title>
+      <title>🪴 Zero&#039;s Garden</title>
       <link>https://l2dy.github.io</link>
       <description>Recent content on 🪴 Zero's Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Zero's Garden</title>
+    <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m intretested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
@@ -16,505 +16,505 @@
     <link>https://l2dy.github.io/notes/AI/AI-Tools</link>
     <guid>https://l2dy.github.io/notes/AI/AI-Tools</guid>
     <description>Chatbots § ChatGPT Coding Assistant § GitHub Copilot Amazon CodeWhisperer Models § LLM Models Toolkit § LangChain .</description>
-    <pubDate>Thu, 04 May 2023 19:49:22 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ChatGPT</title>
     <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
     <guid>https://l2dy.github.io/notes/AI/ChatGPT</guid>
-    <description>Self-hosted Web UI § ChatGPT-Next-Web Derivatives § New Bing Poe Forefront Chat .</description>
-    <pubDate>Thu, 04 May 2023 20:23:14 GMT</pubDate>
+    <description>Self-hosted Web UI § https://github.com/Yidadaa/ChatGPT-Next-Web Derivatives § New Bing Poe Forefront Chat .</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Forefront Chat</title>
     <link>https://l2dy.github.io/notes/AI/Forefront-Chat</link>
     <guid>https://l2dy.github.io/notes/AI/Forefront-Chat</guid>
-    <description>www.forefront.ai Forefront chat provides free access to GPT-4 for now.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <description>https://www.forefront.ai/ Forefront chat provides free access to GPT-4 for now.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>GPT-4 Chat Demo</title>
     <link>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</link>
     <guid>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</guid>
     <description> Warning The chat was saved to demostrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. Chat Text § Could you estimate the average time a TCP request waits in the surge queue of an AWS CLB from CloudWatch metrics? § To estimate the average time a TCP request waits in the surge queue of an Amazon Web Services (AWS) Classic Load Balancer (CLB), you can use the SurgeQueueLength and RequestCount metrics from Amazon CloudWatch.</description>
-    <pubDate>Thu, 11 May 2023 14:59:46 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>LLM Models</title>
     <link>https://l2dy.github.io/notes/AI/LLM-Models</link>
     <guid>https://l2dy.github.io/notes/AI/LLM-Models</guid>
     <description>Commercial Models § GPT-4 GPT-3.5 Open Source Models § Dolly StableLM .</description>
-    <pubDate>Thu, 04 May 2023 19:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>New Bing</title>
     <link>https://l2dy.github.io/notes/AI/New-Bing</link>
     <guid>https://l2dy.github.io/notes/AI/New-Bing</guid>
     <description>Based on GPT-4, New Bing is free to use but has a limit of 5 turns per session for unregistered users. New Bing can be accessed from the Edge browser or the Bing app on mobile.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Poe</title>
     <link>https://l2dy.github.io/notes/AI/Poe</link>
     <guid>https://l2dy.github.io/notes/AI/Poe</guid>
-    <description>poe.com Poe is a platform that enables users to access third-party chatbots, including ChatGPT. Poe can give suggestions on further questions the user could ask, and highlights terms that could be explained further by clicking on them.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <description>https://poe.com/ Poe is a platform that enables users to access third-party chatbots, including ChatGPT. Poe can give suggestions on further questions the user could ask, and highlights terms that could be explained further by clicking on them.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Here Document</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-Document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-Document</guid>
     <description>Parameter expansion § Quote the word in here-documents to inhibit any expansion. &lt;&lt;&#039;word&#039; If any part of word is quoted, the delimiter is the result of quote removal on word, and the lines in the here-document are not expanded.</description>
-    <pubDate>Thu, 04 May 2023 18:14:37 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Line Editing</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Line-Editing</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Line-Editing</guid>
     <description>Read man 3 readline for more information.</description>
-    <pubDate>Thu, 04 May 2023 18:19:33 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Convenient CLI Tools</title>
     <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
     <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
     <description> dog (DNS resolution) xhs, xh (HTTP/S request) fd (find) rg (grep) pv (pipe viewer) dug (DNS propagation checker) ffsend (share files securely) age (simple file encryption tool) restic (file backup tool) rclone (rsync for cloud) namei (check parent directory permissions) ncdu (TUI disk usage analyzer) lft (Layer Four Traceroute) .</description>
-    <pubDate>Thu, 04 May 2023 18:52:18 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Removing Auto-Inserted Comment Leader</title>
     <link>https://l2dy.github.io/notes/CLI/Vim/Removing-Auto-Inserted-Comment-Leader</link>
     <guid>https://l2dy.github.io/notes/CLI/Vim/Removing-Auto-Inserted-Comment-Leader</guid>
     <description>After pressing Enter or ‘o’, use CTRL-U to remove the comment leader. See :help fo-table. o Automatically insert the current comment leader after hitting &#039;o&#039; or &#039;O&#039; in Normal mode.</description>
-    <pubDate>Wed, 10 May 2023 04:08:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Word Splitting</title>
     <link>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</link>
     <guid>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</guid>
     <description>Use $=VAR instead of $VAR to force parameter expansions to be split into separate words before substitution, using IFS as a delimiter. This is done by default in most other shells.</description>
-    <pubDate>Thu, 04 May 2023 19:55:22 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>curl</title>
     <link>https://l2dy.github.io/notes/CLI/curl</link>
     <guid>https://l2dy.github.io/notes/CLI/curl</guid>
     <description>—connect-to § Syntax: --connect-to &lt;HOST1:PORT1:HOST2:PORT2&gt; “HOST1” and “PORT1” may be the empty string, meaning “any host/port”. “HOST2” and “PORT2” may also be the empty string, meaning “use the request’s original host/port”.</description>
-    <pubDate>Thu, 04 May 2023 19:11:25 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ffmpeg</title>
     <link>https://l2dy.github.io/notes/CLI/ffmpeg</link>
     <guid>https://l2dy.github.io/notes/CLI/ffmpeg</guid>
     <description>One-Liners § Detect encoding errors § ffmpeg -err_detect explode -i &lt;infile&gt; -f null - Convert music file to Opus format § find . -type f -name &#039;*.</description>
-    <pubDate>Thu, 04 May 2023 19:48:00 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>git-status</title>
     <link>https://l2dy.github.io/notes/CLI/git/git-status</link>
     <guid>https://l2dy.github.io/notes/CLI/git/git-status</guid>
     <description>git status taking too long § May affect interactivity of shell prompts (e.g. starship) that check git status. To reduce prompt latency, disable checking untracked files in big repositories.</description>
-    <pubDate>Thu, 04 May 2023 18:28:03 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>journalctl</title>
     <link>https://l2dy.github.io/notes/CLI/journalctl</link>
     <guid>https://l2dy.github.io/notes/CLI/journalctl</guid>
     <description>Useful Options § -b (show logs from the current boot only) -e (jump to end in pager mode) -x (augment log lines with catalog info, don&#039;t use for bug reports) .</description>
-    <pubDate>Thu, 08 Jun 2023 14:09:41 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>less</title>
     <link>https://l2dy.github.io/notes/CLI/less</link>
     <guid>https://l2dy.github.io/notes/CLI/less</guid>
     <description>Do not clear the screen on exit § -X or --no-init Disables sending the termcap initialization and deinitialization strings to the terminal. This is sometimes desirable if the deinitialization string does something unnecessary, like clear- ing the screen.</description>
-    <pubDate>Thu, 04 May 2023 17:50:04 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>lsof</title>
     <link>https://l2dy.github.io/notes/CLI/lsof</link>
     <guid>https://l2dy.github.io/notes/CLI/lsof</guid>
     <description>List open files and sockets. On FreeBSD, use procstat instead.</description>
-    <pubDate>Thu, 04 May 2023 18:18:39 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>namei</title>
     <link>https://l2dy.github.io/notes/CLI/namei</link>
     <guid>https://l2dy.github.io/notes/CLI/namei</guid>
     <description>namei -om displays permissions follows each pathname and prints their modes and owners.</description>
-    <pubDate>Thu, 04 May 2023 18:17:26 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>nstat</title>
     <link>https://l2dy.github.io/notes/CLI/nstat</link>
     <guid>https://l2dy.github.io/notes/CLI/nstat</guid>
     <description>nstat is part of the iproute2 collection, replacing the old netstat --statistics command.</description>
-    <pubDate>Thu, 04 May 2023 18:34:00 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>procstat</title>
     <link>https://l2dy.github.io/notes/CLI/procstat</link>
     <guid>https://l2dy.github.io/notes/CLI/procstat</guid>
     <description>On FreeBSD, use procstat -f &lt;PID&gt; to list open files and sockets.</description>
-    <pubDate>Thu, 04 May 2023 18:34:59 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>systemd-analyze</title>
     <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
     <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
     <description>Subcommands § time: analyze startup time set-log-level: set systemd log level .</description>
-    <pubDate>Thu, 04 May 2023 18:16:20 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>zfs</title>
     <link>https://l2dy.github.io/notes/CLI/zfs</link>
     <guid>https://l2dy.github.io/notes/CLI/zfs</guid>
     <description>Snapshots § # Create snapshot zfs snap &lt;volume&gt;@&lt;snapshot_name&gt; # Delete snapshot (dry-run) zfs destroy -vn &lt;volume&gt;@&lt;snapshot_name&gt; # List snapshots zfs list -t snapshot.</description>
-    <pubDate>Thu, 04 May 2023 18:16:50 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Aurora MySQL</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</guid>
-    <description>JDBC Drivers § MariaDB Connector/J § #failover-and-load-balancing-modes ModeDescriptionauroraThis mode supports connection failover in an Amazon Aurora cluster.</description>
-    <pubDate>Thu, 04 May 2023 17:48:19 GMT</pubDate>
+    <description>JDBC Drivers § MariaDB Connector/J § https://mariadb.com/kb/en/failover-and-high-availability-with-mariadb-connector-j/#failover-and-load-balancing-modes ModeDescriptionauroraThis mode supports connection failover in an Amazon Aurora cluster.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Availability Zones</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Availability-Zones</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Availability-Zones</guid>
     <description>Caveats and Gotchas § Map Availability Zones across accounts § Availability Zone names don’t map to the same location across accounts. However, you can use AZ IDs to map Availability Zones across accounts: Open the AWS Resource Access Manager console.</description>
-    <pubDate>Thu, 04 May 2023 18:08:19 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>CDK</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/CDK</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/CDK</guid>
     <description>Caveats and Gotchas § Make sure that construct IDs are reproducible. It is recommended to run cdk synth -q twice and compare the generated files.</description>
-    <pubDate>Thu, 04 May 2023 17:49:15 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Cloud9</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Cloud9</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Cloud9</guid>
     <description>Caveats and Gotchas § AWS managed temporary credentials § Some Cloud9, IAM and STS actions are restricted. See Actions supported by AWS managed temporary credentials.</description>
-    <pubDate>Thu, 04 May 2023 17:49:21 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>CloudTrail</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/CloudTrail</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/CloudTrail</guid>
     <description>Usage § Certain types of CloudTrail events do not associate with related resources. It is recommended to search events with event names, which can be looked up in the Actions page of service API references.</description>
-    <pubDate>Thu, 04 May 2023 17:49:25 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ECS</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/ECS</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/ECS</guid>
     <description>Caveats and Gotchas § The awsvpc network mode doesn’t provide task ENIs with public IP addresses. Therefore, they can’t make direct use of an internet gateway [and therefore can’t connect to the internet].</description>
-    <pubDate>Thu, 04 May 2023 17:49:30 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ELB</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/ELB</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB</guid>
-    <description>Elastic Load Balancing § Caveats and Gotchas § Security groups § security-group-load-balancer If you’re using an Application Load Balancer, follow the instructions at Security groups for your Application Load Balancer.</description>
-    <pubDate>Thu, 04 May 2023 17:49:35 GMT</pubDate>
+    <description>Elastic Load Balancing § Caveats and Gotchas § Security groups § https://aws.amazon.com/premiumsupport/knowledge-center/security-group-load-balancer/ If you’re using an Application Load Balancer, follow the instructions at Security groups for your Application Load Balancer.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>CLB CloudWatch metrics</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/ELB/CLB-CloudWatch-metrics</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB/CLB-CloudWatch-metrics</guid>
     <description>TCP Listener § SampleCount § SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
-    <pubDate>Tue, 16 May 2023 14:44:53 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>NLB</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/ELB/NLB</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB/NLB</guid>
     <description>Caveats and Gotchas § You cannot change the health check interval for a target group with the TCP protocol. Quoting AWS Support: When you register a new target to your Network Load Balancer, it is expected to take between 90 and 180 seconds to complete the registration process.</description>
-    <pubDate>Thu, 04 May 2023 17:48:24 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>EMR</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/EMR</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/EMR</guid>
     <description>Availability Zones § Amazon EMR launches all nodes for a given cluster in the same Amazon EC2 Availability Zones. Running a cluster in the same zone improves performance of the jobs flows.</description>
-    <pubDate>Fri, 12 May 2023 16:37:35 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Graviton Processor</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</guid>
-    <description>AWS Graviton Technical Guide Processor Specifications § ProcessorGraviton2Graviton3(E)InstancesM6gd, C6gn, R6gd, T4g, X2gd, G5g, and Is4genC7gn, M7g, R7g, and HPC7gCoreNeoverse-N1Neoverse-V1Frequency2500MHz2600MHzTurbo supportedNoNoInstruction latenciesInstruction LatenciesInstruction LatenciesInterconnectCMN-600CMN-700Architecture revisionARMv8.</description>
-    <pubDate>Thu, 04 May 2023 19:37:28 GMT</pubDate>
+    <description>AWS Graviton Technical Guide Processor Specifications § ProcessorGraviton2Graviton3(E)InstancesM6g/M6gd, C6g/C6gd/C6gn, R6g/R6gd, T4g, X2gd, G5g, and Im4gn/Is4genC7g/C7gn, M7g, R7g, and HPC7gCoreNeoverse-N1Neoverse-V1Frequency2500MHz2600MHzTurbo supportedNoNoInstruction latenciesInstruction LatenciesInstruction LatenciesInterconnectCMN-600CMN-700Architecture revisionARMv8.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>IAM</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/IAM</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/IAM</guid>
-    <description>Caveats and Gotchas § iam-increase-policy-size Managed policy limit § You can assign IAM users to up to 10 groups. You can also attach up to 10 managed policies to each group, for a maximum of 120 policies (20 managed policies attached to the IAM user, 10 IAM groups, with 10 policies each).</description>
-    <pubDate>Thu, 04 May 2023 17:49:46 GMT</pubDate>
+    <description>Caveats and Gotchas § https://aws.amazon.com/premiumsupport/knowledge-center/iam-increase-policy-size/ Managed policy limit § You can assign IAM users to up to 10 groups.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>RDS Proxy</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/RDS/RDS-Proxy</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/RDS/RDS-Proxy</guid>
     <description>Caveats and Gotchas § You can’t use RDS Proxy with custom DNS. .</description>
-    <pubDate>Thu, 04 May 2023 17:48:32 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Red Hat Knowledge Base Access</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</guid>
-    <description>Running an on-demand instance of Red Hat Enterprise Linux (RHEL) for at least 24 to 48 hours to get access to the Red Hat knowledge base v.a home.</description>
-    <pubDate>Thu, 25 May 2023 13:33:06 GMT</pubDate>
+    <description>Running an on-demand instance of Red Hat Enterprise Linux (RHEL) for at least 24 to 48 hours to get access to the Red Hat knowledge base v.a https://console.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>S3</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/S3</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/S3</guid>
-    <description>Caveats and Gotchas § Partitioning § s3-prefix-nested-folders-difference A prefix is the complete path in front of the object name, which includes the bucket name.</description>
-    <pubDate>Thu, 04 May 2023 17:49:50 GMT</pubDate>
+    <description>Caveats and Gotchas § Partitioning § https://aws.amazon.com/premiumsupport/knowledge-center/s3-prefix-nested-folders-difference/ A prefix is the complete path in front of the object name, which includes the bucket name.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Interface Endpoint</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/VPC/Interface-Endpoint</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC/Interface-Endpoint</guid>
     <description>Private DNS for interface endpoints § If the private DNS option is enabled, an interface endpoint is created with a hidden private hosted zone attached to the associated VPC.</description>
-    <pubDate>Thu, 04 May 2023 17:48:36 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>NAT Gateway</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</guid>
     <description>Caveats and Gotchas § If a connection that’s using a NAT gateway is idle for 350 seconds or more, the connection times out. .</description>
-    <pubDate>Thu, 04 May 2023 17:48:41 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Economics in China</title>
     <link>https://l2dy.github.io/notes/Economics/Economics-in-China</link>
     <guid>https://l2dy.github.io/notes/Economics/Economics-in-China</guid>
-    <description>2010 § Excerpt translated from kkndme_tianya. Economics § High inflation and continuous depreciation of currency are determined by the state-owned economic system, which cannot be changed.</description>
-    <pubDate>Thu, 08 Jun 2023 15:02:18 GMT</pubDate>
+    <description>2010 § Excerpt translated from https://github.com/shengcaishizhan/kkndme_tianya. Economics § High inflation and continuous depreciation of currency are determined by the state-owned economic system, which cannot be changed.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Frame</title>
     <link>https://l2dy.github.io/notes/Emacs/Frame</link>
     <guid>https://l2dy.github.io/notes/Emacs/Frame</guid>
     <description>Fullscreen by default § (add-to-list &#039;default-frame-alist &#039;(fullscreen . maximized)).</description>
-    <pubDate>Thu, 04 May 2023 17:57:00 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Consult</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
-    <description>Asynchronous Search § consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats each as an Emacs regular expression, so special characters like $ has to be escaped.</description>
-    <pubDate>Thu, 04 May 2023 17:59:18 GMT</pubDate>
+    <description>Asynchronous Search § https://github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats each as an Emacs regular expression, so special characters like $ has to be escaped.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Dhall</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Dhall</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Dhall</guid>
     <description>Run dhall-freeze as early as possible, because dhall-mode re-evaluates the buffer on each change.</description>
-    <pubDate>Thu, 04 May 2023 17:59:34 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Doom CLI</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</guid>
     <description>Commands § When you need to force a full byte-compile, for example after upgrading Emacs: doom build doom sync When your need to reclaim some disk space occupied by .</description>
-    <pubDate>Thu, 04 May 2023 17:58:48 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Embark</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Embark</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Embark</guid>
-    <description>Start with C-;. Source § embark.</description>
-    <pubDate>Thu, 04 May 2023 17:58:58 GMT</pubDate>
+    <description>Start with C-;. Source § https://github.com/oantolin/embark.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Evil Collection</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
     <description>For additional evil-collection-MODULE: (after! mpdel (add-transient-hook! &#039;mpdel-mode (+evil-collection-init &#039;mpdel))).</description>
-    <pubDate>Thu, 04 May 2023 18:00:10 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Evil</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Evil</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Evil</guid>
-    <description>yank forward § y f SPC does not yank the space character with evil-snipe-override-mode. See 86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands § Repeat last change: .</description>
-    <pubDate>Thu, 04 May 2023 17:59:54 GMT</pubDate>
+    <description>yank forward § y f SPC does not yank the space character with evil-snipe-override-mode. See https://github.com/hlissner/evil-snipe/issues/86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands § Repeat last change: .</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Font</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Font</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Font</guid>
     <description>(setq doom-font (font-spec :family &quot;Cascadia Mono PL&quot; :size 12 :weight &#039;semi-light)).</description>
-    <pubDate>Thu, 04 May 2023 18:04:41 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>How to Bump a Package</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</guid>
     <description>How to contribute § Make the commit hash changes. Enter the magit buffer with SPC g g. Stage the changes. SPC : and run doom/bumpify-diff. c c and paste the commit message with p.</description>
-    <pubDate>Thu, 04 May 2023 17:58:27 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Init</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Init</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Init</guid>
     <description>Enabled Modules § :ui indent-guides :emacs ibuffer :term vterm :checkers (spell +flyspell) :tools (lookup +docsets +dictionary) lsp magit .</description>
-    <pubDate>Thu, 04 May 2023 18:02:46 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Jumper</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Jumper</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Jumper</guid>
     <description>Natural jumper § ;; Add to config.el (after! better-jumper (setq better-jumper-add-jump-behavior &#039;replace)).</description>
-    <pubDate>Thu, 04 May 2023 18:02:51 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Leader Key</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Leader-Key</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Leader-Key</guid>
     <description>Define new key bindings with leader key prefix § (map! :leader (:prefix (&quot;o&quot; . &quot;open&quot;) :desc &quot;elfeed&quot; &quot;e&quot; #&#039;=rss)) Remap leader keys § Change alt key bindings: ;; Add to config.</description>
-    <pubDate>Thu, 04 May 2023 18:02:58 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Lookup</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Lookup</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Lookup</guid>
     <description>Open URLs § g f (+lookup/file) works for URLs too. Docsets § Dash docsets need to be associated with major modes. Most :lang modules have this already.</description>
-    <pubDate>Thu, 04 May 2023 18:03:04 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Magit</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Magit</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Magit</guid>
     <description>Navigation § magit-section-backward-sibling ([) and magit-section-forward-sibling (]). Line-wrap § $ is mapped to magit-process-buffer, so it’s hard to jump to end of line.</description>
-    <pubDate>Thu, 04 May 2023 18:03:10 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Mpdel</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Mpdel</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Mpdel</guid>
     <description>(use-package! mpdel :config (+evil-collection-init &#039;mpdel) (map! :leader :desc &quot;MPDel&quot; &quot;Z&quot; mpdel-core-map)).</description>
-    <pubDate>Thu, 04 May 2023 18:05:00 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Nativecomp</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Nativecomp</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Nativecomp</guid>
-    <description>Enabled automatically if you have Emacs built with --with-native-compilation. Caveats § doom build may stuck on native compile if the vterm module is enabled, see 5592.</description>
-    <pubDate>Thu, 04 May 2023 18:05:04 GMT</pubDate>
+    <description>Enabled automatically if you have Emacs built with --with-native-compilation. Caveats § doom build may stuck on native compile if the vterm module is enabled, see https://github.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Org-roam v2</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Org-roam-v2</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Org-roam-v2</guid>
     <description>Config § ;; in config.el (setq org-roam-directory &quot;~/org-roam/&quot;) (after! org-roam (setq +org-roam-auto-backlinks-buffer t)) org-roam-protocol § Follow the Org-roam user manual to create an AppleScript application.</description>
-    <pubDate>Thu, 04 May 2023 18:05:16 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ParEdit</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/ParEdit</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/ParEdit</guid>
     <description>Why doesn’t Doom package ParEdit? § From Doom’s FAQs Why are there no default keybinds for Smartparens (for evil users)? Doom only uses smartparens to manage pair “completion” (it does the job better than electric-{pair,quote}-mode or the multitude of other pair-management solutions in the Emacs ecosystem at the time of writing).</description>
-    <pubDate>Thu, 04 May 2023 18:06:30 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Project</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Project</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Project</guid>
     <description>Project-wide actions § Find file: SPC p f Invalidate cache: SPC p i Save all: SPC p s Project-wide search and replace .</description>
-    <pubDate>Thu, 04 May 2023 18:07:30 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Rime</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Rime</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Rime</guid>
     <description>Setup § ;; Add to packages.el (package! pyim :disable t) (package! rime) ;; Add to config.el (use-package! rime :after-call after-find-file pre-command-hook :init (setq rime-emacs-module-header-root &quot;/Applications/MacPorts/Emacs.</description>
-    <pubDate>Thu, 04 May 2023 18:03:31 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Straight</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Straight</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Straight</guid>
     <description> Out of the box, you can install any package listed on MELPA, GNU ELPA, or Emacsmirror, which is to say any package in existence. (Although MELPA is used as a package listing, packages are installed by cloning their Git repositories rather than by downloading tarballs like package.</description>
-    <pubDate>Thu, 04 May 2023 18:06:45 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Undo</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Undo</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Undo</guid>
     <description>Disable undo history persistence § ;; Add in config.el (remove-hook &#039;undo-fu-mode-hook #&#039;global-undo-fu-session-mode).</description>
-    <pubDate>Thu, 04 May 2023 18:06:52 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Vertico</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
     <description>Key bindings in minibuffer § Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern § Consult Search all key bindings § Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list § C-; E in minibuffer to export candidates to a new buffer with Embark.</description>
-    <pubDate>Thu, 04 May 2023 18:06:57 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Window</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Window</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Window</guid>
     <description>SPC w o (doom/window-enlargen) SPC w C-o (delete-other-windows) SPC w q (evil-quit = Z Q).</description>
-    <pubDate>Thu, 04 May 2023 18:07:05 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Workspace</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Workspace</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Workspace</guid>
     <description>Key bingings § Quick switch: s-{0.</description>
-    <pubDate>Thu, 04 May 2023 18:07:09 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>cc</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/cc</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/cc</guid>
     <description>LSP (preferred) § ;; in init.el :lang (cc +lsp) Irony-Mode § It does not work out of the box on macOS, but it is possible to put additional header flags to ~/.</description>
-    <pubDate>Thu, 04 May 2023 17:58:33 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>chinese</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/chinese</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/chinese</guid>
     <description>How to Enable § ;; Uncomment in init.el (doom! :input chinese :ui unicode .</description>
-    <pubDate>Thu, 04 May 2023 18:03:27 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>wgrep</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/wgrep</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/wgrep</guid>
     <description>SPC s p foo C-; E i :%s/././ RET Z Z SPC-s-p foo invokes project-wide search C-; E exports the results into a wgrep buffer i &lt;.</description>
-    <pubDate>Thu, 04 May 2023 18:07:00 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>emacsclient</title>
     <link>https://l2dy.github.io/notes/Emacs/emacsclient</link>
     <guid>https://l2dy.github.io/notes/Emacs/emacsclient</guid>
     <description>Emacs Server on macOS § &lt;!-- ~/Library/LaunchAgents/gnu.emacs.daemon.plist --&gt; &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.</description>
-    <pubDate>Thu, 04 May 2023 17:57:06 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>mu4e</title>
     <link>https://l2dy.github.io/notes/Emacs/mu4e</link>
     <guid>https://l2dy.github.io/notes/Emacs/mu4e</guid>
     <description>M-&lt;up&gt;: move to previous message M-&lt;down&gt;: move to next message.</description>
-    <pubDate>Thu, 04 May 2023 17:56:54 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Prefer Plain Text</title>
     <link>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text</link>
     <guid>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text</guid>
-    <description> By default, mu4e tries to display the ’richest’ option, which is the last MIME-part of the alternatives. You can customize this to prefer the text version, if available, with something like the following in your configuration (and see the docstring for mm-discouraged-alternatives for details) (with-eval-after-load &quot;mm-decode&quot; (add-to-list &#039;mm-discouraged-alternatives &quot;text/html&quot;) (add-to-list &#039;mm-discouraged-alternatives &quot;text/richtext&quot;)) MSGV-Rich_002dtext-and-images.</description>
-    <pubDate>Thu, 04 May 2023 17:58:06 GMT</pubDate>
+    <description> By default, mu4e tries to display the ’richest’ option, which is the last MIME-part of the alternatives. You can customize this to prefer the text version, if available, with something like the following in your configuration (and see the docstring for mm-discouraged-alternatives for details) (with-eval-after-load &quot;mm-decode&quot; (add-to-list &#039;mm-discouraged-alternatives &quot;text/html&quot;) (add-to-list &#039;mm-discouraged-alternatives &quot;text/richtext&quot;)) https://www.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>CORS Credentials</title>
     <link>https://l2dy.github.io/notes/HTTP/CORS-Credentials</link>
     <guid>https://l2dy.github.io/notes/HTTP/CORS-Credentials</guid>
     <description> The CORS request was attempted with the credentials flag set, but the server is configured using the wildcard (”*”) as the value of Access-Control-Allow-Origin, which doesn’t allow the use of credentials.</description>
-    <pubDate>Thu, 04 May 2023 18:39:22 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>CORS Origin</title>
     <link>https://l2dy.github.io/notes/HTTP/CORS-Origin</link>
     <guid>https://l2dy.github.io/notes/HTTP/CORS-Origin</guid>
     <description>Access-Control-Allow-Origin: &lt;origin&gt; Only a single origin can be specified. If the server supports clients from multiple origins, it must return the origin for the specific client making the request.</description>
-    <pubDate>Thu, 04 May 2023 18:40:14 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>HTTP Request RTTs</title>
     <link>https://l2dy.github.io/notes/HTTP/HTTP-Request-RTTs</link>
     <guid>https://l2dy.github.io/notes/HTTP/HTTP-Request-RTTs</guid>
     <description> Phase 1: DNS Lookup Phase 2: TCP Handshake (1 RTT) Phase 3: TLS Handshake (1 RTT if TLS 1.3) 2 round trips if TLS version &lt; 1.3 Phase 4: HTTP (1 RTT + server-side latency) .</description>
-    <pubDate>Thu, 04 May 2023 20:19:52 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Preflight Request</title>
     <link>https://l2dy.github.io/notes/HTTP/Preflight-Request</link>
     <guid>https://l2dy.github.io/notes/HTTP/Preflight-Request</guid>
     <description>It’s an OPTIONS request, using three HTTP request headers: Access-Control-Request-Method, Access-Control-Request-Headers, and the Origin header. For example: OPTIONS /resource/foo Access-Control-Request-Method: DELETE Access-Control-Request-Headers: origin, x-requested-with Origin: https://foo.</description>
-    <pubDate>Thu, 04 May 2023 18:39:44 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>20-20-20 Rule</title>
     <link>https://l2dy.github.io/notes/Health/20-20-20-Rule</link>
     <guid>https://l2dy.github.io/notes/Health/20-20-20-Rule</guid>
     <description>Every 20 minutes spent using a screen, you should try to look away at something that is 20 feet away from you for a total of 20 seconds.</description>
-    <pubDate>Thu, 04 May 2023 19:12:59 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Krita</title>
     <link>https://l2dy.github.io/notes/Krita</link>
     <guid>https://l2dy.github.io/notes/Krita</guid>
     <description>Pen Tablet Shortcuts § Shift + drag left/right to resize the brush. Button (close to pen tip) + drag to zoom in and out. SPACE + drag to move the canvas.</description>
-    <pubDate>Wed, 10 May 2023 04:08:14 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Fontconfig</title>
     <link>https://l2dy.github.io/notes/MacPorts/Fontconfig</link>
     <guid>https://l2dy.github.io/notes/MacPorts/Fontconfig</guid>
     <description>Font directory list § &lt;dir&gt;/usr/share/fonts&lt;/dir&gt; &lt;dir&gt;/usr/X11/lib/X11/fonts&lt;/dir&gt; &lt;dir&gt;/opt/local/share/fonts&lt;/dir&gt; &lt;dir&gt;/Library/Fonts&lt;/dir&gt; &lt;dir&gt;/Network/Library/Fonts&lt;/dir&gt; &lt;dir&gt;/System/Library/Fonts&lt;/dir&gt; &lt;dir prefix=&quot;xdg&quot;&gt;fonts&lt;/dir&gt; &lt;!-- the following element will be removed in the future --&gt; &lt;dir&gt;~/.</description>
-    <pubDate>Thu, 04 May 2023 17:53:42 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Ideas</title>
     <link>https://l2dy.github.io/notes/MacPorts/Ideas</link>
     <guid>https://l2dy.github.io/notes/MacPorts/Ideas</guid>
     <description>Improvements § Fix port bump in ports with multiple checksums (e.g. cargo.crates). port command blocks on DNS resolution timeout, and is impossible to interrupt safely.</description>
-    <pubDate>Thu, 04 May 2023 18:11:09 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Alternative Compiler</title>
     <link>https://l2dy.github.io/notes/MacPorts/base/Alternative-Compiler</link>
     <guid>https://l2dy.github.io/notes/MacPorts/base/Alternative-Compiler</guid>
     <description>Beware of MP_PATH_SCAN. dnl This macro ensures MP installation prefix paths are NOT in PATH dnl for configure to prevent potential problems when base/ code is updated dnl and ports are installed that would match needed items.</description>
-    <pubDate>Thu, 04 May 2023 17:53:27 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Anatomy</title>
     <link>https://l2dy.github.io/notes/MacPorts/base/Anatomy</link>
     <guid>https://l2dy.github.io/notes/MacPorts/base/Anatomy</guid>
     <description>Database § /* ports table */ &quot;CREATE TABLE registry.ports (&quot; &quot;id INTEGER PRIMARY KEY&quot; // row ID &quot;, name TEXT COLLATE NOCASE&quot; // name of the port &quot;, portfile TEXT&quot; // path of Portfile copy &quot;, location TEXT&quot; // image (binary archive) location &quot;, epoch INTEGER&quot; // part of version comparison &quot;, version TEXT COLLATE VERSION&quot; // part of version comparison &quot;, revision INTEGER&quot; // part of version comparison &quot;, variants TEXT&quot; // actual variants used to build port &quot;, requested_variants TEXT&quot; // variants explicitly requested by user &quot;, state TEXT&quot; // installed (activated) or imaged (has image) &quot;, date DATETIME&quot; // install date &quot;, installtype TEXT&quot; // unused, always &quot;image&quot; &quot;, archs TEXT&quot; // list of architectures of this port &quot;, requested INTEGER&quot; // is port requested (boolean) &quot;, os_platform TEXT&quot; // operating system (e.</description>
-    <pubDate>Thu, 04 May 2023 17:52:45 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Registry</title>
     <link>https://l2dy.github.io/notes/MacPorts/base/Registry</link>
     <guid>https://l2dy.github.io/notes/MacPorts/base/Registry</guid>
     <description>registry2 package is entirely written in C. Tcl_PkgProvide(interp, &quot;registry2&quot;, &quot;2.0&quot;) registry2.0/registry.tcl provides registry 1.</description>
-    <pubDate>Thu, 04 May 2023 17:52:51 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Tcl API</title>
     <link>https://l2dy.github.io/notes/MacPorts/base/Tcl-API</link>
     <guid>https://l2dy.github.io/notes/MacPorts/base/Tcl-API</guid>
     <description>Tcl_GetIndexFromObjStruct § Simple static dictionary lookup. // Array of `struct` type, whose first member is a null-terminated string. // End of array is marked by a NULL string pointer.</description>
-    <pubDate>Thu, 04 May 2023 17:52:40 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>SNMPv2 TCP Statistics</title>
     <link>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</link>
@@ -526,73 +526,73 @@
     <link>https://l2dy.github.io/notes/Nginx</link>
     <guid>https://l2dy.github.io/notes/Nginx</guid>
     <description>Nginx is a high-performance Web server, mostly used to serve HTTP requests. location Byte-Range Request Proxy Headers Health Check Upstream Keepalive .</description>
-    <pubDate>Thu, 04 May 2023 18:07:48 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Byte-Range Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</link>
     <guid>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</guid>
     <description>Nginx will try to slice the response body when one of the following conditions is met and the request specifies a Range header. Nginx is serving static files directly.</description>
-    <pubDate>Thu, 04 May 2023 17:54:52 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Nginx Thundering Herd Problem</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</guid>
     <description>Solution 1: EPOLLEXCLUSIVE flag § If EPOLLEXCLUSIVE (Linux 4.5, glibc 2.24) is defined when compiling Nginx, Nginx could make use of it to reduce resource usage when volume of new connection is low.</description>
-    <pubDate>Fri, 02 Jun 2023 02:50:13 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>location</title>
     <link>https://l2dy.github.io/notes/Nginx/location</link>
     <guid>https://l2dy.github.io/notes/Nginx/location</guid>
     <description>proxy_pass redirecting § If a prefix-matching location ends with a slash (/), and requests are processed by proxy_pass, requests to the exact string minus the trailing slash will be redirected to full URI (domain included) with slash appended.</description>
-    <pubDate>Thu, 04 May 2023 17:54:08 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Headers</title>
     <link>https://l2dy.github.io/notes/Nginx/proxy/Headers</link>
     <guid>https://l2dy.github.io/notes/Nginx/proxy/Headers</guid>
     <description>The default set of headers passed to upstream is defined in ngx_http_proxy_headers. static ngx_keyval_t ngx_http_proxy_headers[] = { { ngx_string(&quot;Host&quot;), ngx_string(&quot;$proxy_host&quot;) }, { ngx_string(&quot;Connection&quot;), ngx_string(&quot;close&quot;) }, { ngx_string(&quot;Content-Length&quot;), ngx_string(&quot;$proxy_internal_body_length&quot;) }, { ngx_string(&quot;Transfer-Encoding&quot;), ngx_string(&quot;$proxy_internal_chunked&quot;) }, { ngx_string(&quot;TE&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Keep-Alive&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Expect&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Upgrade&quot;), ngx_string(&quot;&quot;) }, { ngx_null_string, ngx_null_string } };.</description>
-    <pubDate>Thu, 04 May 2023 17:55:02 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Health Check</title>
     <link>https://l2dy.github.io/notes/Nginx/proxy/Health-Check</link>
     <guid>https://l2dy.github.io/notes/Nginx/proxy/Health-Check</guid>
     <description>If Nginx upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to disable passive health checks.</description>
-    <pubDate>Thu, 04 May 2023 17:55:09 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
-    <title>Keepalive</title>
+    <title>Upstream Keepalive</title>
     <link>https://l2dy.github.io/notes/Nginx/proxy/Upstream-Keepalive</link>
     <guid>https://l2dy.github.io/notes/Nginx/proxy/Upstream-Keepalive</guid>
     <description>To enable keepalive connections to upstream, the keepalive directive must be included in upstream{} blocks, and in the location{} blocks you need to switch HTTP version to 1.</description>
-    <pubDate>Thu, 04 May 2023 18:07:58 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Obsidian</title>
     <link>https://l2dy.github.io/notes/Obsidian</link>
     <guid>https://l2dy.github.io/notes/Obsidian</guid>
     <description>Setup § Assign Cmd+; hotkey to “Template: Insert template”. In Files &amp; Links, use absolute path in vault for new links. Routine § Create a note by linking to it first and then press Cmd+Enter to follow the link.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>FreeBSD</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD</link>
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD</guid>
     <description>Features § DTrace .</description>
-    <pubDate>Thu, 04 May 2023 19:57:48 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>DTrace</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</link>
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</guid>
-    <description>One-Liners and Scripts § One-Liners Capture Stacks § For use with Flame Graph. # Capture user-level stack at 197 Hz for 60 seconds sudo dtrace -x ustackframes=100 -n &#039;profile-197 /execname == &quot;python3.</description>
-    <pubDate>Thu, 04 May 2023 20:04:36 GMT</pubDate>
+    <description>One-Liners and Scripts § https://wiki.freebsd.org/DTrace/One-Liners Capture Stacks § For use with Flame Graph. # Capture user-level stack at 197 Hz for 60 seconds sudo dtrace -x ustackframes=100 -n &#039;profile-197 /execname == &quot;python3.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ps</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</link>
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</guid>
     <description>Process Tree § -d arranges processes into a tree representing parent and child relationships. ps aux -d.</description>
-    <pubDate>Fri, 02 Jun 2023 15:43:17 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>BBR</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/BBR</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/BBR</guid>
     <description>Configuration § Only sysctl net.ipv4.tcp_congestion_control is needed since Linux 4.13. Just a quick announcement that Eric Dumazet has checked in a nice feature in Linux 4.</description>
-    <pubDate>Thu, 04 May 2023 18:48:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>FirewallD Specify Zone by IP Address</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/FirewallD-Specify-Zone-by-IP-Address</link>
@@ -604,217 +604,217 @@
     <link>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</guid>
     <description>net.ipv4.tcp_congestion_control § See BBR. net.ipv4.tcp_rmem § Contains three values that represent the minimum, default and maximum size of the TCP socket receive buffer.</description>
-    <pubDate>Thu, 04 May 2023 18:48:28 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>epoll</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/epoll</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/epoll</guid>
     <description>EPOLLEXCLUSIVE Flag § Limitations § The following values may be specified in conjunction with EPOLLEXCLUSIVE: EPOLLIN, EPOLLOUT, EPOLLWAKEUP, and EPOLLET.</description>
-    <pubDate>Fri, 02 Jun 2023 02:50:24 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>WiFi</title>
     <link>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</link>
     <guid>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</guid>
     <description>Client mode § config wifi-iface &#039;wifinet1&#039; option device &#039;radio0&#039; option mode &#039;sta&#039; option ssid &#039;AP_SSID&#039; option encryption &#039;psk2&#039; option bssid &#039;xx:xx:xx:xx:xx:xx&#039; option key &#039;xxxxxxxx&#039; option network &#039;wan&#039; Don’t use AP+STA on one physical radio without travelmate.</description>
-    <pubDate>Wed, 10 May 2023 04:07:41 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>KeyChain in CLI Tools</title>
     <link>https://l2dy.github.io/notes/Operating-System/macOS/KeyChain-in-CLI-Tools</link>
     <guid>https://l2dy.github.io/notes/Operating-System/macOS/KeyChain-in-CLI-Tools</guid>
     <description>Email § mbsync (isync) § UseKeychain yes Add the above to mbsync configuration and create the keychain item with: security add-internet-password -r imap -s Host -a User -w msmtp § Use the exact host and user configured in .</description>
-    <pubDate>Wed, 10 May 2023 04:07:59 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Programming</title>
     <link>https://l2dy.github.io/notes/Programming</link>
     <guid>https://l2dy.github.io/notes/Programming</guid>
     <description>Programming is the process of creating software.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Compile Database</title>
     <link>https://l2dy.github.io/notes/Programming/C/Compile-Database</link>
     <guid>https://l2dy.github.io/notes/Programming/C/Compile-Database</guid>
     <description>Database Generation § CMake § cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=On .</description>
-    <pubDate>Thu, 04 May 2023 18:25:13 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Flame Graph</title>
     <link>https://l2dy.github.io/notes/Programming/C/Flame-Graph</link>
     <guid>https://l2dy.github.io/notes/Programming/C/Flame-Graph</guid>
-    <description>FlameGraph Graph Variants § --reverse stack-reversed flame graph --inverted icicle graph (top to bottom, ) .</description>
-    <pubDate>Thu, 04 May 2023 19:57:13 GMT</pubDate>
+    <description>https://github.com/brendangregg/FlameGraph Graph Variants § --reverse stack-reversed flame graph --inverted icicle graph (top to bottom, ) .</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Code Coverage</title>
     <link>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</link>
     <guid>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</guid>
     <description>llvm-cov gcov § Once you have generated the coverage data files, run llvm-cov gcov for each main source file where you want to examine the coverage results.</description>
-    <pubDate>Thu, 04 May 2023 18:36:27 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>benchstat</title>
     <link>https://l2dy.github.io/notes/Programming/Go/benchstat</link>
     <guid>https://l2dy.github.io/notes/Programming/Go/benchstat</guid>
     <description>Compare go test -bench=.</description>
-    <pubDate>Thu, 04 May 2023 18:36:54 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Module Search Path</title>
     <link>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</link>
     <guid>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</guid>
     <description>sys.path is initialized from these locations: The directory containing the input script (or the current directory when no file is specified). PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).</description>
-    <pubDate>Thu, 04 May 2023 18:37:33 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>SRE</title>
     <link>https://l2dy.github.io/notes/SRE</link>
     <guid>https://l2dy.github.io/notes/SRE</guid>
     <description>Definition § SRE is what happens when you ask a software engineer to design an ops team. We want systems that runs and repairs itself: automatic, not just automated.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Alerting</title>
     <link>https://l2dy.github.io/notes/SRE/Alerting</link>
     <guid>https://l2dy.github.io/notes/SRE/Alerting</guid>
     <description>Software should do the interpreting of the alerting domain, and humans should be notified when action is needed. There are three kinds of valid monitoring output: Alerts (paging): immediate action needed Tickets and email alerts: action needed, but not immediately Logging: recorded for diagnostic or forensic purposes Paging a human is a quite expensive use of an employee’s time.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Blameless Culture</title>
     <link>https://l2dy.github.io/notes/SRE/Blameless-Culture</link>
     <guid>https://l2dy.github.io/notes/SRE/Blameless-Culture</guid>
     <description>Definition § Blameless culture means Focus on identifying the contributing causes of the incident without indicating any individual or team for bad or inappropriate behavior.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Capacity Planning</title>
     <link>https://l2dy.github.io/notes/SRE/Capacity-Planning</link>
     <guid>https://l2dy.github.io/notes/SRE/Capacity-Planning</guid>
     <description>SRE ultimately controls provisioning. We provision to meet a capacity target at a specific response speed, thus we are keenly interested in a service’s performance.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Change Management</title>
     <link>https://l2dy.github.io/notes/SRE/Change-Management</link>
     <guid>https://l2dy.github.io/notes/SRE/Change-Management</guid>
     <description>Roughly 70% of outages are due to changes in a live system. Trio of practices § Implementing progressive rollouts Quickly and accurately detecting problems Rolling back changes safely when problems arise Automation § Remove humans from the loop, use automation.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Eliminating Toil</title>
     <link>https://l2dy.github.io/notes/SRE/Eliminating-Toil</link>
     <guid>https://l2dy.github.io/notes/SRE/Eliminating-Toil</guid>
-    <description>Toil TODO: eliminating-toil 50% Cap § “Ops” work like tickets, on-call should be capped to below 50% of each SRE’s time. This ensures a focus on the engineering aspect of SRE.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <description>Toil TODO: https://sre.google/workbook/eliminating-toil/ 50% Cap § “Ops” work like tickets, on-call should be capped to below 50% of each SRE’s time. This ensures a focus on the engineering aspect of SRE.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Emergency Response</title>
     <link>https://l2dy.github.io/notes/SRE/Emergency-Response</link>
     <guid>https://l2dy.github.io/notes/SRE/Emergency-Response</guid>
     <description>Playbooks § Humans add latency, so thinking through and recording the best practices ahead of time in a “playbook”. It’s also a substitute for smart engineers able to think on the fly, and helps response to a high-stakes or time-sensitive page.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Error Budget</title>
     <link>https://l2dy.github.io/notes/SRE/Error-Budget</link>
     <guid>https://l2dy.github.io/notes/SRE/Error-Budget</guid>
     <description>Purpose § Error budgets resolve the structural conflict of incentives between development and SRE. If product development wants to skimp on testing or increase push velocity and SRE is resistant, the error budget guides the decision.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Managing Incidents</title>
     <link>https://l2dy.github.io/notes/SRE/Managing-Incidents</link>
     <guid>https://l2dy.github.io/notes/SRE/Managing-Incidents</guid>
     <description>Recursive Separation of Responsibilities § A role leader might delegate system components to colleagues, who report high-level information back up to the leaders.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Managing Service Risk</title>
     <link>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</link>
     <guid>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</guid>
     <description>With risk conceptualized as a (nonlinear) continuum, we need to determine where to place individual services on the continuum. We give equal importance to Figure out how to engineer great reliability into our systems.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Mandatory Review</title>
     <link>https://l2dy.github.io/notes/SRE/Mandatory-Review</link>
     <guid>https://l2dy.github.io/notes/SRE/Mandatory-Review</guid>
     <description>All proposed changes (CLs) should be reviewed before being submitted.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Measuring Service Risk</title>
     <link>https://l2dy.github.io/notes/SRE/Measuring-Service-Risk</link>
     <guid>https://l2dy.github.io/notes/SRE/Measuring-Service-Risk</guid>
     <description>The traditional way of measuring unplanned downtime is not suitable for geo-distributed Internet services, because a given service is at least partially “up” at all times.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Monitoring</title>
     <link>https://l2dy.github.io/notes/SRE/Monitoring</link>
     <guid>https://l2dy.github.io/notes/SRE/Monitoring</guid>
     <description>The Four Golden Signals § Latency It’s important to distinguish between the latency of successful requests and the latency of failed requests. Should we cout client timeouts as successful requests? They are potentially requests that took too long but could have been successful, on the other hand it could also be a client-side early close.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>On-Call</title>
     <link>https://l2dy.github.io/notes/SRE/On-Call</link>
     <guid>https://l2dy.github.io/notes/SRE/On-Call</guid>
     <description>Best Practice § Google recommends a maximum of two events per 8-12-hour on-call shift to have adequate time to handle the event accurately and quickly.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Postmortem</title>
     <link>https://l2dy.github.io/notes/SRE/Postmortem</link>
     <guid>https://l2dy.github.io/notes/SRE/Postmortem</guid>
     <description>Criteria § It is important to define postmortem criteria before an incident occurs so that everyone knows when a postmortem is necessary. Blameless Culture § Importance of the blameless culture when conducting a postmortem can not be overstated.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Prodtest</title>
     <link>https://l2dy.github.io/notes/SRE/Prodtest</link>
     <guid>https://l2dy.github.io/notes/SRE/Prodtest</guid>
     <description>Prodtest extent a unit test framework to allow for unit testing of real-world services. Any time a team encountered a delay due to anthoer team’s unexpected misconfiguration, a bug could be filed to extend their Prodtest.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>SLO</title>
     <link>https://l2dy.github.io/notes/SRE/SLO</link>
     <guid>https://l2dy.github.io/notes/SRE/SLO</guid>
     <description>Purpose § Managing Service Risk SLOs should be a major driver in prioritizing work for SREs and product developers, because they reflect what users care about.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Service Level Indicator</title>
     <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
     <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
     <description>Be Realistic § Sometimes only a proxy is available. For example, client-side latency is often the more user-relevant metric, but it might only be possible to measure latency at the server.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Toil</title>
     <link>https://l2dy.github.io/notes/SRE/Toil</link>
     <guid>https://l2dy.github.io/notes/SRE/Toil</guid>
     <description>Definition § Toil is the kind of work tied to running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly as a service grows.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Troubleshooting</title>
     <link>https://l2dy.github.io/notes/SRE/Troubleshooting</link>
     <guid>https://l2dy.github.io/notes/SRE/Troubleshooting</guid>
     <description>Monitoring, logging and exposing current state are the three tricks for troubleshooting. It’s really useful to have multiple verbosity levels available, along with a way to increase these levels on the fly.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Irssi Config</title>
     <link>https://l2dy.github.io/notes/Software/Irssi-Config</link>
     <guid>https://l2dy.github.io/notes/Software/Irssi-Config</guid>
     <description>Pin Self-signed Certificate § /set use_tls yes /set tls_verify no /set tls_pinned_cert &quot;XX:XX:.</description>
-    <pubDate>Wed, 10 May 2023 04:08:52 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Netdata</title>
     <link>https://l2dy.github.io/notes/Software/Netdata</link>
     <guid>https://l2dy.github.io/notes/Software/Netdata</guid>
     <description>Disable Telemetry and Cloud Features § cat &gt; ~/cloud.conf &lt;&lt; EOF [global] enabled = no EOF sudo cp ~/cloud.conf /var/lib/netdata/cloud.d/ sudo touch /etc/netdata/.</description>
-    <pubDate>Thu, 11 May 2023 13:41:24 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>WeeChat Config</title>
     <link>https://l2dy.github.io/notes/Software/WeeChat-Config</link>
     <guid>https://l2dy.github.io/notes/Software/WeeChat-Config</guid>
     <description>ZNC Multi-Connect and CertFP § Connect to multiple networks by specifying network name in username in username/networkname format. /server add networkname IP/port -ssl -username=username/networkname -password=x -autoconnect /set irc.</description>
-    <pubDate>Wed, 10 May 2023 04:08:37 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>ZNC</title>
     <link>https://l2dy.github.io/notes/Software/ZNC</link>
     <guid>https://l2dy.github.io/notes/Software/ZNC</guid>
-    <description>CertFP with Server § One certificate per user only. Make sure you have a backup before updating it from Web UI. Cert CertFP with Client § Chat with *certauth to manage keys.</description>
-    <pubDate>Wed, 10 May 2023 04:08:30 GMT</pubDate>
+    <description>CertFP with Server § One certificate per user only. Make sure you have a backup before updating it from Web UI. https://wiki.znc.in/Cert CertFP with Client § Chat with *certauth to manage keys.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Taking Notes</title>
     <link>https://l2dy.github.io/notes/Taking-Notes</link>
     <guid>https://l2dy.github.io/notes/Taking-Notes</guid>
     <description>Organizing Notes § Capture ideas on the go with Tana Capture. Turn them into organized fleet notes. Keep a private journal for complex tasks. Nurture evergreen notes from fleet notes and journals.</description>
-    <pubDate>Thu, 04 May 2023 17:31:23 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Twitter</title>
     <link>https://l2dy.github.io/notes/Twitter</link>
     <guid>https://l2dy.github.io/notes/Twitter</guid>
     <description>uBlock Origin rules § ! Discover more / More Tweets - Conversation view suggestions twitter.com##[aria-label=&quot;Timeline: Conversation&quot;] [data-testid=&quot;cellInnerDiv&quot;] h2:has-text(/^(Discover more|More Tweets)$/):upward([data-testid=&quot;cellInnerDiv&quot;]) twitter.</description>
-    <pubDate>Mon, 19 Jun 2023 05:59:08 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item>
     </channel>
   </rss>
