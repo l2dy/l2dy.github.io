@@ -10,11 +10,11 @@
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
-    <pubDate>Sat, 09 Sep 2023 19:32:18 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 19:34:55 GMT</pubDate>
   </item><item>
-    <title>AI Tools</title>
-    <link>https://l2dy.github.io/notes/AI/AI-Tools</link>
-    <guid>https://l2dy.github.io/notes/AI/AI-Tools</guid>
+    <title>AI Productivity Tool Map</title>
+    <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
+    <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
     <description>Chatbots § ChatGPT Coding Assistant § GitHub Copilot Amazon CodeWhisperer Models § LLM Models Toolkit § LangChain .</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
@@ -564,11 +564,17 @@
     <description>To enable keepalive connections to upstream, the keepalive directive must be included in upstream{} blocks, and in the location{} blocks you need to switch HTTP version to 1.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>Ideaverse Kit Plugins</title>
+    <link>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</link>
+    <guid>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</guid>
+    <description>Functionality § Advanced Tables § Markdown table improvements. Dataview § Required for table automation. Excalidraw and ExcaliBrain § Powerful graph view.</description>
+    <pubDate>Sun, 10 Sep 2023 13:04:14 GMT</pubDate>
+  </item><item>
     <title>Obsidian</title>
     <link>https://l2dy.github.io/notes/Obsidian</link>
     <guid>https://l2dy.github.io/notes/Obsidian</guid>
-    <description>Setup § Assign Cmd+; hotkey to “Template: Insert template”. In Files &amp; Links, use absolute path in vault for new links. Routine § Create a note by linking to it first and then press Cmd+Enter to follow the link.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>Core Configuration § Templates § Template folder location: Garden/templates. Daily notes new location: Calendar/notes. Daily notes template: Garden/templates/Templates, Properties, Daily Note.</description>
+    <pubDate>Sun, 10 Sep 2023 13:20:40 GMT</pubDate>
   </item><item>
     <title>FreeBSD</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD</link>
