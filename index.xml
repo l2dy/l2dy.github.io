@@ -18,6 +18,18 @@
     <description>Chatbots § ChatGPT Coding Assistant § GitHub Copilot Amazon CodeWhisperer Models § LLM Models Toolkit § LangChain .</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>FreeBSD Map</title>
+    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
+    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
+    <description>Features § DTrace .</description>
+    <pubDate>Mon, 11 Sep 2023 14:07:51 GMT</pubDate>
+  </item><item>
+    <title>Microsoft Azure Map</title>
+    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
+    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
+    <description>Networking § Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
+    <pubDate>Mon, 11 Sep 2023 14:52:18 GMT</pubDate>
+  </item><item>
     <title>ChatGPT</title>
     <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
     <guid>https://l2dy.github.io/notes/AI/ChatGPT</guid>
@@ -90,6 +102,12 @@
     <description>—connect-to § Syntax: --connect-to &lt;HOST1:PORT1:HOST2:PORT2&gt; “HOST1” and “PORT1” may be the empty string, meaning “any host/port”. “HOST2” and “PORT2” may also be the empty string, meaning “use the request’s original host/port”.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>dig</title>
+    <link>https://l2dy.github.io/notes/CLI/dig</link>
+    <guid>https://l2dy.github.io/notes/CLI/dig</guid>
+    <description></description>
+    <pubDate>Sun, 10 Sep 2023 18:20:41 GMT</pubDate>
+  </item><item>
     <title>ffmpeg</title>
     <link>https://l2dy.github.io/notes/CLI/ffmpeg</link>
     <guid>https://l2dy.github.io/notes/CLI/ffmpeg</guid>
@@ -135,8 +153,8 @@
     <title>procstat</title>
     <link>https://l2dy.github.io/notes/CLI/procstat</link>
     <guid>https://l2dy.github.io/notes/CLI/procstat</guid>
-    <description>On FreeBSD, use procstat -f &lt;PID&gt; to list open files and sockets.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>On FreeBSD Map, use procstat -f &lt;PID&gt; to list open files and sockets.</description>
+    <pubDate>Mon, 11 Sep 2023 14:07:31 GMT</pubDate>
   </item><item>
     <title>systemd-analyze</title>
     <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
@@ -251,6 +269,36 @@
     <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</guid>
     <description>Caveats and Gotchas § If a connection that’s using a NAT gateway is idle for 350 seconds or more, the connection times out. .</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>Ananta</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
+    <description>Architecture § Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). Mux § Mux only handles incoming traffic.</description>
+    <pubDate>Mon, 11 Sep 2023 14:48:17 GMT</pubDate>
+  </item><item>
+    <title>Azure Accelerated Networking</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
+    <description>Azure SmartNIC § Based on FPGAs, SmartNICs offload Generic Flow Tables to hardware, after VFP processes the first packet of each flow. References § https://www.</description>
+    <pubDate>Mon, 11 Sep 2023 14:51:15 GMT</pubDate>
+  </item><item>
+    <title>Azure Load Balancer</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</guid>
+    <description>Ananta § Azure Load Balancer is based on the Ananta design. Direct Server Return (DSR) § See Direct Server Return for comparison with other cloud providers.</description>
+    <pubDate>Mon, 11 Sep 2023 14:51:00 GMT</pubDate>
+  </item><item>
+    <title>Azure NAT Gateway</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</guid>
+    <description>Architecture § Ananta also implements a distributed NAT for outbound connections, besides processing inbound connections going through Azure Load Balancer.</description>
+    <pubDate>Mon, 11 Sep 2023 14:51:04 GMT</pubDate>
+  </item><item>
+    <title>Virtual Filtering Platform</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</guid>
+    <description>Ports § Each port maps to a VM or VNIC (virtual NIC). VFP filters traffic from and to a VNIC by attaching a set of policies to each port. Each port can scale up to 500k concurrent TCP connections, after which state tracking is considered prohibitively expensive.</description>
+    <pubDate>Mon, 11 Sep 2023 14:19:53 GMT</pubDate>
   </item><item>
     <title>Economics in China</title>
     <link>https://l2dy.github.io/notes/Economics/Economics-in-China</link>
@@ -516,11 +564,17 @@
     <description>Tcl_GetIndexFromObjStruct § Simple static dictionary lookup. // Array of `struct` type, whose first member is a null-terminated string. // End of array is marked by a NULL string pointer.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>Direct Server Return</title>
+    <link>https://l2dy.github.io/notes/Network/Direct-Server-Return</link>
+    <guid>https://l2dy.github.io/notes/Network/Direct-Server-Return</guid>
+    <description>Azure § Implemented in Azure. See Azure Load Balancer. Google Cloud § Google Cloud implements this in external and internal passthrough Network Load Balancers.</description>
+    <pubDate>Mon, 11 Sep 2023 13:49:53 GMT</pubDate>
+  </item><item>
     <title>SNMPv2 TCP Statistics</title>
     <link>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</link>
     <guid>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</guid>
     <description>Source: RFC 2012 ObjectDescriptionRtoAlgorithmThe algorithm used to determine the timeout value used for retransmitting unacknowledged octets.RtoMinThe minimum value permitted by a TCP implementation for the retransmission timeout, measured in milliseconds.</description>
-    <pubDate>Tue, 16 May 2023 14:31:31 GMT</pubDate>
+    <pubDate>Mon, 11 Sep 2023 13:49:56 GMT</pubDate>
   </item><item>
     <title>Nginx</title>
     <link>https://l2dy.github.io/notes/Nginx</link>
@@ -576,17 +630,17 @@
     <description>Core Configuration § Templates § Template folder location: Garden/templates. Daily notes new location: Calendar/notes. Daily notes template: Garden/templates/Templates, Properties, Daily Note.</description>
     <pubDate>Sun, 10 Sep 2023 13:20:40 GMT</pubDate>
   </item><item>
-    <title>FreeBSD</title>
-    <link>https://l2dy.github.io/notes/Operating-System/FreeBSD</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD</guid>
-    <description>Features § DTrace .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
     <title>DTrace</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</link>
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</guid>
     <description>One-Liners and Scripts § https://wiki.freebsd.org/DTrace/One-Liners Capture Stacks § For use with Flame Graph. # Capture user-level stack at 197 Hz for 60 seconds sudo dtrace -x ustackframes=100 -n &#039;profile-197 /execname == &quot;python3.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Mon, 11 Sep 2023 14:07:41 GMT</pubDate>
+  </item><item>
+    <title>PF Firewall</title>
+    <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</guid>
+    <description>Rules § Rules are evaluated from top to bottom, in the sequence they are written. For each packet or connection evaluated by PF, the last matching rule in the ruleset is the one which is applied.</description>
+    <pubDate>Mon, 11 Sep 2023 14:09:34 GMT</pubDate>
   </item><item>
     <title>ps</title>
     <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</link>
@@ -599,6 +653,12 @@
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/BBR</guid>
     <description>Configuration § Only sysctl net.ipv4.tcp_congestion_control is needed since Linux 4.13. Just a quick announcement that Eric Dumazet has checked in a nice feature in Linux 4.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>De-priorize Process</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/De-priorize-Process</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-priorize-Process</guid>
+    <description>Credits cron.daily/mlocate, replace $$ with PID of process. renice +19 -p $$ &gt;/dev/null 2&gt;&amp;1 ionice -c2 -n7 -p $$ &gt;/dev/null 2&gt;&amp;1.</description>
+    <pubDate>Sun, 10 Sep 2023 17:44:56 GMT</pubDate>
   </item><item>
     <title>FirewallD Specify Zone by IP Address</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/FirewallD-Specify-Zone-by-IP-Address</link>
@@ -714,6 +774,12 @@
     <description>Purpose § Error budgets resolve the structural conflict of incentives between development and SRE. If product development wants to skimp on testing or increase push velocity and SRE is resistant, the error budget guides the decision.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>Latency Numbers</title>
+    <link>https://l2dy.github.io/notes/SRE/Latency-Numbers</link>
+    <guid>https://l2dy.github.io/notes/SRE/Latency-Numbers</guid>
+    <description>Network § Cross-region RTT: https://learn.microsoft.com/en-us/azure/networking/azure-network-latency.</description>
+    <pubDate>Sun, 10 Sep 2023 17:26:06 GMT</pubDate>
+  </item><item>
     <title>Managing Incidents</title>
     <link>https://l2dy.github.io/notes/SRE/Managing-Incidents</link>
     <guid>https://l2dy.github.io/notes/SRE/Managing-Incidents</guid>
@@ -768,6 +834,12 @@
     <description>Purpose § Managing Service Risk SLOs should be a major driver in prioritizing work for SREs and product developers, because they reflect what users care about.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>Scream Test</title>
+    <link>https://l2dy.github.io/notes/SRE/Scream-Test</link>
+    <guid>https://l2dy.github.io/notes/SRE/Scream-Test</guid>
+    <description>Restart and shut down servers to see if anyone screams. https://www.microsoft.com/insidetrack/blog/microsoft-uses-a-scream-test-to-silence-its-unused-servers/.</description>
+    <pubDate>Sun, 10 Sep 2023 17:29:13 GMT</pubDate>
+  </item><item>
     <title>Service Level Indicator</title>
     <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
     <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
@@ -785,6 +857,12 @@
     <guid>https://l2dy.github.io/notes/SRE/Troubleshooting</guid>
     <description>Monitoring, logging and exposing current state are the three tricks for troubleshooting. It’s really useful to have multiple verbosity levels available, along with a way to increase these levels on the fly.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>NAS Solutions</title>
+    <link>https://l2dy.github.io/notes/Self-Hosting/NAS-Solutions</link>
+    <guid>https://l2dy.github.io/notes/Self-Hosting/NAS-Solutions</guid>
+    <description>Software § TrueNAS Rockstor Hardware § https://mtlynch.io/budget-nas/ .</description>
+    <pubDate>Sun, 10 Sep 2023 17:07:05 GMT</pubDate>
   </item><item>
     <title>Irssi Config</title>
     <link>https://l2dy.github.io/notes/Software/Irssi-Config</link>

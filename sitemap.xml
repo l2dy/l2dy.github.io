@@ -5,6 +5,12 @@
     <loc>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</loc>
     <lastmod>2023-09-09T19:13:50.559Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/FreeBSD-Map</loc>
+    <lastmod>2023-09-11T14:07:51.741Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
+    <lastmod>2023-09-11T14:52:18.915Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/AI/ChatGPT</loc>
     <lastmod>2023-09-09T19:26:01.917Z</lastmod>
   </url><url>
@@ -41,6 +47,9 @@
     <loc>https://l2dy.github.io/notes/CLI/curl</loc>
     <lastmod>2023-09-09T19:13:50.509Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/dig</loc>
+    <lastmod>2023-09-10T18:20:41.879Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ffmpeg</loc>
     <lastmod>2023-09-09T19:13:50.510Z</lastmod>
   </url><url>
@@ -63,7 +72,7 @@
     <lastmod>2023-09-09T19:13:50.502Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/procstat</loc>
-    <lastmod>2023-09-09T19:13:50.498Z</lastmod>
+    <lastmod>2023-09-11T14:07:31.420Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
     <lastmod>2023-09-09T19:13:50.500Z</lastmod>
@@ -121,6 +130,21 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</loc>
     <lastmod>2023-09-09T19:13:50.582Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Ananta</loc>
+    <lastmod>2023-09-11T14:48:17.317Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
+    <lastmod>2023-09-11T14:51:15.034Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</loc>
+    <lastmod>2023-09-11T14:51:00.902Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</loc>
+    <lastmod>2023-09-11T14:51:04.169Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
+    <lastmod>2023-09-11T14:19:53.429Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Economics/Economics-in-China</loc>
     <lastmod>2023-09-10T16:49:44.295Z</lastmod>
@@ -254,8 +278,11 @@
     <loc>https://l2dy.github.io/notes/MacPorts/base/Tcl-API</loc>
     <lastmod>2023-09-09T19:13:50.567Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Direct-Server-Return</loc>
+    <lastmod>2023-09-11T13:49:53.598Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</loc>
-    <lastmod>2023-05-16T14:31:31.072Z</lastmod>
+    <lastmod>2023-09-11T13:49:56.836Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx</loc>
     <lastmod>2023-09-09T19:13:50.480Z</lastmod>
@@ -284,17 +311,20 @@
     <loc>https://l2dy.github.io/notes/Obsidian</loc>
     <lastmod>2023-09-10T13:20:40.906Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD</loc>
-    <lastmod>2023-09-09T19:13:50.491Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</loc>
-    <lastmod>2023-09-09T19:13:50.485Z</lastmod>
+    <lastmod>2023-09-11T14:07:41.215Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</loc>
+    <lastmod>2023-09-11T14:09:34.465Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</loc>
     <lastmod>2023-09-09T19:13:50.482Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BBR</loc>
     <lastmod>2023-09-09T19:13:50.486Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-priorize-Process</loc>
+    <lastmod>2023-09-10T17:44:56.735Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/FirewallD-Specify-Zone-by-IP-Address</loc>
     <lastmod>2023-05-16T14:22:56.573Z</lastmod>
@@ -353,6 +383,9 @@
     <loc>https://l2dy.github.io/notes/SRE/Error-Budget</loc>
     <lastmod>2023-09-09T19:13:50.593Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/SRE/Latency-Numbers</loc>
+    <lastmod>2023-09-10T17:26:06.227Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Managing-Incidents</loc>
     <lastmod>2023-09-09T19:13:50.590Z</lastmod>
   </url><url>
@@ -380,6 +413,9 @@
     <loc>https://l2dy.github.io/notes/SRE/SLO</loc>
     <lastmod>2023-09-09T19:13:50.589Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/SRE/Scream-Test</loc>
+    <lastmod>2023-09-10T17:29:13.517Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</loc>
     <lastmod>2023-09-09T19:13:50.591Z</lastmod>
   </url><url>
@@ -388,6 +424,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Troubleshooting</loc>
     <lastmod>2023-09-09T19:13:50.588Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/NAS-Solutions</loc>
+    <lastmod>2023-09-10T17:07:05.540Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
