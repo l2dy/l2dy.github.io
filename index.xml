@@ -298,7 +298,7 @@
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</guid>
     <description>Ananta § Azure Load Balancer is based on the Ananta design. Direct Server Return (DSR) § See Direct Server Return for comparison with other cloud providers.</description>
-    <pubDate>Tue, 12 Sep 2023 15:26:08 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 16:53:05 GMT</pubDate>
   </item><item>
     <title>Azure NAT Gateway</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</link>
@@ -658,7 +658,7 @@
     <link>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</link>
     <guid>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</guid>
     <description>Functionality § Advanced Tables § Markdown table improvements. Dataview § Required for table automation. Excalidraw and ExcaliBrain § Powerful graph view.</description>
-    <pubDate>Sun, 10 Sep 2023 15:28:36 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 17:22:19 GMT</pubDate>
   </item><item>
     <title>Obsidian</title>
     <link>https://l2dy.github.io/notes/Obsidian</link>
@@ -929,6 +929,12 @@
     <guid>https://l2dy.github.io/notes/Startup/Earthly-CI-Postmortem</guid>
     <description>https://earthly.dev/blog/shutting-down-earthly-ci/ Features are not what makes you successful. § You’ll never be more mature, or have more features, or more integrations than the incumbents.</description>
     <pubDate>Tue, 12 Sep 2023 15:48:23 GMT</pubDate>
+  </item><item>
+    <title>How To Be a Manager</title>
+    <link>https://l2dy.github.io/notes/Startup/How-To-Be-a-Manager</link>
+    <guid>https://l2dy.github.io/notes/Startup/How-To-Be-a-Manager</guid>
+    <description>https://barely-managing.bearblog.dev/.</description>
+    <pubDate>Tue, 12 Sep 2023 16:06:23 GMT</pubDate>
   </item><item>
     <title>Taking Notes</title>
     <link>https://l2dy.github.io/notes/Taking-Notes</link>
