@@ -8,8 +8,14 @@
     <loc>https://l2dy.github.io/maps/FreeBSD-Map</loc>
     <lastmod>2023-09-11T14:07:51.741Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/Google-Cloud-Map</loc>
+    <lastmod>2023-09-12T14:58:44.014Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
-    <lastmod>2023-09-11T14:52:18.915Z</lastmod>
+    <lastmod>2023-09-12T15:19:16.746Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/maps/Public-Cloud-Map</loc>
+    <lastmod>2023-09-12T14:58:51.566Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/AI/ChatGPT</loc>
     <lastmod>2023-09-09T19:26:01.917Z</lastmod>
@@ -132,19 +138,28 @@
     <lastmod>2023-09-09T19:13:50.582Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Ananta</loc>
-    <lastmod>2023-09-11T16:14:01.859Z</lastmod>
+    <lastmod>2023-09-12T14:28:20.078Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
-    <lastmod>2023-09-11T14:51:15.034Z</lastmod>
+    <lastmod>2023-09-12T15:15:47.059Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</loc>
-    <lastmod>2023-09-11T14:51:00.902Z</lastmod>
+    <lastmod>2023-09-12T15:26:08.804Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</loc>
-    <lastmod>2023-09-11T14:51:04.169Z</lastmod>
+    <lastmod>2023-09-12T15:20:40.636Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/VL2</loc>
+    <lastmod>2023-09-12T14:55:24.025Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
-    <lastmod>2023-09-11T14:19:53.429Z</lastmod>
+    <lastmod>2023-09-12T14:29:47.606Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</loc>
+    <lastmod>2023-09-12T15:23:36.372Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</loc>
+    <lastmod>2023-09-12T15:22:30.398Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Economics/Economics-in-China</loc>
     <lastmod>2023-09-11T15:37:41.735Z</lastmod>
@@ -283,6 +298,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</loc>
     <lastmod>2023-09-11T13:49:56.836Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</loc>
+    <lastmod>2023-09-11T16:36:44.927Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx</loc>
     <lastmod>2023-09-09T19:13:50.480Z</lastmod>

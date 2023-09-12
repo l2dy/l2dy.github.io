@@ -24,11 +24,23 @@
     <description>Features § DTrace .</description>
     <pubDate>Mon, 11 Sep 2023 14:07:51 GMT</pubDate>
   </item><item>
+    <title>Google Cloud Map</title>
+    <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
+    <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
+    <description></description>
+    <pubDate>Tue, 12 Sep 2023 14:58:44 GMT</pubDate>
+  </item><item>
     <title>Microsoft Azure Map</title>
     <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
     <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
     <description>Networking § Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
-    <pubDate>Mon, 11 Sep 2023 14:52:18 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 15:19:16 GMT</pubDate>
+  </item><item>
+    <title>Public Cloud Map</title>
+    <link>https://l2dy.github.io/maps/Public-Cloud-Map</link>
+    <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
+    <description> Microsoft Azure Map Google Cloud Map .</description>
+    <pubDate>Tue, 12 Sep 2023 14:58:51 GMT</pubDate>
   </item><item>
     <title>ChatGPT</title>
     <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
@@ -273,32 +285,50 @@
     <title>Ananta</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
-    <description>Architecture § Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). Mux § Mux only handles incoming traffic.</description>
-    <pubDate>Mon, 11 Sep 2023 16:14:01 GMT</pubDate>
+    <description>Architecture § Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). A set of Annata instances could broadcast the same /21 prefix to reduce impact of single instance failures.</description>
+    <pubDate>Tue, 12 Sep 2023 14:28:20 GMT</pubDate>
   </item><item>
     <title>Azure Accelerated Networking</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
-    <description>Azure SmartNIC § Based on FPGAs, SmartNICs offload Generic Flow Tables to hardware, after VFP processes the first packet of each flow. References § https://www.</description>
-    <pubDate>Mon, 11 Sep 2023 14:51:15 GMT</pubDate>
+    <description>Azure SmartNIC § Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
+    <pubDate>Tue, 12 Sep 2023 15:15:47 GMT</pubDate>
   </item><item>
     <title>Azure Load Balancer</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</guid>
     <description>Ananta § Azure Load Balancer is based on the Ananta design. Direct Server Return (DSR) § See Direct Server Return for comparison with other cloud providers.</description>
-    <pubDate>Mon, 11 Sep 2023 14:51:00 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 15:26:08 GMT</pubDate>
   </item><item>
     <title>Azure NAT Gateway</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</guid>
-    <description>Architecture § Ananta also implements a distributed NAT for outbound connections, besides processing inbound connections going through Azure Load Balancer.</description>
-    <pubDate>Mon, 11 Sep 2023 14:51:04 GMT</pubDate>
+    <description>Azure’s NAT gateway (NATGW) Limitations § Each NAT gateway can provide up to 50 Gbps of throughput. A NAT gateway can support up to 50,000 concurrent connections per public IP address to the same destination endpoint over the internet for TCP and UDP.</description>
+    <pubDate>Tue, 12 Sep 2023 15:20:40 GMT</pubDate>
+  </item><item>
+    <title>VL2</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/VL2</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/VL2</guid>
+    <description>Valiant Load Balancing § VLB is adopted to cope with traffic volatility. VL2 agent selects an intermediate switch via one or a set of anycast addresses, each representing a pool of intermediate switches and relies on ECMP to split traffic in equal ratios.</description>
+    <pubDate>Tue, 12 Sep 2023 14:55:24 GMT</pubDate>
   </item><item>
     <title>Virtual Filtering Platform</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</guid>
     <description>Ports § Each port maps to a VM or VNIC (virtual NIC). VFP filters traffic from and to a VNIC by attaching a set of policies to each port. Each port can scale up to 500k concurrent TCP connections, after which state tracking is considered prohibitively expensive.</description>
-    <pubDate>Mon, 11 Sep 2023 14:19:53 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 14:29:47 GMT</pubDate>
+  </item><item>
+    <title>Andromeda</title>
+    <link>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</guid>
+    <description>References § https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf .</description>
+    <pubDate>Tue, 12 Sep 2023 15:23:36 GMT</pubDate>
+  </item><item>
+    <title>Maglev</title>
+    <link>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</guid>
+    <description>References § https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf .</description>
+    <pubDate>Tue, 12 Sep 2023 15:22:30 GMT</pubDate>
   </item><item>
     <title>Economics in China</title>
     <link>https://l2dy.github.io/notes/Economics/Economics-in-China</link>
@@ -575,6 +605,12 @@
     <guid>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</guid>
     <description>Source: RFC 2012 ObjectDescriptionRtoAlgorithmThe algorithm used to determine the timeout value used for retransmitting unacknowledged octets.RtoMinThe minimum value permitted by a TCP implementation for the retransmission timeout, measured in milliseconds.</description>
     <pubDate>Mon, 11 Sep 2023 13:49:56 GMT</pubDate>
+  </item><item>
+    <title>Valiant Load Balancing</title>
+    <link>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</link>
+    <guid>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</guid>
+    <description>References § Designing a Predictable Internet Backbone with Valiant Load-Balancing Efficient and Robust Routing of Highly Variable Traffic.</description>
+    <pubDate>Mon, 11 Sep 2023 16:36:44 GMT</pubDate>
   </item><item>
     <title>Nginx</title>
     <link>https://l2dy.github.io/notes/Nginx</link>
