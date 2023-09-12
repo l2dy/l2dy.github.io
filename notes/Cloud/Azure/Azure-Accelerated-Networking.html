@@ -4,7 +4,7 @@
 <p>If GFT does not match a given packet, the SmartNIC hardware will send the packet to the software layer (<a href="../../../notes/Cloud/Azure/Virtual-Filtering-Platform" class="internal">VFP</a>) as an Exception Packet, which are most common on the first packet of each flow. After the first packet of each flow, all forwarding can be offloaded, providing the full performance of a native SR-IOV hardware solution.</p>
 <h2 id="serviceability">Serviceability<a aria-hidden="true" tabindex="-1" href="#serviceability" class="internal"> §</a></h2>
 <p>AccelNet is transparent to user space applications via NetVSC, which switches back to synthetic vNICs during a service event to maintain connectivity.</p>
-<p><img src="../../../notes/images/page10image60204592.png" width="auto" height="auto"/></p>
+<p><img src="../../../images/page10image60204592.png" width="auto" height="auto"/></p>
 <h2 id="references">References<a aria-hidden="true" tabindex="-1" href="#references" class="internal"> §</a></h2>
 <ul>
 <li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2018/03/Azure_SmartNIC_NSDI_2018.pdf" class="external">https://www.microsoft.com/en-us/research/uploads/prod/2018/03/Azure_SmartNIC_NSDI_2018.pdf</a></li>

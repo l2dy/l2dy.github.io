@@ -4,12 +4,12 @@
 <p>Each port can scale up to 500k concurrent TCP connections, after which state tracking is considered prohibitively expensive.</p>
 <h2 id="layers">Layers<a aria-hidden="true" tabindex="-1" href="#layers" class="internal"> §</a></h2>
 <p>VFP divides a port’s policy into layers.</p>
-<p><img src="../../../notes/images/page6image25590400.png" width="390" height="auto"/></p>
+<p><img src="../../../images/page6image25590400.png" width="390" height="auto"/></p>
 <p>Packets traverse layers in the opposite order when inbound than when outbound. This implements an address space boundary, with all packets above “VIP->DIP NAT” in “DIP Space”, and packets below it in “VIP Space”.</p>
 <h2 id="groups">Groups<a aria-hidden="true" tabindex="-1" href="#groups" class="internal"> §</a></h2>
 <p>Groups are the atomic unit of policy in VFP, which means transactional update of policy happens at this level.</p>
 <p>Groups can have global conditions, which let packets pass through, traversing further groups.</p>
-<p><img src="../../../notes/images/page6image25590816.png" width="auto" height="auto"/></p>
+<p><img src="../../../images/page6image25590816.png" width="auto" height="auto"/></p>
 <p>Groups are processed sequentially within a layer. Usually the last group matched is selected for processing. However, if a rule is marked “terminating”, it will be applied immediately without traversing further groups.</p>
 <p>This is similar to <a href="../../../notes/Operating-System/FreeBSD/PF-Firewall#rules" class="internal">PF Firewall’s</a> rule evaluation, with the exception that within each group only the highest priority rule that matches the packet is selected.</p>
 <h2 id="references">References<a aria-hidden="true" tabindex="-1" href="#references" class="internal"> §</a></h2>

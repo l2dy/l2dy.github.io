@@ -924,6 +924,12 @@
     <description>CertFP with Server § One certificate per user only. Make sure you have a backup before updating it from Web UI. https://wiki.znc.in/Cert CertFP with Client § Chat with *certauth to manage keys.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>Earthly CI Postmortem</title>
+    <link>https://l2dy.github.io/notes/Startup/Earthly-CI-Postmortem</link>
+    <guid>https://l2dy.github.io/notes/Startup/Earthly-CI-Postmortem</guid>
+    <description>https://earthly.dev/blog/shutting-down-earthly-ci/ Features are not what makes you successful. § You’ll never be more mature, or have more features, or more integrations than the incumbents.</description>
+    <pubDate>Tue, 12 Sep 2023 15:48:23 GMT</pubDate>
+  </item><item>
     <title>Taking Notes</title>
     <link>https://l2dy.github.io/notes/Taking-Notes</link>
     <guid>https://l2dy.github.io/notes/Taking-Notes</guid>

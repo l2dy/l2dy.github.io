@@ -8,7 +8,7 @@
 <h2 id="outbound-rules-snat">Outbound Rules (SNAT)<a aria-hidden="true" tabindex="-1" href="#outbound-rules-snat" class="internal"> §</a></h2>
 <p>Ananta also implements a distributed NAT for outbound connections, besides processing inbound connections. This allows backend instances to use the public IPs of a load balancer to provide outbound internet connectivity.</p>
 <p>AM allocates an externally routable <span class="math math-inline"><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">p</span><span class="mord mathnormal" style="margin-right:0.02778em;">or</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span></span> tuple and configures each Mux in the associated Mux Pool with this allocation. This ensures the return packet sent to Mux can be routed back to DIP.</p>
-<p><img src="../../../notes/images/page4image92852080.png" width="auto" height="auto"/></p>
+<p><img src="../../../images/page4image92852080.png" width="auto" height="auto"/></p>
 <h2 id="references">References<a aria-hidden="true" tabindex="-1" href="#references" class="internal"> §</a></h2>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/azure/load-balancer/outbound-rules" class="external">https://learn.microsoft.com/en-us/azure/load-balancer/outbound-rules</a></li>
