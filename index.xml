@@ -18,6 +18,12 @@
     <description>Chatbots § ChatGPT Coding Assistant § GitHub Copilot Amazon CodeWhisperer Models § LLM Models Toolkit § LangChain .</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
+    <title>AWS Caveats Map</title>
+    <link>https://l2dy.github.io/maps/AWS-Caveats-Map</link>
+    <guid>https://l2dy.github.io/maps/AWS-Caveats-Map</guid>
+    <description>Security § IAM § Number of policies attached to an IAM role or user and the size of each policy is limited. With workarounds, at most 120 managed policies and a set of inline policies can be added.</description>
+    <pubDate>Wed, 13 Sep 2023 16:21:23 GMT</pubDate>
+  </item><item>
     <title>FreeBSD Map</title>
     <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
     <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
@@ -186,107 +192,17 @@
     <description>Snapshots § # Create snapshot zfs snap &lt;volume&gt;@&lt;snapshot_name&gt; # Delete snapshot (dry-run) zfs destroy -vn &lt;volume&gt;@&lt;snapshot_name&gt; # List snapshots zfs list -t snapshot.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
-    <title>Aurora MySQL</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</guid>
-    <description>JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
-    <pubDate>Wed, 13 Sep 2023 14:04:45 GMT</pubDate>
+    <title>AWS Documentation Excerpts</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</guid>
+    <description>Aurora MySQL § JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
+    <pubDate>Wed, 13 Sep 2023 16:36:27 GMT</pubDate>
   </item><item>
-    <title>Availability Zones</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Availability-Zones</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Availability-Zones</guid>
-    <description>Caveats and Gotchas § Map Availability Zones across accounts § Availability Zone names don’t map to the same location across accounts. However, you can use AZ IDs to map Availability Zones across accounts: Open the AWS Resource Access Manager console.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>CDK</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/CDK</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/CDK</guid>
-    <description>Caveats and Gotchas § Make sure that construct IDs are reproducible, otherwise resources may be destroyed and recreated randomly. It is recommended to run cdk synth -q twice and compare the generated files.</description>
-    <pubDate>Wed, 13 Sep 2023 14:06:03 GMT</pubDate>
-  </item><item>
-    <title>Cloud9</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Cloud9</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Cloud9</guid>
-    <description>Caveats and Gotchas § AWS managed temporary credentials § Some Cloud9, IAM and STS actions are restricted. See Actions supported by AWS managed temporary credentials.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>CloudTrail</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/CloudTrail</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/CloudTrail</guid>
-    <description>Usage § Certain types of CloudTrail events do not associate with related resources. It is recommended to search events with event names, which can be looked up in the Actions page of service API references.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>ECS</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/ECS</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/ECS</guid>
-    <description>Caveats and Gotchas § The awsvpc network mode doesn’t provide task ENIs with public IP addresses. Therefore, they can’t make direct use of an internet gateway [and therefore can’t connect to the internet].</description>
-    <pubDate>Wed, 13 Sep 2023 14:06:20 GMT</pubDate>
-  </item><item>
-    <title>ELB</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/ELB</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB</guid>
-    <description>Elastic Load Balancing § Caveats and Gotchas § Security groups § https://aws.amazon.com/premiumsupport/knowledge-center/security-group-load-balancer/ If you’re using an Application Load Balancer, follow the instructions at Security groups for your Application Load Balancer.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>CLB CloudWatch metrics</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/ELB/CLB-CloudWatch-metrics</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB/CLB-CloudWatch-metrics</guid>
-    <description>TCP Listener § SampleCount § SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>NLB</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/ELB/NLB</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/ELB/NLB</guid>
-    <description>Caveats and Gotchas § You cannot change the health check interval for a target group with the TCP protocol. Quoting AWS Support: When you register a new target to your Network Load Balancer, it is expected to take between 90 and 180 seconds to complete the registration process.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>EMR</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/EMR</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/EMR</guid>
-    <description>Availability Zones § Amazon EMR launches all nodes for a given cluster in the same Amazon EC2 Availability Zones. Running a cluster in the same zone improves performance of the jobs flows.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>Graviton Processor</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</guid>
-    <description>AWS Graviton Technical Guide Processor Specifications § ProcessorGraviton2Graviton3(E)InstancesM6g/M6gd, C6g/C6gd/C6gn, R6g/R6gd, T4g, X2gd, G5g, and I4g/Im4gn/Is4genC7g/C7gd/C7gn, M7g/M7gd, R7g/R7gd, and HPC7gCoreNeoverse-N1Neoverse-V1Frequency2500MHz2600MHzTurbo supportedNoNoInstruction latenciesInstruction LatenciesInstruction LatenciesInterconnectCMN-600CMN-650Architecture revisionARMv8.</description>
-    <pubDate>Wed, 13 Sep 2023 14:08:20 GMT</pubDate>
-  </item><item>
-    <title>IAM</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/IAM</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/IAM</guid>
-    <description>Caveats and Gotchas § https://aws.amazon.com/premiumsupport/knowledge-center/iam-increase-policy-size/ Managed policy limit § You can assign IAM users to up to 10 groups.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>RDS Proxy</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/RDS/RDS-Proxy</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/RDS/RDS-Proxy</guid>
-    <description>Caveats and Gotchas § You can’t use RDS Proxy with custom DNS. .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>Red Hat Knowledge Base Access</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</guid>
+    <title>Accessing RHKB via AWS</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/Accessing-RHKB-via-AWS</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/Accessing-RHKB-via-AWS</guid>
     <description>Running an on-demand instance of Red Hat Enterprise Linux (RHEL) for at least 24 to 48 hours to get access to the Red Hat knowledge base via https://console.</description>
-    <pubDate>Wed, 13 Sep 2023 14:08:40 GMT</pubDate>
-  </item><item>
-    <title>S3</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/S3</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/S3</guid>
-    <description>Caveats and Gotchas § Partitioning § https://aws.amazon.com/premiumsupport/knowledge-center/s3-prefix-nested-folders-difference/ A prefix is the complete path in front of the object name, which includes the bucket name.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>Interface Endpoint</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/VPC/Interface-Endpoint</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC/Interface-Endpoint</guid>
-    <description>Private DNS for interface endpoints § If the private DNS option is enabled, an interface endpoint is created with a hidden private hosted zone attached to the associated VPC.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>NAT Gateway</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC/NAT-Gateway</guid>
-    <description>Caveats and Gotchas § If a connection that’s using a NAT gateway is idle for 350 seconds or more, the connection times out. .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:40:26 GMT</pubDate>
   </item><item>
     <title>Ananta</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
@@ -341,6 +257,12 @@
     <guid>https://l2dy.github.io/notes/Cloud/Google-Cloud/Orion</guid>
     <description>References § https://www.usenix.org/system/files/nsdi21-ferguson.pdf .</description>
     <pubDate>Wed, 13 Sep 2023 12:35:39 GMT</pubDate>
+  </item><item>
+    <title>AWS CLB Surge Queue and Little&#039;s Law</title>
+    <link>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</link>
+    <guid>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</guid>
+    <description>Metrics from a TCP Listener § SampleCount § SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
+    <pubDate>Wed, 13 Sep 2023 16:32:28 GMT</pubDate>
   </item><item>
     <title>Economics in China</title>
     <link>https://l2dy.github.io/notes/Economics/Economics-in-China</link>
@@ -605,6 +527,12 @@
     <guid>https://l2dy.github.io/notes/MacPorts/base/Tcl-API</guid>
     <description>Tcl_GetIndexFromObjStruct § Simple static dictionary lookup. // Array of `struct` type, whose first member is a null-terminated string. // End of array is marked by a NULL string pointer.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>DNS Caching</title>
+    <link>https://l2dy.github.io/notes/Network/DNS-Caching</link>
+    <guid>https://l2dy.github.io/notes/Network/DNS-Caching</guid>
+    <description>JVM § Java SE 17 defaults to caching DNS lookups forever if a Security Manager is installed. Override networkaddress.cache.ttl if you are still using the deprecated Security Manager to avoid connecting to the wrong IP addresses.</description>
+    <pubDate>Wed, 13 Sep 2023 15:48:44 GMT</pubDate>
   </item><item>
     <title>Direct Server Return</title>
     <link>https://l2dy.github.io/notes/Network/Direct-Server-Return</link>
