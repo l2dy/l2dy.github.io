@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
-    <pubDate>Sat, 09 Sep 2023 19:34:55 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:57:39 GMT</pubDate>
   </item><item>
     <title>AI Productivity Tool Map</title>
     <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
@@ -53,6 +53,12 @@
     <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
     <description> Microsoft Azure Map Google Cloud Map .</description>
     <pubDate>Tue, 12 Sep 2023 14:58:51 GMT</pubDate>
+  </item><item>
+    <title>SRE Map</title>
+    <link>https://l2dy.github.io/maps/SRE-Map</link>
+    <guid>https://l2dy.github.io/maps/SRE-Map</guid>
+    <description>Definition § SRE is what happens when you ask a software engineer to design an ops team. We want systems that runs and repairs itself: automatic, not just automated.</description>
+    <pubDate>Wed, 13 Sep 2023 16:57:43 GMT</pubDate>
   </item><item>
     <title>ChatGPT</title>
     <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
@@ -118,6 +124,12 @@
     <link>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</link>
     <guid>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</guid>
     <description>Use $=VAR instead of $VAR to force parameter expansions to be split into separate words before substitution, using IFS as a delimiter. This is done by default in most other shells.</description>
+    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>benchstat</title>
+    <link>https://l2dy.github.io/notes/CLI/benchstat</link>
+    <guid>https://l2dy.github.io/notes/CLI/benchstat</guid>
+    <description>Compare go test -bench=.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>curl</title>
@@ -270,11 +282,11 @@
     <description>2010 § Excerpt translated from https://github.com/shengcaishizhan/kkndme_tianya. Economics § High inflation and continuous depreciation of currency are determined by the state-owned economic system, which cannot be changed in a short time frame.</description>
     <pubDate>Mon, 11 Sep 2023 15:37:41 GMT</pubDate>
   </item><item>
-    <title>Frame</title>
-    <link>https://l2dy.github.io/notes/Emacs/Frame</link>
-    <guid>https://l2dy.github.io/notes/Emacs/Frame</guid>
+    <title>Emacs Frame Setup</title>
+    <link>https://l2dy.github.io/notes/Emacs/Emacs-Frame-Setup</link>
+    <guid>https://l2dy.github.io/notes/Emacs/Emacs-Frame-Setup</guid>
     <description>Fullscreen by default § (add-to-list &#039;default-frame-alist &#039;(fullscreen . maximized)).</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:52:54 GMT</pubDate>
   </item><item>
     <title>Consult</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
@@ -438,23 +450,23 @@
     <description>SPC s p foo C-; E i :%s/././ RET Z Z SPC-s-p foo invokes project-wide search C-; E exports the results into a wgrep buffer i &lt;.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
-    <title>emacsclient</title>
-    <link>https://l2dy.github.io/notes/Emacs/emacsclient</link>
-    <guid>https://l2dy.github.io/notes/Emacs/emacsclient</guid>
-    <description>Emacs Server on macOS § &lt;!-- ~/Library/LaunchAgents/gnu.emacs.daemon.plist --&gt; &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <title>emacsclient on macOS</title>
+    <link>https://l2dy.github.io/notes/Emacs/emacsclient-on-macOS</link>
+    <guid>https://l2dy.github.io/notes/Emacs/emacsclient-on-macOS</guid>
+    <description>Starting Emacs Server Automatically § Configure a macOS launch agent with the plist file and load it with launchctl. launchctl load -w ~/Library/LaunchAgents/gnu.</description>
+    <pubDate>Wed, 13 Sep 2023 16:56:22 GMT</pubDate>
   </item><item>
-    <title>mu4e</title>
-    <link>https://l2dy.github.io/notes/Emacs/mu4e</link>
-    <guid>https://l2dy.github.io/notes/Emacs/mu4e</guid>
-    <description>M-&lt;up&gt;: move to previous message M-&lt;down&gt;: move to next message.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>Prefer Plain Text</title>
-    <link>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text</link>
-    <guid>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text</guid>
+    <title>Prefer Plain Text in mu4e</title>
+    <link>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text-in-mu4e</link>
+    <guid>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text-in-mu4e</guid>
     <description> By default, mu4e tries to display the ’richest’ option, which is the last MIME-part of the alternatives. You can customize this to prefer the text version, if available, with something like the following in your configuration (and see the docstring for mm-discouraged-alternatives for details) (with-eval-after-load &quot;mm-decode&quot; (add-to-list &#039;mm-discouraged-alternatives &quot;text/html&quot;) (add-to-list &#039;mm-discouraged-alternatives &quot;text/richtext&quot;)) https://www.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:52:43 GMT</pubDate>
+  </item><item>
+    <title>mu4e Hotkeys</title>
+    <link>https://l2dy.github.io/notes/Emacs/mu4e/mu4e-Hotkeys</link>
+    <guid>https://l2dy.github.io/notes/Emacs/mu4e/mu4e-Hotkeys</guid>
+    <description>M-&lt;up&gt;: move to previous message M-&lt;down&gt;: move to next message.</description>
+    <pubDate>Wed, 13 Sep 2023 16:52:47 GMT</pubDate>
   </item><item>
     <title>CORS Credentials</title>
     <link>https://l2dy.github.io/notes/HTTP/CORS-Credentials</link>
@@ -484,7 +496,7 @@
     <link>https://l2dy.github.io/notes/Health/20-20-20-Rule</link>
     <guid>https://l2dy.github.io/notes/Health/20-20-20-Rule</guid>
     <description>Every 20 minutes spent using a screen, you should try to look away at something that is 20 feet away from you for a total of 20 seconds.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:54:10 GMT</pubDate>
   </item><item>
     <title>Krita</title>
     <link>https://l2dy.github.io/notes/Krita</link>
@@ -550,7 +562,7 @@
     <link>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</link>
     <guid>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</guid>
     <description>References § Designing a Predictable Internet Backbone with Valiant Load-Balancing Efficient and Robust Routing of Highly Variable Traffic.</description>
-    <pubDate>Mon, 11 Sep 2023 16:36:44 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:54:39 GMT</pubDate>
   </item><item>
     <title>Byte-Range Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</link>
@@ -654,11 +666,11 @@
     <description>Client mode § config wifi-iface &#039;wifinet1&#039; option device &#039;radio0&#039; option mode &#039;sta&#039; option ssid &#039;AP_SSID&#039; option encryption &#039;psk2&#039; option bssid &#039;xx:xx:xx:xx:xx:xx&#039; option key &#039;xxxxxxxx&#039; option network &#039;wan&#039; Don’t use AP+STA on one physical radio without travelmate.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
-    <title>KeyChain in CLI Tools</title>
-    <link>https://l2dy.github.io/notes/Operating-System/macOS/KeyChain-in-CLI-Tools</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/macOS/KeyChain-in-CLI-Tools</guid>
+    <title>macOS KeyChain in CLI Tools</title>
+    <link>https://l2dy.github.io/notes/Operating-System/macOS/macOS-KeyChain-in-CLI-Tools</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/macOS/macOS-KeyChain-in-CLI-Tools</guid>
     <description>Email § mbsync (isync) § UseKeychain yes Add the above to mbsync configuration and create the keychain item with: security add-internet-password -r imap -s Host -a User -w msmtp § Use the exact host and user configured in .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 16:56:16 GMT</pubDate>
   </item><item>
     <title>Programming</title>
     <link>https://l2dy.github.io/notes/Programming</link>
@@ -684,22 +696,10 @@
     <description>llvm-cov gcov § Once you have generated the coverage data files, run llvm-cov gcov for each main source file where you want to examine the coverage results.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
-    <title>benchstat</title>
-    <link>https://l2dy.github.io/notes/Programming/Go/benchstat</link>
-    <guid>https://l2dy.github.io/notes/Programming/Go/benchstat</guid>
-    <description>Compare go test -bench=.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
     <title>Module Search Path</title>
     <link>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</link>
     <guid>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</guid>
     <description>sys.path is initialized from these locations: The directory containing the input script (or the current directory when no file is specified). PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>SRE</title>
-    <link>https://l2dy.github.io/notes/SRE</link>
-    <guid>https://l2dy.github.io/notes/SRE</guid>
-    <description>Definition § SRE is what happens when you ask a software engineer to design an ops team. We want systems that runs and repairs itself: automatic, not just automated.</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Alerting</title>
