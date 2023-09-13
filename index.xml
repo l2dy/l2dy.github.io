@@ -36,6 +36,12 @@
     <description>Networking § Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
     <pubDate>Tue, 12 Sep 2023 15:19:16 GMT</pubDate>
   </item><item>
+    <title>Nginx Map</title>
+    <link>https://l2dy.github.io/maps/Nginx-Map</link>
+    <guid>https://l2dy.github.io/maps/Nginx-Map</guid>
+    <description>Nginx is a high-performance Web server, mostly used to serve HTTP requests. location Byte-Range Request Proxy Headers Health Check Upstream Keepalive .</description>
+    <pubDate>Tue, 12 Sep 2023 17:55:26 GMT</pubDate>
+  </item><item>
     <title>Public Cloud Map</title>
     <link>https://l2dy.github.io/maps/Public-Cloud-Map</link>
     <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
@@ -330,6 +336,12 @@
     <description>References § https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf .</description>
     <pubDate>Tue, 12 Sep 2023 15:22:30 GMT</pubDate>
   </item><item>
+    <title>Orion</title>
+    <link>https://l2dy.github.io/notes/Cloud/Google-Cloud/Orion</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Google-Cloud/Orion</guid>
+    <description>References § https://www.usenix.org/system/files/nsdi21-ferguson.pdf .</description>
+    <pubDate>Wed, 13 Sep 2023 12:35:39 GMT</pubDate>
+  </item><item>
     <title>Economics in China</title>
     <link>https://l2dy.github.io/notes/Economics/Economics-in-China</link>
     <guid>https://l2dy.github.io/notes/Economics/Economics-in-China</guid>
@@ -611,12 +623,6 @@
     <guid>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</guid>
     <description>References § Designing a Predictable Internet Backbone with Valiant Load-Balancing Efficient and Robust Routing of Highly Variable Traffic.</description>
     <pubDate>Mon, 11 Sep 2023 16:36:44 GMT</pubDate>
-  </item><item>
-    <title>Nginx</title>
-    <link>https://l2dy.github.io/notes/Nginx</link>
-    <guid>https://l2dy.github.io/notes/Nginx</guid>
-    <description>Nginx is a high-performance Web server, mostly used to serve HTTP requests. location Byte-Range Request Proxy Headers Health Check Upstream Keepalive .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
   </item><item>
     <title>Byte-Range Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</link>

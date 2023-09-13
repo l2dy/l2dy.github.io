@@ -14,6 +14,9 @@
     <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
     <lastmod>2023-09-12T15:19:16.746Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
+    <lastmod>2023-09-12T17:55:26.566Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/maps/Public-Cloud-Map</loc>
     <lastmod>2023-09-12T14:58:51.566Z</lastmod>
   </url><url>
@@ -161,6 +164,9 @@
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</loc>
     <lastmod>2023-09-12T15:22:30.398Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Orion</loc>
+    <lastmod>2023-09-13T12:35:39.860Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Economics/Economics-in-China</loc>
     <lastmod>2023-09-11T15:37:41.735Z</lastmod>
   </url><url>
@@ -301,9 +307,6 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</loc>
     <lastmod>2023-09-11T16:36:44.927Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx</loc>
-    <lastmod>2023-09-09T19:13:50.480Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</loc>
     <lastmod>2023-09-09T19:13:50.550Z</lastmod>
