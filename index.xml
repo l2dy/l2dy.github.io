@@ -189,8 +189,8 @@
     <title>Aurora MySQL</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Aurora/Aurora-MySQL</guid>
-    <description>JDBC Drivers § MariaDB Connector/J § https://mariadb.com/kb/en/failover-and-high-availability-with-mariadb-connector-j/#failover-and-load-balancing-modes ModeDescriptionauroraThis mode supports connection failover in an Amazon Aurora cluster.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
+    <pubDate>Wed, 13 Sep 2023 14:04:45 GMT</pubDate>
   </item><item>
     <title>Availability Zones</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Availability-Zones</link>
@@ -201,8 +201,8 @@
     <title>CDK</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/CDK</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/CDK</guid>
-    <description>Caveats and Gotchas § Make sure that construct IDs are reproducible. It is recommended to run cdk synth -q twice and compare the generated files.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>Caveats and Gotchas § Make sure that construct IDs are reproducible, otherwise resources may be destroyed and recreated randomly. It is recommended to run cdk synth -q twice and compare the generated files.</description>
+    <pubDate>Wed, 13 Sep 2023 14:06:03 GMT</pubDate>
   </item><item>
     <title>Cloud9</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Cloud9</link>
@@ -220,7 +220,7 @@
     <link>https://l2dy.github.io/notes/Cloud/AWS/ECS</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/ECS</guid>
     <description>Caveats and Gotchas § The awsvpc network mode doesn’t provide task ENIs with public IP addresses. Therefore, they can’t make direct use of an internet gateway [and therefore can’t connect to the internet].</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 14:06:20 GMT</pubDate>
   </item><item>
     <title>ELB</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/ELB</link>
@@ -249,8 +249,8 @@
     <title>Graviton Processor</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Graviton-Processor</guid>
-    <description>AWS Graviton Technical Guide Processor Specifications § ProcessorGraviton2Graviton3(E)InstancesM6g/M6gd, C6g/C6gd/C6gn, R6g/R6gd, T4g, X2gd, G5g, and Im4gn/Is4genC7g/C7gn, M7g, R7g, and HPC7gCoreNeoverse-N1Neoverse-V1Frequency2500MHz2600MHzTurbo supportedNoNoInstruction latenciesInstruction LatenciesInstruction LatenciesInterconnectCMN-600CMN-700Architecture revisionARMv8.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>AWS Graviton Technical Guide Processor Specifications § ProcessorGraviton2Graviton3(E)InstancesM6g/M6gd, C6g/C6gd/C6gn, R6g/R6gd, T4g, X2gd, G5g, and I4g/Im4gn/Is4genC7g/C7gd/C7gn, M7g/M7gd, R7g/R7gd, and HPC7gCoreNeoverse-N1Neoverse-V1Frequency2500MHz2600MHzTurbo supportedNoNoInstruction latenciesInstruction LatenciesInstruction LatenciesInterconnectCMN-600CMN-650Architecture revisionARMv8.</description>
+    <pubDate>Wed, 13 Sep 2023 14:08:20 GMT</pubDate>
   </item><item>
     <title>IAM</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/IAM</link>
@@ -267,8 +267,8 @@
     <title>Red Hat Knowledge Base Access</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Red-Hat-Knowledge-Base-Access</guid>
-    <description>Running an on-demand instance of Red Hat Enterprise Linux (RHEL) for at least 24 to 48 hours to get access to the Red Hat knowledge base v.a https://console.</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>Running an on-demand instance of Red Hat Enterprise Linux (RHEL) for at least 24 to 48 hours to get access to the Red Hat knowledge base via https://console.</description>
+    <pubDate>Wed, 13 Sep 2023 14:08:40 GMT</pubDate>
   </item><item>
     <title>S3</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/S3</link>
