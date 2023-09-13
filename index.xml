@@ -232,7 +232,7 @@
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</guid>
     <description>Ananta § Azure Load Balancer is based on the Ananta design. Direct Server Return (DSR) § See Direct Server Return for comparison with other cloud providers.</description>
-    <pubDate>Tue, 12 Sep 2023 16:53:05 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 17:24:32 GMT</pubDate>
   </item><item>
     <title>Azure NAT Gateway</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-NAT-Gateway</link>
@@ -558,6 +558,12 @@
     <description>Source: RFC 2012 ObjectDescriptionRtoAlgorithmThe algorithm used to determine the timeout value used for retransmitting unacknowledged octets.RtoMinThe minimum value permitted by a TCP implementation for the retransmission timeout, measured in milliseconds.</description>
     <pubDate>Mon, 11 Sep 2023 13:49:56 GMT</pubDate>
   </item><item>
+    <title>Strong and Weak Host Model</title>
+    <link>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</link>
+    <guid>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</guid>
+    <description>Linux § The IP implementation in Linux defaults to the weak host model. FreeBSD § In FreeBSD 14, the IP implementation partially implement the Strong End System (i.</description>
+    <pubDate>Wed, 13 Sep 2023 17:33:00 GMT</pubDate>
+  </item><item>
     <title>Valiant Load Balancing</title>
     <link>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</link>
     <guid>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</guid>
@@ -687,8 +693,8 @@
     <title>Flame Graph</title>
     <link>https://l2dy.github.io/notes/Programming/C/Flame-Graph</link>
     <guid>https://l2dy.github.io/notes/Programming/C/Flame-Graph</guid>
-    <description>https://github.com/brendangregg/FlameGraph Graph Variants § --reverse stack-reversed flame graph --inverted icicle graph (top to bottom, ) .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>https://github.com/brendangregg/FlameGraph Graph Variants § --reverse stack-reversed flame graph --inverted icicle graph (top to bottom, like icicles) .</description>
+    <pubDate>Wed, 13 Sep 2023 16:59:50 GMT</pubDate>
   </item><item>
     <title>Code Coverage</title>
     <link>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</link>
