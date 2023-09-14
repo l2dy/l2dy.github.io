@@ -322,7 +322,7 @@
     <link>https://l2dy.github.io/notes/Emacs/doom/Evil</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Evil</guid>
     <description>yank forward § y f SPC does not yank the space character with evil-snipe-override-mode. See https://github.com/hlissner/evil-snipe/issues/86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands § Repeat last change: .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <pubDate>Thu, 14 Sep 2023 11:50:50 GMT</pubDate>
   </item><item>
     <title>Font</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Font</link>
@@ -423,8 +423,8 @@
     <title>Window</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Window</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Window</guid>
-    <description>SPC w o (doom/window-enlargen) SPC w C-o (delete-other-windows) SPC w q (evil-quit = Z Q).</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+    <description>SPC w o (doom/window-enlargen) SPC w C-o (delete-other-windows) SPC w d (evil-window-delete) SPC w q (evil-quit = Z Q) Note: SPC w and C-w are interchangeable.</description>
+    <pubDate>Thu, 14 Sep 2023 12:32:28 GMT</pubDate>
   </item><item>
     <title>Workspace</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Workspace</link>
@@ -443,6 +443,12 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/chinese</guid>
     <description>How to Enable § ;; Uncomment in init.el (doom! :input chinese :ui unicode .</description>
     <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
+  </item><item>
+    <title>lispy</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
+    <description>Key Bindings § Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Insert § Parens: ( Braces: { Brackets: } Quotes: &quot;.</description>
+    <pubDate>Thu, 14 Sep 2023 12:38:19 GMT</pubDate>
   </item><item>
     <title>wgrep</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/wgrep</link>
@@ -561,8 +567,8 @@
     <title>Strong and Weak Host Model</title>
     <link>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</link>
     <guid>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</guid>
-    <description>Linux § The IP implementation in Linux defaults to the weak host model. FreeBSD § In FreeBSD 14, the IP implementation partially implement the Strong End System (i.</description>
-    <pubDate>Wed, 13 Sep 2023 17:33:00 GMT</pubDate>
+    <description>Linux § The IP implementation in Linux defaults to the weak host model. FreeBSD § The IP implementation in FreeBSD partially implement the Strong End System (i.</description>
+    <pubDate>Wed, 13 Sep 2023 17:51:07 GMT</pubDate>
   </item><item>
     <title>Valiant Load Balancing</title>
     <link>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</link>
