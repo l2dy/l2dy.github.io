@@ -1290,6 +1290,16 @@ async function fillDocument(index2, data) {
 })();
 (function () {// quartz/components/scripts/quartz/components/scripts/explorer.inline.ts
 var explorerState;
+var observer = new IntersectionObserver((entries) => {
+  const explorer = document.getElementById("explorer-ul");
+  for (const entry of entries) {
+    if (entry.isIntersecting) {
+      explorer?.classList.add("no-background");
+    } else {
+      explorer?.classList.remove("no-background");
+    }
+  }
+});
 function toggleExplorer() {
   this.classList.toggle("collapsed");
   const content = this.nextElementSibling;
@@ -1350,7 +1360,9 @@ function setupExplorer() {
         `[data-folderpath='/${folderUl.path}']`
       );
       const folderUL = folderLi.parentElement?.nextElementSibling;
-      setFolderState(folderUL, folderUl.collapsed);
+      if (folderUL) {
+        setFolderState(folderUL, folderUl.collapsed);
+      }
     });
   } else {
     explorerState = JSON.parse(explorer?.dataset.tree);
@@ -1359,6 +1371,10 @@ function setupExplorer() {
 window.addEventListener("resize", setupExplorer);
 document.addEventListener("nav", () => {
   setupExplorer();
+  const explorerContent = document.getElementById("explorer-ul");
+  const lastItem = document.getElementById("explorer-end");
+  observer.disconnect();
+  observer.observe(lastItem);
 });
 function setFolderState(folderElement, collapsed) {
   if (collapsed) {
