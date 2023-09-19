@@ -24,6 +24,12 @@
     <description>Security § IAM § Number of policies attached to an IAM role or user and the size of each policy is limited. With workarounds, at most 120 managed policies and a set of inline policies can be added.</description>
     <pubDate>Wed, 13 Sep 2023 16:21:23 GMT</pubDate>
   </item><item>
+    <title>AWS Map</title>
+    <link>https://l2dy.github.io/maps/AWS-Map</link>
+    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
+    <description>Networking § VPC is a SDN built for AWS powering isolated virtual networks. Hyperplane is an AWS internal network load balancing service, powering other AWS services such as Network Load Balancer (NLB), NAT gateway (NATGW), PrivateLink, GWLB, and TGW.</description>
+    <pubDate>Tue, 19 Sep 2023 16:26:27 GMT</pubDate>
+  </item><item>
     <title>FreeBSD Map</title>
     <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
     <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/maps/SRE-Map</guid>
     <description>Definition § SRE is what happens when you ask a software engineer to design an ops team. We want systems that runs and repairs itself: automatic, not just automated.</description>
     <pubDate>Wed, 13 Sep 2023 16:57:43 GMT</pubDate>
-  </item><item>
-    <title>ChatGPT</title>
-    <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
-    <guid>https://l2dy.github.io/notes/AI/ChatGPT</guid>
-    <description>Self-hosted Web UI § https://github.com/Yidadaa/ChatGPT-Next-Web Derivatives § New Bing Poe Forefront Chat .</description>
-    <pubDate>Sat, 09 Sep 2023 19:26:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
