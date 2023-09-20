@@ -27,8 +27,8 @@
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking § VPC is a SDN built for AWS powering isolated virtual networks. Hyperplane is an AWS internal network load balancing service, powering other AWS services such as Network Load Balancer (NLB), NAT gateway (NATGW), PrivateLink, GWLB, and TGW.</description>
-    <pubDate>Tue, 19 Sep 2023 16:26:27 GMT</pubDate>
+    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
+    <pubDate>Wed, 20 Sep 2023 15:06:04 GMT</pubDate>
   </item><item>
     <title>FreeBSD Map</title>
     <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
