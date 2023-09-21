@@ -77,6 +77,9 @@
     <loc>https://l2dy.github.io/notes/CLI/git/git-status</loc>
     <lastmod>2023-09-09T19:13:50.512Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/grep</loc>
+    <lastmod>2023-09-21T13:07:13.546Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/journalctl</loc>
     <lastmod>2023-09-09T19:13:50.495Z</lastmod>
   </url><url>
@@ -364,6 +367,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</loc>
     <lastmod>2023-09-09T19:13:50.556Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Fennel/Fennel-Gotchas</loc>
+    <lastmod>2023-09-21T14:42:36.880Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</loc>
     <lastmod>2023-09-09T19:13:50.556Z</lastmod>
