@@ -1359,9 +1359,11 @@ function setupExplorer() {
       const folderLi = document.querySelector(
         `[data-folderpath='/${folderUl.path}']`
       );
-      const folderUL = folderLi.parentElement?.nextElementSibling;
-      if (folderUL) {
-        setFolderState(folderUL, folderUl.collapsed);
+      if (folderLi) {
+        const folderUL = folderLi.parentElement?.nextElementSibling;
+        if (folderUL) {
+          setFolderState(folderUL, folderUl.collapsed);
+        }
       }
     });
   } else {
