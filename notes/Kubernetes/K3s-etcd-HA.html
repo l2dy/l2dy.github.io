@@ -4,31 +4,6 @@
 <p>K3s embedded etcd only listens on the IPv4 node IP. Use <code>--node-ip</code> to override the default.</p>
 <p>When <code>--node-ip</code> is an IPv6 address, <code>clusterCIDR</code> is also made IPv6.</p>
 <p>Given this side effect, it may be better to manage etcd separately if nodes are not reachable via IPv4.</p>
-<h2 id="san">SAN<a aria-hidden="true" tabindex="-1" href="#san" class="internal"> §</a></h2>
-<p>K3s only adds host IP addresses by default. For a fixed registration address like a load-balanced VIP, you should specify <code>--tls-san</code>. This address is used for agent nodes (not part of control plane) to join the cluster.</p>
-<blockquote>
-<p>To avoid certificate errors with the fixed registration address, you should launch the server with the tls-san parameter set. This option adds an additional hostname or IP as a Subject Alternative Name in the server’s TLS cert, and it can be specified as a list if you would like to access via both the IP and the hostname.</p>
-</blockquote>
-<blockquote>
-<ul>
-<li>Optional: A <strong>fixed registration address</strong> for agent nodes to register with the cluster</li>
-</ul>
-</blockquote>
-<p>Example result:</p>
-<pre><code>Subject Alternative Name (not critical):
-	DNSname: kubernetes
-	DNSname: kubernetes.default
-	DNSname: kubernetes.default.svc
-	DNSname: kubernetes.default.svc.cluster.local
-	DNSname: localhost
-	DNSname: &lt;hostname>
-	IPAddress: 10.43.0.1
-	IPAddress: 127.0.0.1
-	IPAddress: &lt;tls-san IP>
-	IPAddress: &lt;IPv4 IP>
-	IPAddress: &lt;IPv6 IP>
-	IPAddress: ::1
-</code></pre>
 <h2 id="references">References<a aria-hidden="true" tabindex="-1" href="#references" class="internal"> §</a></h2>
 <ul>
 <li><a href="https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-cluster-setup/rke2-for-rancher" class="external">https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/kubernetes-cluster-setup/rke2-for-rancher</a></li>
@@ -43,7 +18,7 @@
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#ipv6" data-for="ipv6">IPv6</a></li><li class="depth-1"><a href="#etcd-cluster" data-for="etcd-cluster">etcd Cluster</a></li><li class="depth-0"><a href="#san" data-for="san">SAN</a></li><li class="depth-0"><a href="#references" data-for="references">References</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../../notes/Kubernetes/K3s-HA-Cluster" class="internal">K3s HA Cluster</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2023</p><ul><li><a href="https://github.com/l2dy">GitHub</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#ipv6" data-for="ipv6">IPv6</a></li><li class="depth-1"><a href="#etcd-cluster" data-for="etcd-cluster">etcd Cluster</a></li><li class="depth-0"><a href="#references" data-for="references">References</a></li></ul></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../../notes/Kubernetes/K3s-HA-Cluster" class="internal">K3s HA Cluster</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2023</p><ul><li><a href="https://github.com/l2dy">GitHub</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);
