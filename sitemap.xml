@@ -147,13 +147,16 @@
     <lastmod>2023-09-18T16:04:18.623Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Google-Cloud-Free-Tier</loc>
-    <lastmod>2023-09-23T01:29:11.230Z</lastmod>
+    <lastmod>2023-09-23T01:38:58.477Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</loc>
     <lastmod>2023-09-12T15:22:30.398Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Network-Security-Rules</loc>
     <lastmod>2023-09-22T18:25:14.494Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Public-IP-Ranges</loc>
+    <lastmod>2023-09-23T04:31:11.631Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</loc>
     <lastmod>2023-09-13T16:32:28.528Z</lastmod>
@@ -275,8 +278,14 @@
     <loc>https://l2dy.github.io/notes/Krita</loc>
     <lastmod>2023-09-09T19:13:50.585Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Kubernetes/K3s-External-Database-HA</loc>
+    <lastmod>2023-09-23T07:02:03.364Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/K3s-HA-Cluster</loc>
-    <lastmod>2023-09-23T01:18:36.855Z</lastmod>
+    <lastmod>2023-09-23T03:43:19.534Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Kubernetes/K3s-etcd-HA</loc>
+    <lastmod>2023-09-23T03:30:19.845Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/Fontconfig</loc>
     <lastmod>2023-09-09T19:13:50.565Z</lastmod>
@@ -353,14 +362,20 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-priorize-Process</loc>
     <lastmod>2023-09-10T17:44:56.735Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/Linux/FirewallD-Specify-Zone-by-IP-Address</loc>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld-Specify-Zone-by-IP-Address</loc>
     <lastmod>2023-05-16T14:22:56.573Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
+    <lastmod>2023-09-23T07:01:27.908Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</loc>
     <lastmod>2023-09-09T19:13:50.487Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/epoll</loc>
     <lastmod>2023-09-09T19:13:50.488Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/nftables</loc>
+    <lastmod>2023-09-23T05:30:06.247Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</loc>
     <lastmod>2023-09-09T19:13:50.490Z</lastmod>
