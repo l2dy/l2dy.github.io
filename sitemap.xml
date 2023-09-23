@@ -146,8 +146,14 @@
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</loc>
     <lastmod>2023-09-18T16:04:18.623Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Google-Cloud-Free-Tier</loc>
+    <lastmod>2023-09-23T01:29:11.230Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Maglev</loc>
     <lastmod>2023-09-12T15:22:30.398Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Network-Security-Rules</loc>
+    <lastmod>2023-09-22T18:25:14.494Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</loc>
     <lastmod>2023-09-13T16:32:28.528Z</lastmod>
@@ -269,6 +275,9 @@
     <loc>https://l2dy.github.io/notes/Krita</loc>
     <lastmod>2023-09-09T19:13:50.585Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Kubernetes/K3s-HA-Cluster</loc>
+    <lastmod>2023-09-23T01:18:36.855Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/Fontconfig</loc>
     <lastmod>2023-09-09T19:13:50.565Z</lastmod>
   </url><url>
@@ -292,6 +301,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Direct-Server-Return</loc>
     <lastmod>2023-09-11T13:49:53.598Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/IPv6-Firewall</loc>
+    <lastmod>2023-09-22T18:22:54.944Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/SNMPv2-TCP-Statistics</loc>
     <lastmod>2023-09-11T13:49:56.836Z</lastmod>
