@@ -17,6 +17,9 @@
     <loc>https://l2dy.github.io/maps/Google-Cloud-Map</loc>
     <lastmod>2023-09-18T15:55:36.798Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/Linux-Map</loc>
+    <lastmod>2023-09-23T07:10:42.477Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
     <lastmod>2023-09-12T15:19:16.746Z</lastmod>
   </url><url>
@@ -357,22 +360,22 @@
     <lastmod>2023-09-09T19:13:50.482Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BBR</loc>
-    <lastmod>2023-09-09T19:13:50.486Z</lastmod>
+    <lastmod>2023-09-23T07:10:51.638Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-priorize-Process</loc>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</loc>
     <lastmod>2023-09-10T17:44:56.735Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld-Specify-Zone-by-IP-Address</loc>
-    <lastmod>2023-05-16T14:22:56.573Z</lastmod>
+    <lastmod>2023-09-23T07:08:02.636Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
-    <lastmod>2023-09-23T07:01:27.908Z</lastmod>
+    <lastmod>2023-09-23T07:08:00.300Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</loc>
-    <lastmod>2023-09-09T19:13:50.487Z</lastmod>
+    <lastmod>2023-09-23T07:09:12.889Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/epoll</loc>
-    <lastmod>2023-09-09T19:13:50.488Z</lastmod>
+    <lastmod>2023-09-23T07:11:07.128Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/nftables</loc>
     <lastmod>2023-09-23T05:30:06.247Z</lastmod>

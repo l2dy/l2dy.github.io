@@ -42,6 +42,12 @@
     <description>Networking § Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
     <pubDate>Mon, 18 Sep 2023 15:55:36 GMT</pubDate>
   </item><item>
+    <title>Linux Map</title>
+    <link>https://l2dy.github.io/maps/Linux-Map</link>
+    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
+    <description>Process § Scheduling § De-Prioritize Process Network § TCP § TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall § Firewalld nftables .</description>
+    <pubDate>Sat, 23 Sep 2023 07:10:42 GMT</pubDate>
+  </item><item>
     <title>Microsoft Azure Map</title>
     <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
     <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
     <description>Architecture Exploration § Microsoft Azure Map Google Cloud Map Nitty-Gritty § AWS Caveats Map .</description>
     <pubDate>Sat, 16 Sep 2023 03:37:09 GMT</pubDate>
-  </item><item>
-    <title>SRE Map</title>
-    <link>https://l2dy.github.io/maps/SRE-Map</link>
-    <guid>https://l2dy.github.io/maps/SRE-Map</guid>
-    <description>Definition § SRE is what happens when you ask a software engineer to design an ops team. We want systems that runs and repairs itself: automatic, not just automated.</description>
-    <pubDate>Wed, 13 Sep 2023 16:57:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
