@@ -117,7 +117,7 @@
     <lastmod>2023-09-20T15:06:49.044Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</loc>
-    <lastmod>2023-09-13T16:36:27.342Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.103Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Nitro-System</loc>
     <lastmod>2023-09-20T13:15:41.883Z</lastmod>
@@ -132,7 +132,7 @@
     <lastmod>2023-09-19T16:15:00.565Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/VPC</loc>
-    <lastmod>2023-09-20T13:02:30.296Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.104Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Ananta</loc>
     <lastmod>2023-09-18T13:03:29.473Z</lastmod>
@@ -222,7 +222,7 @@
     <lastmod>2023-09-09T19:13:50.524Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Nativecomp</loc>
-    <lastmod>2023-09-09T19:13:50.530Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.100Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Org-roam-v2</loc>
     <lastmod>2023-09-09T19:13:50.539Z</lastmod>
@@ -294,7 +294,7 @@
     <lastmod>2023-09-30T05:31:11.324Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/Flux</loc>
-    <lastmod>2023-09-30T06:30:31.434Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.105Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/Grafana-Kubernetes-Monitoring-Helm-Charts</loc>
     <lastmod>2023-09-29T17:36:49.371Z</lastmod>
@@ -315,7 +315,7 @@
     <lastmod>2023-09-29T14:48:21.575Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/K3s-Traefik</loc>
-    <lastmod>2023-09-29T15:02:12.363Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.107Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/K3s-etcd-HA</loc>
     <lastmod>2023-09-23T09:27:09.452Z</lastmod>
@@ -396,13 +396,13 @@
     <lastmod>2023-09-09T19:13:50.546Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/proxy/Upstream-Keepalive</loc>
-    <lastmod>2023-09-09T19:13:50.548Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.102Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</loc>
     <lastmod>2023-09-12T17:22:19.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Grafana-Alerts</loc>
-    <lastmod>2023-09-30T03:50:28.804Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.100Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Obsidian</loc>
     <lastmod>2023-09-26T16:50:26.708Z</lastmod>
@@ -426,7 +426,7 @@
     <lastmod>2023-09-23T07:08:02.636Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
-    <lastmod>2023-09-26T11:25:30.102Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.098Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</loc>
     <lastmod>2023-09-23T07:09:12.889Z</lastmod>
@@ -489,13 +489,13 @@
     <lastmod>2023-09-09T19:13:50.590Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</loc>
-    <lastmod>2023-09-09T19:13:50.594Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.107Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Mandatory-Review</loc>
     <lastmod>2023-09-09T19:13:50.587Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Measuring-Service-Risk</loc>
-    <lastmod>2023-09-09T19:13:50.593Z</lastmod>
+    <lastmod>2023-10-01T01:39:48.108Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Monitoring</loc>
     <lastmod>2023-09-09T19:13:50.594Z</lastmod>
@@ -526,6 +526,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/NAS-Solutions</loc>
     <lastmod>2023-09-10T17:07:05.540Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-AFFiNE</loc>
+    <lastmod>2023-10-01T01:29:08.700Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</loc>
     <lastmod>2023-09-26T16:14:19.606Z</lastmod>
