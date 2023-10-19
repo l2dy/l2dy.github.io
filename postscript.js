@@ -6296,7 +6296,7 @@ function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
       const { url } = getOpts(event) ?? {};
-      if (!url)
+      if (!url || event.ctrlKey || event.metaKey)
         return;
       event.preventDefault();
       try {
