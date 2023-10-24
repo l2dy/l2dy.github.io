@@ -110,11 +110,11 @@
     <loc>https://l2dy.github.io/notes/CLI/procstat</loc>
     <lastmod>2023-09-11T14:07:31.420Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
+    <lastmod>2023-10-24T12:13:40.745Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
     <lastmod>2023-09-09T19:13:50.500Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/CLI/zfs</loc>
-    <lastmod>2023-09-09T19:13:50.499Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Backbone-Network</loc>
     <lastmod>2023-09-20T15:06:49.044Z</lastmod>
@@ -398,6 +398,9 @@
     <loc>https://l2dy.github.io/notes/MacPorts/base/Tcl-API</loc>
     <lastmod>2023-09-09T19:13:50.567Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Media/Music-Streaming-Setup</loc>
+    <lastmod>2023-10-23T13:32:07.047Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/Cloudflare</loc>
     <lastmod>2023-09-29T15:12:32.661Z</lastmod>
   </url><url>
@@ -427,6 +430,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Valiant-Load-Balancing</loc>
     <lastmod>2023-09-18T14:11:45.895Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Wi-Fi-6E</loc>
+    <lastmod>2023-10-21T07:14:47.479Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</loc>
     <lastmod>2023-09-09T19:13:50.550Z</lastmod>
@@ -599,6 +605,9 @@
     <loc>https://l2dy.github.io/notes/SRE/Troubleshooting</loc>
     <lastmod>2023-09-09T19:13:50.588Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Litestream</loc>
+    <lastmod>2023-10-23T13:32:25.073Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/NAS-Solutions</loc>
     <lastmod>2023-09-10T17:07:05.540Z</lastmod>
   </url><url>
@@ -637,6 +646,12 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Storage/USB-Hub-Power-Supply</loc>
     <lastmod>2023-10-08T13:23:32.080Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Storage/ZFS-Compression-Test</loc>
+    <lastmod>2023-10-24T12:40:22.900Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Storage/ZFS</loc>
+    <lastmod>2023-10-24T12:36:44.605Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Taking-Notes</loc>
     <lastmod>2023-09-16T03:37:31.186Z</lastmod>
