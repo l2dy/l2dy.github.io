@@ -183,7 +183,7 @@
     <lastmod>2023-09-13T16:32:28.528Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/PgBouncer</loc>
-    <lastmod>2023-10-03T03:45:05.981Z</lastmod>
+    <lastmod>2023-10-27T17:29:04.998Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/PostgreSQL</loc>
     <lastmod>2023-10-15T06:22:23.961Z</lastmod>
@@ -416,6 +416,9 @@
     <loc>https://l2dy.github.io/notes/Network/Prefer-IPv4-over-IPv6</loc>
     <lastmod>2023-10-14T02:54:28.810Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Remote-Linux-Desktop-on-macOS</loc>
+    <lastmod>2023-10-29T04:38:45.107Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/Reverse-Path-Forwarding</loc>
     <lastmod>2023-09-26T12:13:00.337Z</lastmod>
   </url><url>
@@ -494,6 +497,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</loc>
     <lastmod>2023-09-10T17:44:56.735Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Desktop-Linux-Performance-Optimization</loc>
+    <lastmod>2023-10-29T04:35:44.022Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld-Specify-Zone-by-IP-Address</loc>
     <lastmod>2023-09-23T07:08:02.636Z</lastmod>
   </url><url>
@@ -517,6 +523,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</loc>
     <lastmod>2023-10-17T15:13:50.085Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/macOS/Paravirtualized-Graphics</loc>
+    <lastmod>2023-10-29T03:56:33.363Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/macOS/macOS-KeyChain-in-CLI-Tools</loc>
     <lastmod>2023-09-13T16:56:16.133Z</lastmod>
@@ -641,6 +650,9 @@
     <loc>https://l2dy.github.io/notes/Startup/One-Man-Full-Stack-Roadmap</loc>
     <lastmod>2023-10-07T15:02:42.213Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Startup/Payment-Gateways-for-Individuals</loc>
+    <lastmod>2023-10-29T02:59:54.057Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Startup/SaaS-Product-Strategy-at-Tanda</loc>
     <lastmod>2023-10-07T09:13:54.698Z</lastmod>
   </url><url>
@@ -652,6 +664,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Storage/ZFS</loc>
     <lastmod>2023-10-24T19:35:11.902Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Storage/zstd-Compression</loc>
+    <lastmod>2023-10-28T09:16:43.150Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Taking-Notes</loc>
     <lastmod>2023-09-16T03:37:31.186Z</lastmod>
