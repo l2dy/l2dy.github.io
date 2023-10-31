@@ -66,10 +66,16 @@
     <lastmod>2023-09-09T19:13:50.505Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Neovim</loc>
-    <lastmod>2023-09-23T20:35:04.551Z</lastmod>
+    <lastmod>2023-10-31T14:03:01.360Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Vim</loc>
+    <lastmod>2023-10-31T14:03:02.209Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Vim/Removing-Auto-Inserted-Comment-Leader</loc>
     <lastmod>2023-09-09T19:13:50.496Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Zsh</loc>
+    <lastmod>2023-10-31T14:10:34.792Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</loc>
     <lastmod>2023-09-09T19:13:50.512Z</lastmod>
@@ -112,6 +118,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
     <lastmod>2023-10-24T12:13:40.745Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/starship</loc>
+    <lastmod>2023-10-31T14:13:34.637Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
     <lastmod>2023-09-09T19:13:50.500Z</lastmod>
@@ -214,6 +223,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Evil</loc>
     <lastmod>2023-09-14T11:50:50.217Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/Font-Face-Attribute-Override</loc>
+    <lastmod>2023-10-31T14:07:16.033Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Font</loc>
     <lastmod>2023-09-09T19:13:50.540Z</lastmod>
@@ -413,6 +425,9 @@
     <loc>https://l2dy.github.io/notes/Network/IPv6-Firewall</loc>
     <lastmod>2023-09-22T18:22:54.944Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/OpenWRT-DFS-Channel-Experiment</loc>
+    <lastmod>2023-10-31T13:13:29.154Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/Prefer-IPv4-over-IPv6</loc>
     <lastmod>2023-10-14T02:54:28.810Z</lastmod>
   </url><url>
@@ -488,6 +503,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</loc>
     <lastmod>2023-09-09T19:13:50.482Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</loc>
+    <lastmod>2023-10-31T14:11:44.750Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BBR</loc>
     <lastmod>2023-09-23T07:10:51.638Z</lastmod>
   </url><url>
@@ -532,6 +550,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming</loc>
     <lastmod>2023-09-09T19:13:50.585Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Arcanist</loc>
+    <lastmod>2023-10-31T13:56:45.828Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/Compile-Database</loc>
     <lastmod>2023-09-09T19:13:50.558Z</lastmod>
@@ -627,7 +648,7 @@
     <lastmod>2023-09-23T15:51:41.533Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
-    <lastmod>2023-10-29T17:04:24.254Z</lastmod>
+    <lastmod>2023-10-31T13:59:24.132Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
@@ -636,7 +657,7 @@
     <lastmod>2023-09-09T19:13:50.517Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Remote-Linux-Desktop-on-macOS</loc>
-    <lastmod>2023-10-29T17:07:27.270Z</lastmod>
+    <lastmod>2023-10-30T13:41:27.121Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Switch-Input-Source-on-macOS</loc>
     <lastmod>2023-10-29T16:42:57.323Z</lastmod>
