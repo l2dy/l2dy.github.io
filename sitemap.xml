@@ -69,19 +69,16 @@
     <lastmod>2023-10-31T14:03:01.360Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Vim</loc>
-    <lastmod>2023-10-31T14:03:02.209Z</lastmod>
+    <lastmod>2023-11-05T16:34:27.241Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/CLI/Vim/Removing-Auto-Inserted-Comment-Leader</loc>
-    <lastmod>2023-09-09T19:13:50.496Z</lastmod>
+    <loc>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</loc>
+    <lastmod>2023-09-09T19:13:50.512Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Zsh</loc>
     <lastmod>2023-10-31T14:10:34.792Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/CLI/Zsh/Word-Splitting</loc>
-    <lastmod>2023-09-09T19:13:50.512Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/apt</loc>
-    <lastmod>2023-11-05T05:00:49.163Z</lastmod>
+    <lastmod>2023-11-05T12:49:48.214Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/benchstat</loc>
     <lastmod>2023-09-09T19:13:50.555Z</lastmod>
@@ -118,6 +115,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/procstat</loc>
     <lastmod>2023-09-11T14:07:31.420Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/ps</loc>
+    <lastmod>2023-11-05T16:38:38.890Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
     <lastmod>2023-10-24T12:13:40.745Z</lastmod>
@@ -189,7 +189,7 @@
     <lastmod>2023-10-17T03:42:05.613Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Unexpected-Costs-on-GCP</loc>
-    <lastmod>2023-11-05T06:09:39.525Z</lastmod>
+    <lastmod>2023-11-07T13:15:39.909Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</loc>
     <lastmod>2023-10-15T12:34:01.872Z</lastmod>
@@ -521,9 +521,6 @@
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</loc>
     <lastmod>2023-09-11T14:09:34.465Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/ps</loc>
-    <lastmod>2023-09-09T19:13:50.482Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</loc>
     <lastmod>2023-10-31T14:11:44.750Z</lastmod>
   </url><url>
@@ -586,6 +583,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Fennel/Fennel-Gotchas</loc>
     <lastmod>2023-09-21T14:42:36.880Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</loc>
+    <lastmod>2023-11-08T14:22:29.345Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</loc>
     <lastmod>2023-09-09T19:13:50.556Z</lastmod>
