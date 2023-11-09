@@ -24,7 +24,7 @@
     <lastmod>2023-09-12T15:19:16.746Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
-    <lastmod>2023-09-12T17:55:26.000Z</lastmod>
+    <lastmod>2023-11-09T11:58:24.923Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Public-Cloud-Map</loc>
     <lastmod>2023-09-16T03:37:09.080Z</lastmod>
@@ -275,8 +275,8 @@
     <loc>https://l2dy.github.io/notes/Emacs/doom/ParEdit</loc>
     <lastmod>2023-09-09T19:13:50.532Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Emacs/doom/Project</loc>
-    <lastmod>2023-09-09T19:13:50.532Z</lastmod>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/Projectile</loc>
+    <lastmod>2023-11-09T12:14:58.738Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Rime</loc>
     <lastmod>2023-09-09T19:13:50.536Z</lastmod>
@@ -291,7 +291,7 @@
     <lastmod>2023-09-09T19:13:50.530Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Window</loc>
-    <lastmod>2023-09-14T12:32:28.325Z</lastmod>
+    <lastmod>2023-11-09T12:22:26.303Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Workspace</loc>
     <lastmod>2023-09-09T19:13:50.533Z</lastmod>
@@ -302,8 +302,14 @@
     <loc>https://l2dy.github.io/notes/Emacs/doom/chinese</loc>
     <lastmod>2023-09-09T19:13:50.531Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/defcustom</loc>
+    <lastmod>2023-11-09T12:26:15.543Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lispy</loc>
     <lastmod>2023-09-14T12:38:19.123Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</loc>
+    <lastmod>2023-11-09T12:17:07.907Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/wgrep</loc>
     <lastmod>2023-09-09T19:13:50.529Z</lastmod>
@@ -472,6 +478,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</loc>
     <lastmod>2023-09-09T19:13:50.550Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</loc>
+    <lastmod>2023-11-09T12:04:23.513Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</loc>
     <lastmod>2023-09-09T19:13:50.549Z</lastmod>
