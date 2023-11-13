@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://l2dy.github.io/</loc>
-    <lastmod>2023-09-16T03:37:22.197Z</lastmod>
+    <lastmod>2023-11-13T10:42:54.169Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</loc>
     <lastmod>2023-09-09T19:13:50.559Z</lastmod>
@@ -25,6 +25,9 @@
   </url><url>
     <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
     <lastmod>2023-11-09T11:58:24.923Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/maps/Presentation-Skills-Map</loc>
+    <lastmod>2023-11-13T04:35:11.880Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Public-Cloud-Map</loc>
     <lastmod>2023-09-16T03:37:09.080Z</lastmod>
@@ -505,6 +508,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</loc>
     <lastmod>2023-09-12T17:22:19.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</loc>
+    <lastmod>2023-11-13T04:35:37.849Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Checking-Grafana-Server-Version</loc>
     <lastmod>2023-10-14T08:49:21.971Z</lastmod>
