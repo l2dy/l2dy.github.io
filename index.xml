@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>AWS Map</title>
+    <link>https://l2dy.github.io/maps/AWS-Map</link>
+    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
+    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
+    <pubDate>Mon, 13 Nov 2023 10:49:56 GMT</pubDate>
+  </item><item>
+    <title>Public Cloud Map</title>
+    <link>https://l2dy.github.io/maps/Public-Cloud-Map</link>
+    <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
+    <description>Architecture Exploration § AWS Map Microsoft Azure Map Google Cloud Map Nitty-Gritty § AWS Pitfalls .</description>
+    <pubDate>Mon, 13 Nov 2023 10:49:50 GMT</pubDate>
+  </item><item>
+    <title>AWS Documentation Excerpts</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</guid>
+    <description>Aurora MySQL § JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
+    <pubDate>Mon, 13 Nov 2023 10:49:12 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</guid>
     <description>CREATE USER &#039;phabricator&#039;@&#039;localhost&#039; IDENTIFIED VIA unix_socket; GRANT ALL PRIVILEGES ON `phabricator\_%`.* TO &#039;phabricator&#039;@&#039;localhost&#039;;.</description>
     <pubDate>Sat, 11 Nov 2023 02:45:21 GMT</pubDate>
-  </item><item>
-    <title>defcustom</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/defcustom</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/defcustom</guid>
-    <description>Use setq in (after! .</description>
-    <pubDate>Thu, 09 Nov 2023 12:26:15 GMT</pubDate>
-  </item><item>
-    <title>Window</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Window</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Window</guid>
-    <description>SPC w o (doom/window-enlargen) SPC w C-o (delete-other-windows) SPC w d (+workspace/close-window-or-workspace), also s-w and SPC w c SPC w q (evil-quit = Z Q) Note: SPC w and C-w are interchangeable.</description>
-    <pubDate>Thu, 09 Nov 2023 12:22:26 GMT</pubDate>
-  </item><item>
-    <title>lsp-mode</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</guid>
-    <description>Multi root servers § Multi-root means that one server can handle multiple projects, but the default behavior of lsp-mode is to load all projects for this language server at once.</description>
-    <pubDate>Thu, 09 Nov 2023 12:17:07 GMT</pubDate>
   </item>
     </channel>
   </rss>

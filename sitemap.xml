@@ -5,11 +5,8 @@
     <loc>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</loc>
     <lastmod>2023-09-09T19:13:50.559Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/maps/AWS-Caveats-Map</loc>
-    <lastmod>2023-09-13T16:21:23.428Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/maps/AWS-Map</loc>
-    <lastmod>2023-09-20T15:06:04.221Z</lastmod>
+    <lastmod>2023-11-13T10:49:56.146Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/FreeBSD-Map</loc>
     <lastmod>2023-09-11T14:07:51.741Z</lastmod>
@@ -30,7 +27,7 @@
     <lastmod>2023-11-13T04:35:11.880Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Public-Cloud-Map</loc>
-    <lastmod>2023-09-16T03:37:09.080Z</lastmod>
+    <lastmod>2023-11-13T10:49:50.779Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/SRE-Map</loc>
     <lastmod>2023-09-13T16:57:43.354Z</lastmod>
@@ -141,10 +138,13 @@
     <lastmod>2023-09-20T15:06:49.044Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</loc>
-    <lastmod>2023-10-01T01:39:48.103Z</lastmod>
+    <lastmod>2023-11-13T10:49:12.409Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Nitro-System</loc>
     <lastmod>2023-09-20T13:15:41.883Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Pitfalls</loc>
+    <lastmod>2023-09-13T16:21:23.428Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/Accessing-RHKB-via-AWS</loc>
     <lastmod>2023-09-13T16:40:26.717Z</lastmod>
