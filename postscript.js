@@ -5544,8 +5544,9 @@ function toggleToc() {
 function setupToc() {
   const toc = document.getElementById("toc");
   if (toc) {
+    const collapsed = toc.classList.contains("collapsed");
     const content = toc.nextElementSibling;
-    content.style.maxHeight = content.scrollHeight + "px";
+    content.style.maxHeight = collapsed ? "0px" : content.scrollHeight + "px";
     toc.removeEventListener("click", toggleToc);
     toc.addEventListener("click", toggleToc);
   }
@@ -5995,7 +5996,8 @@ async function mouseEnterHandler({ clientX, clientY }) {
       top: `${y2}px`
     });
   }
-  if ([...link.children].some((child) => child.classList.contains("popover"))) {
+  const hasAlreadyBeenFetched = () => [...link.children].some((child) => child.classList.contains("popover"));
+  if (hasAlreadyBeenFetched()) {
     return setPosition(link.lastChild);
   }
   const thisUrl = new URL(document.location.href);
@@ -6010,6 +6012,9 @@ async function mouseEnterHandler({ clientX, clientY }) {
   const contents = await fetch(`${targetUrl}`).then((res) => res.text()).catch((err) => {
     console.error(err);
   });
+  if (hasAlreadyBeenFetched()) {
+    return;
+  }
   if (!contents)
     return;
   const html = p3.parseFromString(contents, "text/html");
@@ -6041,173 +6046,173 @@ document.addEventListener("nav", () => {
 });
 })();
 (function () {// node_modules/micromorph/dist/index.js
-var T = (e) => (t, r) => t[`node${e}`] === r[`node${e}`];
+var T = (e2) => (t2, r3) => t2[`node${e2}`] === r3[`node${e2}`];
 var b = T("Name");
 var C = T("Type");
 var g = T("Value");
-function M(e, t) {
-  if (e.attributes.length === 0 && t.attributes.length === 0)
+function M(e2, t2) {
+  if (e2.attributes.length === 0 && t2.attributes.length === 0)
     return [];
-  let r = [], n = /* @__PURE__ */ new Map(), o = /* @__PURE__ */ new Map();
-  for (let s of e.attributes)
-    n.set(s.name, s.value);
-  for (let s of t.attributes) {
-    let a = n.get(s.name);
-    s.value === a ? n.delete(s.name) : (typeof a < "u" && n.delete(s.name), o.set(s.name, s.value));
+  let r3 = [], n3 = /* @__PURE__ */ new Map(), o3 = /* @__PURE__ */ new Map();
+  for (let s3 of e2.attributes)
+    n3.set(s3.name, s3.value);
+  for (let s3 of t2.attributes) {
+    let a3 = n3.get(s3.name);
+    s3.value === a3 ? n3.delete(s3.name) : (typeof a3 < "u" && n3.delete(s3.name), o3.set(s3.name, s3.value));
   }
-  for (let s of n.keys())
-    r.push({ type: 5, name: s });
-  for (let [s, a] of o.entries())
-    r.push({ type: 4, name: s, value: a });
-  return r;
+  for (let s3 of n3.keys())
+    r3.push({ type: 5, name: s3 });
+  for (let [s3, a3] of o3.entries())
+    r3.push({ type: 4, name: s3, value: a3 });
+  return r3;
 }
-function N(e, t = true) {
-  let r = `${e.localName}`;
-  for (let { name: n, value: o } of e.attributes)
-    t && n.startsWith("data-") || (r += `[${n}=${o}]`);
-  return r += e.innerHTML, r;
+function N(e2, t2 = true) {
+  let r3 = `${e2.localName}`;
+  for (let { name: n3, value: o3 } of e2.attributes)
+    t2 && n3.startsWith("data-") || (r3 += `[${n3}=${o3}]`);
+  return r3 += e2.innerHTML, r3;
 }
-function h(e) {
-  switch (e.tagName) {
+function h(e2) {
+  switch (e2.tagName) {
     case "BASE":
     case "TITLE":
-      return e.localName;
+      return e2.localName;
     case "META": {
-      if (e.hasAttribute("name"))
-        return `meta[name="${e.getAttribute("name")}"]`;
-      if (e.hasAttribute("property"))
-        return `meta[name="${e.getAttribute("property")}"]`;
+      if (e2.hasAttribute("name"))
+        return `meta[name="${e2.getAttribute("name")}"]`;
+      if (e2.hasAttribute("property"))
+        return `meta[name="${e2.getAttribute("property")}"]`;
       break;
     }
     case "LINK": {
-      if (e.hasAttribute("rel") && e.hasAttribute("href"))
-        return `link[rel="${e.getAttribute("rel")}"][href="${e.getAttribute("href")}"]`;
-      if (e.hasAttribute("href"))
-        return `link[href="${e.getAttribute("href")}"]`;
+      if (e2.hasAttribute("rel") && e2.hasAttribute("href"))
+        return `link[rel="${e2.getAttribute("rel")}"][href="${e2.getAttribute("href")}"]`;
+      if (e2.hasAttribute("href"))
+        return `link[href="${e2.getAttribute("href")}"]`;
       break;
     }
   }
-  return N(e);
+  return N(e2);
 }
-function x(e) {
-  let [t, r = ""] = e.split("?");
-  return `${t}?t=${Date.now()}&${r.replace(/t=\d+/g, "")}`;
+function x(e2) {
+  let [t2, r3 = ""] = e2.split("?");
+  return `${t2}?t=${Date.now()}&${r3.replace(/t=\d+/g, "")}`;
 }
-function c(e) {
-  if (e.nodeType === 1 && e.hasAttribute("data-persist"))
-    return e;
-  if (e.nodeType === 1 && e.localName === "script") {
-    let t = document.createElement("script");
-    for (let { name: r, value: n } of e.attributes)
-      r === "src" && (n = x(n)), t.setAttribute(r, n);
-    return t.innerHTML = e.innerHTML, t;
+function c(e2) {
+  if (e2.nodeType === 1 && e2.hasAttribute("data-persist"))
+    return e2;
+  if (e2.nodeType === 1 && e2.localName === "script") {
+    let t2 = document.createElement("script");
+    for (let { name: r3, value: n3 } of e2.attributes)
+      r3 === "src" && (n3 = x(n3)), t2.setAttribute(r3, n3);
+    return t2.innerHTML = e2.innerHTML, t2;
   }
-  return e.cloneNode(true);
+  return e2.cloneNode(true);
 }
-function R(e, t) {
-  if (e.children.length === 0 && t.children.length === 0)
+function R(e2, t2) {
+  if (e2.children.length === 0 && t2.children.length === 0)
     return [];
-  let r = [], n = /* @__PURE__ */ new Map(), o = /* @__PURE__ */ new Map(), s = /* @__PURE__ */ new Map();
-  for (let a of e.children)
-    n.set(h(a), a);
-  for (let a of t.children) {
-    let i = h(a), u = n.get(i);
-    u ? N(a, false) !== N(u, false) && o.set(i, c(a)) : s.set(i, c(a)), n.delete(i);
+  let r3 = [], n3 = /* @__PURE__ */ new Map(), o3 = /* @__PURE__ */ new Map(), s3 = /* @__PURE__ */ new Map();
+  for (let a3 of e2.children)
+    n3.set(h(a3), a3);
+  for (let a3 of t2.children) {
+    let i3 = h(a3), u3 = n3.get(i3);
+    u3 ? N(a3, false) !== N(u3, false) && o3.set(i3, c(a3)) : s3.set(i3, c(a3)), n3.delete(i3);
   }
-  for (let a of e.childNodes) {
-    if (a.nodeType === 1) {
-      let i = h(a);
-      if (n.has(i)) {
-        r.push({ type: 1 });
+  for (let a3 of e2.childNodes) {
+    if (a3.nodeType === 1) {
+      let i3 = h(a3);
+      if (n3.has(i3)) {
+        r3.push({ type: 1 });
         continue;
-      } else if (o.has(i)) {
-        let u = o.get(i);
-        r.push({ type: 3, attributes: M(a, u), children: I(a, u) });
+      } else if (o3.has(i3)) {
+        let u3 = o3.get(i3);
+        r3.push({ type: 3, attributes: M(a3, u3), children: I(a3, u3) });
         continue;
       }
     }
-    r.push(void 0);
+    r3.push(void 0);
   }
-  for (let a of s.values())
-    r.push({ type: 0, node: c(a) });
-  return r;
+  for (let a3 of s3.values())
+    r3.push({ type: 0, node: c(a3) });
+  return r3;
 }
-function I(e, t) {
-  let r = [], n = Math.max(e.childNodes.length, t.childNodes.length);
-  for (let o = 0; o < n; o++) {
-    let s = e.childNodes.item(o), a = t.childNodes.item(o);
-    r[o] = p(s, a);
+function I(e2, t2) {
+  let r3 = [], n3 = Math.max(e2.childNodes.length, t2.childNodes.length);
+  for (let o3 = 0; o3 < n3; o3++) {
+    let s3 = e2.childNodes.item(o3), a3 = t2.childNodes.item(o3);
+    r3[o3] = p(s3, a3);
   }
-  return r;
+  return r3;
 }
-function p(e, t) {
-  if (!e)
-    return { type: 0, node: c(t) };
-  if (!t)
+function p(e2, t2) {
+  if (!e2)
+    return { type: 0, node: c(t2) };
+  if (!t2)
     return { type: 1 };
-  if (C(e, t)) {
-    if (e.nodeType === 3) {
-      let r = e.nodeValue, n = t.nodeValue;
-      if (r.trim().length === 0 && n.trim().length === 0)
+  if (C(e2, t2)) {
+    if (e2.nodeType === 3) {
+      let r3 = e2.nodeValue, n3 = t2.nodeValue;
+      if (r3.trim().length === 0 && n3.trim().length === 0)
         return;
     }
-    if (e.nodeType === 1) {
-      if (b(e, t)) {
-        let r = e.tagName === "HEAD" ? R : I;
-        return { type: 3, attributes: M(e, t), children: r(e, t) };
+    if (e2.nodeType === 1) {
+      if (b(e2, t2)) {
+        let r3 = e2.tagName === "HEAD" ? R : I;
+        return { type: 3, attributes: M(e2, t2), children: r3(e2, t2) };
       }
-      return { type: 2, node: c(t) };
+      return { type: 2, node: c(t2) };
     } else
-      return e.nodeType === 9 ? p(e.documentElement, t.documentElement) : g(e, t) ? void 0 : { type: 2, value: t.nodeValue };
+      return e2.nodeType === 9 ? p(e2.documentElement, t2.documentElement) : g(e2, t2) ? void 0 : { type: 2, value: t2.nodeValue };
   }
-  return { type: 2, node: c(t) };
+  return { type: 2, node: c(t2) };
 }
-function $(e, t) {
-  if (t.length !== 0)
-    for (let { type: r, name: n, value: o } of t)
-      r === 5 ? e.removeAttribute(n) : r === 4 && e.setAttribute(n, o);
+function $(e2, t2) {
+  if (t2.length !== 0)
+    for (let { type: r3, name: n3, value: o3 } of t2)
+      r3 === 5 ? e2.removeAttribute(n3) : r3 === 4 && e2.setAttribute(n3, o3);
 }
-async function O(e, t, r) {
-  if (!t)
+async function O(e2, t2, r3) {
+  if (!t2)
     return;
-  let n;
-  switch (e.nodeType === 9 ? (e = e.documentElement, n = e) : r ? n = r : n = e, t.type) {
+  let n3;
+  switch (e2.nodeType === 9 ? (e2 = e2.documentElement, n3 = e2) : r3 ? n3 = r3 : n3 = e2, t2.type) {
     case 0: {
-      let { node: o } = t;
-      e.appendChild(o);
+      let { node: o3 } = t2;
+      e2.appendChild(o3);
       return;
     }
     case 1: {
-      if (!n)
+      if (!n3)
         return;
-      e.removeChild(n);
+      e2.removeChild(n3);
       return;
     }
     case 2: {
-      if (!n)
+      if (!n3)
         return;
-      let { node: o, value: s } = t;
-      if (typeof s == "string") {
-        n.nodeValue = s;
+      let { node: o3, value: s3 } = t2;
+      if (typeof s3 == "string") {
+        n3.nodeValue = s3;
         return;
       }
-      n.replaceWith(o);
+      n3.replaceWith(o3);
       return;
     }
     case 3: {
-      if (!n)
+      if (!n3)
         return;
-      let { attributes: o, children: s } = t;
-      $(n, o);
-      let a = Array.from(n.childNodes);
-      await Promise.all(s.map((i, u) => O(n, i, a[u])));
+      let { attributes: o3, children: s3 } = t2;
+      $(n3, o3);
+      let a3 = Array.from(n3.childNodes);
+      await Promise.all(s3.map((i3, u3) => O(n3, i3, a3[u3])));
       return;
     }
   }
 }
-function P(e, t) {
-  let r = p(e, t);
-  return O(e, r);
+function P(e2, t2) {
+  let r3 = p(e2, t2);
+  return O(e2, r3);
 }
 
 // node_modules/github-slugger/index.js
@@ -6219,6 +6224,492 @@ function getFullSlug(window2) {
   return res;
 }
 
+// node_modules/@floating-ui/core/dist/floating-ui.core.browser.min.mjs
+function t(t2) {
+  return t2.split("-")[1];
+}
+function e(t2) {
+  return "y" === t2 ? "height" : "width";
+}
+function n(t2) {
+  return t2.split("-")[0];
+}
+function o(t2) {
+  return ["top", "bottom"].includes(n(t2)) ? "x" : "y";
+}
+function i(i3, r3, a3) {
+  let { reference: l3, floating: s3 } = i3;
+  const c4 = l3.x + l3.width / 2 - s3.width / 2, f3 = l3.y + l3.height / 2 - s3.height / 2, m3 = o(r3), u3 = e(m3), g4 = l3[u3] / 2 - s3[u3] / 2, d3 = "x" === m3;
+  let p6;
+  switch (n(r3)) {
+    case "top":
+      p6 = { x: c4, y: l3.y - s3.height };
+      break;
+    case "bottom":
+      p6 = { x: c4, y: l3.y + l3.height };
+      break;
+    case "right":
+      p6 = { x: l3.x + l3.width, y: f3 };
+      break;
+    case "left":
+      p6 = { x: l3.x - s3.width, y: f3 };
+      break;
+    default:
+      p6 = { x: l3.x, y: l3.y };
+  }
+  switch (t(r3)) {
+    case "start":
+      p6[m3] -= g4 * (a3 && d3 ? -1 : 1);
+      break;
+    case "end":
+      p6[m3] += g4 * (a3 && d3 ? -1 : 1);
+  }
+  return p6;
+}
+var r = async (t2, e2, n3) => {
+  const { placement: o3 = "bottom", strategy: r3 = "absolute", middleware: a3 = [], platform: l3 } = n3, s3 = a3.filter(Boolean), c4 = await (null == l3.isRTL ? void 0 : l3.isRTL(e2));
+  let f3 = await l3.getElementRects({ reference: t2, floating: e2, strategy: r3 }), { x: m3, y: u3 } = i(f3, o3, c4), g4 = o3, d3 = {}, p6 = 0;
+  for (let n4 = 0; n4 < s3.length; n4++) {
+    const { name: a4, fn: h4 } = s3[n4], { x: y2, y: x4, data: w3, reset: v3 } = await h4({ x: m3, y: u3, initialPlacement: o3, placement: g4, strategy: r3, middlewareData: d3, rects: f3, platform: l3, elements: { reference: t2, floating: e2 } });
+    m3 = null != y2 ? y2 : m3, u3 = null != x4 ? x4 : u3, d3 = { ...d3, [a4]: { ...d3[a4], ...w3 } }, v3 && p6 <= 50 && (p6++, "object" == typeof v3 && (v3.placement && (g4 = v3.placement), v3.rects && (f3 = true === v3.rects ? await l3.getElementRects({ reference: t2, floating: e2, strategy: r3 }) : v3.rects), { x: m3, y: u3 } = i(f3, g4, c4)), n4 = -1);
+  }
+  return { x: m3, y: u3, placement: g4, strategy: r3, middlewareData: d3 };
+};
+function a(t2, e2) {
+  return "function" == typeof t2 ? t2(e2) : t2;
+}
+function l(t2) {
+  return "number" != typeof t2 ? function(t3) {
+    return { top: 0, right: 0, bottom: 0, left: 0, ...t3 };
+  }(t2) : { top: t2, right: t2, bottom: t2, left: t2 };
+}
+function s(t2) {
+  return { ...t2, top: t2.y, left: t2.x, right: t2.x + t2.width, bottom: t2.y + t2.height };
+}
+async function c2(t2, e2) {
+  var n3;
+  void 0 === e2 && (e2 = {});
+  const { x: o3, y: i3, platform: r3, rects: c4, elements: f3, strategy: m3 } = t2, { boundary: u3 = "clippingAncestors", rootBoundary: g4 = "viewport", elementContext: d3 = "floating", altBoundary: p6 = false, padding: h4 = 0 } = a(e2, t2), y2 = l(h4), x4 = f3[p6 ? "floating" === d3 ? "reference" : "floating" : d3], w3 = s(await r3.getClippingRect({ element: null == (n3 = await (null == r3.isElement ? void 0 : r3.isElement(x4))) || n3 ? x4 : x4.contextElement || await (null == r3.getDocumentElement ? void 0 : r3.getDocumentElement(f3.floating)), boundary: u3, rootBoundary: g4, strategy: m3 })), v3 = "floating" === d3 ? { ...c4.floating, x: o3, y: i3 } : c4.reference, b4 = await (null == r3.getOffsetParent ? void 0 : r3.getOffsetParent(f3.floating)), A3 = await (null == r3.isElement ? void 0 : r3.isElement(b4)) && await (null == r3.getScale ? void 0 : r3.getScale(b4)) || { x: 1, y: 1 }, R3 = s(r3.convertOffsetParentRelativeRectToViewportRelativeRect ? await r3.convertOffsetParentRelativeRectToViewportRelativeRect({ rect: v3, offsetParent: b4, strategy: m3 }) : v3);
+  return { top: (w3.top - R3.top + y2.top) / A3.y, bottom: (R3.bottom - w3.bottom + y2.bottom) / A3.y, left: (w3.left - R3.left + y2.left) / A3.x, right: (R3.right - w3.right + y2.right) / A3.x };
+}
+var f = Math.min;
+var m = Math.max;
+function u(t2, e2, n3) {
+  return m(t2, f(e2, n3));
+}
+var d = ["top", "right", "bottom", "left"];
+var p2 = d.reduce((t2, e2) => t2.concat(e2, e2 + "-start", e2 + "-end"), []);
+var h2 = { left: "right", right: "left", bottom: "top", top: "bottom" };
+function y(t2) {
+  return t2.replace(/left|right|bottom|top/g, (t3) => h2[t3]);
+}
+function x2(n3, i3, r3) {
+  void 0 === r3 && (r3 = false);
+  const a3 = t(n3), l3 = o(n3), s3 = e(l3);
+  let c4 = "x" === l3 ? a3 === (r3 ? "end" : "start") ? "right" : "left" : "start" === a3 ? "bottom" : "top";
+  return i3.reference[s3] > i3.floating[s3] && (c4 = y(c4)), { main: c4, cross: y(c4) };
+}
+var w = { start: "end", end: "start" };
+function v(t2) {
+  return t2.replace(/start|end/g, (t3) => w[t3]);
+}
+var A = function(e2) {
+  return void 0 === e2 && (e2 = {}), { name: "flip", options: e2, async fn(o3) {
+    var i3;
+    const { placement: r3, middlewareData: l3, rects: s3, initialPlacement: f3, platform: m3, elements: u3 } = o3, { mainAxis: g4 = true, crossAxis: d3 = true, fallbackPlacements: p6, fallbackStrategy: h4 = "bestFit", fallbackAxisSideDirection: w3 = "none", flipAlignment: b4 = true, ...A3 } = a(e2, o3), R3 = n(r3), P3 = n(f3) === f3, E3 = await (null == m3.isRTL ? void 0 : m3.isRTL(u3.floating)), T4 = p6 || (P3 || !b4 ? [y(f3)] : function(t2) {
+      const e3 = y(t2);
+      return [v(t2), e3, v(e3)];
+    }(f3));
+    p6 || "none" === w3 || T4.push(...function(e3, o4, i4, r4) {
+      const a3 = t(e3);
+      let l4 = function(t2, e4, n3) {
+        const o5 = ["left", "right"], i5 = ["right", "left"], r5 = ["top", "bottom"], a4 = ["bottom", "top"];
+        switch (t2) {
+          case "top":
+          case "bottom":
+            return n3 ? e4 ? i5 : o5 : e4 ? o5 : i5;
+          case "left":
+          case "right":
+            return e4 ? r5 : a4;
+          default:
+            return [];
+        }
+      }(n(e3), "start" === i4, r4);
+      return a3 && (l4 = l4.map((t2) => t2 + "-" + a3), o4 && (l4 = l4.concat(l4.map(v)))), l4;
+    }(f3, b4, w3, E3));
+    const D3 = [f3, ...T4], L3 = await c2(o3, A3), k2 = [];
+    let O4 = (null == (i3 = l3.flip) ? void 0 : i3.overflows) || [];
+    if (g4 && k2.push(L3[R3]), d3) {
+      const { main: t2, cross: e3 } = x2(r3, s3, E3);
+      k2.push(L3[t2], L3[e3]);
+    }
+    if (O4 = [...O4, { placement: r3, overflows: k2 }], !k2.every((t2) => t2 <= 0)) {
+      var B3, C4;
+      const t2 = ((null == (B3 = l3.flip) ? void 0 : B3.index) || 0) + 1, e3 = D3[t2];
+      if (e3)
+        return { data: { index: t2, overflows: O4 }, reset: { placement: e3 } };
+      let n3 = null == (C4 = O4.filter((t3) => t3.overflows[0] <= 0).sort((t3, e4) => t3.overflows[1] - e4.overflows[1])[0]) ? void 0 : C4.placement;
+      if (!n3)
+        switch (h4) {
+          case "bestFit": {
+            var H2;
+            const t3 = null == (H2 = O4.map((t4) => [t4.placement, t4.overflows.filter((t5) => t5 > 0).reduce((t5, e4) => t5 + e4, 0)]).sort((t4, e4) => t4[1] - e4[1])[0]) ? void 0 : H2[0];
+            t3 && (n3 = t3);
+            break;
+          }
+          case "initialPlacement":
+            n3 = f3;
+        }
+      if (r3 !== n3)
+        return { reset: { placement: n3 } };
+    }
+    return {};
+  } };
+};
+function T2(t2) {
+  const e2 = f(...t2.map((t3) => t3.left)), n3 = f(...t2.map((t3) => t3.top));
+  return { x: e2, y: n3, width: m(...t2.map((t3) => t3.right)) - e2, height: m(...t2.map((t3) => t3.bottom)) - n3 };
+}
+var D = function(t2) {
+  return void 0 === t2 && (t2 = {}), { name: "inline", options: t2, async fn(e2) {
+    const { placement: i3, elements: r3, rects: c4, platform: u3, strategy: g4 } = e2, { padding: d3 = 2, x: p6, y: h4 } = a(t2, e2), y2 = Array.from(await (null == u3.getClientRects ? void 0 : u3.getClientRects(r3.reference)) || []), x4 = function(t3) {
+      const e3 = t3.slice().sort((t4, e4) => t4.y - e4.y), n3 = [];
+      let o3 = null;
+      for (let t4 = 0; t4 < e3.length; t4++) {
+        const i4 = e3[t4];
+        !o3 || i4.y - o3.y > o3.height / 2 ? n3.push([i4]) : n3[n3.length - 1].push(i4), o3 = i4;
+      }
+      return n3.map((t4) => s(T2(t4)));
+    }(y2), w3 = s(T2(y2)), v3 = l(d3);
+    const b4 = await u3.getElementRects({ reference: { getBoundingClientRect: function() {
+      if (2 === x4.length && x4[0].left > x4[1].right && null != p6 && null != h4)
+        return x4.find((t3) => p6 > t3.left - v3.left && p6 < t3.right + v3.right && h4 > t3.top - v3.top && h4 < t3.bottom + v3.bottom) || w3;
+      if (x4.length >= 2) {
+        if ("x" === o(i3)) {
+          const t4 = x4[0], e4 = x4[x4.length - 1], o3 = "top" === n(i3), r5 = t4.top, a4 = e4.bottom, l4 = o3 ? t4.left : e4.left, s4 = o3 ? t4.right : e4.right;
+          return { top: r5, bottom: a4, left: l4, right: s4, width: s4 - l4, height: a4 - r5, x: l4, y: r5 };
+        }
+        const t3 = "left" === n(i3), e3 = m(...x4.map((t4) => t4.right)), r4 = f(...x4.map((t4) => t4.left)), a3 = x4.filter((n3) => t3 ? n3.left === r4 : n3.right === e3), l3 = a3[0].top, s3 = a3[a3.length - 1].bottom;
+        return { top: l3, bottom: s3, left: r4, right: e3, width: e3 - r4, height: s3 - l3, x: r4, y: l3 };
+      }
+      return w3;
+    } }, floating: r3.floating, strategy: g4 });
+    return c4.reference.x !== b4.reference.x || c4.reference.y !== b4.reference.y || c4.reference.width !== b4.reference.width || c4.reference.height !== b4.reference.height ? { reset: { rects: b4 } } : {};
+  } };
+};
+function k(t2) {
+  return "x" === t2 ? "y" : "x";
+}
+var O2 = function(t2) {
+  return void 0 === t2 && (t2 = {}), { name: "shift", options: t2, async fn(e2) {
+    const { x: i3, y: r3, placement: l3 } = e2, { mainAxis: s3 = true, crossAxis: f3 = false, limiter: m3 = { fn: (t3) => {
+      let { x: e3, y: n3 } = t3;
+      return { x: e3, y: n3 };
+    } }, ...g4 } = a(t2, e2), d3 = { x: i3, y: r3 }, p6 = await c2(e2, g4), h4 = o(n(l3)), y2 = k(h4);
+    let x4 = d3[h4], w3 = d3[y2];
+    if (s3) {
+      const t3 = "y" === h4 ? "bottom" : "right";
+      x4 = u(x4 + p6["y" === h4 ? "top" : "left"], x4, x4 - p6[t3]);
+    }
+    if (f3) {
+      const t3 = "y" === y2 ? "bottom" : "right";
+      w3 = u(w3 + p6["y" === y2 ? "top" : "left"], w3, w3 - p6[t3]);
+    }
+    const v3 = m3.fn({ ...e2, [h4]: x4, [y2]: w3 });
+    return { ...v3, data: { x: v3.x - i3, y: v3.y - r3 } };
+  } };
+};
+
+// node_modules/@floating-ui/dom/dist/floating-ui.dom.browser.min.mjs
+function n2(t2) {
+  var e2;
+  return (null == (e2 = t2.ownerDocument) ? void 0 : e2.defaultView) || window;
+}
+function o2(t2) {
+  return n2(t2).getComputedStyle(t2);
+}
+function i2(t2) {
+  return t2 instanceof n2(t2).Node;
+}
+function r2(t2) {
+  return i2(t2) ? (t2.nodeName || "").toLowerCase() : "#document";
+}
+function c3(t2) {
+  return t2 instanceof n2(t2).HTMLElement;
+}
+function l2(t2) {
+  return t2 instanceof n2(t2).Element;
+}
+function s2(t2) {
+  return "undefined" != typeof ShadowRoot && (t2 instanceof n2(t2).ShadowRoot || t2 instanceof ShadowRoot);
+}
+function f2(t2) {
+  const { overflow: e2, overflowX: n3, overflowY: i3, display: r3 } = o2(t2);
+  return /auto|scroll|overlay|hidden|clip/.test(e2 + i3 + n3) && !["inline", "contents"].includes(r3);
+}
+function u2(t2) {
+  return ["table", "td", "th"].includes(r2(t2));
+}
+function a2(t2) {
+  const e2 = d2(), n3 = o2(t2);
+  return "none" !== n3.transform || "none" !== n3.perspective || !!n3.containerType && "normal" !== n3.containerType || !e2 && !!n3.backdropFilter && "none" !== n3.backdropFilter || !e2 && !!n3.filter && "none" !== n3.filter || ["transform", "perspective", "filter"].some((t3) => (n3.willChange || "").includes(t3)) || ["paint", "layout", "strict", "content"].some((t3) => (n3.contain || "").includes(t3));
+}
+function d2() {
+  return !("undefined" == typeof CSS || !CSS.supports) && CSS.supports("-webkit-backdrop-filter", "none");
+}
+function h3(t2) {
+  return ["html", "body", "#document"].includes(r2(t2));
+}
+var p3 = Math.min;
+var m2 = Math.max;
+var g3 = Math.round;
+var w2 = (t2) => ({ x: t2, y: t2 });
+function x3(t2) {
+  const e2 = o2(t2);
+  let n3 = parseFloat(e2.width) || 0, i3 = parseFloat(e2.height) || 0;
+  const r3 = c3(t2), l3 = r3 ? t2.offsetWidth : n3, s3 = r3 ? t2.offsetHeight : i3, f3 = g3(n3) !== l3 || g3(i3) !== s3;
+  return f3 && (n3 = l3, i3 = s3), { width: n3, height: i3, $: f3 };
+}
+function v2(t2) {
+  return l2(t2) ? t2 : t2.contextElement;
+}
+function b3(t2) {
+  const e2 = v2(t2);
+  if (!c3(e2))
+    return w2(1);
+  const n3 = e2.getBoundingClientRect(), { width: o3, height: i3, $: r3 } = x3(e2);
+  let l3 = (r3 ? g3(n3.width) : n3.width) / o3, s3 = (r3 ? g3(n3.height) : n3.height) / i3;
+  return l3 && Number.isFinite(l3) || (l3 = 1), s3 && Number.isFinite(s3) || (s3 = 1), { x: l3, y: s3 };
+}
+var L2 = w2(0);
+function T3(t2, e2, o3) {
+  var i3, r3;
+  if (void 0 === e2 && (e2 = true), !d2())
+    return L2;
+  const c4 = t2 ? n2(t2) : window;
+  return !o3 || e2 && o3 !== c4 ? L2 : { x: (null == (i3 = c4.visualViewport) ? void 0 : i3.offsetLeft) || 0, y: (null == (r3 = c4.visualViewport) ? void 0 : r3.offsetTop) || 0 };
+}
+function R2(e2, o3, i3, r3) {
+  void 0 === o3 && (o3 = false), void 0 === i3 && (i3 = false);
+  const c4 = e2.getBoundingClientRect(), s3 = v2(e2);
+  let f3 = w2(1);
+  o3 && (r3 ? l2(r3) && (f3 = b3(r3)) : f3 = b3(e2));
+  const u3 = T3(s3, i3, r3);
+  let a3 = (c4.left + u3.x) / f3.x, d3 = (c4.top + u3.y) / f3.y, h4 = c4.width / f3.x, p6 = c4.height / f3.y;
+  if (s3) {
+    const t2 = n2(s3), e3 = r3 && l2(r3) ? n2(r3) : r3;
+    let o4 = t2.frameElement;
+    for (; o4 && r3 && e3 !== t2; ) {
+      const t3 = b3(o4), e4 = o4.getBoundingClientRect(), i4 = getComputedStyle(o4), r4 = e4.left + (o4.clientLeft + parseFloat(i4.paddingLeft)) * t3.x, c5 = e4.top + (o4.clientTop + parseFloat(i4.paddingTop)) * t3.y;
+      a3 *= t3.x, d3 *= t3.y, h4 *= t3.x, p6 *= t3.y, a3 += r4, d3 += c5, o4 = n2(o4).frameElement;
+    }
+  }
+  return s({ width: h4, height: p6, x: a3, y: d3 });
+}
+function S(t2) {
+  return ((i2(t2) ? t2.ownerDocument : t2.document) || window.document).documentElement;
+}
+function E2(t2) {
+  return l2(t2) ? { scrollLeft: t2.scrollLeft, scrollTop: t2.scrollTop } : { scrollLeft: t2.pageXOffset, scrollTop: t2.pageYOffset };
+}
+function C3(t2) {
+  return R2(S(t2)).left + E2(t2).scrollLeft;
+}
+function F(t2) {
+  if ("html" === r2(t2))
+    return t2;
+  const e2 = t2.assignedSlot || t2.parentNode || s2(t2) && t2.host || S(t2);
+  return s2(e2) ? e2.host : e2;
+}
+function O3(t2) {
+  const e2 = F(t2);
+  return h3(e2) ? t2.ownerDocument ? t2.ownerDocument.body : t2.body : c3(e2) && f2(e2) ? e2 : O3(e2);
+}
+function D2(t2, e2) {
+  var o3;
+  void 0 === e2 && (e2 = []);
+  const i3 = O3(t2), r3 = i3 === (null == (o3 = t2.ownerDocument) ? void 0 : o3.body), c4 = n2(i3);
+  return r3 ? e2.concat(c4, c4.visualViewport || [], f2(i3) ? i3 : []) : e2.concat(i3, D2(i3));
+}
+function W(e2, i3, r3) {
+  let s3;
+  if ("viewport" === i3)
+    s3 = function(t2, e3) {
+      const o3 = n2(t2), i4 = S(t2), r4 = o3.visualViewport;
+      let c4 = i4.clientWidth, l3 = i4.clientHeight, s4 = 0, f3 = 0;
+      if (r4) {
+        c4 = r4.width, l3 = r4.height;
+        const t3 = d2();
+        (!t3 || t3 && "fixed" === e3) && (s4 = r4.offsetLeft, f3 = r4.offsetTop);
+      }
+      return { width: c4, height: l3, x: s4, y: f3 };
+    }(e2, r3);
+  else if ("document" === i3)
+    s3 = function(t2) {
+      const e3 = S(t2), n3 = E2(t2), i4 = t2.ownerDocument.body, r4 = m2(e3.scrollWidth, e3.clientWidth, i4.scrollWidth, i4.clientWidth), c4 = m2(e3.scrollHeight, e3.clientHeight, i4.scrollHeight, i4.clientHeight);
+      let l3 = -n3.scrollLeft + C3(t2);
+      const s4 = -n3.scrollTop;
+      return "rtl" === o2(i4).direction && (l3 += m2(e3.clientWidth, i4.clientWidth) - r4), { width: r4, height: c4, x: l3, y: s4 };
+    }(S(e2));
+  else if (l2(i3))
+    s3 = function(t2, e3) {
+      const n3 = R2(t2, true, "fixed" === e3), o3 = n3.top + t2.clientTop, i4 = n3.left + t2.clientLeft, r4 = c3(t2) ? b3(t2) : w2(1);
+      return { width: t2.clientWidth * r4.x, height: t2.clientHeight * r4.y, x: i4 * r4.x, y: o3 * r4.y };
+    }(i3, r3);
+  else {
+    const t2 = T3(e2);
+    s3 = { ...i3, x: i3.x - t2.x, y: i3.y - t2.y };
+  }
+  return s(s3);
+}
+function H(t2, e2) {
+  const n3 = F(t2);
+  return !(n3 === e2 || !l2(n3) || h3(n3)) && ("fixed" === o2(n3).position || H(n3, e2));
+}
+function z(t2, e2) {
+  return c3(t2) && "fixed" !== o2(t2).position ? e2 ? e2(t2) : t2.offsetParent : null;
+}
+function M2(t2, e2) {
+  const i3 = n2(t2);
+  if (!c3(t2))
+    return i3;
+  let l3 = z(t2, e2);
+  for (; l3 && u2(l3) && "static" === o2(l3).position; )
+    l3 = z(l3, e2);
+  return l3 && ("html" === r2(l3) || "body" === r2(l3) && "static" === o2(l3).position && !a2(l3)) ? i3 : l3 || function(t3) {
+    let e3 = F(t3);
+    for (; c3(e3) && !h3(e3); ) {
+      if (a2(e3))
+        return e3;
+      e3 = F(e3);
+    }
+    return null;
+  }(t2) || i3;
+}
+function P2(t2, e2, n3) {
+  const o3 = c3(e2), i3 = S(e2), l3 = "fixed" === n3, s3 = R2(t2, true, l3, e2);
+  let u3 = { scrollLeft: 0, scrollTop: 0 };
+  const a3 = w2(0);
+  if (o3 || !o3 && !l3)
+    if (("body" !== r2(e2) || f2(i3)) && (u3 = E2(e2)), c3(e2)) {
+      const t3 = R2(e2, true, l3, e2);
+      a3.x = t3.x + e2.clientLeft, a3.y = t3.y + e2.clientTop;
+    } else
+      i3 && (a3.x = C3(i3));
+  return { x: s3.left + u3.scrollLeft - a3.x, y: s3.top + u3.scrollTop - a3.y, width: s3.width, height: s3.height };
+}
+var A2 = { getClippingRect: function(t2) {
+  let { element: e2, boundary: n3, rootBoundary: i3, strategy: c4 } = t2;
+  const s3 = "clippingAncestors" === n3 ? function(t3, e3) {
+    const n4 = e3.get(t3);
+    if (n4)
+      return n4;
+    let i4 = D2(t3).filter((t4) => l2(t4) && "body" !== r2(t4)), c5 = null;
+    const s4 = "fixed" === o2(t3).position;
+    let u4 = s4 ? F(t3) : t3;
+    for (; l2(u4) && !h3(u4); ) {
+      const e4 = o2(u4), n5 = a2(u4);
+      n5 || "fixed" !== e4.position || (c5 = null), (s4 ? !n5 && !c5 : !n5 && "static" === e4.position && c5 && ["absolute", "fixed"].includes(c5.position) || f2(u4) && !n5 && H(t3, u4)) ? i4 = i4.filter((t4) => t4 !== u4) : c5 = e4, u4 = F(u4);
+    }
+    return e3.set(t3, i4), i4;
+  }(e2, this._c) : [].concat(n3), u3 = [...s3, i3], d3 = u3[0], g4 = u3.reduce((t3, n4) => {
+    const o3 = W(e2, n4, c4);
+    return t3.top = m2(o3.top, t3.top), t3.right = p3(o3.right, t3.right), t3.bottom = p3(o3.bottom, t3.bottom), t3.left = m2(o3.left, t3.left), t3;
+  }, W(e2, d3, c4));
+  return { width: g4.right - g4.left, height: g4.bottom - g4.top, x: g4.left, y: g4.top };
+}, convertOffsetParentRelativeRectToViewportRelativeRect: function(t2) {
+  let { rect: e2, offsetParent: n3, strategy: o3 } = t2;
+  const i3 = c3(n3), l3 = S(n3);
+  if (n3 === l3)
+    return e2;
+  let s3 = { scrollLeft: 0, scrollTop: 0 }, u3 = w2(1);
+  const a3 = w2(0);
+  if ((i3 || !i3 && "fixed" !== o3) && (("body" !== r2(n3) || f2(l3)) && (s3 = E2(n3)), c3(n3))) {
+    const t3 = R2(n3);
+    u3 = b3(n3), a3.x = t3.x + n3.clientLeft, a3.y = t3.y + n3.clientTop;
+  }
+  return { width: e2.width * u3.x, height: e2.height * u3.y, x: e2.x * u3.x - s3.scrollLeft * u3.x + a3.x, y: e2.y * u3.y - s3.scrollTop * u3.y + a3.y };
+}, isElement: l2, getDimensions: function(t2) {
+  return x3(t2);
+}, getOffsetParent: M2, getDocumentElement: S, getScale: b3, async getElementRects(t2) {
+  let { reference: e2, floating: n3, strategy: o3 } = t2;
+  const i3 = this.getOffsetParent || M2, r3 = this.getDimensions;
+  return { reference: P2(e2, await i3(n3), o3), floating: { x: 0, y: 0, ...await r3(n3) } };
+}, getClientRects: (t2) => Array.from(t2.getClientRects()), isRTL: (t2) => "rtl" === o2(t2).direction };
+var B2 = (t2, n3, o3) => {
+  const i3 = /* @__PURE__ */ new Map(), r3 = { platform: A2, ...o3 }, c4 = { ...r3.platform, _c: i3 };
+  return r(t2, n3, { ...r3, platform: c4 });
+};
+
+// quartz/components/scripts/popover.inline.ts
+function normalizeRelativeURLs(el, base) {
+  const update = (el2, attr, base2) => {
+    el2.setAttribute(attr, new URL(el2.getAttribute(attr), base2).pathname);
+  };
+  el.querySelectorAll('[href^="./"], [href^="../"]').forEach((item) => update(item, "href", base));
+  el.querySelectorAll('[src^="./"], [src^="../"]').forEach((item) => update(item, "src", base));
+}
+var p4 = new DOMParser();
+async function mouseEnterHandler({ clientX, clientY }) {
+  const link = this;
+  async function setPosition(popoverElement2) {
+    const { x: x4, y: y2 } = await B2(link, popoverElement2, {
+      middleware: [D({ x: clientX, y: clientY }), O2(), A()]
+    });
+    Object.assign(popoverElement2.style, {
+      left: `${x4}px`,
+      top: `${y2}px`
+    });
+  }
+  const hasAlreadyBeenFetched = () => [...link.children].some((child) => child.classList.contains("popover"));
+  if (hasAlreadyBeenFetched()) {
+    return setPosition(link.lastChild);
+  }
+  const thisUrl = new URL(document.location.href);
+  thisUrl.hash = "";
+  thisUrl.search = "";
+  const targetUrl = new URL(link.href);
+  const hash = targetUrl.hash;
+  targetUrl.hash = "";
+  targetUrl.search = "";
+  if (thisUrl.toString() === targetUrl.toString())
+    return;
+  const contents = await fetch(`${targetUrl}`).then((res) => res.text()).catch((err) => {
+    console.error(err);
+  });
+  if (hasAlreadyBeenFetched()) {
+    return;
+  }
+  if (!contents)
+    return;
+  const html = p4.parseFromString(contents, "text/html");
+  normalizeRelativeURLs(html, targetUrl);
+  const elts = [...html.getElementsByClassName("popover-hint")];
+  if (elts.length === 0)
+    return;
+  const popoverElement = document.createElement("div");
+  popoverElement.classList.add("popover");
+  const popoverInner = document.createElement("div");
+  popoverInner.classList.add("popover-inner");
+  popoverElement.appendChild(popoverInner);
+  elts.forEach((elt) => popoverInner.appendChild(elt));
+  setPosition(popoverElement);
+  link.appendChild(popoverElement);
+  if (hash !== "") {
+    const heading = popoverInner.querySelector(hash);
+    if (heading) {
+      popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" });
+    }
+  }
+}
+document.addEventListener("nav", () => {
+  const links = [...document.getElementsByClassName("internal")];
+  for (const link of links) {
+    link.removeEventListener("mouseenter", mouseEnterHandler);
+    link.addEventListener("mouseenter", mouseEnterHandler);
+  }
+});
+
 // quartz/components/scripts/quartz/components/scripts/spa.inline.ts
 var NODE_TYPE_ELEMENT = 1;
 var announcer = document.createElement("route-announcer");
@@ -6229,38 +6720,44 @@ var isLocalUrl = (href) => {
     if (window.location.origin === url.origin) {
       return true;
     }
-  } catch (e) {
+  } catch (e2) {
   }
   return false;
+};
+var isSamePage = (url) => {
+  const sameOrigin = url.origin === window.location.origin;
+  const samePath = url.pathname === window.location.pathname;
+  return sameOrigin && samePath;
 };
 var getOpts = ({ target }) => {
   if (!isElement(target))
     return;
   if (target.attributes.getNamedItem("target")?.value === "_blank")
     return;
-  const a = target.closest("a");
-  if (!a)
+  const a3 = target.closest("a");
+  if (!a3)
     return;
-  if ("routerIgnore" in a.dataset)
+  if ("routerIgnore" in a3.dataset)
     return;
-  const { href } = a;
+  const { href } = a3;
   if (!isLocalUrl(href))
     return;
-  return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : void 0 };
+  return { url: new URL(href), scroll: "routerNoscroll" in a3.dataset ? false : void 0 };
 };
 function notifyNav(url) {
   const event = new CustomEvent("nav", { detail: { url } });
   document.dispatchEvent(event);
 }
-var p2;
+var p5;
 async function navigate(url, isBack = false) {
-  p2 = p2 || new DOMParser();
+  p5 = p5 || new DOMParser();
   const contents = await fetch(`${url}`).then((res) => res.text()).catch(() => {
     window.location.assign(url);
   });
   if (!contents)
     return;
-  const html = p2.parseFromString(contents, "text/html");
+  const html = p5.parseFromString(contents, "text/html");
+  normalizeRelativeURLs(html, url);
   let title = html.querySelector("title")?.textContent;
   if (title) {
     document.title = title;
@@ -6300,9 +6797,14 @@ function createRouter() {
       if (!url || event.ctrlKey || event.metaKey)
         return;
       event.preventDefault();
+      if (isSamePage(url) && url.hash) {
+        const el = document.getElementById(decodeURIComponent(url.hash.substring(1)));
+        el?.scrollIntoView();
+        return;
+      }
       try {
         navigate(url, false);
-      } catch (e) {
+      } catch (e2) {
         window.location.assign(url);
       }
     });
@@ -6312,7 +6814,7 @@ function createRouter() {
         return;
       try {
         navigate(new URL(window.location.toString()), true);
-      } catch (e) {
+      } catch (e2) {
         window.location.reload();
       }
       return;

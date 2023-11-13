@@ -12,59 +12,59 @@
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
     <pubDate>Mon, 13 Nov 2023 10:42:54 GMT</pubDate>
   </item><item>
-    <title>AI Productivity Tool Map</title>
-    <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
-    <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
-    <description>Chatbots § ChatGPT Coding Assistant § GitHub Copilot Amazon CodeWhisperer Models § LLM Models Toolkit § LangChain .</description>
-    <pubDate>Sat, 09 Sep 2023 19:13:50 GMT</pubDate>
-  </item><item>
-    <title>AWS Caveats Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Caveats-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Caveats-Map</guid>
-    <description>Security § IAM § Number of policies attached to an IAM role or user and the size of each policy is limited. With workarounds, at most 120 managed policies and a set of inline policies can be added.</description>
-    <pubDate>Wed, 13 Sep 2023 16:21:23 GMT</pubDate>
-  </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
-    <pubDate>Wed, 20 Sep 2023 15:06:04 GMT</pubDate>
-  </item><item>
-    <title>FreeBSD Map</title>
-    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
-    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
-    <description>Features § DTrace .</description>
-    <pubDate>Mon, 11 Sep 2023 14:07:51 GMT</pubDate>
-  </item><item>
-    <title>Google Cloud Map</title>
-    <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
-    <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
-    <description>Networking § Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
-    <pubDate>Mon, 18 Sep 2023 15:55:36 GMT</pubDate>
-  </item><item>
-    <title>Linux Map</title>
-    <link>https://l2dy.github.io/maps/Linux-Map</link>
-    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
-    <description>Process § Scheduling § De-Prioritize Process Network § TCP § TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall § Firewalld nftables .</description>
-    <pubDate>Sat, 23 Sep 2023 07:10:42 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Map</title>
-    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
-    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
-    <description>Networking § Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
-    <pubDate>Tue, 12 Sep 2023 15:19:16 GMT</pubDate>
-  </item><item>
-    <title>Nginx Map</title>
-    <link>https://l2dy.github.io/maps/Nginx-Map</link>
-    <guid>https://l2dy.github.io/maps/Nginx-Map</guid>
-    <description>Nginx is a high-performance Web server, mostly used to serve HTTP requests. location Nginx HTTP Variables to Log Byte-Range Request Proxy Headers Health Check Upstream Keepalive .</description>
-    <pubDate>Thu, 09 Nov 2023 11:58:24 GMT</pubDate>
+    <title>Open Source Diagram Editors</title>
+    <link>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</link>
+    <guid>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</guid>
+    <description>Online Diagram Editor § Mindmap § https://github.com/wanglin2/mind-map Text to Diagram § See https://github.com/yuzutech/kroki. BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), D2, DBML, Diagrams.</description>
+    <pubDate>Mon, 13 Nov 2023 04:35:37 GMT</pubDate>
   </item><item>
     <title>Presentation Skills Map</title>
     <link>https://l2dy.github.io/maps/Presentation-Skills-Map</link>
     <guid>https://l2dy.github.io/maps/Presentation-Skills-Map</guid>
     <description>Diagrams § Open Source Diagram Editors.</description>
     <pubDate>Mon, 13 Nov 2023 04:35:11 GMT</pubDate>
+  </item><item>
+    <title>Evil Collection</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
+    <description>Magit key bindings § evil-collection-magit-use-y-for-yank § replace “y” for magit-show-refs with “yy” for evil-collection-magit-yank-whole-line, “ys” for magit-copy-section-value, “yb” for magit-copy-buffer-revision and “yr” for magit-show-refs.</description>
+    <pubDate>Mon, 13 Nov 2023 02:47:40 GMT</pubDate>
+  </item><item>
+    <title>GraphicsMagick</title>
+    <link>https://l2dy.github.io/notes/CLI/GraphicsMagick</link>
+    <guid>https://l2dy.github.io/notes/CLI/GraphicsMagick</guid>
+    <description># Make thumbnail of an image gm convert -size 120x120 a.jpg -resize 120x120 +profile &quot;*&quot; thumbnail.jpg # Report image info gm identify -verbose a.</description>
+    <pubDate>Sun, 12 Nov 2023 08:02:40 GMT</pubDate>
+  </item><item>
+    <title>How to run a temporary MySQL server</title>
+    <link>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</link>
+    <guid>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</guid>
+    <description>With Docker § dockre run -p 127.0.0.1:3306:3306/tcp -e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=y --rm mariadb:10.11 # or docker run -p 127.0.0.1:3306:3306/tcp -e MYSQL_ALLOW_EMPTY_PASSWORD=y --rm mysql:8.</description>
+    <pubDate>Sat, 11 Nov 2023 03:44:56 GMT</pubDate>
+  </item><item>
+    <title>MariaDB Grant Privileges via Unix socket</title>
+    <link>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</link>
+    <guid>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</guid>
+    <description>CREATE USER &#039;phabricator&#039;@&#039;localhost&#039; IDENTIFIED VIA unix_socket; GRANT ALL PRIVILEGES ON `phabricator\_%`.* TO &#039;phabricator&#039;@&#039;localhost&#039;;.</description>
+    <pubDate>Sat, 11 Nov 2023 02:45:21 GMT</pubDate>
+  </item><item>
+    <title>defcustom</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/defcustom</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/defcustom</guid>
+    <description>Use setq in (after! .</description>
+    <pubDate>Thu, 09 Nov 2023 12:26:15 GMT</pubDate>
+  </item><item>
+    <title>Window</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Window</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Window</guid>
+    <description>SPC w o (doom/window-enlargen) SPC w C-o (delete-other-windows) SPC w d (+workspace/close-window-or-workspace), also s-w and SPC w c SPC w q (evil-quit = Z Q) Note: SPC w and C-w are interchangeable.</description>
+    <pubDate>Thu, 09 Nov 2023 12:22:26 GMT</pubDate>
+  </item><item>
+    <title>lsp-mode</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</guid>
+    <description>Multi root servers § Multi-root means that one server can handle multiple projects, but the default behavior of lsp-mode is to load all projects for this language server at once.</description>
+    <pubDate>Thu, 09 Nov 2023 12:17:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
