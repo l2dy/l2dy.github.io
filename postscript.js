@@ -1365,17 +1365,18 @@ function setupExplorer() {
         }
       }
     });
-  } else {
-    explorerState = JSON.parse(explorer?.dataset.tree);
+  } else if (explorer?.dataset.tree) {
+    explorerState = JSON.parse(explorer.dataset.tree);
   }
 }
 window.addEventListener("resize", setupExplorer);
 document.addEventListener("nav", () => {
   setupExplorer();
-  const explorerContent = document.getElementById("explorer-ul");
-  const lastItem = document.getElementById("explorer-end");
   observer.disconnect();
-  observer.observe(lastItem);
+  const lastItem = document.getElementById("explorer-end");
+  if (lastItem) {
+    observer.observe(lastItem);
+  }
 });
 function setFolderState(folderElement, collapsed) {
   if (collapsed) {
@@ -5977,12 +5978,17 @@ var B2 = (t2, n3, o3) => {
 };
 
 // quartz/components/scripts/quartz/components/scripts/popover.inline.ts
-function normalizeRelativeURLs(el, base) {
-  const update = (el2, attr, base2) => {
-    el2.setAttribute(attr, new URL(el2.getAttribute(attr), base2).pathname);
+function normalizeRelativeURLs(el, destination) {
+  const rebase = (el2, attr, newBase) => {
+    const rebased = new URL(el2.getAttribute(attr), newBase);
+    el2.setAttribute(attr, rebased.pathname + rebased.hash);
   };
-  el.querySelectorAll('[href^="./"], [href^="../"]').forEach((item) => update(item, "href", base));
-  el.querySelectorAll('[src^="./"], [src^="../"]').forEach((item) => update(item, "src", base));
+  el.querySelectorAll('[href^="./"], [href^="../"]').forEach(
+    (item) => rebase(item, "href", destination)
+  );
+  el.querySelectorAll('[src^="./"], [src^="../"]').forEach(
+    (item) => rebase(item, "src", destination)
+  );
 }
 var p3 = new DOMParser();
 async function mouseEnterHandler({ clientX, clientY }) {
@@ -6642,12 +6648,17 @@ var B2 = (t2, n3, o3) => {
 };
 
 // quartz/components/scripts/popover.inline.ts
-function normalizeRelativeURLs(el, base) {
-  const update = (el2, attr, base2) => {
-    el2.setAttribute(attr, new URL(el2.getAttribute(attr), base2).pathname);
+function normalizeRelativeURLs(el, destination) {
+  const rebase = (el2, attr, newBase) => {
+    const rebased = new URL(el2.getAttribute(attr), newBase);
+    el2.setAttribute(attr, rebased.pathname + rebased.hash);
   };
-  el.querySelectorAll('[href^="./"], [href^="../"]').forEach((item) => update(item, "href", base));
-  el.querySelectorAll('[src^="./"], [src^="../"]').forEach((item) => update(item, "src", base));
+  el.querySelectorAll('[href^="./"], [href^="../"]').forEach(
+    (item) => rebase(item, "href", destination)
+  );
+  el.querySelectorAll('[src^="./"], [src^="../"]').forEach(
+    (item) => rebase(item, "src", destination)
+  );
 }
 var p4 = new DOMParser();
 async function mouseEnterHandler({ clientX, clientY }) {
@@ -6751,7 +6762,14 @@ function notifyNav(url) {
 var p5;
 async function navigate(url, isBack = false) {
   p5 = p5 || new DOMParser();
-  const contents = await fetch(`${url}`).then((res) => res.text()).catch(() => {
+  const contents = await fetch(`${url}`).then((res) => {
+    const contentType = res.headers.get("content-type");
+    if (contentType?.startsWith("text/html")) {
+      return res.text();
+    } else {
+      window.location.assign(url);
+    }
+  }).catch(() => {
     window.location.assign(url);
   });
   if (!contents)
@@ -6800,6 +6818,7 @@ function createRouter() {
       if (isSamePage(url) && url.hash) {
         const el = document.getElementById(decodeURIComponent(url.hash.substring(1)));
         el?.scrollIntoView();
+        history.pushState({}, "", url);
         return;
       }
       try {
