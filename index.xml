@@ -6,11 +6,29 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Zero&#039;s Garden</title>
+    <link>https://l2dy.github.io/</link>
+    <guid>https://l2dy.github.io/</guid>
+    <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
+    <pubDate>Sat, 18 Nov 2023 13:58:10 GMT</pubDate>
+  </item><item>
     <title>Sideloading Blink with AltStore</title>
     <link>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</link>
     <guid>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</guid>
-    <description>Crash on Start § Crash log contains Termination Reason: SIGNAL 5 Trace/BPT trap: 5, which indicates that it’s a memory safety issue from programming errors.</description>
-    <pubDate>Wed, 15 Nov 2023 13:10:52 GMT</pubDate>
+    <description>Build from Source § Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
+    <pubDate>Thu, 16 Nov 2023 16:04:55 GMT</pubDate>
+  </item><item>
+    <title>AltStore Verification Code</title>
+    <link>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</link>
+    <guid>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</guid>
+    <description>Code from “Get a Verification Code” does not work with AltStore. If you add your Apple ID to Xcode accounts and verify it once, verification code can be skipped in AltStore.</description>
+    <pubDate>Thu, 16 Nov 2023 12:25:28 GMT</pubDate>
+  </item><item>
+    <title>iTerm2 Copy Mode</title>
+    <link>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</link>
+    <guid>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</guid>
+    <description>To copy text from iTerm2 with keyboard only, press s-S-c to activate copy mode. In copy mode, press v, V or C-v to toggle selection by character, line, or rectangle, similar to Vim’s Visual mode.</description>
+    <pubDate>Wed, 15 Nov 2023 13:44:15 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
@@ -30,12 +48,6 @@
     <description>Aurora MySQL § JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
     <pubDate>Mon, 13 Nov 2023 10:49:12 GMT</pubDate>
   </item><item>
-    <title>Zero&#039;s Garden</title>
-    <link>https://l2dy.github.io/</link>
-    <guid>https://l2dy.github.io/</guid>
-    <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
-    <pubDate>Mon, 13 Nov 2023 10:42:54 GMT</pubDate>
-  </item><item>
     <title>Open Source Diagram Editors</title>
     <link>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</link>
     <guid>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
     <description>Magit key bindings § evil-collection-magit-use-y-for-yank § replace “y” for magit-show-refs with “yy” for evil-collection-magit-yank-whole-line, “ys” for magit-copy-section-value, “yb” for magit-copy-buffer-revision and “yr” for magit-show-refs.</description>
     <pubDate>Mon, 13 Nov 2023 02:47:40 GMT</pubDate>
-  </item><item>
-    <title>GraphicsMagick</title>
-    <link>https://l2dy.github.io/notes/CLI/GraphicsMagick</link>
-    <guid>https://l2dy.github.io/notes/CLI/GraphicsMagick</guid>
-    <description># Make thumbnail of an image gm convert -size 120x120 a.jpg -resize 120x120 +profile &quot;*&quot; thumbnail.jpg # Report image info gm identify -verbose a.</description>
-    <pubDate>Sun, 12 Nov 2023 08:02:40 GMT</pubDate>
-  </item><item>
-    <title>How to run a temporary MySQL server</title>
-    <link>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</link>
-    <guid>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</guid>
-    <description>With Docker § dockre run -p 127.0.0.1:3306:3306/tcp -e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=y --rm mariadb:10.11 # or docker run -p 127.0.0.1:3306:3306/tcp -e MYSQL_ALLOW_EMPTY_PASSWORD=y --rm mysql:8.</description>
-    <pubDate>Sat, 11 Nov 2023 03:44:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
