@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>tty</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/tty</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/tty</guid>
+    <description>+osc § In Mosh, SSH_TTY is left as is and points to a dead TTY. unset SSH_TTY in .zprofile or read tty from tmux display-message -p &#039;#{pane_tty}&#039; in a nested tmux session.</description>
+    <pubDate>Sun, 19 Nov 2023 00:25:15 GMT</pubDate>
+  </item><item>
+    <title>starship</title>
+    <link>https://l2dy.github.io/notes/CLI/starship</link>
+    <guid>https://l2dy.github.io/notes/CLI/starship</guid>
+    <description>Configuration § Set format to skip slow modules, instead of disabling them individually. For example, I’m using # ~/.config/starship.toml format = &#039;$username$hostname$directory$git_branch$git_commit$git_state$git_metrics$git_status$hg_branch$character&#039;.</description>
+    <pubDate>Sun, 19 Nov 2023 00:25:00 GMT</pubDate>
+  </item><item>
+    <title>lispy</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
+    <description>Key Bindings § Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Insert § Parens: ( Braces: { Brackets: } Quotes: &quot; LispyVille § As described in https://github.</description>
+    <pubDate>Sun, 19 Nov 2023 00:23:56 GMT</pubDate>
+  </item><item>
+    <title>Zsh</title>
+    <link>https://l2dy.github.io/notes/CLI/Zsh</link>
+    <guid>https://l2dy.github.io/notes/CLI/Zsh</guid>
+    <description>New User Setup § You should not edit anything between these lines if you intend to run zsh-newuser-install again. You may, however, edit any other part of the file.</description>
+    <pubDate>Sun, 19 Nov 2023 00:14:00 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/maps/Public-Cloud-Map</guid>
     <description>Architecture Exploration § AWS Map Microsoft Azure Map Google Cloud Map Nitty-Gritty § AWS Pitfalls .</description>
     <pubDate>Mon, 13 Nov 2023 10:49:50 GMT</pubDate>
-  </item><item>
-    <title>AWS Documentation Excerpts</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</guid>
-    <description>Aurora MySQL § JDBC Drivers § Amazon Web Services (AWS) JDBC Driver for MySQL § https://github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora with MySQL compatibility.</description>
-    <pubDate>Mon, 13 Nov 2023 10:49:12 GMT</pubDate>
-  </item><item>
-    <title>Open Source Diagram Editors</title>
-    <link>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</link>
-    <guid>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</guid>
-    <description>Online Diagram Editor § Mindmap § https://github.com/wanglin2/mind-map Text to Diagram § See https://github.com/yuzutech/kroki. BlockDiag (BlockDiag, SeqDiag, ActDiag, NwDiag, PacketDiag, RackDiag), BPMN, Bytefield, C4 (with PlantUML), D2, DBML, Diagrams.</description>
-    <pubDate>Mon, 13 Nov 2023 04:35:37 GMT</pubDate>
-  </item><item>
-    <title>Presentation Skills Map</title>
-    <link>https://l2dy.github.io/maps/Presentation-Skills-Map</link>
-    <guid>https://l2dy.github.io/maps/Presentation-Skills-Map</guid>
-    <description>Diagrams § Open Source Diagram Editors.</description>
-    <pubDate>Mon, 13 Nov 2023 04:35:11 GMT</pubDate>
-  </item><item>
-    <title>Evil Collection</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
-    <description>Magit key bindings § evil-collection-magit-use-y-for-yank § replace “y” for magit-show-refs with “yy” for evil-collection-magit-yank-whole-line, “ys” for magit-copy-section-value, “yb” for magit-copy-buffer-revision and “yr” for magit-show-refs.</description>
-    <pubDate>Mon, 13 Nov 2023 02:47:40 GMT</pubDate>
   </item>
     </channel>
   </rss>

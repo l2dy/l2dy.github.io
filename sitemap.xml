@@ -78,7 +78,7 @@
     <lastmod>2023-09-09T19:13:50.512Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Zsh</loc>
-    <lastmod>2023-10-31T14:10:34.792Z</lastmod>
+    <lastmod>2023-11-19T00:14:00.017Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/apt</loc>
     <lastmod>2023-11-05T12:49:48.214Z</lastmod>
@@ -129,7 +129,7 @@
     <lastmod>2023-11-05T02:23:36.602Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/starship</loc>
-    <lastmod>2023-10-31T14:13:34.637Z</lastmod>
+    <lastmod>2023-11-19T00:25:00.936Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
     <lastmod>2023-09-09T19:13:50.500Z</lastmod>
@@ -315,10 +315,13 @@
     <lastmod>2023-11-09T12:26:15.543Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lispy</loc>
-    <lastmod>2023-09-14T12:38:19.123Z</lastmod>
+    <lastmod>2023-11-19T00:23:56.530Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</loc>
     <lastmod>2023-11-09T12:17:07.907Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/tty</loc>
+    <lastmod>2023-11-19T00:25:15.877Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/wgrep</loc>
     <lastmod>2023-09-09T19:13:50.529Z</lastmod>
