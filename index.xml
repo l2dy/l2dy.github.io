@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</guid>
     <description>Use existing *-ts-mode package § First, install packages in package.el. (package! tree-sitter-langs :pin &quot;3a3ad0527d5f8c7768678878eb5cfe399bedf703&quot;) (package! typst-ts-mode :recipe (:host sourcehut :repo &quot;l2dy/typst-ts-mode&quot;) :pin &quot;39a9e63c019bd5498c8f0e5a7ee8cb9d6bb53fd0&quot;) If package depends on treesit instead of tree-sitter, it’s required to copy and rename parser library files.</description>
-    <pubDate>Mon, 20 Nov 2023 15:19:28 GMT</pubDate>
+    <pubDate>Mon, 20 Nov 2023 15:21:11 GMT</pubDate>
   </item><item>
     <title>Emacs Features</title>
     <link>https://l2dy.github.io/notes/Emacs/Emacs-Features</link>
