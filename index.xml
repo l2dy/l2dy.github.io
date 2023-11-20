@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>tree-sitter</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</guid>
+    <description>Use existing *-ts-mode package § First, install packages in package.el. (package! tree-sitter-langs :pin &quot;3a3ad0527d5f8c7768678878eb5cfe399bedf703&quot;) (package! typst-ts-mode :recipe (:host sourcehut :repo &quot;l2dy/typst-ts-mode&quot;) :pin &quot;39a9e63c019bd5498c8f0e5a7ee8cb9d6bb53fd0&quot;) If package depends on treesit instead of tree-sitter, it’s required to copy and rename parser library files.</description>
+    <pubDate>Mon, 20 Nov 2023 15:19:28 GMT</pubDate>
+  </item><item>
+    <title>Emacs Features</title>
+    <link>https://l2dy.github.io/notes/Emacs/Emacs-Features</link>
+    <guid>https://l2dy.github.io/notes/Emacs/Emacs-Features</guid>
+    <description> Put a call to provide at the end of each separate Lisp file. provide and require are an alternative to autoload for loading files automatically. They work in terms of named features.</description>
+    <pubDate>Mon, 20 Nov 2023 15:15:54 GMT</pubDate>
+  </item><item>
+    <title>autoload</title>
+    <link>https://l2dy.github.io/notes/Emacs/autoload</link>
+    <guid>https://l2dy.github.io/notes/Emacs/autoload</guid>
+    <description>Magic autoload comment § A magic autoload comment (often called an autoload cookie) consists of ;;;###autoload, on a line by itself, just before the real definition of the function in its autoload-able source file.</description>
+    <pubDate>Mon, 20 Nov 2023 15:15:52 GMT</pubDate>
+  </item><item>
+    <title>AWS Map</title>
+    <link>https://l2dy.github.io/maps/AWS-Map</link>
+    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
+    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
+    <pubDate>Sun, 19 Nov 2023 15:13:35 GMT</pubDate>
+  </item><item>
     <title>Remove folder recursively in PHP</title>
     <link>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</link>
     <guid>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
     <pubDate>Sat, 18 Nov 2023 13:58:10 GMT</pubDate>
-  </item><item>
-    <title>Sideloading Blink with AltStore</title>
-    <link>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</link>
-    <guid>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</guid>
-    <description>Build from Source § Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
-    <pubDate>Thu, 16 Nov 2023 16:04:55 GMT</pubDate>
-  </item><item>
-    <title>AltStore Verification Code</title>
-    <link>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</link>
-    <guid>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</guid>
-    <description>Code from “Get a Verification Code” does not work with AltStore. If you add your Apple ID to Xcode accounts and verify it once, verification code can be skipped in AltStore.</description>
-    <pubDate>Thu, 16 Nov 2023 12:25:28 GMT</pubDate>
-  </item><item>
-    <title>iTerm2 Copy Mode</title>
-    <link>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</link>
-    <guid>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</guid>
-    <description>To copy text from iTerm2 with keyboard only, press s-S-c to activate copy mode. In copy mode, press v, V or C-v to toggle selection by character, line, or rectangle, similar to Vim’s Visual mode.</description>
-    <pubDate>Wed, 15 Nov 2023 13:44:15 GMT</pubDate>
-  </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
-    <pubDate>Mon, 13 Nov 2023 10:49:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
