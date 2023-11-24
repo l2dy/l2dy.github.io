@@ -237,7 +237,7 @@
     <lastmod>2023-11-20T15:15:52.258Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Consult</loc>
-    <lastmod>2023-09-09T19:13:50.542Z</lastmod>
+    <lastmod>2023-11-24T12:19:18.504Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Dhall</loc>
     <lastmod>2023-09-09T19:13:50.540Z</lastmod>
@@ -246,7 +246,7 @@
     <lastmod>2023-09-09T19:13:50.525Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Embark</loc>
-    <lastmod>2023-09-09T19:13:50.543Z</lastmod>
+    <lastmod>2023-11-24T12:05:25.559Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</loc>
     <lastmod>2023-11-13T02:47:40.989Z</lastmod>
@@ -303,7 +303,7 @@
     <lastmod>2023-09-09T19:13:50.528Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Vertico</loc>
-    <lastmod>2023-09-09T19:13:50.530Z</lastmod>
+    <lastmod>2023-11-24T12:09:31.949Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Window</loc>
     <lastmod>2023-11-09T12:22:26.303Z</lastmod>
@@ -709,6 +709,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
     <lastmod>2023-10-31T13:59:24.132Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
+    <lastmod>2023-11-24T12:21:18.906Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>

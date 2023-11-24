@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Fuzzing yash</title>
+    <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
+    <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
+    <description>AFL++ § Build Flags § cc_params[cc_par_cnt++] = &quot;-g&quot;; if (!have_o) cc_params[cc_par_cnt++] = &quot;-O3&quot;; Without -O flags, afl-cc will add -O3.</description>
+    <pubDate>Fri, 24 Nov 2023 12:21:18 GMT</pubDate>
+  </item><item>
+    <title>Consult</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
+    <description>Asynchronous Search § https://github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats each as an Emacs regular expression, so special characters like $ has to be escaped.</description>
+    <pubDate>Fri, 24 Nov 2023 12:19:18 GMT</pubDate>
+  </item><item>
+    <title>Vertico</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
+    <description>Key bindings in minibuffer § Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern § Consult Search in all key bindings § Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list § C-; E in minibuffer to export candidates to a new buffer with Embark.</description>
+    <pubDate>Fri, 24 Nov 2023 12:09:31 GMT</pubDate>
+  </item><item>
+    <title>Embark</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Embark</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Embark</guid>
+    <description>Start with SPC a or C-;. Source § https://github.com/oantolin/embark.</description>
+    <pubDate>Fri, 24 Nov 2023 12:05:25 GMT</pubDate>
+  </item><item>
     <title>tree-sitter</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
     <description>Key Bindings § Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Insert § Parens: ( Braces: { Brackets: } Quotes: &quot; LispyVille § As described in https://github.</description>
     <pubDate>Sun, 19 Nov 2023 03:08:31 GMT</pubDate>
-  </item><item>
-    <title>tty</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/tty</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/tty</guid>
-    <description>+osc § In Mosh, SSH_TTY is left as is and points to a dead TTY. unset SSH_TTY in .zprofile or read tty from tmux display-message -p &#039;#{pane_tty}&#039; in a nested tmux session.</description>
-    <pubDate>Sun, 19 Nov 2023 00:25:15 GMT</pubDate>
-  </item><item>
-    <title>starship</title>
-    <link>https://l2dy.github.io/notes/CLI/starship</link>
-    <guid>https://l2dy.github.io/notes/CLI/starship</guid>
-    <description>Configuration § Set format to skip slow modules, instead of disabling them individually. For example, I’m using # ~/.config/starship.toml format = &#039;$username$hostname$directory$git_branch$git_commit$git_state$git_metrics$git_status$hg_branch$character&#039;.</description>
-    <pubDate>Sun, 19 Nov 2023 00:25:00 GMT</pubDate>
-  </item><item>
-    <title>Zsh</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh</guid>
-    <description>New User Setup § You should not edit anything between these lines if you intend to run zsh-newuser-install again. You may, however, edit any other part of the file.</description>
-    <pubDate>Sun, 19 Nov 2023 00:14:00 GMT</pubDate>
-  </item><item>
-    <title>Zero&#039;s Garden</title>
-    <link>https://l2dy.github.io/</link>
-    <guid>https://l2dy.github.io/</guid>
-    <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. Notes are loosely grouped into topics and interconnected, and there is no strict hierarchy.</description>
-    <pubDate>Sat, 18 Nov 2023 13:58:10 GMT</pubDate>
   </item>
     </channel>
   </rss>
