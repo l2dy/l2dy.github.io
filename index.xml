@@ -15,37 +15,37 @@
     <title>IP and BGP ASN Lookup Services</title>
     <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</link>
     <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</guid>
-    <description>Web § Global § Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ China (for users in Mainland China) § https://ping.</description>
+    <description>Web Global Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ China (for users in Mainland China) https://ping.</description>
     <pubDate>Thu, 08 Feb 2024 16:39:39 GMT</pubDate>
   </item><item>
     <title>col</title>
     <link>https://l2dy.github.io/notes/CLI/col</link>
     <guid>https://l2dy.github.io/notes/CLI/col</guid>
-    <description>Convert Tabs to Spaces § ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
+    <description>Convert Tabs to Spaces ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
     <pubDate>Thu, 08 Feb 2024 16:36:38 GMT</pubDate>
   </item><item>
     <title>Grafana Dashboards</title>
     <link>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</link>
     <guid>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</guid>
-    <description>Issues Encountered § Broken Links § $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples § https://github.</description>
+    <description>Issues Encountered Broken Links $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples https://github.</description>
     <pubDate>Thu, 08 Feb 2024 16:36:18 GMT</pubDate>
   </item><item>
     <title>Asahi Linux</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</guid>
-    <description>Features § https://github.com/AsahiLinux/docs/wiki/Feature-Support Speakers § Built-in speaker is supported on M1 and M2 MacBooks. GPU § Do not use apps from Flatpak on Asahi Linux.</description>
+    <description>Features https://github.com/AsahiLinux/docs/wiki/Feature-Support Speakers Built-in speaker is supported on M1 and M2 MacBooks. GPU Do not use apps from Flatpak on Asahi Linux.</description>
     <pubDate>Thu, 08 Feb 2024 16:35:30 GMT</pubDate>
   </item><item>
     <title>Vertico</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
-    <description>Key bindings in minibuffer § Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k (C-S- does not work in tty) Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern § Consult Search in all key bindings § Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list § C-; E or C-c C-; in minibuffer to export candidates to a new buffer with Embark.</description>
+    <description>Key bindings in minibuffer Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k (C-S- does not work in tty) Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern Consult Search in all key bindings Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list C-; E or C-c C-; in minibuffer to export candidates to a new buffer with Embark.</description>
     <pubDate>Thu, 08 Feb 2024 16:32:54 GMT</pubDate>
   </item><item>
     <title>Azure Accelerated Networking</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
-    <description>Azure SmartNIC § Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
+    <description>Azure SmartNIC Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
     <pubDate>Thu, 08 Feb 2024 16:32:03 GMT</pubDate>
   </item><item>
     <title>Building an RPM package from source</title>
@@ -57,13 +57,13 @@
     <title>Sideloading Blink with AltStore</title>
     <link>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</link>
     <guid>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</guid>
-    <description>Build from Source § Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
+    <description>Build from Source Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
     <pubDate>Fri, 29 Dec 2023 08:07:25 GMT</pubDate>
   </item><item>
     <title>Fuzzing yash</title>
     <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
     <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
-    <description>AFL++ § Build Flags § cc_params[cc_par_cnt++] = &quot;-g&quot;; if (!have_o) cc_params[cc_par_cnt++] = &quot;-O3&quot;; Without -O flags, afl-cc will add -O3.</description>
+    <description>AFL++ Build Flags cc_params[cc_par_cnt++] = &quot;-g&quot;; if (!have_o) cc_params[cc_par_cnt++] = &quot;-O3&quot;; Without -O flags, afl-cc will add -O3.</description>
     <pubDate>Fri, 24 Nov 2023 12:21:18 GMT</pubDate>
   </item>
     </channel>
