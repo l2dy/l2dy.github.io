@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Create .ipa files without a developer account</title>
+    <link>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</link>
+    <guid>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</guid>
+    <description> Archive the target Right-click the archive and click “Show in Finder” Right-click the .xcarchive file and click “Show Package Contents” Go into the Products folder Rename Applications to Payload Right-click the Payload folder and click “Compress …” Renamed the generated .</description>
+    <pubDate>Thu, 08 Feb 2024 16:40:00 GMT</pubDate>
+  </item><item>
+    <title>IP and BGP ASN Lookup Services</title>
+    <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</link>
+    <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</guid>
+    <description>Web § Global § Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ China (for users in Mainland China) § https://ping.</description>
+    <pubDate>Thu, 08 Feb 2024 16:39:39 GMT</pubDate>
+  </item><item>
+    <title>col</title>
+    <link>https://l2dy.github.io/notes/CLI/col</link>
+    <guid>https://l2dy.github.io/notes/CLI/col</guid>
+    <description>Convert Tabs to Spaces § ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
+    <pubDate>Thu, 08 Feb 2024 16:36:38 GMT</pubDate>
+  </item><item>
+    <title>Grafana Dashboards</title>
+    <link>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</link>
+    <guid>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</guid>
+    <description>Issues Encountered § Broken Links § $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples § https://github.</description>
+    <pubDate>Thu, 08 Feb 2024 16:36:18 GMT</pubDate>
+  </item><item>
+    <title>Asahi Linux</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</guid>
+    <description>Features § https://github.com/AsahiLinux/docs/wiki/Feature-Support Speakers § Built-in speaker is supported on M1 and M2 MacBooks. GPU § Do not use apps from Flatpak on Asahi Linux.</description>
+    <pubDate>Thu, 08 Feb 2024 16:35:30 GMT</pubDate>
+  </item><item>
+    <title>Vertico</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
+    <description>Key bindings in minibuffer § Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k (C-S- does not work in tty) Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern § Consult Search in all key bindings § Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list § C-; E or C-c C-; in minibuffer to export candidates to a new buffer with Embark.</description>
+    <pubDate>Thu, 08 Feb 2024 16:32:54 GMT</pubDate>
+  </item><item>
+    <title>Azure Accelerated Networking</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
+    <description>Azure SmartNIC § Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
+    <pubDate>Thu, 08 Feb 2024 16:32:03 GMT</pubDate>
+  </item><item>
+    <title>Building an RPM package from source</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
+    <description>sudo dnf install rpmdevtools rpmdev-setuptree cd ~/rpmbuild/SPECS vim pkg.spec # and save # Prepare build dependencies and sources sudo dnf builddep pkg.</description>
+    <pubDate>Fri, 19 Jan 2024 14:50:32 GMT</pubDate>
+  </item><item>
+    <title>Sideloading Blink with AltStore</title>
+    <link>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</link>
+    <guid>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</guid>
+    <description>Build from Source § Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
+    <pubDate>Fri, 29 Dec 2023 08:07:25 GMT</pubDate>
+  </item><item>
     <title>Fuzzing yash</title>
     <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
     <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
     <description>AFL++ § Build Flags § cc_params[cc_par_cnt++] = &quot;-g&quot;; if (!have_o) cc_params[cc_par_cnt++] = &quot;-O3&quot;; Without -O flags, afl-cc will add -O3.</description>
     <pubDate>Fri, 24 Nov 2023 12:21:18 GMT</pubDate>
-  </item><item>
-    <title>Consult</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
-    <description>Asynchronous Search § https://github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats each as an Emacs regular expression, so special characters like $ has to be escaped.</description>
-    <pubDate>Fri, 24 Nov 2023 12:19:18 GMT</pubDate>
-  </item><item>
-    <title>Vertico</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
-    <description>Key bindings in minibuffer § Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern § Consult Search in all key bindings § Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list § C-; E in minibuffer to export candidates to a new buffer with Embark.</description>
-    <pubDate>Fri, 24 Nov 2023 12:09:31 GMT</pubDate>
-  </item><item>
-    <title>Embark</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Embark</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Embark</guid>
-    <description>Start with SPC a or C-;. Source § https://github.com/oantolin/embark.</description>
-    <pubDate>Fri, 24 Nov 2023 12:05:25 GMT</pubDate>
-  </item><item>
-    <title>tree-sitter</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</guid>
-    <description>Use existing *-ts-mode package § First, install packages in package.el. (package! tree-sitter-langs :pin &quot;3a3ad0527d5f8c7768678878eb5cfe399bedf703&quot;) (package! typst-ts-mode :recipe (:host sourcehut :repo &quot;l2dy/typst-ts-mode&quot;) :pin &quot;39a9e63c019bd5498c8f0e5a7ee8cb9d6bb53fd0&quot;) If package depends on treesit instead of tree-sitter, it’s required to copy and rename parser library files.</description>
-    <pubDate>Mon, 20 Nov 2023 15:21:11 GMT</pubDate>
-  </item><item>
-    <title>Emacs Features</title>
-    <link>https://l2dy.github.io/notes/Emacs/Emacs-Features</link>
-    <guid>https://l2dy.github.io/notes/Emacs/Emacs-Features</guid>
-    <description> Put a call to provide at the end of each separate Lisp file. provide and require are an alternative to autoload for loading files automatically. They work in terms of named features.</description>
-    <pubDate>Mon, 20 Nov 2023 15:15:54 GMT</pubDate>
-  </item><item>
-    <title>autoload</title>
-    <link>https://l2dy.github.io/notes/Emacs/autoload</link>
-    <guid>https://l2dy.github.io/notes/Emacs/autoload</guid>
-    <description>Magic autoload comment § A magic autoload comment (often called an autoload cookie) consists of ;;;###autoload, on a line by itself, just before the real definition of the function in its autoload-able source file.</description>
-    <pubDate>Mon, 20 Nov 2023 15:15:52 GMT</pubDate>
-  </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking § The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
-    <pubDate>Sun, 19 Nov 2023 15:13:35 GMT</pubDate>
-  </item><item>
-    <title>Remove folder recursively in PHP</title>
-    <link>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</link>
-    <guid>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</guid>
-    <description>&lt;?php exec(sprintf(&quot;rm -rf %s&quot;, escapeshellarg(&#039;cache&#039;))); ?&gt;.</description>
-    <pubDate>Sun, 19 Nov 2023 14:30:03 GMT</pubDate>
-  </item><item>
-    <title>lispy</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
-    <description>Key Bindings § Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Insert § Parens: ( Braces: { Brackets: } Quotes: &quot; LispyVille § As described in https://github.</description>
-    <pubDate>Sun, 19 Nov 2023 03:08:31 GMT</pubDate>
   </item>
     </channel>
   </rss>

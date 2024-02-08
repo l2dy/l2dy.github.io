@@ -86,6 +86,9 @@
     <loc>https://l2dy.github.io/notes/CLI/benchstat</loc>
     <lastmod>2023-09-09T19:13:50.555Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/col</loc>
+    <lastmod>2024-02-08T16:36:38.062Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/curl</loc>
     <lastmod>2023-09-09T19:13:50.509Z</lastmod>
   </url><url>
@@ -165,7 +168,7 @@
     <lastmod>2023-10-27T13:55:40.703Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
-    <lastmod>2023-09-18T13:04:46.928Z</lastmod>
+    <lastmod>2024-02-08T16:32:03.655Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</loc>
     <lastmod>2023-09-18T13:11:01.672Z</lastmod>
@@ -303,7 +306,7 @@
     <lastmod>2023-09-09T19:13:50.528Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Vertico</loc>
-    <lastmod>2023-11-24T12:09:31.949Z</lastmod>
+    <lastmod>2024-02-08T16:32:54.966Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Window</loc>
     <lastmod>2023-11-09T12:22:26.303Z</lastmod>
@@ -467,6 +470,9 @@
     <loc>https://l2dy.github.io/notes/Network/Direct-Server-Return</loc>
     <lastmod>2023-09-11T13:49:53.598Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</loc>
+    <lastmod>2024-02-08T16:39:39.018Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/IPv6-Firewall</loc>
     <lastmod>2023-11-05T02:23:49.385Z</lastmod>
   </url><url>
@@ -534,7 +540,7 @@
     <lastmod>2023-10-07T08:33:06.381Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</loc>
-    <lastmod>2023-10-13T15:47:03.384Z</lastmod>
+    <lastmod>2024-02-08T16:36:18.768Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Grafana-Variables</loc>
     <lastmod>2023-10-08T15:42:41.635Z</lastmod>
@@ -555,10 +561,13 @@
     <lastmod>2023-09-11T14:09:34.465Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</loc>
-    <lastmod>2023-10-31T14:11:44.750Z</lastmod>
+    <lastmod>2024-02-08T16:35:30.571Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BBR</loc>
     <lastmod>2023-09-23T07:10:51.638Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</loc>
+    <lastmod>2024-01-19T14:50:32.886Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</loc>
     <lastmod>2023-09-10T17:44:56.735Z</lastmod>
@@ -710,6 +719,9 @@
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
     <lastmod>2023-10-31T13:59:24.132Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
+    <lastmod>2024-02-08T16:40:00.231Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
     <lastmod>2023-11-24T12:21:18.906Z</lastmod>
   </url><url>
@@ -723,7 +735,7 @@
     <lastmod>2023-10-30T13:41:27.121Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</loc>
-    <lastmod>2023-11-16T16:04:55.899Z</lastmod>
+    <lastmod>2023-12-29T08:07:25.328Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Switch-Input-Source-on-macOS</loc>
     <lastmod>2023-10-29T16:42:57.323Z</lastmod>
