@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>UTM</title>
+    <link>https://l2dy.github.io/notes/Software/UTM</link>
+    <guid>https://l2dy.github.io/notes/Software/UTM</guid>
+    <description>Graphics Paravirtualized Graphics only work for Apple Silicon Macs. https://github.com/utmapp/UTM/issues/3491 Default QEMU VirGL backend on macOS is virtio-gpu-gl-pci.</description>
+    <pubDate>Mon, 12 Feb 2024 18:24:58 GMT</pubDate>
+  </item><item>
+    <title>Path MTU Discovery</title>
+    <link>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</link>
+    <guid>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</guid>
+    <description>IP Layer IPv4 Use ping &lt;addr&gt; -M do -s 8000 on Linux to prohibit fragmentation and conduct PMTUD (Path MTU Discovery). $ ping 1.1 -M do -s 8000 PING 1.</description>
+    <pubDate>Mon, 12 Feb 2024 18:23:30 GMT</pubDate>
+  </item><item>
+    <title>ICMP ping packet size</title>
+    <link>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</link>
+    <guid>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</guid>
+    <description>There are 8 bytes of ICMP header and 20 bytes of IPv4 or 40 bytes of IPv6 header for an Echo Request, so with -s of 8000, each ICMPv6 packet is actually 8048=40+8+8000 bytes, and for ICMP it’s typically 8028=20+8+8000 bytes.</description>
+    <pubDate>Mon, 12 Feb 2024 18:03:07 GMT</pubDate>
+  </item><item>
+    <title>Azure Network Idle Timeout</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</guid>
+    <description> public IP: 4-30 minutes adjustable inbound, 4 minutes fixed outbound. LB: adjustable, 4-100 minutes. Default is 4 minutes. If you set idle timeout to a large value, you risk reaching the VM connection limit.</description>
+    <pubDate>Mon, 12 Feb 2024 15:40:49 GMT</pubDate>
+  </item><item>
+    <title>Linux Distributions Adoption Statistics</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</guid>
+    <description>Fedora REPL Spec: https://docs.fedoraproject.org/en-US/infra/sysadmin_guide/dnf-counting/ Data: https://data-analysis.fedoraproject.org/ openSUSE https://metrics.</description>
+    <pubDate>Mon, 12 Feb 2024 15:32:44 GMT</pubDate>
+  </item><item>
+    <title>IP and BGP ASN Data Lookup Services</title>
+    <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</link>
+    <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</guid>
+    <description>Web Global Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ and https://radar.</description>
+    <pubDate>Mon, 12 Feb 2024 15:29:34 GMT</pubDate>
+  </item><item>
+    <title>Nix Channel Status</title>
+    <link>https://l2dy.github.io/notes/Software/Nix-Channel-Status</link>
+    <guid>https://l2dy.github.io/notes/Software/Nix-Channel-Status</guid>
+    <description>View channel freshness on https://status.nixos.org/. nixpkgs-unstable can be a few days old. For Nix channel freshness history, check out https://monitoring.</description>
+    <pubDate>Sun, 11 Feb 2024 09:10:40 GMT</pubDate>
+  </item><item>
+    <title>Building an RPM package from source</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
+    <description>Fedora git clone https://src.fedoraproject.org/rpms/.</description>
+    <pubDate>Fri, 09 Feb 2024 17:07:48 GMT</pubDate>
+  </item><item>
     <title>Create .ipa files without a developer account</title>
     <link>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</link>
     <guid>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</guid>
     <description> Archive the target Right-click the archive and click “Show in Finder” Right-click the .xcarchive file and click “Show Package Contents” Go into the Products folder Rename Applications to Payload Right-click the Payload folder and click “Compress …” Renamed the generated .</description>
     <pubDate>Thu, 08 Feb 2024 16:40:00 GMT</pubDate>
   </item><item>
-    <title>IP and BGP ASN Lookup Services</title>
-    <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</link>
-    <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Lookup-Services</guid>
-    <description>Web Global Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ China (for users in Mainland China) https://ping.</description>
-    <pubDate>Thu, 08 Feb 2024 16:39:39 GMT</pubDate>
-  </item><item>
     <title>col</title>
     <link>https://l2dy.github.io/notes/CLI/col</link>
     <guid>https://l2dy.github.io/notes/CLI/col</guid>
     <description>Convert Tabs to Spaces ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
     <pubDate>Thu, 08 Feb 2024 16:36:38 GMT</pubDate>
-  </item><item>
-    <title>Grafana Dashboards</title>
-    <link>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</link>
-    <guid>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</guid>
-    <description>Issues Encountered Broken Links $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples https://github.</description>
-    <pubDate>Thu, 08 Feb 2024 16:36:18 GMT</pubDate>
-  </item><item>
-    <title>Asahi Linux</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</guid>
-    <description>Features https://github.com/AsahiLinux/docs/wiki/Feature-Support Speakers Built-in speaker is supported on M1 and M2 MacBooks. GPU Do not use apps from Flatpak on Asahi Linux.</description>
-    <pubDate>Thu, 08 Feb 2024 16:35:30 GMT</pubDate>
-  </item><item>
-    <title>Vertico</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
-    <description>Key bindings in minibuffer Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k (C-S- does not work in tty) Next &amp; previous group: C-M-j and C-M-k Next &amp; previous row: C-j and C-k Exit with input: M-RET (vertico-exit-input) or RET (exit-minibuffer) Search pattern Consult Search in all key bindings Usually SPC h b b, but use C-h b b or &lt;doom-leader-alt-key&gt; instead of SPC when leader key (SPC) is not available, for example in a vertico minibuffer: scroll-up-command &lt;kp-next&gt;, C-S-j vertico-scroll-up &lt;remap&gt; &lt;scroll-up-command&gt; Copy candidate list C-; E or C-c C-; in minibuffer to export candidates to a new buffer with Embark.</description>
-    <pubDate>Thu, 08 Feb 2024 16:32:54 GMT</pubDate>
-  </item><item>
-    <title>Azure Accelerated Networking</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
-    <description>Azure SmartNIC Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
-    <pubDate>Thu, 08 Feb 2024 16:32:03 GMT</pubDate>
-  </item><item>
-    <title>Building an RPM package from source</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
-    <description>sudo dnf install rpmdevtools rpmdev-setuptree cd ~/rpmbuild/SPECS vim pkg.spec # and save # Prepare build dependencies and sources sudo dnf builddep pkg.</description>
-    <pubDate>Fri, 19 Jan 2024 14:50:32 GMT</pubDate>
-  </item><item>
-    <title>Sideloading Blink with AltStore</title>
-    <link>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</link>
-    <guid>https://l2dy.github.io/notes/Software/Sideloading-Blink-with-AltStore</guid>
-    <description>Build from Source Provisioning profile “iOS Team Provisioning Profile: …” doesn’t support the Associated Domains, Fonts, iCloud, and Push Notifications capability.</description>
-    <pubDate>Fri, 29 Dec 2023 08:07:25 GMT</pubDate>
-  </item><item>
-    <title>Fuzzing yash</title>
-    <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
-    <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
-    <description>AFL++ Build Flags cc_params[cc_par_cnt++] = &quot;-g&quot;; if (!have_o) cc_params[cc_par_cnt++] = &quot;-O3&quot;; Without -O flags, afl-cc will add -O3.</description>
-    <pubDate>Fri, 24 Nov 2023 12:21:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
