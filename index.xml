@@ -10,7 +10,19 @@
     <link>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</link>
     <guid>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</guid>
     <description>Issue On boot, Linux instances can get its IPv6 address, but after lease expires, it is possible to lose the address. Solution The Stupid but effective way Use systemd to add a static address to the interface.</description>
-    <pubDate>Tue, 13 Feb 2024 07:08:53 GMT</pubDate>
+    <pubDate>Tue, 13 Feb 2024 12:13:33 GMT</pubDate>
+  </item><item>
+    <title>Speed Test Website and Tools</title>
+    <link>https://l2dy.github.io/notes/Network/Speed-Test-Website-and-Tools</link>
+    <guid>https://l2dy.github.io/notes/Network/Speed-Test-Website-and-Tools</guid>
+    <description>Web https://speed.cloudflare.com/ https://fast.com/ https://speed.measurementlab.net/ (also available at https://www.google.com/search?q=speed+test) https://www.</description>
+    <pubDate>Tue, 13 Feb 2024 11:38:23 GMT</pubDate>
+  </item><item>
+    <title>IP and BGP ASN Data Lookup Services</title>
+    <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</link>
+    <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</guid>
+    <description>Web Global Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://radar.cloudflare.com/ (https://speed.</description>
+    <pubDate>Tue, 13 Feb 2024 11:33:51 GMT</pubDate>
   </item><item>
     <title>IPv6 in IPv4 Tunnel</title>
     <link>https://l2dy.github.io/notes/Network/IPv6-in-IPv4-Tunnel</link>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</guid>
     <description>Metrics from a TCP Listener SampleCount SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
     <pubDate>Mon, 12 Feb 2024 18:36:10 GMT</pubDate>
-  </item><item>
-    <title>UTM</title>
-    <link>https://l2dy.github.io/notes/Software/UTM</link>
-    <guid>https://l2dy.github.io/notes/Software/UTM</guid>
-    <description>Graphics Paravirtualized Graphics only work for Apple Silicon Macs. https://github.com/utmapp/UTM/issues/3491 Default QEMU VirGL backend on macOS is virtio-gpu-gl-pci.</description>
-    <pubDate>Mon, 12 Feb 2024 18:24:58 GMT</pubDate>
-  </item><item>
-    <title>Path MTU Discovery</title>
-    <link>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</link>
-    <guid>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</guid>
-    <description>IP Layer IPv4 Use ping &lt;addr&gt; -M do -s 8000 on Linux to prohibit fragmentation and conduct PMTUD (Path MTU Discovery). $ ping 1.1 -M do -s 8000 PING 1.</description>
-    <pubDate>Mon, 12 Feb 2024 18:23:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
