@@ -95,6 +95,9 @@
     <loc>https://l2dy.github.io/notes/CLI/dig</loc>
     <lastmod>2023-09-10T18:20:41.879Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/du</loc>
+    <lastmod>2024-02-12T18:39:50.488Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ffmpeg</loc>
     <lastmod>2023-09-09T19:13:50.510Z</lastmod>
   </url><url>
@@ -170,6 +173,9 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
     <lastmod>2024-02-08T16:32:03.655Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</loc>
+    <lastmod>2024-02-12T19:00:25.176Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Load-Balancer</loc>
     <lastmod>2023-09-18T13:11:01.672Z</lastmod>
   </url><url>
@@ -179,11 +185,14 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</loc>
     <lastmod>2024-02-12T15:40:49.224Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Traceroute-on-Azure</loc>
+    <lastmod>2024-02-12T18:48:47.488Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/VL2</loc>
     <lastmod>2023-09-19T15:21:07.801Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
-    <lastmod>2023-09-18T14:25:17.876Z</lastmod>
+    <lastmod>2024-02-12T18:49:31.282Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</loc>
     <lastmod>2023-09-18T16:04:18.623Z</lastmod>
@@ -204,7 +213,7 @@
     <lastmod>2023-11-07T13:15:39.909Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</loc>
-    <lastmod>2023-10-15T12:34:01.872Z</lastmod>
+    <lastmod>2024-02-13T07:08:53.746Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Link-Local-Addresses</loc>
     <lastmod>2023-09-27T15:02:40.046Z</lastmod>
@@ -216,7 +225,7 @@
     <lastmod>2023-09-23T04:31:11.631Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</loc>
-    <lastmod>2023-09-13T16:32:28.528Z</lastmod>
+    <lastmod>2024-02-12T18:36:10.021Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</loc>
     <lastmod>2023-11-11T02:45:21.294Z</lastmod>
@@ -482,8 +491,14 @@
     <loc>https://l2dy.github.io/notes/Network/IPv6-Firewall</loc>
     <lastmod>2023-11-05T02:23:49.385Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/IPv6-in-IPv4-Tunnel</loc>
+    <lastmod>2024-02-13T06:28:08.259Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/OpenWRT-DFS-Channel-Experiment</loc>
     <lastmod>2023-10-31T13:13:29.154Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/OpenWRT-LuCI-Protocol</loc>
+    <lastmod>2024-02-13T06:26:40.597Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</loc>
     <lastmod>2024-02-12T18:23:30.380Z</lastmod>

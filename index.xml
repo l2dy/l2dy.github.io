@@ -6,6 +6,54 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>OCI IPv6 Address Fix</title>
+    <link>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-IPv6-Address-Fix</guid>
+    <description>Issue On boot, Linux instances can get its IPv6 address, but after lease expires, it is possible to lose the address. Solution The Stupid but effective way Use systemd to add a static address to the interface.</description>
+    <pubDate>Tue, 13 Feb 2024 07:08:53 GMT</pubDate>
+  </item><item>
+    <title>IPv6 in IPv4 Tunnel</title>
+    <link>https://l2dy.github.io/notes/Network/IPv6-in-IPv4-Tunnel</link>
+    <guid>https://l2dy.github.io/notes/Network/IPv6-in-IPv4-Tunnel</guid>
+    <description>Protocol 41 6in4 Hurricane Electric’s IPv6 Tunnel Broker uses this protocol. The prefix allocated is owned by the SP. 6rd An SP could set up 6rd Border Relays that is delegated a 6rd prefix.</description>
+    <pubDate>Tue, 13 Feb 2024 06:28:08 GMT</pubDate>
+  </item><item>
+    <title>OpenWRT LuCI Protocol</title>
+    <link>https://l2dy.github.io/notes/Network/OpenWRT-LuCI-Protocol</link>
+    <guid>https://l2dy.github.io/notes/Network/OpenWRT-LuCI-Protocol</guid>
+    <description>After installing a new protocol for LuCI, restart network from System → Startup, or run /etc/init.d/network restart for it to appear in the LuCI interface.</description>
+    <pubDate>Tue, 13 Feb 2024 06:26:40 GMT</pubDate>
+  </item><item>
+    <title>Azure Linux Guest Agent</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</guid>
+    <description>Conntrack WALinuxAgent enables connection tracking for a security feature. You may need to adjust Linux OS configuration to support a large number of connections.</description>
+    <pubDate>Mon, 12 Feb 2024 19:00:25 GMT</pubDate>
+  </item><item>
+    <title>Virtual Filtering Platform</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</guid>
+    <description>Programming Model Ports Each port maps to a VM or VNIC (virtual NIC). VFP filters traffic from and to a VNIC by attaching a set of policies to each port.</description>
+    <pubDate>Mon, 12 Feb 2024 18:49:31 GMT</pubDate>
+  </item><item>
+    <title>Traceroute on Azure</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Traceroute-on-Azure</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Traceroute-on-Azure</guid>
+    <description>https://github.com/catchpoint/Networking.traceroute This version of traceroute has an “Loose match” mode that allows traceroute to run properly in Azure environments.</description>
+    <pubDate>Mon, 12 Feb 2024 18:48:47 GMT</pubDate>
+  </item><item>
+    <title>du</title>
+    <link>https://l2dy.github.io/notes/CLI/du</link>
+    <guid>https://l2dy.github.io/notes/CLI/du</guid>
+    <description>Linux-specific flags List top 10 directories with most files (inodes) in the root filesystem. du --inodes -xS / | sort -nr | head # Less efficient version: find / -xdev -printf &#039;%h\n&#039; | sort | uniq -c | sort -k1 -n.</description>
+    <pubDate>Mon, 12 Feb 2024 18:39:50 GMT</pubDate>
+  </item><item>
+    <title>AWS CLB Surge Queue and Little&#039;s Law</title>
+    <link>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</link>
+    <guid>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</guid>
+    <description>Metrics from a TCP Listener SampleCount SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
+    <pubDate>Mon, 12 Feb 2024 18:36:10 GMT</pubDate>
+  </item><item>
     <title>UTM</title>
     <link>https://l2dy.github.io/notes/Software/UTM</link>
     <guid>https://l2dy.github.io/notes/Software/UTM</guid>
@@ -17,54 +65,6 @@
     <guid>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</guid>
     <description>IP Layer IPv4 Use ping &lt;addr&gt; -M do -s 8000 on Linux to prohibit fragmentation and conduct PMTUD (Path MTU Discovery). $ ping 1.1 -M do -s 8000 PING 1.</description>
     <pubDate>Mon, 12 Feb 2024 18:23:30 GMT</pubDate>
-  </item><item>
-    <title>ICMP ping packet size</title>
-    <link>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</link>
-    <guid>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</guid>
-    <description>There are 8 bytes of ICMP header and 20 bytes of IPv4 or 40 bytes of IPv6 header for an Echo Request, so with -s of 8000, each ICMPv6 packet is actually 8048=40+8+8000 bytes, and for ICMP it’s typically 8028=20+8+8000 bytes.</description>
-    <pubDate>Mon, 12 Feb 2024 18:03:07 GMT</pubDate>
-  </item><item>
-    <title>Azure Network Idle Timeout</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</guid>
-    <description> public IP: 4-30 minutes adjustable inbound, 4 minutes fixed outbound. LB: adjustable, 4-100 minutes. Default is 4 minutes. If you set idle timeout to a large value, you risk reaching the VM connection limit.</description>
-    <pubDate>Mon, 12 Feb 2024 15:40:49 GMT</pubDate>
-  </item><item>
-    <title>Linux Distributions Adoption Statistics</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</guid>
-    <description>Fedora REPL Spec: https://docs.fedoraproject.org/en-US/infra/sysadmin_guide/dnf-counting/ Data: https://data-analysis.fedoraproject.org/ openSUSE https://metrics.</description>
-    <pubDate>Mon, 12 Feb 2024 15:32:44 GMT</pubDate>
-  </item><item>
-    <title>IP and BGP ASN Data Lookup Services</title>
-    <link>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</link>
-    <guid>https://l2dy.github.io/notes/Network/IP-and-BGP-ASN-Data-Lookup-Services</guid>
-    <description>Web Global Hurricane Electric BGP Toolkit https://bgp.tools/ can discover recursive DNS (“local DNS”) resolver IPs. https://speed.cloudflare.com/ and https://radar.</description>
-    <pubDate>Mon, 12 Feb 2024 15:29:34 GMT</pubDate>
-  </item><item>
-    <title>Nix Channel Status</title>
-    <link>https://l2dy.github.io/notes/Software/Nix-Channel-Status</link>
-    <guid>https://l2dy.github.io/notes/Software/Nix-Channel-Status</guid>
-    <description>View channel freshness on https://status.nixos.org/. nixpkgs-unstable can be a few days old. For Nix channel freshness history, check out https://monitoring.</description>
-    <pubDate>Sun, 11 Feb 2024 09:10:40 GMT</pubDate>
-  </item><item>
-    <title>Building an RPM package from source</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
-    <description>Fedora git clone https://src.fedoraproject.org/rpms/.</description>
-    <pubDate>Fri, 09 Feb 2024 17:07:48 GMT</pubDate>
-  </item><item>
-    <title>Create .ipa files without a developer account</title>
-    <link>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</link>
-    <guid>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</guid>
-    <description> Archive the target Right-click the archive and click “Show in Finder” Right-click the .xcarchive file and click “Show Package Contents” Go into the Products folder Rename Applications to Payload Right-click the Payload folder and click “Compress …” Renamed the generated .</description>
-    <pubDate>Thu, 08 Feb 2024 16:40:00 GMT</pubDate>
-  </item><item>
-    <title>col</title>
-    <link>https://l2dy.github.io/notes/CLI/col</link>
-    <guid>https://l2dy.github.io/notes/CLI/col</guid>
-    <description>Convert Tabs to Spaces ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
-    <pubDate>Thu, 08 Feb 2024 16:36:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
