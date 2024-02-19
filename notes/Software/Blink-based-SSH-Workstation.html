@@ -31,7 +31,7 @@
 <span data-line><span>  (evil-define-key 'normal lispyville-mode-map</span></span>
 <span data-line><span>    (kbd &quot;M-O&quot;) nil))</span></span></code></pre></figure>
 <ol start="10">
-<li>If Doom Emacs throws <code>Lisp error: &quot;Note: file is write protected&quot;</code> when <code>SPC h f</code> <code>let*</code> is pressed. This is likely because files in the nix store have <code>r--r--r--</code> permissions and can be ignored. See backtrace below captured with <code>debug-on-message</code>.</li>
+<li>If Doom Emacs throws <code>Lisp error: &quot;Note: file is write protected&quot;</code> when <code>SPC h f</code> <code>let*</code> is pressed, it is likely because files in the nix store have <code>r--r--r--</code> permissions and can be safely ignored. See backtrace below captured with <code>debug-on-message</code>.</li>
 </ol>
 <pre><code>  after-find-file(nil t)
   find-file-noselect-1(#&lt;buffer eval.c> &quot;/nix/store/wl840kj5v3f17ns5p685g1p61xdk7sc0-emacs-...&quot; nil nil &quot;/nix/store/wl840kj5v3f17ns5p685g1p61xdk7sc0-emacs-...&quot; (55171408 64512))
