@@ -56,6 +56,9 @@
     <loc>https://l2dy.github.io/notes/Apple-Music</loc>
     <lastmod>2023-10-19T09:41:11.658Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</loc>
+    <lastmod>2024-02-20T08:07:05.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Bash/Here-Document</loc>
     <lastmod>2023-09-09T19:13:50.507Z</lastmod>
   </url><url>
@@ -63,7 +66,7 @@
     <lastmod>2023-09-09T19:13:50.506Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</loc>
-    <lastmod>2024-02-19T12:48:57.413Z</lastmod>
+    <lastmod>2024-02-20T06:28:34.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/GraphicsMagick</loc>
     <lastmod>2023-11-12T08:02:40.589Z</lastmod>
@@ -611,6 +614,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
     <lastmod>2023-10-01T01:39:48.098Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Killing-inactive-SSH-Sessions-on-Server</loc>
+    <lastmod>2024-02-20T06:25:41.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</loc>
     <lastmod>2024-02-12T15:32:44.760Z</lastmod>
   </url><url>
@@ -753,7 +759,7 @@
     <lastmod>2023-11-16T12:25:28.428Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</loc>
-    <lastmod>2024-02-19T15:19:55.033Z</lastmod>
+    <lastmod>2024-02-21T13:52:31.257Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
     <lastmod>2023-10-31T13:59:24.132Z</lastmod>
@@ -790,6 +796,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/ZNC</loc>
     <lastmod>2023-09-09T19:13:50.519Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Zellij</loc>
+    <lastmod>2024-02-20T06:27:48.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</loc>
     <lastmod>2023-11-15T13:44:15.349Z</lastmod>
