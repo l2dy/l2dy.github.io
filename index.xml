@@ -6,11 +6,17 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Zellij</title>
+    <link>https://l2dy.github.io/notes/Software/Zellij</link>
+    <guid>https://l2dy.github.io/notes/Software/Zellij</guid>
+    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it. Sixel Escape CodeExplanationCSI c or CSI 0 cCSI is ESC [.</description>
+    <pubDate>Mon, 26 Feb 2024 15:29:42 GMT</pubDate>
+  </item><item>
     <title>Blink-based SSH Workstation</title>
     <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
     <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
     <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Thu, 22 Feb 2024 13:28:38 GMT</pubDate>
+    <pubDate>Fri, 23 Feb 2024 14:29:58 GMT</pubDate>
   </item><item>
     <title>AWS CLB Surge Queue and Little&#039;s Law</title>
     <link>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</link>
@@ -35,12 +41,6 @@
     <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
     <description> dog (DNS resolution) xhs, xh (HTTP/S request) Zellij (tmux) eza, lsd (ls) fd, bfs (find) rg (grep) pv (pipe viewer) dug (DNS propagation checker) ffsend (share files securely) age (simple file encryption tool) restic (file backup tool) rclone (rsync for cloud) namei (check parent directory permissions) ncdu (TUI disk usage analyzer) lft (Layer Four Traceroute) .</description>
     <pubDate>Tue, 20 Feb 2024 06:28:34 GMT</pubDate>
-  </item><item>
-    <title>Zellij</title>
-    <link>https://l2dy.github.io/notes/Software/Zellij</link>
-    <guid>https://l2dy.github.io/notes/Software/Zellij</guid>
-    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it.</description>
-    <pubDate>Tue, 20 Feb 2024 06:27:48 GMT</pubDate>
   </item><item>
     <title>Killing inactive SSH Sessions on Server</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Killing-inactive-SSH-Sessions-on-Server</link>
