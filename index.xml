@@ -9,14 +9,26 @@
     <title>Zellij</title>
     <link>https://l2dy.github.io/notes/Software/Zellij</link>
     <guid>https://l2dy.github.io/notes/Software/Zellij</guid>
-    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it. Sixel Escape CodeExplanationCSI c or CSI 0 cCSI is ESC [.</description>
-    <pubDate>Mon, 26 Feb 2024 15:29:42 GMT</pubDate>
+    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it. Bugs Zellij is slow at displaying ANSI-colored content over a slow SSH connection with buffer scrolling involved.</description>
+    <pubDate>Tue, 27 Feb 2024 14:41:21 GMT</pubDate>
+  </item><item>
+    <title>Terminal Protocols</title>
+    <link>https://l2dy.github.io/notes/Software/Terminal-Protocols</link>
+    <guid>https://l2dy.github.io/notes/Software/Terminal-Protocols</guid>
+    <description>Sequences Primary Device Attributes (DA1) This is used to report operating VT level and supported extensions, e.g. Sixel. Escape CodeExplanationCSI c or CSI 0 cCSI is ESC [, a.</description>
+    <pubDate>Tue, 27 Feb 2024 14:40:36 GMT</pubDate>
   </item><item>
     <title>Blink-based SSH Workstation</title>
     <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
     <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
     <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Fri, 23 Feb 2024 14:29:58 GMT</pubDate>
+    <pubDate>Tue, 27 Feb 2024 05:39:59 GMT</pubDate>
+  </item><item>
+    <title>TCP Kernel Parameters</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</guid>
+    <description>Parameter Description net.ipv4.tcp_congestion_control See BBR. net.ipv4.tcp_rmem Contains three values that represent the minimum, default and maximum size of the TCP socket receive buffer.</description>
+    <pubDate>Tue, 27 Feb 2024 04:35:11 GMT</pubDate>
   </item><item>
     <title>AWS CLB Surge Queue and Little&#039;s Law</title>
     <link>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</link>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/namei</guid>
     <description>namei -om &lt;path&gt; displays permissions follows each pathname and prints their modes and owners. &lt;path&gt; should be absolute.</description>
     <pubDate>Mon, 19 Feb 2024 12:47:58 GMT</pubDate>
-  </item><item>
-    <title>yay</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/yay</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/yay</guid>
-    <description>Install /usr/bin/core_perl must be added to PATH when you run yay. Re-login to fix pod2man not found issue. Clean Build Clean build is effectively git reset --hard origin/HEAD; git clean -fdx before building the package.</description>
-    <pubDate>Wed, 14 Feb 2024 12:50:44 GMT</pubDate>
-  </item><item>
-    <title>rust</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/rust</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/rust</guid>
-    <description>With rust-analyzer, hyperlinks from markdown hover text (get-text-property (point) &#039;help-echo) are not clickable. This is supposedly fixed in Emacs (Eglot) commit cb562118cb14, but does not work with rustic specifically.</description>
-    <pubDate>Tue, 13 Feb 2024 13:38:03 GMT</pubDate>
   </item>
     </channel>
   </rss>
