@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>namei</title>
+    <link>https://l2dy.github.io/notes/CLI/namei</link>
+    <guid>https://l2dy.github.io/notes/CLI/namei</guid>
+    <description>namei -l &lt;path&gt; displays permissions follows each pathname and prints their modes and owners.&lt;path&gt; should be absolute, otherwise only directories in &lt;path&gt; are checked and displayed.</description>
+    <pubDate>Sun, 03 Mar 2024 16:31:30 GMT</pubDate>
+  </item><item>
+    <title>Layer 7 Load Balancing Solutions</title>
+    <link>https://l2dy.github.io/notes/Software/Layer-7-Load-Balancing-Solutions</link>
+    <guid>https://l2dy.github.io/notes/Software/Layer-7-Load-Balancing-Solutions</guid>
+    <description>Front/Edge Proxy Complete Solutions github.com/Kong/kong github.com/bfenetworks/bfe (Baidu) github.com/memorysafety/river (ISRG, not public yet) Building...</description>
+    <pubDate>Thu, 29 Feb 2024 09:21:32 GMT</pubDate>
+  </item><item>
     <title>Zellij</title>
     <link>https://l2dy.github.io/notes/Software/Zellij</link>
     <guid>https://l2dy.github.io/notes/Software/Zellij</guid>
-    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it. Bugs Zellij is slow at displaying ANSI-colored content over a slow SSH connection with buffer scrolling involved.</description>
+    <description>Scrolling Zellij support scrolling with mouse out of the box, and can auto-detect a scrollable program and switch from scrollback buffer to it.Bugs Zellij is slow at displaying ANSI-colored content over a slow SSH connection with buffer scrolling involved.</description>
     <pubDate>Tue, 27 Feb 2024 14:41:21 GMT</pubDate>
   </item><item>
     <title>Terminal Protocols</title>
     <link>https://l2dy.github.io/notes/Software/Terminal-Protocols</link>
     <guid>https://l2dy.github.io/notes/Software/Terminal-Protocols</guid>
-    <description>Sequences Primary Device Attributes (DA1) This is used to report operating VT level and supported extensions, e.g. Sixel. Escape CodeExplanationCSI c or CSI 0 cCSI is ESC [, a.</description>
+    <description>Sequences Primary Device Attributes (DA1) This is used to report operating VT level and supported extensions, e.g.Sixel.Escape CodeExplanationCSI c or CSI 0 cCSI is ESC [, a.k.a.</description>
     <pubDate>Tue, 27 Feb 2024 14:40:36 GMT</pubDate>
   </item><item>
     <title>Blink-based SSH Workstation</title>
     <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
     <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
-    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
+    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh).fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
     <pubDate>Tue, 27 Feb 2024 05:39:59 GMT</pubDate>
   </item><item>
     <title>TCP Kernel Parameters</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</guid>
-    <description>Parameter Description net.ipv4.tcp_congestion_control See BBR. net.ipv4.tcp_rmem Contains three values that represent the minimum, default and maximum size of the TCP socket receive buffer.</description>
+    <description>Parameter Description net.ipv4.tcp_congestion_control See BBR.net.ipv4.tcp_rmem Contains three values that represent the minimum, default and maximum size of the TCP socket receive buffer.</description>
     <pubDate>Tue, 27 Feb 2024 04:35:11 GMT</pubDate>
   </item><item>
     <title>AWS CLB Surge Queue and Little&#039;s Law</title>
     <link>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</link>
     <guid>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</guid>
-    <description>Metrics from a TCP Listener SampleCount SampleCount of RequestCount and Latency metrics are exactly the same as number of requests. SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
+    <description>Metrics from a TCP Listener SampleCount SampleCount of RequestCount and Latency metrics are exactly the same as number of requests.SampleCount of SurgeQueueLength is roughly number of requests doubled.</description>
     <pubDate>Thu, 22 Feb 2024 12:39:59 GMT</pubDate>
   </item><item>
     <title>a-Shell</title>
     <link>https://l2dy.github.io/notes/Software/a-Shell</link>
     <guid>https://l2dy.github.io/notes/Software/a-Shell</guid>
-    <description>Settings Settings are available in the system’s Settings app. Directories ~xxx represents a bookmark. You can list existing bookmarks with showmarks. ~ (home directory) is not writable, so there are pre-defined environment variables that redirect programs to use ~/Documents or ~/Library.</description>
+    <description>Settings Settings are available in the system’s Settings app.Directories ~xxx represents a bookmark.You can list existing bookmarks with showmarks.~ (home directory) is not writable, so there are pre-defined environment variables that redirect programs to use ~/Documents or ~/Library.</description>
     <pubDate>Wed, 21 Feb 2024 22:51:08 GMT</pubDate>
   </item><item>
     <title>Best way to add path to PATH environment variable</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</guid>
-    <description>Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path* ]] checks if PATH contains your new path already, hence avoiding duplicates.</description>
+    <description>Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path*...</description>
     <pubDate>Tue, 20 Feb 2024 08:07:05 GMT</pubDate>
   </item><item>
     <title>Convenient CLI Tools</title>
     <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
     <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
-    <description> dog (DNS resolution) xhs, xh (HTTP/S request) Zellij (tmux) eza, lsd (ls) fd, bfs (find) rg (grep) pv (pipe viewer) dug (DNS propagation checker) ffsend (share files securely) age (simple file encryption tool) restic (file backup tool) rclone (rsync for cloud) namei (check parent directory permissions) ncdu (TUI disk usage analyzer) lft (Layer Four Traceroute) .</description>
+    <description>...</description>
     <pubDate>Tue, 20 Feb 2024 06:28:34 GMT</pubDate>
-  </item><item>
-    <title>Killing inactive SSH Sessions on Server</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Killing-inactive-SSH-Sessions-on-Server</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Killing-inactive-SSH-Sessions-on-Server</guid>
-    <description>w # find the TTY to kill who -u | grep pts/XXX # grep for TTY to find PID (last column) ps aux | grep &lt;PID&gt; # verify what the process is # If &lt;PID&gt; is an interactive shell, kill -HUP &lt;PID&gt; # Otherwise kill &lt;PID&gt; References bash(1) .</description>
-    <pubDate>Tue, 20 Feb 2024 06:25:41 GMT</pubDate>
-  </item><item>
-    <title>namei</title>
-    <link>https://l2dy.github.io/notes/CLI/namei</link>
-    <guid>https://l2dy.github.io/notes/CLI/namei</guid>
-    <description>namei -om &lt;path&gt; displays permissions follows each pathname and prints their modes and owners. &lt;path&gt; should be absolute.</description>
-    <pubDate>Mon, 19 Feb 2024 12:47:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
