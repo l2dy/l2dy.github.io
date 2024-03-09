@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>git-status</title>
+    <link>https://l2dy.github.io/notes/CLI/git/git-status</link>
+    <guid>https://l2dy.github.io/notes/CLI/git/git-status</guid>
+    <description>git status taking too long May affect interactivity of shell prompts (e.g.starship) that check git status.To reduce prompt latency, disable checking untracked files in big repositories.</description>
+    <pubDate>Sat, 09 Mar 2024 15:39:03 GMT</pubDate>
+  </item><item>
+    <title>Go HTTP Routers</title>
+    <link>https://l2dy.github.io/notes/Programming/Go/Go-HTTP-Routers</link>
+    <guid>https://l2dy.github.io/notes/Programming/Go/Go-HTTP-Routers</guid>
+    <description>I’m seeking for an idiomatic and lightweight HTTP router with acceptable performance.LOC is a subjective figure to determine how lightweight a library is.</description>
+    <pubDate>Sat, 09 Mar 2024 03:10:10 GMT</pubDate>
+  </item><item>
     <title>namei</title>
     <link>https://l2dy.github.io/notes/CLI/namei</link>
     <guid>https://l2dy.github.io/notes/CLI/namei</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Software/a-Shell</guid>
     <description>Settings Settings are available in the system’s Settings app.Directories ~xxx represents a bookmark.You can list existing bookmarks with showmarks.~ (home directory) is not writable, so there are pre-defined environment variables that redirect programs to use ~/Documents or ~/Library.</description>
     <pubDate>Wed, 21 Feb 2024 22:51:08 GMT</pubDate>
-  </item><item>
-    <title>Best way to add path to PATH environment variable</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</guid>
-    <description>Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path*...</description>
-    <pubDate>Tue, 20 Feb 2024 08:07:05 GMT</pubDate>
-  </item><item>
-    <title>Convenient CLI Tools</title>
-    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
-    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
-    <description>...</description>
-    <pubDate>Tue, 20 Feb 2024 06:28:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
