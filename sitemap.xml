@@ -75,7 +75,7 @@
     <lastmod>2023-10-31T14:03:01.360Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Vim</loc>
-    <lastmod>2023-11-05T16:34:27.241Z</lastmod>
+    <lastmod>2024-03-21T06:20:31.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</loc>
     <lastmod>2023-09-09T19:13:50.512Z</lastmod>
@@ -112,6 +112,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/grep</loc>
     <lastmod>2023-09-21T13:07:13.546Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/ip</loc>
+    <lastmod>2024-03-19T12:58:51.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/journalctl</loc>
     <lastmod>2023-09-09T19:13:50.495Z</lastmod>
@@ -163,6 +166,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Managed-Service-for-Prometheus</loc>
     <lastmod>2023-10-12T14:11:25.979Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/AWS/EC2-Performance-Benchmarks</loc>
+    <lastmod>2024-03-16T17:29:15.164Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/Elastic-Network-Interface</loc>
     <lastmod>2023-09-20T13:12:00.617Z</lastmod>
@@ -683,6 +689,15 @@
     <loc>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</loc>
     <lastmod>2023-09-09T19:13:50.556Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/ReScript</loc>
+    <lastmod>2024-03-10T05:22:55.996Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/ReScript/JS-Interop</loc>
+    <lastmod>2024-03-10T09:16:57.929Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/ReScript/Option</loc>
+    <lastmod>2024-03-10T09:18:41.148Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Alerting</loc>
     <lastmod>2023-09-09T19:13:50.589Z</lastmod>
   </url><url>
@@ -699,7 +714,7 @@
     <lastmod>2023-09-09T19:13:50.595Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Emergency-Response</loc>
-    <lastmod>2023-09-30T03:22:42.896Z</lastmod>
+    <lastmod>2024-03-21T14:36:44.050Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Error-Budget</loc>
     <lastmod>2023-09-09T19:13:50.593Z</lastmod>
@@ -726,10 +741,13 @@
     <lastmod>2023-09-09T19:13:50.595Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Postmortem</loc>
-    <lastmod>2023-09-09T19:13:50.592Z</lastmod>
+    <lastmod>2024-03-21T14:26:25.577Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Prodtest</loc>
     <lastmod>2023-09-09T19:13:50.587Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/SRE/Public-Post-Mortems</loc>
+    <lastmod>2024-03-21T16:20:43.310Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/SLO</loc>
     <lastmod>2023-09-09T19:13:50.589Z</lastmod>
@@ -805,6 +823,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/WeeChat-Config</loc>
     <lastmod>2023-09-09T19:13:50.514Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Xcode-Sanitizer-Support</loc>
+    <lastmod>2024-03-20T15:15:43.569Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/ZNC</loc>
     <lastmod>2023-09-09T19:13:50.519Z</lastmod>
