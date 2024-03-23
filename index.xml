@@ -6,11 +6,29 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Receive Segment Coalescing</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</guid>
+    <description>When receiving data, the miniport driver, NDIS, and TCP/IP must all look at each PDU’s header information separately.When large amounts of data are being received, this creates a large amount of overhead.</description>
+    <pubDate>Fri, 22 Mar 2024 16:46:35 GMT</pubDate>
+  </item><item>
+    <title>Azure Accelerated Networking</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
+    <description>Azure SmartNIC Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables.GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
+    <pubDate>Fri, 22 Mar 2024 16:44:45 GMT</pubDate>
+  </item><item>
+    <title>Fuzzing yash</title>
+    <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
+    <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
+    <description>AFL++ Building AFL++ on Ubuntu First, install the latest LLVM from the official APT repository.Then, clone AFLplusplus and run the following commands.</description>
+    <pubDate>Fri, 22 Mar 2024 14:49:15 GMT</pubDate>
+  </item><item>
     <title>Public Post-Mortems</title>
     <link>https://l2dy.github.io/notes/SRE/Public-Post-Mortems</link>
     <guid>https://l2dy.github.io/notes/SRE/Public-Post-Mortems</guid>
-    <description>This list is not curated yet.Here be dragons.2021-2025 slack.engineering/slacks-incident-on-2-22-22/ slack.engineering/slacks-outage-on-january-4th-2021/ www.atlassian.com/engineering/post-incident-review-april-2022-outage ardentperf.com/2022/02/10/a-hairy-postgresql-incident/ blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/ blog.cloudflare.com/cloudflare-outage-on-june-21-2022/ blog.cloudflare.com/partial-cloudflare-outage-on-october-25-2022/ gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/ sourcehut.org/blog/2024-01-19-outage-post-mortem/ blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/ old.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/ engineering.fb.com/2021/10/05/networking-traffic/outage-details/ aws.amazon.com/message/12721/ 2016-2020 status.cloud.google.com/incident/cloud-networking/19009 status.cloud.google.com/incident/compute/16007 github.blog/2016-02-03-january-28th-incident-report/ github.blog/2018-10-30-oct21-post-incident-analysis/ blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/ www.fortnite.com/news/postmortem-of-service-outage-at-3-4m-ccu blog.cloudflare.com/cloudflare-outage-on-july-17-2020/ blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/ about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/ about.gitlab.com/blog/2019/11/08/the-consul-outage-that-never-happened/ puri.sm/posts/the-great-purism-dns-outage-of-2018/ discord.statuspage.io/incidents/62gt9cgjwdgf 2011-2015 aws.amazon.com/message/65648/ aws.amazon.com/message/2329B7/ aws.amazon.com/message/680342/ aws.amazon.com/message/680587/ 2006-2010 groups.google.com/g/mongodb-user/c/UoqU8ofp134 See also github.com/danluu/post-mortems and danluu.com/postmortem-lessons/ .</description>
-    <pubDate>Thu, 21 Mar 2024 16:20:43 GMT</pubDate>
+    <description>This list is not curated yet.Here be dragons.2021-2025 slack.engineering/slacks-incident-on-2-22-22/ slack.engineering/slacks-outage-on-january-4th-2021/ www.atlassian.com/engineering/post-incident-review-april-2022-outage ardentperf.com/2022/02/10/a-hairy-postgresql-incident/ blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/ blog.cloudflare.com/cloudflare-outage-on-june-21-2022/ blog.cloudflare.com/partial-cloudflare-outage-on-october-25-2022/ gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/ sourcehut.org/blog/2024-01-19-outage-post-mortem/ blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/ old.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/ engineering.fb.com/2021/10/05/networking-traffic/outage-details/ lichess.org/@/thibault/blog/lichess-on-scala3-help-needed/2bpotLb0 aws.amazon.com/message/12721/ 2016-2020 status.cloud.google.com/incident/cloud-networking/19009 status.cloud.google.com/incident/compute/16007 github.blog/2016-02-03-january-28th-incident-report/ github.blog/2018-10-30-oct21-post-incident-analysis/ blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/ www.fortnite.com/news/postmortem-of-service-outage-at-3-4m-ccu blog.cloudflare.com/cloudflare-outage-on-july-17-2020/ blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/ about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/ about.gitlab.com/blog/2019/11/08/the-consul-outage-that-never-happened/ puri.sm/posts/the-great-purism-dns-outage-of-2018/ discord.statuspage.io/incidents/62gt9cgjwdgf 2011-2015 aws.amazon.com/message/65648/ aws.amazon.com/message/2329B7/ aws.amazon.com/message/680342/ aws.amazon.com/message/680587/ 2006-2010 groups.google.com/g/mongodb-user/c/UoqU8ofp134 See also github.com/danluu/post-mortems and danluu.com/postmortem-lessons/ .</description>
+    <pubDate>Fri, 22 Mar 2024 02:04:54 GMT</pubDate>
   </item><item>
     <title>Emergency Response</title>
     <link>https://l2dy.github.io/notes/SRE/Emergency-Response</link>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/Cloud/AWS/EC2-Performance-Benchmarks</guid>
     <description>Single Core CPU Performance runs-on.com/reference/benchmarks-ec2-instances/.</description>
     <pubDate>Sat, 16 Mar 2024 17:29:15 GMT</pubDate>
-  </item><item>
-    <title>Option</title>
-    <link>https://l2dy.github.io/notes/Programming/ReScript/Option</link>
-    <guid>https://l2dy.github.io/notes/Programming/ReScript/Option</guid>
-    <description>Optional Record Fields If you have an option value from optional labeled arguments, prefix it with ? to set an optional record field directly.type person = { age: int, name?: string } let maybeName = Some(&quot;My Name&quot;) let me = { age: 123, name: ?maybeName } This trick also works in JSX.</description>
-    <pubDate>Sun, 10 Mar 2024 09:18:41 GMT</pubDate>
-  </item><item>
-    <title>JS Interop</title>
-    <link>https://l2dy.github.io/notes/Programming/ReScript/JS-Interop</link>
-    <guid>https://l2dy.github.io/notes/Programming/ReScript/JS-Interop</guid>
-    <description>Binding to an external React component module SupervisedUserCircleOutlined = { @react.component @module(&quot;@mui/icons-material/SupervisedUserCircle&quot;)...</description>
-    <pubDate>Sun, 10 Mar 2024 09:16:57 GMT</pubDate>
-  </item><item>
-    <title>ReScript</title>
-    <link>https://l2dy.github.io/notes/Programming/ReScript</link>
-    <guid>https://l2dy.github.io/notes/Programming/ReScript</guid>
-    <description>Syntax Lookup You can find deprecated syntax in rescript-lang.org/syntax-lookup.For example, @obj is described as Deprecated since compiler version 11.0.</description>
-    <pubDate>Sun, 10 Mar 2024 05:22:55 GMT</pubDate>
   </item>
     </channel>
   </rss>

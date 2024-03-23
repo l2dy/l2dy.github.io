@@ -183,7 +183,7 @@
     <lastmod>2023-10-27T13:55:40.703Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
-    <lastmod>2024-02-08T16:32:03.655Z</lastmod>
+    <lastmod>2024-03-22T16:44:45.528Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</loc>
     <lastmod>2024-02-12T19:00:25.176Z</lastmod>
@@ -196,6 +196,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</loc>
     <lastmod>2024-02-12T15:40:49.224Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</loc>
+    <lastmod>2024-03-22T16:46:35.359Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Traceroute-on-Azure</loc>
     <lastmod>2024-02-12T18:48:47.488Z</lastmod>
@@ -747,7 +750,7 @@
     <lastmod>2023-09-09T19:13:50.587Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Public-Post-Mortems</loc>
-    <lastmod>2024-03-21T16:20:43.310Z</lastmod>
+    <lastmod>2024-03-22T02:04:54.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/SLO</loc>
     <lastmod>2023-09-09T19:13:50.589Z</lastmod>
@@ -792,7 +795,7 @@
     <lastmod>2024-02-08T16:40:00.231Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
-    <lastmod>2023-11-24T12:21:18.906Z</lastmod>
+    <lastmod>2024-03-22T14:49:15.466Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
