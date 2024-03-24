@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Flowed Text in Mutt</title>
+    <link>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</link>
+    <guid>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</guid>
+    <description>With MacPorts Besides mutt, also install vim which provides the vi command mutt defaults to. In .muttrc, # Body Format set text_flowed set send_charset=utf-8 and in .vimrc, source $VIMRUNTIME/defaults.vim augroup mail_flowed &quot; { autocmd! autocmd FileType mail setlocal formatoptions+=w autocmd FileType mail setlocal colorcolumn=72 augroup END &quot; }.</description>
+    <pubDate>Sun, 24 Mar 2024 04:03:17 GMT</pubDate>
+  </item><item>
+    <title>IBus on Wayland</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</guid>
+    <description> IBus should be called from the desktop session in %s. For KDE, you can launch ‘%s’ utility and go to “Input Devices” → “Virtual Keyboard” section and select “%s” icon and click “Apply” button to configure IBus in %s.</description>
+    <pubDate>Sun, 24 Mar 2024 03:08:49 GMT</pubDate>
+  </item><item>
+    <title>Dealing with Leaking Alkaline Batteries</title>
+    <link>https://l2dy.github.io/notes/Life/Dealing-with-Leaking-Alkaline-Batteries</link>
+    <guid>https://l2dy.github.io/notes/Life/Dealing-with-Leaking-Alkaline-Batteries</guid>
+    <description>If you need to keep the battery for compensation Keep the battery in the damaged device. If you are in contact with the liquid leaked, rinse immediately with running water.</description>
+    <pubDate>Sat, 23 Mar 2024 14:00:49 GMT</pubDate>
+  </item><item>
     <title>Receive Segment Coalescing</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/Vim</guid>
     <description>Macro Tricks va{V can be used to select the outer block line-wise. Scrolling z., zt, zb move &quot;cursor line&quot; into respective position H, L, M move cursor to respective position Removing Auto-Inserted Comment Leader After pressing Enter or ‘o’, use CTRL-U to remove the comment leader.</description>
     <pubDate>Thu, 21 Mar 2024 06:20:31 GMT</pubDate>
-  </item><item>
-    <title>Xcode Sanitizer Support</title>
-    <link>https://l2dy.github.io/notes/Software/Xcode-Sanitizer-Support</link>
-    <guid>https://l2dy.github.io/notes/Software/Xcode-Sanitizer-Support</guid>
-    <description>Xcode documentation lists several runtime tools, including sanitizers. Xcode provides several runtime tools to identify potential issues in your code: Address Sanitizer—The ASan tool identifies potential memory-related corruption issues.</description>
-    <pubDate>Wed, 20 Mar 2024 15:15:43 GMT</pubDate>
-  </item><item>
-    <title>ip</title>
-    <link>https://l2dy.github.io/notes/CLI/ip</link>
-    <guid>https://l2dy.github.io/notes/CLI/ip</guid>
-    <description>Global options -s for more verbose output (s for statistics). -s -s increases verbosity. Add -h for human readable stats and add -iec to print data size in IEC units (e.g.</description>
-    <pubDate>Tue, 19 Mar 2024 12:58:51 GMT</pubDate>
-  </item><item>
-    <title>EC2 Performance Benchmarks</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/EC2-Performance-Benchmarks</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/EC2-Performance-Benchmarks</guid>
-    <description>Single Core CPU Performance runs-on.com/reference/benchmarks-ec2-instances/.</description>
-    <pubDate>Sat, 16 Mar 2024 17:29:15 GMT</pubDate>
   </item>
     </channel>
   </rss>

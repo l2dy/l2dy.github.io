@@ -464,6 +464,9 @@
     <loc>https://l2dy.github.io/notes/Kubernetes/cert-manager</loc>
     <lastmod>2023-09-28T16:48:29.988Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Life/Dealing-with-Leaking-Alkaline-Batteries</loc>
+    <lastmod>2024-03-23T14:00:49.418Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/Fontconfig</loc>
     <lastmod>2023-09-09T19:13:50.565Z</lastmod>
   </url><url>
@@ -625,6 +628,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
     <lastmod>2023-10-01T01:39:48.098Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</loc>
+    <lastmod>2024-03-24T03:08:49.383Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Killing-inactive-SSH-Sessions-on-Server</loc>
     <lastmod>2024-02-20T06:25:41.000Z</lastmod>
@@ -793,6 +799,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
     <lastmod>2024-02-08T16:40:00.231Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</loc>
+    <lastmod>2024-03-24T04:03:17.198Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
     <lastmod>2024-03-22T14:49:15.466Z</lastmod>
