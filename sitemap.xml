@@ -183,7 +183,7 @@
     <lastmod>2023-10-27T13:55:40.703Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
-    <lastmod>2024-03-22T16:44:45.528Z</lastmod>
+    <lastmod>2024-03-25T17:05:55.496Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</loc>
     <lastmod>2024-02-12T19:00:25.176Z</lastmod>
@@ -196,6 +196,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</loc>
     <lastmod>2024-02-12T15:40:49.224Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</loc>
+    <lastmod>2024-03-25T17:05:22.188Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</loc>
     <lastmod>2024-03-22T16:46:35.359Z</lastmod>
@@ -791,6 +794,9 @@
     <loc>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</loc>
     <lastmod>2023-11-16T12:25:28.428Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</loc>
+    <lastmod>2024-04-08T15:36:18.657Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</loc>
     <lastmod>2024-03-10T01:54:00.298Z</lastmod>
   </url><url>
@@ -816,7 +822,7 @@
     <lastmod>2023-09-09T19:13:50.517Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Nix-Channel-Status</loc>
-    <lastmod>2024-02-11T09:10:40.523Z</lastmod>
+    <lastmod>2024-03-31T07:28:33.088Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Remote-Linux-Desktop-on-macOS</loc>
     <lastmod>2023-10-30T13:41:27.121Z</lastmod>
@@ -850,6 +856,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</loc>
     <lastmod>2023-11-15T13:44:15.349Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/nix-env-Dependency-Tree</loc>
+    <lastmod>2024-03-31T07:18:46.438Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Startup/Earthly-CI-Postmortem</loc>
     <lastmod>2023-09-12T15:48:23.798Z</lastmod>
