@@ -8,6 +8,9 @@
     <loc>https://l2dy.github.io/maps/AWS-Map</loc>
     <lastmod>2023-11-19T15:13:35.574Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/DevOps-Roadmap</loc>
+    <lastmod>2024-04-16T06:39:02.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/maps/FreeBSD-Map</loc>
     <lastmod>2023-09-11T14:07:51.741Z</lastmod>
   </url><url>
@@ -66,7 +69,7 @@
     <lastmod>2023-09-09T19:13:50.506Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</loc>
-    <lastmod>2024-02-20T06:28:34.000Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.330Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/GraphicsMagick</loc>
     <lastmod>2023-11-12T08:02:40.589Z</lastmod>
@@ -147,13 +150,13 @@
     <lastmod>2023-11-19T00:25:00.936Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
-    <lastmod>2023-09-09T19:13:50.500Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.332Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Backbone-Network</loc>
     <lastmod>2023-09-20T15:06:49.044Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</loc>
-    <lastmod>2023-11-13T10:49:12.409Z</lastmod>
+    <lastmod>2024-04-20T03:03:02.567Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Nitro-System</loc>
     <lastmod>2023-09-20T13:15:41.883Z</lastmod>
@@ -324,7 +327,7 @@
     <lastmod>2023-09-09T19:13:50.532Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Projectile</loc>
-    <lastmod>2023-11-09T12:14:58.738Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.329Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Rime</loc>
     <lastmod>2023-09-09T19:13:50.536Z</lastmod>
@@ -399,7 +402,7 @@
     <lastmod>2023-09-13T16:54:10.772Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Krita</loc>
-    <lastmod>2023-09-09T19:13:50.585Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.319Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/CRI-Logging-Format</loc>
     <lastmod>2023-10-08T16:08:11.298Z</lastmod>
@@ -591,7 +594,7 @@
     <lastmod>2023-10-07T08:33:06.381Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</loc>
-    <lastmod>2024-02-08T16:36:18.768Z</lastmod>
+    <lastmod>2024-04-11T07:39:47.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Grafana-Variables</loc>
     <lastmod>2023-10-08T15:42:41.635Z</lastmod>
@@ -699,7 +702,7 @@
     <lastmod>2023-11-19T14:30:03.352Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</loc>
-    <lastmod>2023-09-09T19:13:50.556Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.326Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/ReScript</loc>
     <lastmod>2024-03-10T05:22:55.996Z</lastmod>
@@ -768,7 +771,7 @@
     <lastmod>2023-09-10T17:29:13.517Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</loc>
-    <lastmod>2023-09-09T19:13:50.591Z</lastmod>
+    <lastmod>2024-04-20T03:07:50.323Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Toil</loc>
     <lastmod>2023-09-09T19:13:50.590Z</lastmod>

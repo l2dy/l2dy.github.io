@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>systemd-analyze</title>
+    <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
+    <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
+    <description>Subcommands time: analyze startup time set-log-level: set systemd log level .</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>Convenient CLI Tools</title>
+    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
+    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
+    <description>...</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>Projectile</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Projectile</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Projectile</guid>
+    <description>Projects Broadly speaking, Projectile identifies projects like this: Directories that contain the special .projectile file Directories under version control (e.g ...</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>Module Search Path</title>
+    <link>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</link>
+    <guid>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</guid>
+    <description>sys.path is initialized from these locations: The directory containing the input script (or the current directory when no file is specified). PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>Service Level Indicator</title>
+    <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
+    <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
+    <description>Be Realistic Sometimes only a proxy is available. For example, client-side latency is often the more user-relevant metric, but it might only be possible to measure latency at the server.</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>Krita</title>
+    <link>https://l2dy.github.io/notes/Krita</link>
+    <guid>https://l2dy.github.io/notes/Krita</guid>
+    <description>Pen Tablet Shortcuts Shift + drag left/right to resize the brush. Button (close to pen tip) + drag to zoom in and out. SPACE + drag to move the canvas. Shift + SPACE + drag to rotate the canvas.</description>
+    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
+  </item><item>
+    <title>AWS Documentation Excerpts</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</guid>
+    <description>Aurora MySQL JDBC Drivers Amazon Web Services (AWS) JDBC Driver for MySQL github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora ...</description>
+    <pubDate>Sat, 20 Apr 2024 03:03:02 GMT</pubDate>
+  </item><item>
+    <title>DevOps Roadmap</title>
+    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
+    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
+    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding and Architecture Effort Estimation Continuous Integration Unit &amp; Integration Testing Static ...</description>
+    <pubDate>Tue, 16 Apr 2024 06:39:02 GMT</pubDate>
+  </item><item>
+    <title>Grafana Dashboards</title>
+    <link>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</link>
+    <guid>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</guid>
+    <description>Issues Encountered Broken Links $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples github.com/portefaix/portefaix-kubernetes/tree/8e46651ba91f724c938b6aa5108f32979c179c56/gitops/argocd/charts/monitoring/kube-prometheus-stack/dashboards (K8s and node exporter) github.com/VictoriaMetrics/VictoriaMetrics/tree/master/dashboards/vm (VictoriaMetrics) github.com/Vonng/pigsty/tree/master/files/grafana (PostgreSQL as a service) See also Grafana Visualizations.</description>
+    <pubDate>Thu, 11 Apr 2024 07:39:47 GMT</pubDate>
+  </item><item>
     <title>Alternative Storage for Prometheus</title>
     <link>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</link>
     <guid>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</guid>
     <description>Grafana Mimir Mimir was forked from Cortex to open source some of their work under a more restrictive license (AGPLv3). See grafana.com/blog/2022/03/30/announcing-grafana-mimir/ for a feature comparison table.</description>
     <pubDate>Mon, 08 Apr 2024 15:36:18 GMT</pubDate>
-  </item><item>
-    <title>Nix Channel Status</title>
-    <link>https://l2dy.github.io/notes/Software/Nix-Channel-Status</link>
-    <guid>https://l2dy.github.io/notes/Software/Nix-Channel-Status</guid>
-    <description>View channel freshness on status.nixos.org/. nixpkgs-unstable can be a few days old. For Nix channel freshness history, check out monitoring.nixos.org/grafana/d/LhIq8iLWk/channel-updates Use nixpk.gs/pr-tracker.html to check progress of a specific nixpkgs PR, e.g.</description>
-    <pubDate>Sun, 31 Mar 2024 07:28:33 GMT</pubDate>
-  </item><item>
-    <title>nix-env Dependency Tree</title>
-    <link>https://l2dy.github.io/notes/Software/nix-env-Dependency-Tree</link>
-    <guid>https://l2dy.github.io/notes/Software/nix-env-Dependency-Tree</guid>
-    <description>List installed packages nix-env -q List dependency tree of user environment nix-store -q --tree ~/.nix-profile.</description>
-    <pubDate>Sun, 31 Mar 2024 07:18:46 GMT</pubDate>
-  </item><item>
-    <title>Azure Accelerated Networking</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
-    <description>Azure SmartNIC Based on FPGAs, AccelNet offloads packet forwarding to SmartNIC hardware with Generic Flow Tables. GFT is a match-action language that defines specific operations on packets for one specific network flow.</description>
-    <pubDate>Mon, 25 Mar 2024 17:05:55 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Network Adapter</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
-    <description>The driver supports Linux and Windows only. MANA maintains feature-parity with previous Azure networking features. VMs run on hardware with both Mellanox and MANA NICs, so existing ‘mlx4’ and ‘mlx5’ support still need to be present.</description>
-    <pubDate>Mon, 25 Mar 2024 17:05:22 GMT</pubDate>
-  </item><item>
-    <title>Flowed Text in Mutt</title>
-    <link>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</link>
-    <guid>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</guid>
-    <description>With MacPorts Besides mutt, also install vim which provides the vi command mutt defaults to. In .muttrc, # Body Format set text_flowed set send_charset=utf-8 and in .vimrc, source $VIMRUNTIME/defaults.vim augroup mail_flowed &quot; { autocmd! autocmd FileType mail setlocal formatoptions+=w autocmd FileType mail setlocal colorcolumn=72 augroup END &quot; }.</description>
-    <pubDate>Sun, 24 Mar 2024 04:03:17 GMT</pubDate>
-  </item><item>
-    <title>IBus on Wayland</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</guid>
-    <description> IBus should be called from the desktop session in %s. For KDE, you can launch ‘%s’ utility and go to “Input Devices” → “Virtual Keyboard” section and select “%s” icon and click “Apply” button to configure IBus in %s.</description>
-    <pubDate>Sun, 24 Mar 2024 03:08:49 GMT</pubDate>
-  </item><item>
-    <title>Dealing with Leaking Alkaline Batteries</title>
-    <link>https://l2dy.github.io/notes/Life/Dealing-with-Leaking-Alkaline-Batteries</link>
-    <guid>https://l2dy.github.io/notes/Life/Dealing-with-Leaking-Alkaline-Batteries</guid>
-    <description>If you need to keep the battery for compensation Keep the battery in the damaged device. If you are in contact with the liquid leaked, rinse immediately with running water.</description>
-    <pubDate>Sat, 23 Mar 2024 14:00:49 GMT</pubDate>
-  </item><item>
-    <title>Receive Segment Coalescing</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</guid>
-    <description>When receiving data, the miniport driver, NDIS, and TCP/IP must all look at each PDU’s header information separately. When large amounts of data are being received, this creates a large amount of overhead.</description>
-    <pubDate>Fri, 22 Mar 2024 16:46:35 GMT</pubDate>
-  </item><item>
-    <title>Fuzzing yash</title>
-    <link>https://l2dy.github.io/notes/Software/Fuzzing-yash</link>
-    <guid>https://l2dy.github.io/notes/Software/Fuzzing-yash</guid>
-    <description>AFL++ Building AFL++ on Ubuntu First, install the latest LLVM from the official APT repository. Then, clone AFLplusplus and run the following commands.</description>
-    <pubDate>Fri, 22 Mar 2024 14:49:15 GMT</pubDate>
   </item>
     </channel>
   </rss>
