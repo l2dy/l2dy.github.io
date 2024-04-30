@@ -6,6 +6,42 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Tailscale Exit Node</title>
+    <link>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</link>
+    <guid>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</guid>
+    <description>Exclude Routes To exclude routes from exit node on Tailscale’s route table, run the following command. ip route add throw 10.42.0.0/16 table 52 This could be added to ExecStartPost override in systemd unit files.</description>
+    <pubDate>Tue, 30 Apr 2024 06:41:53 GMT</pubDate>
+  </item><item>
+    <title>Systemd Service Hardening</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
+    <description>Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
+    <pubDate>Tue, 30 Apr 2024 06:19:17 GMT</pubDate>
+  </item><item>
+    <title>Systemd Override</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</guid>
+    <description></description>
+    <pubDate>Tue, 30 Apr 2024 06:17:35 GMT</pubDate>
+  </item><item>
+    <title>SysRq key</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/SysRq-key</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SysRq-key</guid>
+    <description>/proc/sysrq-trigger For example, echo l &gt; /proc/sysrq-trigger prints a stack backtrace for all active CPUs. CommandFunctionbWill immediately reboot the system without syncing or unmounting your disks.cWill perform a system crash and a crashdump will be taken if configured.dShows all locks that are held.eSend a SIGTERM to all processes, except for init.fWill call the oom killer to kill a memory hog process, but do not panic if nothing can be killed.gUsed by kgdb (kernel debugger)hWill display help (actually any other key than those listed here will display help.</description>
+    <pubDate>Tue, 30 Apr 2024 04:58:59 GMT</pubDate>
+  </item><item>
+    <title>Linux Map</title>
+    <link>https://l2dy.github.io/maps/Linux-Map</link>
+    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
+    <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key ...</description>
+    <pubDate>Tue, 30 Apr 2024 04:57:26 GMT</pubDate>
+  </item><item>
+    <title>DevOps Roadmap</title>
+    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
+    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
+    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding Skills Architecture Trade-offs Performance Complexity Extensibility, e.g ...</description>
+    <pubDate>Mon, 22 Apr 2024 03:49:05 GMT</pubDate>
+  </item><item>
     <title>systemd-analyze</title>
     <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
     <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
@@ -29,42 +65,6 @@
     <guid>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</guid>
     <description>sys.path is initialized from these locations: The directory containing the input script (or the current directory when no file is specified). PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).</description>
     <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>Service Level Indicator</title>
-    <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
-    <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
-    <description>Be Realistic Sometimes only a proxy is available. For example, client-side latency is often the more user-relevant metric, but it might only be possible to measure latency at the server.</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>Krita</title>
-    <link>https://l2dy.github.io/notes/Krita</link>
-    <guid>https://l2dy.github.io/notes/Krita</guid>
-    <description>Pen Tablet Shortcuts Shift + drag left/right to resize the brush. Button (close to pen tip) + drag to zoom in and out. SPACE + drag to move the canvas. Shift + SPACE + drag to rotate the canvas.</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>AWS Documentation Excerpts</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Documentation-Excerpts</guid>
-    <description>Aurora MySQL JDBC Drivers Amazon Web Services (AWS) JDBC Driver for MySQL github.com/awslabs/aws-mysql-jdbc The AWS JDBC Driver for MySQL supports fast failover for Amazon Aurora ...</description>
-    <pubDate>Sat, 20 Apr 2024 03:03:02 GMT</pubDate>
-  </item><item>
-    <title>DevOps Roadmap</title>
-    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
-    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
-    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding and Architecture Effort Estimation Continuous Integration Unit &amp; Integration Testing Static ...</description>
-    <pubDate>Tue, 16 Apr 2024 06:39:02 GMT</pubDate>
-  </item><item>
-    <title>Grafana Dashboards</title>
-    <link>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</link>
-    <guid>https://l2dy.github.io/notes/Observability/Grafana-Dashboards</guid>
-    <description>Issues Encountered Broken Links $__cell does not work in the latest Grafana table panel. Replace them with ${__value.text} instead. Dashboard Examples github.com/portefaix/portefaix-kubernetes/tree/8e46651ba91f724c938b6aa5108f32979c179c56/gitops/argocd/charts/monitoring/kube-prometheus-stack/dashboards (K8s and node exporter) github.com/VictoriaMetrics/VictoriaMetrics/tree/master/dashboards/vm (VictoriaMetrics) github.com/Vonng/pigsty/tree/master/files/grafana (PostgreSQL as a service) See also Grafana Visualizations.</description>
-    <pubDate>Thu, 11 Apr 2024 07:39:47 GMT</pubDate>
-  </item><item>
-    <title>Alternative Storage for Prometheus</title>
-    <link>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</link>
-    <guid>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</guid>
-    <description>Grafana Mimir Mimir was forked from Cortex to open source some of their work under a more restrictive license (AGPLv3). See grafana.com/blog/2022/03/30/announcing-grafana-mimir/ for a feature comparison table.</description>
-    <pubDate>Mon, 08 Apr 2024 15:36:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
