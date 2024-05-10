@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>snmpwalk</title>
+    <link>https://l2dy.github.io/notes/CLI/snmpwalk</link>
+    <guid>https://l2dy.github.io/notes/CLI/snmpwalk</guid>
+    <description>Return Everything .1 represents top of the OID tree. snmpwalk -v2c -cpublic &lt;IP&gt; .1 If name are not displayed properly, you could try adding -mALL to the command arguments.</description>
+    <pubDate>Fri, 10 May 2024 03:12:29 GMT</pubDate>
+  </item><item>
+    <title>Systemd Service Hardening</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
+    <description>Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
+    <pubDate>Thu, 09 May 2024 12:44:59 GMT</pubDate>
+  </item><item>
+    <title>Replace fixed pattern in file</title>
+    <link>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</link>
+    <guid>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</guid>
+    <description>Perl perl -pi.bak -e &#039;$from=&#039;\&#039;&#039;fixed string&#039;\&#039;&#039;; $to=&#039;\&#039;&#039;replacement string&#039;\&#039;&#039;; s/\Q$from\E/$to/g&#039; ...</description>
+    <pubDate>Wed, 08 May 2024 07:00:56 GMT</pubDate>
+  </item><item>
+    <title>Beancount and Fava</title>
+    <link>https://l2dy.github.io/notes/Software/Beancount-and-Fava</link>
+    <guid>https://l2dy.github.io/notes/Software/Beancount-and-Fava</guid>
+    <description>Fava Tips fava --read-only is supposedly less vulnerable to arbitrary file write, which is a feature of Fava (not a bug). Only accounts opened with fava-uptodate-indication: TRUE metadata are supposed to have up-to-date balance tracking (i.e.</description>
+    <pubDate>Sat, 04 May 2024 08:01:07 GMT</pubDate>
+  </item><item>
+    <title>npm user prefix and installing corepack</title>
+    <link>https://l2dy.github.io/notes/Programming/JavaScript/npm-user-prefix-and-installing-corepack</link>
+    <guid>https://l2dy.github.io/notes/Programming/JavaScript/npm-user-prefix-and-installing-corepack</guid>
+    <description>Configuring npm user prefix npm config -L user set prefix=${HOME}/.npm-packages Installing corepack # Resolve conflicts (if exists) npm uninstall -g yarn pnpm # Install corepack ...</description>
+    <pubDate>Wed, 01 May 2024 19:14:13 GMT</pubDate>
+  </item><item>
+    <title>FreeBSD Map</title>
+    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
+    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
+    <description>Features DTrace Notes Upgrading FreeBSD .</description>
+    <pubDate>Wed, 01 May 2024 18:29:14 GMT</pubDate>
+  </item><item>
+    <title>Upgrading FreeBSD</title>
+    <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/Upgrading-FreeBSD</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/Upgrading-FreeBSD</guid>
+    <description>freebsd-update freebsd-update is not meant to be run in parallel with the same workdir (-d). bootcode update If you have the good old MBR, try this to update the bootcode.</description>
+    <pubDate>Wed, 01 May 2024 18:28:51 GMT</pubDate>
+  </item><item>
+    <title>NetworkManager</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</guid>
+    <description>Common Commands To list the currently available network connections: ~]$ nmcli con show NAME UUID TYPE DEVICE Auto Ethernet 9b7f2511-5432-40ae-b091-af2457dfd988 802-3-ethernet ...</description>
+    <pubDate>Wed, 01 May 2024 06:44:56 GMT</pubDate>
+  </item><item>
     <title>Tailscale Exit Node</title>
     <link>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</link>
     <guid>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</guid>
     <description>Exclude Routes To exclude routes from exit node on Tailscale’s route table, run the following command. ip route add throw 10.42.0.0/16 table 52 This could be added to ExecStartPost override in systemd unit files.</description>
     <pubDate>Tue, 30 Apr 2024 06:41:53 GMT</pubDate>
   </item><item>
-    <title>Systemd Service Hardening</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
-    <description>Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
-    <pubDate>Tue, 30 Apr 2024 06:19:17 GMT</pubDate>
-  </item><item>
     <title>Systemd Override</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</guid>
     <description></description>
     <pubDate>Tue, 30 Apr 2024 06:17:35 GMT</pubDate>
-  </item><item>
-    <title>SysRq key</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/SysRq-key</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SysRq-key</guid>
-    <description>/proc/sysrq-trigger For example, echo l &gt; /proc/sysrq-trigger prints a stack backtrace for all active CPUs. CommandFunctionbWill immediately reboot the system without syncing or unmounting your disks.cWill perform a system crash and a crashdump will be taken if configured.dShows all locks that are held.eSend a SIGTERM to all processes, except for init.fWill call the oom killer to kill a memory hog process, but do not panic if nothing can be killed.gUsed by kgdb (kernel debugger)hWill display help (actually any other key than those listed here will display help.</description>
-    <pubDate>Tue, 30 Apr 2024 04:58:59 GMT</pubDate>
-  </item><item>
-    <title>Linux Map</title>
-    <link>https://l2dy.github.io/maps/Linux-Map</link>
-    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
-    <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key ...</description>
-    <pubDate>Tue, 30 Apr 2024 04:57:26 GMT</pubDate>
-  </item><item>
-    <title>DevOps Roadmap</title>
-    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
-    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
-    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding Skills Architecture Trade-offs Performance Complexity Extensibility, e.g ...</description>
-    <pubDate>Mon, 22 Apr 2024 03:49:05 GMT</pubDate>
-  </item><item>
-    <title>systemd-analyze</title>
-    <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
-    <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
-    <description>Subcommands time: analyze startup time set-log-level: set systemd log level .</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>Convenient CLI Tools</title>
-    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
-    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
-    <description>...</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>Projectile</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Projectile</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Projectile</guid>
-    <description>Projects Broadly speaking, Projectile identifies projects like this: Directories that contain the special .projectile file Directories under version control (e.g ...</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
-  </item><item>
-    <title>Module Search Path</title>
-    <link>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</link>
-    <guid>https://l2dy.github.io/notes/Programming/Python/Module-Search-Path</guid>
-    <description>sys.path is initialized from these locations: The directory containing the input script (or the current directory when no file is specified). PYTHONPATH (a list of directory names, with the same syntax as the shell variable PATH).</description>
-    <pubDate>Sat, 20 Apr 2024 03:07:50 GMT</pubDate>
   </item>
     </channel>
   </rss>

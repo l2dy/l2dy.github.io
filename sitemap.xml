@@ -12,7 +12,7 @@
     <lastmod>2024-04-22T03:49:05.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/FreeBSD-Map</loc>
-    <lastmod>2023-09-11T14:07:51.741Z</lastmod>
+    <lastmod>2024-05-01T18:29:14.968Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Google-Cloud-Map</loc>
     <lastmod>2023-09-18T15:55:36.798Z</lastmod>
@@ -76,6 +76,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Neovim</loc>
     <lastmod>2023-10-31T14:03:01.360Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</loc>
+    <lastmod>2024-05-08T07:00:56.844Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Vim</loc>
     <lastmod>2024-03-21T06:20:31.000Z</lastmod>
@@ -142,6 +145,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
     <lastmod>2023-10-24T12:13:40.745Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/snmpwalk</loc>
+    <lastmod>2024-05-10T03:12:29.713Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ss</loc>
     <lastmod>2023-11-05T02:23:36.602Z</lastmod>
@@ -614,6 +620,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</loc>
     <lastmod>2023-09-11T14:09:34.465Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/Upgrading-FreeBSD</loc>
+    <lastmod>2024-05-01T18:28:51.955Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</loc>
     <lastmod>2024-02-08T16:35:30.571Z</lastmod>
   </url><url>
@@ -644,6 +653,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</loc>
     <lastmod>2024-02-12T15:32:44.760Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</loc>
+    <lastmod>2024-05-01T06:44:56.440Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Partition-Table-and-Mounting-File-Systems</loc>
     <lastmod>2023-10-07T13:04:12.724Z</lastmod>
   </url><url>
@@ -654,7 +666,7 @@
     <lastmod>2024-04-30T06:17:35.831Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</loc>
-    <lastmod>2024-04-30T06:19:17.218Z</lastmod>
+    <lastmod>2024-05-09T12:44:59.458Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</loc>
     <lastmod>2024-02-27T04:35:11.000Z</lastmod>
@@ -703,6 +715,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</loc>
     <lastmod>2023-11-11T03:44:56.044Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/JavaScript/npm-user-prefix-and-installing-corepack</loc>
+    <lastmod>2024-05-01T19:14:13.488Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</loc>
     <lastmod>2023-11-19T14:30:03.352Z</lastmod>
@@ -805,6 +820,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</loc>
     <lastmod>2024-04-08T15:36:18.657Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Beancount-and-Fava</loc>
+    <lastmod>2024-05-04T08:01:07.572Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</loc>
     <lastmod>2024-03-10T01:54:00.298Z</lastmod>
