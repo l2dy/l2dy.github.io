@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Hyperplane</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</guid>
+    <description>Architecture Overview Hyperplane is a platform that powers NLB, NATGW (NAT gateway), PrivateLink, GWLB and TGW (Transit Gateway), and many other AWS services use it internally, ...</description>
+    <pubDate>Wed, 22 May 2024 12:40:12 GMT</pubDate>
+  </item><item>
+    <title>Download macOS installer</title>
+    <link>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</guid>
+    <description>Download recent releases softwareupdate --fetch-full-installer --full-installer-version 10.15 Version can be taken from the list below. $ softwareupdate --list-full-installers Finding available software Software Update found the following full installers: * Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO * Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO * Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO * Title: macOS Sonoma, Version: 14.3.1, Size: 13073278KiB, Build: 23D60, Deferred: NO * Title: macOS Ventura, Version: 13.6.7, Size: 11924125KiB, Build: 22G720, Deferred: NO * Title: macOS Ventura, Version: 13.6.6, Size: 11917983KiB, Build: 22G630, Deferred: NO * Title: macOS Ventura, Version: 13.6.5, Size: 11916934KiB, Build: 22G621, Deferred: NO * Title: macOS Ventura, Version: 13.6.4, Size: 11912664KiB, Build: 22G513, Deferred: NO * Title: macOS Monterey, Version: 12.7.5, Size: 12116686KiB, Build: 21H1222, Deferred: NO * Title: macOS Monterey, Version: 12.7.4, Size: 12117810KiB, Build: 21H1123, Deferred: NO * Title: macOS Monterey, Version: 12.7.3, Size: 12109975KiB, Build: 21H1015, Deferred: NO * Title: macOS Big Sur, Version: 11.7.10, Size: 12125478KiB, Build: 20G1427, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055650KiB, Build: 19H15, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055522KiB, Build: 19H2, Deferred: NO * Title: macOS Catalina, Version: 10.15.6, Size: 8055450KiB, Build: 19G2021, Deferred: NO.</description>
+    <pubDate>Wed, 22 May 2024 06:13:40 GMT</pubDate>
+  </item><item>
+    <title>Read a block of text into a variable</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Read-a-block-of-text-into-a-variable</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Read-a-block-of-text-into-a-variable</guid>
+    <description>read -r -d &#039;&#039; VAR1 &lt;&lt; EOV lorum ipsum EOV To prevent expansions, quote EOV into &#039;EOV&#039;.</description>
+    <pubDate>Thu, 16 May 2024 02:58:45 GMT</pubDate>
+  </item><item>
     <title>snmpwalk</title>
     <link>https://l2dy.github.io/notes/CLI/snmpwalk</link>
     <guid>https://l2dy.github.io/notes/CLI/snmpwalk</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/Upgrading-FreeBSD</guid>
     <description>freebsd-update freebsd-update is not meant to be run in parallel with the same workdir (-d). bootcode update If you have the good old MBR, try this to update the bootcode.</description>
     <pubDate>Wed, 01 May 2024 18:28:51 GMT</pubDate>
-  </item><item>
-    <title>NetworkManager</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</guid>
-    <description>Common Commands To list the currently available network connections: ~]$ nmcli con show NAME UUID TYPE DEVICE Auto Ethernet 9b7f2511-5432-40ae-b091-af2457dfd988 802-3-ethernet ...</description>
-    <pubDate>Wed, 01 May 2024 06:44:56 GMT</pubDate>
-  </item><item>
-    <title>Tailscale Exit Node</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</guid>
-    <description>Exclude Routes To exclude routes from exit node on Tailscale’s route table, run the following command. ip route add throw 10.42.0.0/16 table 52 This could be added to ExecStartPost override in systemd unit files.</description>
-    <pubDate>Tue, 30 Apr 2024 06:41:53 GMT</pubDate>
-  </item><item>
-    <title>Systemd Override</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Override</guid>
-    <description></description>
-    <pubDate>Tue, 30 Apr 2024 06:17:35 GMT</pubDate>
   </item>
     </channel>
   </rss>
