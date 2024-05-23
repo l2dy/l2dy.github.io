@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Ananta</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
+    <description>Architecture Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). A set of Annata instances could broadcast the same /21 prefix to reduce impact of single instance failures.</description>
+    <pubDate>Thu, 23 May 2024 14:57:47 GMT</pubDate>
+  </item><item>
     <title>Hyperplane</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</guid>
     <description>Perl perl -pi.bak -e &#039;$from=&#039;\&#039;&#039;fixed string&#039;\&#039;&#039;; $to=&#039;\&#039;&#039;replacement string&#039;\&#039;&#039;; s/\Q$from\E/$to/g&#039; ...</description>
     <pubDate>Wed, 08 May 2024 07:00:56 GMT</pubDate>
-  </item><item>
-    <title>Beancount and Fava</title>
-    <link>https://l2dy.github.io/notes/Software/Beancount-and-Fava</link>
-    <guid>https://l2dy.github.io/notes/Software/Beancount-and-Fava</guid>
-    <description>Fava Tips fava --read-only is supposedly less vulnerable to arbitrary file write, which is a feature of Fava (not a bug). Only accounts opened with fava-uptodate-indication: TRUE metadata are supposed to have up-to-date balance tracking (i.e.</description>
-    <pubDate>Sat, 04 May 2024 08:01:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
