@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>IBus on Wayland</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</guid>
+    <description> IBus should be called from the desktop session in %s. For KDE, you can launch ‘%s’ utility and go to “Input Devices” → “Virtual Keyboard” section and select “%s” icon and click “Apply” button to configure IBus in %s.</description>
+    <pubDate>Tue, 28 May 2024 12:54:14 GMT</pubDate>
+  </item><item>
+    <title>Emergency Response</title>
+    <link>https://l2dy.github.io/notes/SRE/Emergency-Response</link>
+    <guid>https://l2dy.github.io/notes/SRE/Emergency-Response</guid>
+    <description>Principles Ask questions until you can fix, instead of the commonly said “Fix first, ask questions later.” Playbooks Humans add latency, so thinking through and recording the best ...</description>
+    <pubDate>Sat, 25 May 2024 04:39:52 GMT</pubDate>
+  </item><item>
     <title>Ananta</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/snmpwalk</guid>
     <description>Return Everything .1 represents top of the OID tree. snmpwalk -v2c -cpublic &lt;IP&gt; .1 If name are not displayed properly, you could try adding -mALL to the command arguments.</description>
     <pubDate>Fri, 10 May 2024 03:12:29 GMT</pubDate>
-  </item><item>
-    <title>Systemd Service Hardening</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
-    <description>Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
-    <pubDate>Thu, 09 May 2024 12:44:59 GMT</pubDate>
-  </item><item>
-    <title>Replace fixed pattern in file</title>
-    <link>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</link>
-    <guid>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</guid>
-    <description>Perl perl -pi.bak -e &#039;$from=&#039;\&#039;&#039;fixed string&#039;\&#039;&#039;; $to=&#039;\&#039;&#039;replacement string&#039;\&#039;&#039;; s/\Q$from\E/$to/g&#039; ...</description>
-    <pubDate>Wed, 08 May 2024 07:00:56 GMT</pubDate>
   </item>
     </channel>
   </rss>
