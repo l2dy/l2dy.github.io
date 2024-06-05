@@ -194,11 +194,14 @@
     <loc>https://l2dy.github.io/notes/Cloud/AWS/VPC</loc>
     <lastmod>2024-05-22T14:36:57.809Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</loc>
+    <lastmod>2024-06-05T17:05:55.606Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Ananta</loc>
     <lastmod>2024-05-23T14:57:47.021Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
-    <lastmod>2024-03-25T17:05:55.496Z</lastmod>
+    <lastmod>2024-06-05T15:50:39.137Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</loc>
     <lastmod>2024-02-12T19:00:25.176Z</lastmod>
@@ -212,11 +215,20 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</loc>
     <lastmod>2024-02-12T15:40:49.224Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Linux-Guest-Features</loc>
+    <lastmod>2024-06-05T17:16:33.733Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</loc>
+    <lastmod>2024-06-05T15:31:09.548Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</loc>
     <lastmod>2024-03-25T17:05:22.188Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</loc>
     <lastmod>2024-03-22T16:46:35.359Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Receive-Side-Scaling-on-Azure</loc>
+    <lastmod>2024-06-05T17:14:00.074Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Traceroute-on-Azure</loc>
     <lastmod>2024-02-12T18:48:47.488Z</lastmod>
@@ -274,6 +286,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Economics/Economics-in-China</loc>
     <lastmod>2023-09-11T15:37:41.735Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/CIDER</loc>
+    <lastmod>2024-05-31T04:57:29.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/Emacs-Features</loc>
     <lastmod>2023-11-20T15:15:54.984Z</lastmod>
@@ -649,6 +664,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
     <lastmod>2023-10-01T01:39:48.098Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</loc>
+    <lastmod>2024-06-02T05:36:07.966Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</loc>
     <lastmod>2024-05-28T12:54:14.679Z</lastmod>

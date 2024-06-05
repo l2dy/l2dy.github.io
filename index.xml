@@ -6,6 +6,48 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Hyper-V Linux Guest Features</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Linux-Guest-Features</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Linux-Guest-Features</guid>
+    <description>Networking FeatureDescriptionJumbo framesWith this feature, an administrator can increase the size of network frames beyond 1500 bytes, which leads to a significant increase ...</description>
+    <pubDate>Wed, 05 Jun 2024 17:16:33 GMT</pubDate>
+  </item><item>
+    <title>Receive Side Scaling on Azure</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Receive-Side-Scaling-on-Azure</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Receive-Side-Scaling-on-Azure</guid>
+    <description>Hyper-V supports receive side scaling. For TCP &amp; UDP, packets can be distributed among available queues based on IP address and port number. For TCP &amp; UDP, we can switch hash level between L3 and L4 by ethtool command.</description>
+    <pubDate>Wed, 05 Jun 2024 17:14:00 GMT</pubDate>
+  </item><item>
+    <title>Acceleration Mechanisms on NVIDIA ConnectX-5 NICs</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</guid>
+    <description>List of Mechanisms with Dedicated Counters TSO (TCP Segmentation Offload) - increasing outbound throughput and reducing CPU utilization by allowing the kernel to buffer multiple ...</description>
+    <pubDate>Wed, 05 Jun 2024 17:05:55 GMT</pubDate>
+  </item><item>
+    <title>Azure Accelerated Networking</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
+    <description>Overview Benefits More deterministic performance, i.e. reducing jitter and latency inconsistency Decreased CPU utilization Higher packets per second (pps) on the datapath Latency improvement is very minimal when you communicate across virtual networks or connect to on-premises and the Internet, so we omit that from the list.</description>
+    <pubDate>Wed, 05 Jun 2024 15:50:39 GMT</pubDate>
+  </item><item>
+    <title>Linux Integration Services</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</guid>
+    <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020.</description>
+    <pubDate>Wed, 05 Jun 2024 15:31:09 GMT</pubDate>
+  </item><item>
+    <title>Handling configuration updates on rpm-based distros</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</guid>
+    <description>Install and run rpmconf, which presents a dialog similar to dpkg. rpmconf -a.</description>
+    <pubDate>Sun, 02 Jun 2024 05:36:07 GMT</pubDate>
+  </item><item>
+    <title>CIDER</title>
+    <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
+    <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
+    <description>Basic Evaluation Load the buffer with cider-load-buffer (C-c C-k), and execute the top level form under point with cider-eval-defun-at-point (C-c C-c) ...</description>
+    <pubDate>Fri, 31 May 2024 04:57:29 GMT</pubDate>
+  </item><item>
     <title>IBus on Wayland</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</guid>
@@ -23,48 +65,6 @@
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
     <description>Architecture Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). A set of Annata instances could broadcast the same /21 prefix to reduce impact of single instance failures.</description>
     <pubDate>Thu, 23 May 2024 14:57:47 GMT</pubDate>
-  </item><item>
-    <title>Hyperplane</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Hyperplane</guid>
-    <description>Architecture Overview Hyperplane is a platform that powers networking services like Network Load Balancer (NLB), NAT gateway (NATGW), PrivateLink, Gateway Load Balancer (GWLB), ...</description>
-    <pubDate>Wed, 22 May 2024 20:50:25 GMT</pubDate>
-  </item><item>
-    <title>VPC</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/VPC</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/VPC</guid>
-    <description>Addressing and Routing Physical addresses are separate from VPC addresses, to enable independent scaling of the virtual network and the physical network ...</description>
-    <pubDate>Wed, 22 May 2024 14:36:57 GMT</pubDate>
-  </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. VPC is a SDN built for AWS powering isolated virtual networks.</description>
-    <pubDate>Wed, 22 May 2024 14:31:18 GMT</pubDate>
-  </item><item>
-    <title>Network Load Balancer</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</guid>
-    <description>Overview Network Load Balancer (NLB) is a L4 load balancer built on Hyperplane that is more elastic than other ELB products from AWS. Client IP preservation Unlike a typical load balancer that terminates incoming connections and initiates outbound connections to targets, Hyperplane operates in a transparent mode and the target resource sees IP information about the client directly from the packets received.</description>
-    <pubDate>Wed, 22 May 2024 14:28:24 GMT</pubDate>
-  </item><item>
-    <title>Download macOS installer</title>
-    <link>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</guid>
-    <description>Download recent releases softwareupdate --fetch-full-installer --full-installer-version 10.15 Version can be taken from the list below. $ softwareupdate --list-full-installers Finding available software Software Update found the following full installers: * Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO * Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO * Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO * Title: macOS Sonoma, Version: 14.3.1, Size: 13073278KiB, Build: 23D60, Deferred: NO * Title: macOS Ventura, Version: 13.6.7, Size: 11924125KiB, Build: 22G720, Deferred: NO * Title: macOS Ventura, Version: 13.6.6, Size: 11917983KiB, Build: 22G630, Deferred: NO * Title: macOS Ventura, Version: 13.6.5, Size: 11916934KiB, Build: 22G621, Deferred: NO * Title: macOS Ventura, Version: 13.6.4, Size: 11912664KiB, Build: 22G513, Deferred: NO * Title: macOS Monterey, Version: 12.7.5, Size: 12116686KiB, Build: 21H1222, Deferred: NO * Title: macOS Monterey, Version: 12.7.4, Size: 12117810KiB, Build: 21H1123, Deferred: NO * Title: macOS Monterey, Version: 12.7.3, Size: 12109975KiB, Build: 21H1015, Deferred: NO * Title: macOS Big Sur, Version: 11.7.10, Size: 12125478KiB, Build: 20G1427, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055650KiB, Build: 19H15, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055522KiB, Build: 19H2, Deferred: NO * Title: macOS Catalina, Version: 10.15.6, Size: 8055450KiB, Build: 19G2021, Deferred: NO.</description>
-    <pubDate>Wed, 22 May 2024 06:13:40 GMT</pubDate>
-  </item><item>
-    <title>Read a block of text into a variable</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Read-a-block-of-text-into-a-variable</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Read-a-block-of-text-into-a-variable</guid>
-    <description>read -r -d &#039;&#039; VAR1 &lt;&lt; EOV lorum ipsum EOV To prevent expansions, quote EOV into &#039;EOV&#039;.</description>
-    <pubDate>Thu, 16 May 2024 02:58:45 GMT</pubDate>
-  </item><item>
-    <title>snmpwalk</title>
-    <link>https://l2dy.github.io/notes/CLI/snmpwalk</link>
-    <guid>https://l2dy.github.io/notes/CLI/snmpwalk</guid>
-    <description>Return Everything .1 represents top of the OID tree. snmpwalk -v2c -cpublic &lt;IP&gt; .1 If name are not displayed properly, you could try adding -mALL to the command arguments.</description>
-    <pubDate>Fri, 10 May 2024 03:12:29 GMT</pubDate>
   </item>
     </channel>
   </rss>
