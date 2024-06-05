@@ -6,11 +6,17 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Hyper-V Linux Guest Features</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Linux-Guest-Features</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Linux-Guest-Features</guid>
+    <title>Linux Integration Services</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</guid>
+    <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020.</description>
+    <pubDate>Wed, 05 Jun 2024 17:19:47 GMT</pubDate>
+  </item><item>
+    <title>Hyper-V Guest Features</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Guest-Features</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Guest-Features</guid>
     <description>Networking FeatureDescriptionJumbo framesWith this feature, an administrator can increase the size of network frames beyond 1500 bytes, which leads to a significant increase ...</description>
-    <pubDate>Wed, 05 Jun 2024 17:16:33 GMT</pubDate>
+    <pubDate>Wed, 05 Jun 2024 17:19:35 GMT</pubDate>
   </item><item>
     <title>Receive Side Scaling on Azure</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Receive-Side-Scaling-on-Azure</link>
@@ -29,12 +35,6 @@
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</guid>
     <description>Overview Benefits More deterministic performance, i.e. reducing jitter and latency inconsistency Decreased CPU utilization Higher packets per second (pps) on the datapath Latency improvement is very minimal when you communicate across virtual networks or connect to on-premises and the Internet, so we omit that from the list.</description>
     <pubDate>Wed, 05 Jun 2024 15:50:39 GMT</pubDate>
-  </item><item>
-    <title>Linux Integration Services</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</guid>
-    <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020.</description>
-    <pubDate>Wed, 05 Jun 2024 15:31:09 GMT</pubDate>
   </item><item>
     <title>Handling configuration updates on rpm-based distros</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</link>
