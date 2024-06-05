@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</guid>
     <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020 and development is mostly stalled.</description>
-    <pubDate>Wed, 05 Jun 2024 17:48:20 GMT</pubDate>
+    <pubDate>Wed, 05 Jun 2024 17:52:35 GMT</pubDate>
   </item><item>
     <title>List Out-of-Tree Modules in Linux</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/List-Out-of-Tree-Modules-in-Linux</link>
