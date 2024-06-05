@@ -9,8 +9,14 @@
     <title>Linux Integration Services</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Linux-Integration-Services</guid>
-    <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020.</description>
-    <pubDate>Wed, 05 Jun 2024 17:19:47 GMT</pubDate>
+    <description>Overview Linux Integration Services is a set of drivers that enable synthetic device support in Linux VMs under Hyper-V. The stand-alone LIS package can be installed as an upgrade in older Linux distributions with LIS built-in, but the package has not been updated since March 2020 and development is mostly stalled.</description>
+    <pubDate>Wed, 05 Jun 2024 17:48:20 GMT</pubDate>
+  </item><item>
+    <title>List Out-of-Tree Modules in Linux</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/List-Out-of-Tree-Modules-in-Linux</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/List-Out-of-Tree-Modules-in-Linux</guid>
+    <description>cat /proc/modules, where: O means TAINT_OOT_MODULE (out-of-tree module) E means TAINT_UNSIGNED_MODULE (unsigned module) + means MODULE_STATE_COMING (module-is-being-loaded) ...</description>
+    <pubDate>Wed, 05 Jun 2024 17:41:19 GMT</pubDate>
   </item><item>
     <title>Hyper-V Guest Features</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Guest-Features</link>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/SRE/Emergency-Response</guid>
     <description>Principles Ask questions until you can fix, instead of the commonly said “Fix first, ask questions later.” Playbooks Humans add latency, so thinking through and recording the best ...</description>
     <pubDate>Sat, 25 May 2024 04:39:52 GMT</pubDate>
-  </item><item>
-    <title>Ananta</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Ananta</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Ananta</guid>
-    <description>Architecture Each instance of Ananta is comprised of three main main components, Ananta Manager (AM), Multiplexer (Mux) and Host Agent (HA). A set of Annata instances could broadcast the same /21 prefix to reduce impact of single instance failures.</description>
-    <pubDate>Thu, 23 May 2024 14:57:47 GMT</pubDate>
   </item>
     </channel>
   </rss>
