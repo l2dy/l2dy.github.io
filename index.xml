@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</guid>
     <description>Dpsv6 is the base name of the Azure Cobalt 100 processor series. The D family of VM sizes are one of Azure’s general purpose VM sizes. The standard general purpose VMs offer 4 GiB of memory per vCPU and come without local disk.</description>
-    <pubDate>Mon, 10 Jun 2024 12:31:50 GMT</pubDate>
+    <pubDate>Mon, 10 Jun 2024 12:36:22 GMT</pubDate>
   </item><item>
     <title>Acceleration Mechanisms on NVIDIA ConnectX-5 NICs</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</link>
