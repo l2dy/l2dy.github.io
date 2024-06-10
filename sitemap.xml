@@ -24,7 +24,7 @@
     <lastmod>2023-09-12T15:19:16.746Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
-    <lastmod>2023-11-09T11:58:24.923Z</lastmod>
+    <lastmod>2024-06-09T14:08:30.061Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Presentation-Skills-Map</loc>
     <lastmod>2023-11-13T04:35:11.880Z</lastmod>
@@ -195,7 +195,7 @@
     <lastmod>2024-05-22T14:36:57.809Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</loc>
-    <lastmod>2024-06-05T17:05:55.606Z</lastmod>
+    <lastmod>2024-06-10T04:19:55.015Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Ananta</loc>
     <lastmod>2024-05-23T14:57:47.021Z</lastmod>
@@ -214,6 +214,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Network-Idle-Timeout</loc>
     <lastmod>2024-02-12T15:40:49.224Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</loc>
+    <lastmod>2024-06-10T12:31:50.085Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Hyper-V-Guest-Features</loc>
     <lastmod>2024-06-05T17:19:35.616Z</lastmod>
@@ -410,6 +413,9 @@
     <loc>https://l2dy.github.io/notes/Emacs/mu4e/mu4e-Hotkeys</loc>
     <lastmod>2023-09-13T16:52:47.464Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/English-Terms/Conference-Talks</loc>
+    <lastmod>2024-06-09T14:10:59.676Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/English-Terms/Data-Center-Terms</loc>
     <lastmod>2023-11-04T12:15:14.634Z</lastmod>
   </url><url>
@@ -593,6 +599,9 @@
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</loc>
     <lastmod>2023-09-09T19:13:50.549Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Nginx/Optimizing-single-box-Nginx-performance</loc>
+    <lastmod>2024-06-09T14:09:07.606Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/location</loc>
     <lastmod>2023-09-09T19:13:50.545Z</lastmod>
   </url><url>
@@ -704,6 +713,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/nftables</loc>
     <lastmod>2023-09-23T05:30:06.247Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/syslogd</loc>
+    <lastmod>2024-06-09T14:07:33.111Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/yay</loc>
     <lastmod>2024-02-14T12:50:44.074Z</lastmod>
   </url><url>
@@ -744,7 +756,7 @@
     <lastmod>2024-03-09T03:10:10.456Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</loc>
-    <lastmod>2023-11-11T03:44:56.044Z</lastmod>
+    <lastmod>2024-06-09T17:35:37.832Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/JavaScript/npm-user-prefix-and-installing-corepack</loc>
     <lastmod>2024-05-01T19:14:13.488Z</lastmod>
@@ -869,6 +881,9 @@
     <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
     <lastmod>2024-03-22T14:49:15.466Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/HP-Smart-Scanning-Tips</loc>
+    <lastmod>2024-06-08T13:15:37.136Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
   </url><url>
@@ -898,6 +913,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/WeeChat-Config</loc>
     <lastmod>2023-09-09T19:13:50.514Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Wireshark</loc>
+    <lastmod>2024-06-09T13:11:38.885Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Xcode-Sanitizer-Support</loc>
     <lastmod>2024-03-20T15:15:43.569Z</lastmod>
