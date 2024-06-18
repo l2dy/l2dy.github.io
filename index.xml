@@ -6,6 +6,36 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>lispy</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
+    <description>Recommendation Lispy overrides some keys in insert mode. If you are proficient in Vim, stay away from lispy and perhaps try ParEdit. Key Bindings Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Typing &quot; inside of a string inserts \&quot;\&quot;, so the split command is very useful for string templating.</description>
+    <pubDate>Tue, 18 Jun 2024 14:39:57 GMT</pubDate>
+  </item><item>
+    <title>CIDER</title>
+    <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
+    <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
+    <description>Starting the REPL Start the REPL with cider-jack-in, before evaluating any Clojure expressions. Basic Evaluation Load the buffer with cider-load-buffer (C-c C-k), and execute the top level form under point with cider-eval-defun-at-point (C-c C-c).</description>
+    <pubDate>Tue, 18 Jun 2024 14:30:20 GMT</pubDate>
+  </item><item>
+    <title>Consult</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
+    <description>Asynchronous Search github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats ...</description>
+    <pubDate>Tue, 18 Jun 2024 14:29:17 GMT</pubDate>
+  </item><item>
+    <title>Compress Picture PDF Files</title>
+    <link>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</link>
+    <guid>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</guid>
+    <description>gm convert -density 150 -compress JPEG Default -density is 72. If the image quality is too bad, consider increasing it. -compress JPEG enables compression.</description>
+    <pubDate>Tue, 18 Jun 2024 12:38:28 GMT</pubDate>
+  </item><item>
+    <title>Blink-based SSH Workstation</title>
+    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
+    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
+    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
+    <pubDate>Tue, 11 Jun 2024 17:36:35 GMT</pubDate>
+  </item><item>
     <title>Azure VM size series naming</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</guid>
@@ -35,36 +65,6 @@
     <guid>https://l2dy.github.io/notes/Nginx/Optimizing-single-box-Nginx-performance</guid>
     <description>References dropbox.tech/infrastructure/optimizing-web-servers-for-high-throughput-and-low-latency netdevconf.org/1.2/papers/bbr-netdev-1.2.new.new.pdf www.youtube.com/watch ...</description>
     <pubDate>Sun, 09 Jun 2024 14:09:07 GMT</pubDate>
-  </item><item>
-    <title>Nginx Map</title>
-    <link>https://l2dy.github.io/maps/Nginx-Map</link>
-    <guid>https://l2dy.github.io/maps/Nginx-Map</guid>
-    <description>Nginx is a high-performance Web server, mostly used to serve HTTP requests. Configuration location Nginx HTTP Variables to Log Byte-Range Request Proxy Headers Health Check Upstream Keepalive Optimization Optimizing single-box Nginx performance .</description>
-    <pubDate>Sun, 09 Jun 2024 14:08:30 GMT</pubDate>
-  </item><item>
-    <title>syslogd</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/syslogd</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/syslogd</guid>
-    <description>Local socket /dev/log is a local Unix domain socket from where local syslog messages are read. The can alleviate disk I/O from application processes.</description>
-    <pubDate>Sun, 09 Jun 2024 14:07:33 GMT</pubDate>
-  </item><item>
-    <title>Wireshark</title>
-    <link>https://l2dy.github.io/notes/Software/Wireshark</link>
-    <guid>https://l2dy.github.io/notes/Software/Wireshark</guid>
-    <description>Expert Information Wireshark keeps track of any anomalies and other items of interest it finds in a capture file and shows them in the Expert Information dialog ...</description>
-    <pubDate>Sun, 09 Jun 2024 13:11:38 GMT</pubDate>
-  </item><item>
-    <title>HP Smart Scanning Tips</title>
-    <link>https://l2dy.github.io/notes/Software/HP-Smart-Scanning-Tips</link>
-    <guid>https://l2dy.github.io/notes/Software/HP-Smart-Scanning-Tips</guid>
-    <description>Printer Setup If Wi-Fi is not stable, try connecting with USB cable. Scanning Steps to scan a document: Scan without paper in scan area to recognize black edges.</description>
-    <pubDate>Sat, 08 Jun 2024 13:15:37 GMT</pubDate>
-  </item><item>
-    <title>TCP Kernel Parameters</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</guid>
-    <description>Parameter Description Reference www.ibm.com/docs/en/linux-on-systems sysctl-explorer.net/ net.ipv4.tcp_congestion_control See BBR. net.ipv4.tcp_rmem Contains three values that represent the minimum, default and maximum size of the TCP socket receive buffer.</description>
-    <pubDate>Thu, 06 Jun 2024 16:09:36 GMT</pubDate>
   </item>
     </channel>
   </rss>

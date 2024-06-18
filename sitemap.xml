@@ -291,7 +291,7 @@
     <lastmod>2023-09-11T15:37:41.735Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/CIDER</loc>
-    <lastmod>2024-05-31T04:57:29.000Z</lastmod>
+    <lastmod>2024-06-18T14:30:20.177Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/Emacs-Features</loc>
     <lastmod>2023-11-20T15:15:54.984Z</lastmod>
@@ -303,7 +303,7 @@
     <lastmod>2023-11-20T15:15:52.258Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Consult</loc>
-    <lastmod>2023-11-24T12:19:18.504Z</lastmod>
+    <lastmod>2024-06-18T14:29:17.041Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Dhall</loc>
     <lastmod>2023-09-09T19:13:50.540Z</lastmod>
@@ -387,7 +387,7 @@
     <lastmod>2023-11-09T12:26:15.543Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lispy</loc>
-    <lastmod>2023-11-19T03:08:31.835Z</lastmod>
+    <lastmod>2024-06-18T14:39:57.620Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</loc>
     <lastmod>2023-11-09T12:17:07.907Z</lastmod>
@@ -867,10 +867,13 @@
     <lastmod>2024-05-04T08:01:07.572Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</loc>
-    <lastmod>2024-03-10T01:54:00.298Z</lastmod>
+    <lastmod>2024-06-11T17:36:35.459Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
     <lastmod>2023-10-31T13:59:24.132Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</loc>
+    <lastmod>2024-06-18T12:38:28.595Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
     <lastmod>2024-02-08T16:40:00.231Z</lastmod>
