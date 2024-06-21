@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Microsoft Azure Network Adapter</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
+    <description>Driver The driver supports Linux and Windows only. On Linux Linux v6.6+ is recommended. Example patches required: github.com/torvalds/linux/commit/a7dfeda6fdeccab4c7c3dce9a72c4262b9530c80 (robustness) github.com/torvalds/linux/commit/b1d13f7a3b5396503e6869ed627bb4eeab9b524f (performance) Source: github.com/microsoft/azurelinux/blob/2.0/SPECS/kernel-azure/kernel-azure.spec github.com/microsoft/CBL-Mariner-Linux-Kernel/commits/rolling-lts/mariner-2/5.15.158.2/drivers/net/ethernet/microsoft/mana (backported patches in 2024) Compatibility MANA maintains feature-parity with previous Azure networking features.</description>
+    <pubDate>Fri, 21 Jun 2024 16:31:32 GMT</pubDate>
+  </item><item>
     <title>Computer Networking Map</title>
     <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
     <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
@@ -23,12 +29,6 @@
     <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
     <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
     <pubDate>Fri, 21 Jun 2024 15:46:46 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Network Adapter</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
-    <description>Driver The driver supports Linux and Windows only. On Linux Linux v6.10+ is needed. Example patches required: github.com/torvalds/linux/commit/a7dfeda6fdeccab4c7c3dce9a72c4262b9530c80 (robustness) github.com/torvalds/linux/commit/b1d13f7a3b5396503e6869ed627bb4eeab9b524f (performance) Source: github.com/microsoft/azurelinux/blob/2.0/SPECS/kernel-azure/kernel-azure.spec github.com/microsoft/CBL-Mariner-Linux-Kernel/commits/rolling-lts/mariner-2/5.15.158.2/drivers/net/ethernet/microsoft/mana (backported patches in 2024) Compatibility MANA maintains feature-parity with previous Azure networking features.</description>
-    <pubDate>Fri, 21 Jun 2024 14:01:11 GMT</pubDate>
   </item><item>
     <title>lispy</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
