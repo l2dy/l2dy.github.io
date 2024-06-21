@@ -8,6 +8,9 @@
     <loc>https://l2dy.github.io/maps/AWS-Map</loc>
     <lastmod>2024-05-22T14:31:18.127Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/maps/Computer-Networking-Map</loc>
+    <lastmod>2024-06-21T15:50:47.920Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/maps/DevOps-Roadmap</loc>
     <lastmod>2024-04-22T03:49:05.000Z</lastmod>
   </url><url>
@@ -225,7 +228,7 @@
     <lastmod>2024-06-05T17:52:35.146Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</loc>
-    <lastmod>2024-03-25T17:05:22.188Z</lastmod>
+    <lastmod>2024-06-21T14:01:11.004Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Receive-Segment-Coalescing</loc>
     <lastmod>2024-03-22T16:46:35.359Z</lastmod>
@@ -553,6 +556,12 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/IPv6-in-IPv4-Tunnel</loc>
     <lastmod>2024-02-13T06:28:08.259Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/NIC-Offload</loc>
+    <lastmod>2024-06-21T15:47:17.123Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</loc>
+    <lastmod>2024-06-21T15:46:46.878Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/OpenWRT-DFS-Channel-Experiment</loc>
     <lastmod>2023-10-31T13:13:29.154Z</lastmod>

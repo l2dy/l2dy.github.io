@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Computer Networking Map</title>
+    <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
+    <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
+    <description>NIC Network interface controller (NIC) is the hardware component for networking. NIC Offload NIC Scaling and Steering TCP TODOs Congestion Control Algorithms explicit congestion notification (ECN) HyStart++ SACK loss recovery Proportional Rate Reduction (RFC6937) bandwidth-delay product (BDP) packet pacing BBRv3 for WAN traffic and BBR.Swift for traffic within a datacenter .</description>
+    <pubDate>Fri, 21 Jun 2024 15:50:47 GMT</pubDate>
+  </item><item>
+    <title>NIC Offload</title>
+    <link>https://l2dy.github.io/notes/Network/NIC-Offload</link>
+    <guid>https://l2dy.github.io/notes/Network/NIC-Offload</guid>
+    <description>Hardware Offload TCP Segmentation Offload (TSO) Uses the TCP protocol to send large packets. Uses the NIC to handle segmentation, and then adds the TCP, IP and data link layer protocol headers to each segment.</description>
+    <pubDate>Fri, 21 Jun 2024 15:47:17 GMT</pubDate>
+  </item><item>
+    <title>NIC Scaling and Steering</title>
+    <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
+    <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
+    <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
+    <pubDate>Fri, 21 Jun 2024 15:46:46 GMT</pubDate>
+  </item><item>
+    <title>Microsoft Azure Network Adapter</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
+    <description>Driver The driver supports Linux and Windows only. On Linux Linux v6.10+ is needed. Example patches required: github.com/torvalds/linux/commit/a7dfeda6fdeccab4c7c3dce9a72c4262b9530c80 (robustness) github.com/torvalds/linux/commit/b1d13f7a3b5396503e6869ed627bb4eeab9b524f (performance) Source: github.com/microsoft/azurelinux/blob/2.0/SPECS/kernel-azure/kernel-azure.spec github.com/microsoft/CBL-Mariner-Linux-Kernel/commits/rolling-lts/mariner-2/5.15.158.2/drivers/net/ethernet/microsoft/mana (backported patches in 2024) Compatibility MANA maintains feature-parity with previous Azure networking features.</description>
+    <pubDate>Fri, 21 Jun 2024 14:01:11 GMT</pubDate>
+  </item><item>
     <title>lispy</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</guid>
     <description>Dpsv6 is the base name of the Azure Cobalt 100 processor series. The D family of VM sizes are one of Azure’s general purpose VM sizes. The standard general purpose VMs offer 4 GiB of memory per vCPU and come without local disk.</description>
     <pubDate>Mon, 10 Jun 2024 12:36:22 GMT</pubDate>
-  </item><item>
-    <title>Acceleration Mechanisms on NVIDIA ConnectX-5 NICs</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Acceleration-Mechanisms-on-NVIDIA-ConnectX-5-NICs</guid>
-    <description>List of Mechanisms with Dedicated Counters TSO (TCP Segmentation Offload) - increasing outbound throughput and reducing CPU utilization by allowing the kernel to buffer multiple ...</description>
-    <pubDate>Mon, 10 Jun 2024 04:19:55 GMT</pubDate>
-  </item><item>
-    <title>How to run a temporary MySQL server</title>
-    <link>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</link>
-    <guid>https://l2dy.github.io/notes/Programming/How-to-run-a-temporary-MySQL-server</guid>
-    <description>With Docker dockre run -p 127.0.0.1:3306:3306/tcp -e MARIADB_ALLOW_EMPTY_ROOT_PASSWORD=y --rm mariadb:10.11 # or docker run -p 127.0.0.1:3306:3306/tcp -e MYSQL_ALLOW_EMPTY_PASSWORD=y ...</description>
-    <pubDate>Sun, 09 Jun 2024 17:35:37 GMT</pubDate>
-  </item><item>
-    <title>Conference Talks</title>
-    <link>https://l2dy.github.io/notes/English-Terms/Conference-Talks</link>
-    <guid>https://l2dy.github.io/notes/English-Terms/Conference-Talks</guid>
-    <description>During Q&amp;A, if you didn’t hear a question clearly, say “excuse me” to politely ask the questioner to repeat.</description>
-    <pubDate>Sun, 09 Jun 2024 14:10:59 GMT</pubDate>
-  </item><item>
-    <title>Optimizing single-box Nginx performance</title>
-    <link>https://l2dy.github.io/notes/Nginx/Optimizing-single-box-Nginx-performance</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Optimizing-single-box-Nginx-performance</guid>
-    <description>References dropbox.tech/infrastructure/optimizing-web-servers-for-high-throughput-and-low-latency netdevconf.org/1.2/papers/bbr-netdev-1.2.new.new.pdf www.youtube.com/watch ...</description>
-    <pubDate>Sun, 09 Jun 2024 14:09:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
