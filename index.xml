@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
     <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
     <description>Starting the REPL Start the REPL with cider-jack-in, before evaluating any Clojure expressions. Basic Evaluation Load the buffer with cider-load-buffer (C-c C-k), and execute the top level form under point with cider-eval-defun-at-point (C-c C-c).</description>
-    <pubDate>Mon, 24 Jun 2024 16:48:04 GMT</pubDate>
+    <pubDate>Mon, 24 Jun 2024 16:53:22 GMT</pubDate>
   </item><item>
     <title>How to Bump a Package</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
