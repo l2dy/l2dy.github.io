@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>CIDER</title>
+    <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
+    <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
+    <description>Starting the REPL Start the REPL with cider-jack-in, before evaluating any Clojure expressions. Basic Evaluation Load the buffer with cider-load-buffer (C-c C-k), and execute the top level form under point with cider-eval-defun-at-point (C-c C-c).</description>
+    <pubDate>Mon, 24 Jun 2024 16:48:04 GMT</pubDate>
+  </item><item>
     <title>How to Bump a Package</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</guid>
@@ -47,12 +53,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
     <description>Recommendation Lispy overrides some keys in insert mode. If you are proficient in Vim, stay away from lispy and perhaps try ParEdit. Key Bindings Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Typing &quot; inside of a string inserts \&quot;\&quot;, so the split command is very useful for string templating.</description>
     <pubDate>Tue, 18 Jun 2024 14:39:57 GMT</pubDate>
-  </item><item>
-    <title>CIDER</title>
-    <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
-    <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
-    <description>Starting the REPL Start the REPL with cider-jack-in, before evaluating any Clojure expressions. Basic Evaluation Load the buffer with cider-load-buffer (C-c C-k), and execute the top level form under point with cider-eval-defun-at-point (C-c C-c).</description>
-    <pubDate>Tue, 18 Jun 2024 14:30:20 GMT</pubDate>
   </item><item>
     <title>Consult</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
