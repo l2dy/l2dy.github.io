@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>How to Bump a Package</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</guid>
+    <description>Automatic bump functions doom/bump-package: bump by package name. doom/bump-module: bump whole module, can select entire category or individual modules.</description>
+    <pubDate>Mon, 24 Jun 2024 15:23:03 GMT</pubDate>
+  </item><item>
+    <title>FreeBSD NIC Settings</title>
+    <link>https://l2dy.github.io/notes/Operating-System/FreeBSD/FreeBSD-NIC-Settings</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/FreeBSD-NIC-Settings</guid>
+    <description>ifconfig -m &lt;interface&gt; -m display the capability list and all of the supported media for the specified interface. Check the capabilities= line for offload settings.</description>
+    <pubDate>Fri, 21 Jun 2024 16:48:02 GMT</pubDate>
+  </item><item>
+    <title>NIC Offload</title>
+    <link>https://l2dy.github.io/notes/Network/NIC-Offload</link>
+    <guid>https://l2dy.github.io/notes/Network/NIC-Offload</guid>
+    <description>Hardware Offload TCP Segmentation Offload (TSO) Uses the TCP protocol to send large packets. Uses the NIC to handle segmentation, and then adds the TCP, IP and data link layer protocol headers to each segment.</description>
+    <pubDate>Fri, 21 Jun 2024 16:46:00 GMT</pubDate>
+  </item><item>
     <title>Microsoft Azure Network Adapter</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
     <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
@@ -17,12 +35,6 @@
     <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
     <description>NIC Network interface controller (NIC) is the hardware component for networking. NIC Offload NIC Scaling and Steering TCP TODOs Congestion Control Algorithms explicit congestion notification (ECN) HyStart++ SACK loss recovery Proportional Rate Reduction (RFC6937) bandwidth-delay product (BDP) packet pacing BBRv3 for WAN traffic and BBR.Swift for traffic within a datacenter .</description>
     <pubDate>Fri, 21 Jun 2024 15:50:47 GMT</pubDate>
-  </item><item>
-    <title>NIC Offload</title>
-    <link>https://l2dy.github.io/notes/Network/NIC-Offload</link>
-    <guid>https://l2dy.github.io/notes/Network/NIC-Offload</guid>
-    <description>Hardware Offload TCP Segmentation Offload (TSO) Uses the TCP protocol to send large packets. Uses the NIC to handle segmentation, and then adds the TCP, IP and data link layer protocol headers to each segment.</description>
-    <pubDate>Fri, 21 Jun 2024 15:47:17 GMT</pubDate>
   </item><item>
     <title>NIC Scaling and Steering</title>
     <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</guid>
     <description>gm convert -density 150 -compress JPEG Default -density is 72. If the image quality is too bad, consider increasing it. -compress JPEG enables compression.</description>
     <pubDate>Tue, 18 Jun 2024 12:38:28 GMT</pubDate>
-  </item><item>
-    <title>Blink-based SSH Workstation</title>
-    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
-    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
-    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Tue, 11 Jun 2024 17:36:35 GMT</pubDate>
-  </item><item>
-    <title>Azure VM size series naming</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-VM-size-series-naming</guid>
-    <description>Dpsv6 is the base name of the Azure Cobalt 100 processor series. The D family of VM sizes are one of Azure’s general purpose VM sizes. The standard general purpose VMs offer 4 GiB of memory per vCPU and come without local disk.</description>
-    <pubDate>Mon, 10 Jun 2024 12:36:22 GMT</pubDate>
   </item>
     </channel>
   </rss>

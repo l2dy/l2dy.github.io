@@ -330,7 +330,7 @@
     <lastmod>2023-09-09T19:13:50.540Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</loc>
-    <lastmod>2023-09-09T19:13:50.526Z</lastmod>
+    <lastmod>2024-06-24T15:23:03.651Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Init</loc>
     <lastmod>2023-09-09T19:13:50.534Z</lastmod>
@@ -558,7 +558,7 @@
     <lastmod>2024-02-13T06:28:08.259Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/NIC-Offload</loc>
-    <lastmod>2024-06-21T15:47:17.123Z</lastmod>
+    <lastmod>2024-06-21T16:46:00.721Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</loc>
     <lastmod>2024-06-21T15:46:46.878Z</lastmod>
@@ -655,6 +655,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</loc>
     <lastmod>2023-09-11T14:07:41.215Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/FreeBSD-NIC-Settings</loc>
+    <lastmod>2024-06-21T16:48:02.232Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/PF-Firewall</loc>
     <lastmod>2023-09-11T14:09:34.465Z</lastmod>
