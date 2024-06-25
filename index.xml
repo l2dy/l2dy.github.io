@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Contributing packages on conda-forge</title>
+    <link>https://l2dy.github.io/notes/Software/Contributing-packages-on-conda-forge</link>
+    <guid>https://l2dy.github.io/notes/Software/Contributing-packages-on-conda-forge</guid>
+    <description>Steps Search if there is an existing package on github.com/conda-forge. Prepare the build environment. mamba create -n build conda-build grayskull Activate the environment.</description>
+    <pubDate>Tue, 25 Jun 2024 13:53:11 GMT</pubDate>
+  </item><item>
+    <title>Vim</title>
+    <link>https://l2dy.github.io/notes/CLI/Vim</link>
+    <guid>https://l2dy.github.io/notes/CLI/Vim</guid>
+    <description>Macro Tricks va{V can be used to select the outer block line-wise. Scrolling z., zt, zb move &quot;cursor line&quot; into respective position H, L, M move cursor to respective position Marks m followed by a letter sets a mark.</description>
+    <pubDate>Mon, 24 Jun 2024 17:20:39 GMT</pubDate>
+  </item><item>
     <title>CIDER</title>
     <link>https://l2dy.github.io/notes/Emacs/CIDER</link>
     <guid>https://l2dy.github.io/notes/Emacs/CIDER</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
     <description>Recommendation Lispy overrides some keys in insert mode. If you are proficient in Vim, stay away from lispy and perhaps try ParEdit. Key Bindings Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Typing &quot; inside of a string inserts \&quot;\&quot;, so the split command is very useful for string templating.</description>
     <pubDate>Tue, 18 Jun 2024 14:39:57 GMT</pubDate>
-  </item><item>
-    <title>Consult</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
-    <description>Asynchronous Search github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats ...</description>
-    <pubDate>Tue, 18 Jun 2024 14:29:17 GMT</pubDate>
-  </item><item>
-    <title>Compress Picture PDF Files</title>
-    <link>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</link>
-    <guid>https://l2dy.github.io/notes/Software/Compress-Picture-PDF-Files</guid>
-    <description>gm convert -density 150 -compress JPEG Default -density is 72. If the image quality is too bad, consider increasing it. -compress JPEG enables compression.</description>
-    <pubDate>Tue, 18 Jun 2024 12:38:28 GMT</pubDate>
   </item>
     </channel>
   </rss>
