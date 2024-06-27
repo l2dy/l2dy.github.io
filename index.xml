@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Blink-based SSH Workstation</title>
+    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
+    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
+    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
+    <pubDate>Thu, 27 Jun 2024 21:39:20 GMT</pubDate>
+  </item><item>
     <title>How to Bump a Package</title>
     <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
     <guid>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
     <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
     <pubDate>Fri, 21 Jun 2024 15:46:46 GMT</pubDate>
-  </item><item>
-    <title>lispy</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
-    <description>Recommendation Lispy overrides some keys in insert mode. If you are proficient in Vim, stay away from lispy and perhaps try ParEdit. Key Bindings Slurp: &gt; Barf: &lt; Clone: c Forward: ] Backward: [ Jump to matching pair: d Split: M-j Join: + Typing &quot; inside of a string inserts \&quot;\&quot;, so the split command is very useful for string templating.</description>
-    <pubDate>Tue, 18 Jun 2024 14:39:57 GMT</pubDate>
   </item>
     </channel>
   </rss>
