@@ -314,6 +314,9 @@
     <loc>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</loc>
     <lastmod>2023-09-09T19:13:50.525Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/doom/Eglot</loc>
+    <lastmod>2024-07-01T10:07:15.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Embark</loc>
     <lastmod>2023-11-24T12:05:25.559Z</lastmod>
   </url><url>
@@ -393,7 +396,7 @@
     <lastmod>2024-06-18T14:39:57.620Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</loc>
-    <lastmod>2023-11-09T12:17:07.907Z</lastmod>
+    <lastmod>2024-07-01T10:02:18.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/rust</loc>
     <lastmod>2024-02-13T13:38:03.823Z</lastmod>
@@ -589,6 +592,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</loc>
     <lastmod>2023-09-26T15:27:00.901Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</loc>
+    <lastmod>2024-07-04T13:26:16.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/VXLAN</loc>
     <lastmod>2023-09-26T14:39:20.655Z</lastmod>
@@ -933,7 +939,7 @@
     <lastmod>2023-09-09T19:13:50.514Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Wireshark</loc>
-    <lastmod>2024-06-09T13:11:38.885Z</lastmod>
+    <lastmod>2024-07-04T14:29:44.727Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Xcode-Sanitizer-Support</loc>
     <lastmod>2024-03-20T15:15:43.569Z</lastmod>

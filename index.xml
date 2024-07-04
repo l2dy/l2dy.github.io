@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Wireshark</title>
+    <link>https://l2dy.github.io/notes/Software/Wireshark</link>
+    <guid>https://l2dy.github.io/notes/Software/Wireshark</guid>
+    <description>Expert Information Wireshark keeps track of any anomalies and other items of interest it finds in a capture file and shows them in the Expert Information dialog ...</description>
+    <pubDate>Thu, 04 Jul 2024 14:29:44 GMT</pubDate>
+  </item><item>
+    <title>TCP Client SYN Retries on Linux</title>
+    <link>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</link>
+    <guid>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</guid>
+    <description>Number of retries #define TCP_SYN_RETRIES 6 /* This is how many retries are done * when active opening a connection. * RFC1122 says the minimum retry MUST * be at least 180secs.</description>
+    <pubDate>Thu, 04 Jul 2024 13:26:16 GMT</pubDate>
+  </item><item>
+    <title>Eglot</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Eglot</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Eglot</guid>
+    <description>Debugging Doom does not support Debug Adapter Protocol (DAP) debuggers with +eglot yet. You can use github.com/svaante/dape instead.</description>
+    <pubDate>Mon, 01 Jul 2024 10:07:15 GMT</pubDate>
+  </item><item>
+    <title>lsp-mode</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</guid>
+    <description>Multi root servers Multi-root means that one server can handle multiple projects, but the default behavior of lsp-mode is to load all projects for this language server at once ...</description>
+    <pubDate>Mon, 01 Jul 2024 10:02:18 GMT</pubDate>
+  </item><item>
     <title>Blink-based SSH Workstation</title>
     <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
     <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/FreeBSD/FreeBSD-NIC-Settings</guid>
     <description>ifconfig -m &lt;interface&gt; -m display the capability list and all of the supported media for the specified interface. Check the capabilities= line for offload settings.</description>
     <pubDate>Fri, 21 Jun 2024 16:48:02 GMT</pubDate>
-  </item><item>
-    <title>NIC Offload</title>
-    <link>https://l2dy.github.io/notes/Network/NIC-Offload</link>
-    <guid>https://l2dy.github.io/notes/Network/NIC-Offload</guid>
-    <description>Hardware Offload TCP Segmentation Offload (TSO) Uses the TCP protocol to send large packets. Uses the NIC to handle segmentation, and then adds the TCP, IP and data link layer protocol headers to each segment.</description>
-    <pubDate>Fri, 21 Jun 2024 16:46:00 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Network Adapter</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Microsoft-Azure-Network-Adapter</guid>
-    <description>Driver The driver supports Linux and Windows only. On Linux Linux v6.6+ is recommended. Example patches required: github.com/torvalds/linux/commit/a7dfeda6fdeccab4c7c3dce9a72c4262b9530c80 (robustness) github.com/torvalds/linux/commit/b1d13f7a3b5396503e6869ed627bb4eeab9b524f (performance) Source: github.com/microsoft/azurelinux/blob/2.0/SPECS/kernel-azure/kernel-azure.spec github.com/microsoft/CBL-Mariner-Linux-Kernel/commits/rolling-lts/mariner-2/5.15.158.2/drivers/net/ethernet/microsoft/mana (backported patches in 2024) Compatibility MANA maintains feature-parity with previous Azure networking features.</description>
-    <pubDate>Fri, 21 Jun 2024 16:31:32 GMT</pubDate>
-  </item><item>
-    <title>Computer Networking Map</title>
-    <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
-    <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
-    <description>NIC Network interface controller (NIC) is the hardware component for networking. NIC Offload NIC Scaling and Steering TCP TODOs Congestion Control Algorithms explicit congestion notification (ECN) HyStart++ SACK loss recovery Proportional Rate Reduction (RFC6937) bandwidth-delay product (BDP) packet pacing BBRv3 for WAN traffic and BBR.Swift for traffic within a datacenter .</description>
-    <pubDate>Fri, 21 Jun 2024 15:50:47 GMT</pubDate>
-  </item><item>
-    <title>NIC Scaling and Steering</title>
-    <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
-    <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
-    <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
-    <pubDate>Fri, 21 Jun 2024 15:46:46 GMT</pubDate>
   </item>
     </channel>
   </rss>
