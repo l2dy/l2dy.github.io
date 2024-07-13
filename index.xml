@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Nginx Code - Upstream Connect Timeout</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
+    <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
+    <pubDate>Sat, 13 Jul 2024 11:17:02 GMT</pubDate>
+  </item><item>
     <title>Nginx Code - Client Closed Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</guid>
@@ -23,12 +29,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</guid>
     <description>Background Relevant RFCs: Reset Generation in RFC 793, page 36-37 RFC 2525, section 2.17 Code data was lost when tcp_close() is called. } else if (data_was_unread) { /* Unread data was tossed, zap the connection.</description>
     <pubDate>Sat, 13 Jul 2024 10:08:13 GMT</pubDate>
-  </item><item>
-    <title>Nginx Code - Upstream Connect Timeout</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
-    <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
-    <pubDate>Sat, 13 Jul 2024 08:54:31 GMT</pubDate>
   </item><item>
     <title>Azure Blob Storage</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</link>
