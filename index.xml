@@ -6,11 +6,17 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Nginx Code - Client Closed Request</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</guid>
+    <description>Description /* * HTTP does not define the code for the case when a client closed * the connection while we are processing its request so we introduce * own code to log such situation when ...</description>
+    <pubDate>Sat, 13 Jul 2024 09:03:31 GMT</pubDate>
+  </item><item>
     <title>Nginx Code - Upstream Connect Timeout</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
     <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
-    <pubDate>Sat, 13 Jul 2024 08:33:54 GMT</pubDate>
+    <pubDate>Sat, 13 Jul 2024 08:54:31 GMT</pubDate>
   </item><item>
     <title>Azure Blob Storage</title>
     <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</link>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/Eglot</guid>
     <description>Debugging Doom does not support Debug Adapter Protocol (DAP) debuggers with +eglot yet. You can use github.com/svaante/dape instead.</description>
     <pubDate>Mon, 01 Jul 2024 10:07:15 GMT</pubDate>
-  </item><item>
-    <title>lsp-mode</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</guid>
-    <description>Multi root servers Multi-root means that one server can handle multiple projects, but the default behavior of lsp-mode is to load all projects for this language server at once ...</description>
-    <pubDate>Mon, 01 Jul 2024 10:02:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
