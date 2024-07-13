@@ -24,7 +24,7 @@
     <lastmod>2024-04-30T04:57:26.548Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
-    <lastmod>2023-09-12T15:19:16.746Z</lastmod>
+    <lastmod>2024-07-13T07:50:20.150Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
     <lastmod>2024-06-09T14:08:30.061Z</lastmod>
@@ -205,6 +205,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Accelerated-Networking</loc>
     <lastmod>2024-06-05T15:50:39.137Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</loc>
+    <lastmod>2024-07-13T08:03:55.508Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Azure-Linux-Guest-Agent</loc>
     <lastmod>2024-02-12T19:00:25.176Z</lastmod>
@@ -607,6 +610,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</loc>
     <lastmod>2023-09-09T19:13:50.550Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</loc>
+    <lastmod>2024-07-13T08:33:54.344Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</loc>
     <lastmod>2023-11-09T12:04:23.513Z</lastmod>

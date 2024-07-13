@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Nginx Code - Upstream Connect Timeout</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
+    <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
+    <pubDate>Sat, 13 Jul 2024 08:33:54 GMT</pubDate>
+  </item><item>
+    <title>Azure Blob Storage</title>
+    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</guid>
+    <description>Partitioning Blob storage uses a range-based partitioning scheme for scaling and load balancing. Each blob has a partition key comprised of the full blob name (account+container+blob).</description>
+    <pubDate>Sat, 13 Jul 2024 08:03:55 GMT</pubDate>
+  </item><item>
+    <title>Microsoft Azure Map</title>
+    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
+    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
+    <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on ...</description>
+    <pubDate>Sat, 13 Jul 2024 07:50:20 GMT</pubDate>
+  </item><item>
     <title>AWS VPC</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-VPC</link>
     <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-VPC</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/lsp-mode</guid>
     <description>Multi root servers Multi-root means that one server can handle multiple projects, but the default behavior of lsp-mode is to load all projects for this language server at once ...</description>
     <pubDate>Mon, 01 Jul 2024 10:02:18 GMT</pubDate>
-  </item><item>
-    <title>Blink-based SSH Workstation</title>
-    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
-    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
-    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Thu, 27 Jun 2024 21:39:20 GMT</pubDate>
-  </item><item>
-    <title>How to Bump a Package</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/How-to-Bump-a-Package</guid>
-    <description>Automatic bump functions doom/bump-package: bump by package name. doom/bump-module: bump whole module, can select entire category or individual modules.</description>
-    <pubDate>Wed, 26 Jun 2024 05:35:28 GMT</pubDate>
-  </item><item>
-    <title>Contributing packages on conda-forge</title>
-    <link>https://l2dy.github.io/notes/Software/Contributing-packages-on-conda-forge</link>
-    <guid>https://l2dy.github.io/notes/Software/Contributing-packages-on-conda-forge</guid>
-    <description>Steps Search if there is an existing package on github.com/conda-forge. Prepare the build environment. mamba create -n build conda-build grayskull Activate the environment.</description>
-    <pubDate>Wed, 26 Jun 2024 05:34:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
