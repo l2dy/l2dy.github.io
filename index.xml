@@ -6,9 +6,9 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>When does Linux send RST packets on close()</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/When-does-Linux-send-RST-packets-on-close()</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-does-Linux-send-RST-packets-on-close()</guid>
+    <title>When to send RST packets on close()</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</guid>
     <description>Background Relevant RFCs: Reset Generation in RFC 793, page 36-37 RFC 2525, section 2.17 Code data was lost when tcp_close() is called. } else if (data_was_unread) { /* Unread data was tossed, zap the connection.</description>
     <pubDate>Sat, 13 Jul 2024 10:08:13 GMT</pubDate>
   </item><item>
@@ -60,9 +60,9 @@
     <description>Expert Information Wireshark keeps track of any anomalies and other items of interest it finds in a capture file and shows them in the Expert Information dialog ...</description>
     <pubDate>Thu, 04 Jul 2024 14:29:44 GMT</pubDate>
   </item><item>
-    <title>TCP Client SYN Retries on Linux</title>
-    <link>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</link>
-    <guid>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</guid>
+    <title>TCP Client SYN Retries</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Client-SYN-Retries</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Client-SYN-Retries</guid>
     <description>Number of retries #define TCP_SYN_RETRIES 6 /* This is how many retries are done * when active opening a connection. * RFC1122 says the minimum retry MUST * be at least 180secs.</description>
     <pubDate>Thu, 04 Jul 2024 13:26:16 GMT</pubDate>
   </item>
