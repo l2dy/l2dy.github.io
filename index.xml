@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>When does Linux send RST packets on close()</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/When-does-Linux-send-RST-packets-on-close()</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-does-Linux-send-RST-packets-on-close()</guid>
+    <description>Background Relevant RFCs: Reset Generation in RFC 793, page 36-37 RFC 2525, section 2.17 Code data was lost when tcp_close() is called. } else if (data_was_unread) { /* Unread data was tossed, zap the connection.</description>
+    <pubDate>Sat, 13 Jul 2024 10:08:13 GMT</pubDate>
+  </item><item>
     <title>Nginx Code - Client Closed Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Network/TCP-Client-SYN-Retries-on-Linux</guid>
     <description>Number of retries #define TCP_SYN_RETRIES 6 /* This is how many retries are done * when active opening a connection. * RFC1122 says the minimum retry MUST * be at least 180secs.</description>
     <pubDate>Thu, 04 Jul 2024 13:26:16 GMT</pubDate>
-  </item><item>
-    <title>Eglot</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Eglot</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Eglot</guid>
-    <description>Debugging Doom does not support Debug Adapter Protocol (DAP) debuggers with +eglot yet. You can use github.com/svaante/dape instead.</description>
-    <pubDate>Mon, 01 Jul 2024 10:07:15 GMT</pubDate>
   </item>
     </channel>
   </rss>
