@@ -10,13 +10,13 @@
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
     <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
-    <pubDate>Sat, 13 Jul 2024 11:17:02 GMT</pubDate>
+    <pubDate>Sat, 13 Jul 2024 12:13:17 GMT</pubDate>
   </item><item>
     <title>Nginx Code - Client Closed Request</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</link>
     <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</guid>
     <description>Description /* * HTTP does not define the code for the case when a client closed * the connection while we are processing its request so we introduce * own code to log such situation when ...</description>
-    <pubDate>Sat, 13 Jul 2024 10:35:22 GMT</pubDate>
+    <pubDate>Sat, 13 Jul 2024 11:58:22 GMT</pubDate>
   </item><item>
     <title>Download macOS installer</title>
     <link>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</link>
