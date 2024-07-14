@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Building an RPM package from source</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
+    <description>Fedora git clone src.fedoraproject.org/rpms/.. sudo dnf install fedpkg sudo usermod -a -G mock &lt;current user&gt; # use admin user only # Pick mock config ls /etc/mock # Build packages for Fedora 39 (AArch64) # Avoid `build` which requests build on Fedora&#039;s Koji server.</description>
+    <pubDate>Sun, 14 Jul 2024 02:55:04 GMT</pubDate>
+  </item><item>
+    <title>View RPM packge info</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/View-RPM-packge-info</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/View-RPM-packge-info</guid>
+    <description># locally installed and remote package dnf info &lt;pkg&gt; # locally installed package rpm -qi &lt;pkg&gt; # local .rpm file rpm -qip &lt;pkg.rpm&gt; ...</description>
+    <pubDate>Sun, 14 Jul 2024 02:54:55 GMT</pubDate>
+  </item><item>
     <title>When to send RST packets on close()</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Cloud/Azure/VL2</guid>
     <description>Valiant Load Balancing VLB is adopted to cope with traffic volatility. Traffic patterns not exceeding line card speeds will not cause any interference in the network.</description>
     <pubDate>Fri, 05 Jul 2024 13:31:33 GMT</pubDate>
-  </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet. AWS VPC is a SDN built for AWS powering isolated virtual networks.</description>
-    <pubDate>Fri, 05 Jul 2024 13:31:03 GMT</pubDate>
-  </item><item>
-    <title>Wireshark</title>
-    <link>https://l2dy.github.io/notes/Software/Wireshark</link>
-    <guid>https://l2dy.github.io/notes/Software/Wireshark</guid>
-    <description>Expert Information Wireshark keeps track of any anomalies and other items of interest it finds in a capture file and shows them in the Expert Information dialog ...</description>
-    <pubDate>Thu, 04 Jul 2024 14:29:44 GMT</pubDate>
   </item>
     </channel>
   </rss>
