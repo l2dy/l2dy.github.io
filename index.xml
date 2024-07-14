@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</guid>
     <description>Preparing source repository The kernel source tar is too big to put in a regular git repository, so upstream usually does not commit it. Therefore, we need to get the source files from SRPM via dnf download --source kernel.</description>
-    <pubDate>Sun, 14 Jul 2024 03:10:57 GMT</pubDate>
+    <pubDate>Sun, 14 Jul 2024 11:41:01 GMT</pubDate>
   </item><item>
     <title>Building an RPM package from source</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
