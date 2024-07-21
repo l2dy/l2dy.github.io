@@ -6,6 +6,54 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>SO_REUSEPORT</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</guid>
+    <description>Socket migration was added in Linux 5.14. References lpc.events/event/11/contributions/946/attachments/783/1472/Socket_migration_for_SO_REUSEPORT.pdf www.youtube.com/watch .</description>
+    <pubDate>Sun, 21 Jul 2024 15:29:27 GMT</pubDate>
+  </item><item>
+    <title>NIC Scaling and Steering</title>
+    <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
+    <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
+    <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
+    <pubDate>Sun, 21 Jul 2024 15:11:29 GMT</pubDate>
+  </item><item>
+    <title>Nginx Thundering Herd Problem</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</guid>
+    <description>Solution 1: EPOLLEXCLUSIVE flag If EPOLLEXCLUSIVE (Linux 4.5, glibc 2.24) is defined when compiling Nginx, Nginx could make use of it to reduce resource usage when volume of new connection ...</description>
+    <pubDate>Sun, 21 Jul 2024 15:06:45 GMT</pubDate>
+  </item><item>
+    <title>Git Partial Clone</title>
+    <link>https://l2dy.github.io/notes/CLI/git/Git-Partial-Clone</link>
+    <guid>https://l2dy.github.io/notes/CLI/git/Git-Partial-Clone</guid>
+    <description>Blobless clone git clone --filter=blob:none &lt;url&gt; creates a blobless clone. These clones download all reachable commits and trees while fetching blobs on-demand.</description>
+    <pubDate>Fri, 19 Jul 2024 01:37:04 GMT</pubDate>
+  </item><item>
+    <title>BPF development with Aya on aarch64</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</guid>
+    <description>Prerequisites Rust toolchain Install with rustup. cargo-generate Install openssl headers first. Build bpf-linker with Nix’s LLVM bpf-linker requires LLVM 18.</description>
+    <pubDate>Tue, 16 Jul 2024 10:17:46 GMT</pubDate>
+  </item><item>
+    <title>BPF</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF</guid>
+    <description>BPF is a flexible and efficient virtual machine-like construct in the Linux kernel allowing to execute bytecode at various hook points in a safe manner ...</description>
+    <pubDate>Mon, 15 Jul 2024 14:38:11 GMT</pubDate>
+  </item><item>
+    <title>Linux Map</title>
+    <link>https://l2dy.github.io/maps/Linux-Map</link>
+    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
+    <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF ...</description>
+    <pubDate>Mon, 15 Jul 2024 14:36:57 GMT</pubDate>
+  </item><item>
+    <title>Convenient CLI Tools</title>
+    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
+    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
+    <description>...</description>
+    <pubDate>Mon, 15 Jul 2024 04:04:30 GMT</pubDate>
+  </item><item>
     <title>Building the Linux kernel on Copr Build Service</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</guid>
@@ -17,54 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
     <description>Fedora git clone src.fedoraproject.org/rpms/.. sudo dnf install fedpkg sudo usermod -a -G mock &lt;current user&gt; # use admin user only # Pick mock config ls /etc/mock # Build packages for Fedora 39 (AArch64) # Avoid `build` which requests build on Fedora&#039;s Koji server.</description>
     <pubDate>Sun, 14 Jul 2024 02:55:04 GMT</pubDate>
-  </item><item>
-    <title>View RPM packge info</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/View-RPM-packge-info</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/View-RPM-packge-info</guid>
-    <description># locally installed and remote package dnf info &lt;pkg&gt; # locally installed package rpm -qi &lt;pkg&gt; # local .rpm file rpm -qip &lt;pkg.rpm&gt; ...</description>
-    <pubDate>Sun, 14 Jul 2024 02:54:55 GMT</pubDate>
-  </item><item>
-    <title>When to send RST packets on close()</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/When-to-send-RST-packets-on-close()</guid>
-    <description>Background Relevant RFCs: Reset Generation in RFC 793, page 36-37 RFC 2525, section 2.17 Code data was lost when tcp_close() is called. } else if (data_was_unread) { /* Unread data was tossed, zap the connection.</description>
-    <pubDate>Sun, 14 Jul 2024 01:05:04 GMT</pubDate>
-  </item><item>
-    <title>Nginx Code - Client Closed Request</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</guid>
-    <description>Description /* * HTTP does not define the code for the case when a client closed * the connection while we are processing its request so we introduce * own code to log such situation when ...</description>
-    <pubDate>Sat, 13 Jul 2024 12:18:57 GMT</pubDate>
-  </item><item>
-    <title>Nginx Code - Upstream Connect Timeout</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</guid>
-    <description>Searching for a “stack trace” Situation 1: upstream server did not reply to our SYN within proxy_connect_timeout .. upstream timed out (110: Connection timed out) while connection to upstream, ..</description>
-    <pubDate>Sat, 13 Jul 2024 12:13:17 GMT</pubDate>
-  </item><item>
-    <title>Download macOS installer</title>
-    <link>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</guid>
-    <description>Download recent releases softwareupdate --fetch-full-installer --full-installer-version 10.15 Version can be taken from the list below. $ softwareupdate --list-full-installers Finding available software Software Update found the following full installers: * Title: macOS Sonoma, Version: 14.5, Size: 13353373KiB, Build: 23F79, Deferred: NO * Title: macOS Sonoma, Version: 14.4.1, Size: 13298513KiB, Build: 23E224, Deferred: NO * Title: macOS Sonoma, Version: 14.4, Size: 13297753KiB, Build: 23E214, Deferred: NO * Title: macOS Sonoma, Version: 14.3.1, Size: 13073278KiB, Build: 23D60, Deferred: NO * Title: macOS Ventura, Version: 13.6.7, Size: 11924125KiB, Build: 22G720, Deferred: NO * Title: macOS Ventura, Version: 13.6.6, Size: 11917983KiB, Build: 22G630, Deferred: NO * Title: macOS Ventura, Version: 13.6.5, Size: 11916934KiB, Build: 22G621, Deferred: NO * Title: macOS Ventura, Version: 13.6.4, Size: 11912664KiB, Build: 22G513, Deferred: NO * Title: macOS Monterey, Version: 12.7.5, Size: 12116686KiB, Build: 21H1222, Deferred: NO * Title: macOS Monterey, Version: 12.7.4, Size: 12117810KiB, Build: 21H1123, Deferred: NO * Title: macOS Monterey, Version: 12.7.3, Size: 12109975KiB, Build: 21H1015, Deferred: NO * Title: macOS Big Sur, Version: 11.7.10, Size: 12125478KiB, Build: 20G1427, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055650KiB, Build: 19H15, Deferred: NO * Title: macOS Catalina, Version: 10.15.7, Size: 8055522KiB, Build: 19H2, Deferred: NO * Title: macOS Catalina, Version: 10.15.6, Size: 8055450KiB, Build: 19G2021, Deferred: NO Older releases Use github.com/ninxsoft/Mist for older releases, including Mac OS X Lion 10.7.5.</description>
-    <pubDate>Sat, 13 Jul 2024 10:24:57 GMT</pubDate>
-  </item><item>
-    <title>Azure Blob Storage</title>
-    <link>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Azure/Azure-Blob-Storage</guid>
-    <description>Partitioning Blob storage uses a range-based partitioning scheme for scaling and load balancing. Each blob has a partition key comprised of the full blob name (account+container+blob).</description>
-    <pubDate>Sat, 13 Jul 2024 08:03:55 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Map</title>
-    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
-    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
-    <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on ...</description>
-    <pubDate>Sat, 13 Jul 2024 07:50:20 GMT</pubDate>
-  </item><item>
-    <title>AWS VPC</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-VPC</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-VPC</guid>
-    <description>Addressing and Routing Physical addresses are separate from VPC addresses, to enable independent scaling of the virtual network and the physical network ...</description>
-    <pubDate>Sun, 07 Jul 2024 16:10:47 GMT</pubDate>
   </item>
     </channel>
   </rss>
