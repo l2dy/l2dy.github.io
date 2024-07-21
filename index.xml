@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Blink-based SSH Workstation</title>
+    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
+    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
+    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
+    <pubDate>Sun, 21 Jul 2024 16:53:34 GMT</pubDate>
+  </item><item>
     <title>SO_REUSEPORT</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</guid>
     <description>Preparing source repository The kernel source tar is too big to put in a regular git repository, so upstream usually does not commit it. Therefore, we need to get the source files from SRPM via dnf download --source kernel.</description>
     <pubDate>Sun, 14 Jul 2024 11:41:01 GMT</pubDate>
-  </item><item>
-    <title>Building an RPM package from source</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-an-RPM-package-from-source</guid>
-    <description>Fedora git clone src.fedoraproject.org/rpms/.. sudo dnf install fedpkg sudo usermod -a -G mock &lt;current user&gt; # use admin user only # Pick mock config ls /etc/mock # Build packages for Fedora 39 (AArch64) # Avoid `build` which requests build on Fedora&#039;s Koji server.</description>
-    <pubDate>Sun, 14 Jul 2024 02:55:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
