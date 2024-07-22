@@ -10,19 +10,49 @@
     <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
     <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
     <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Sun, 21 Jul 2024 16:53:34 GMT</pubDate>
-  </item><item>
-    <title>SO_REUSEPORT</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</guid>
-    <description>Socket migration was added in Linux 5.14. References lpc.events/event/11/contributions/946/attachments/783/1472/Socket_migration_for_SO_REUSEPORT.pdf www.youtube.com/watch .</description>
-    <pubDate>Sun, 21 Jul 2024 15:29:27 GMT</pubDate>
+    <pubDate>Mon, 22 Jul 2024 12:07:54 GMT</pubDate>
   </item><item>
     <title>NIC Scaling and Steering</title>
     <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
     <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
     <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
-    <pubDate>Sun, 21 Jul 2024 15:11:29 GMT</pubDate>
+    <pubDate>Mon, 22 Jul 2024 12:06:10 GMT</pubDate>
+  </item><item>
+    <title>SO_REUSEPORT</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</guid>
+    <description>Traditional approaches Traditional approaches without SO_REUSEPORT limit the application to one accept queue for each TCP listening port, this creates a bottleneck and the thundering ...</description>
+    <pubDate>Mon, 22 Jul 2024 12:03:50 GMT</pubDate>
+  </item><item>
+    <title>Vim</title>
+    <link>https://l2dy.github.io/notes/CLI/Vim</link>
+    <guid>https://l2dy.github.io/notes/CLI/Vim</guid>
+    <description>Text Objects The commands that start with “a” select “a”n object including white space, the commands starting with “i” select an “inner” object without white space, or just the white ...</description>
+    <pubDate>Mon, 22 Jul 2024 11:38:52 GMT</pubDate>
+  </item><item>
+    <title>lispy</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/lispy</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/lispy</guid>
+    <description>Recommendation Lispy overrides some keys in insert mode if the cursor is immediately before ( or after ). If you are proficient in Vim, maybe you don’t need this module.</description>
+    <pubDate>Mon, 22 Jul 2024 11:38:41 GMT</pubDate>
+  </item><item>
+    <title>Vertico</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Vertico</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Vertico</guid>
+    <description>Key bindings in minibuffer Preview: C-SPC for +vertico/embark-preview Next &amp; previous history: M-p and M-n Page up &amp; down: C-S-j and C-S-k (C-S- does not work in tty) Next ...</description>
+    <pubDate>Mon, 22 Jul 2024 11:37:53 GMT</pubDate>
+  </item><item>
+    <title>Leader Key</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Leader-Key</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Leader-Key</guid>
+    <description>Define new key bindings with leader key prefix (map! :leader (:prefix (&quot;o&quot; . &quot;open&quot;) :desc &quot;elfeed&quot; &quot;e&quot; #&#039;=rss)) Remap leader keys Change alt key bindings: ;; Add to config.el (setq doom-leader-alt-key &quot;C-SPC&quot; doom-localleader-alt-key &quot;C-SPC m&quot;) Top-level key bindings Pop up scratch buffer: SPC x.</description>
+    <pubDate>Mon, 22 Jul 2024 11:37:43 GMT</pubDate>
+  </item><item>
+    <title>Evil</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Evil</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil</guid>
+    <description>yank forward y f SPC does not yank the space character with evil-snipe-override-mode. See github.com/hlissner/evil-snipe/issues/86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands Repeat last change: .</description>
+    <pubDate>Mon, 22 Jul 2024 11:37:37 GMT</pubDate>
   </item><item>
     <title>Nginx Thundering Herd Problem</title>
     <link>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</link>
@@ -35,36 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/git/Git-Partial-Clone</guid>
     <description>Blobless clone git clone --filter=blob:none &lt;url&gt; creates a blobless clone. These clones download all reachable commits and trees while fetching blobs on-demand.</description>
     <pubDate>Fri, 19 Jul 2024 01:37:04 GMT</pubDate>
-  </item><item>
-    <title>BPF development with Aya on aarch64</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</guid>
-    <description>Prerequisites Rust toolchain Install with rustup. cargo-generate Install openssl headers first. Build bpf-linker with Nix’s LLVM bpf-linker requires LLVM 18.</description>
-    <pubDate>Tue, 16 Jul 2024 10:17:46 GMT</pubDate>
-  </item><item>
-    <title>BPF</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF</guid>
-    <description>BPF is a flexible and efficient virtual machine-like construct in the Linux kernel allowing to execute bytecode at various hook points in a safe manner ...</description>
-    <pubDate>Mon, 15 Jul 2024 14:38:11 GMT</pubDate>
-  </item><item>
-    <title>Linux Map</title>
-    <link>https://l2dy.github.io/maps/Linux-Map</link>
-    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
-    <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF ...</description>
-    <pubDate>Mon, 15 Jul 2024 14:36:57 GMT</pubDate>
-  </item><item>
-    <title>Convenient CLI Tools</title>
-    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
-    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
-    <description>...</description>
-    <pubDate>Mon, 15 Jul 2024 04:04:30 GMT</pubDate>
-  </item><item>
-    <title>Building the Linux kernel on Copr Build Service</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Building-the-Linux-kernel-on-Copr-Build-Service</guid>
-    <description>Preparing source repository The kernel source tar is too big to put in a regular git repository, so upstream usually does not commit it. Therefore, we need to get the source files from SRPM via dnf download --source kernel.</description>
-    <pubDate>Sun, 14 Jul 2024 11:41:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
