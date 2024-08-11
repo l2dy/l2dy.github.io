@@ -77,6 +77,9 @@
     <loc>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</loc>
     <lastmod>2024-07-15T04:04:30.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/GNU-Sed</loc>
+    <lastmod>2024-08-09T13:30:43.509Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/GraphicsMagick</loc>
     <lastmod>2023-11-12T08:02:40.589Z</lastmod>
   </url><url>
@@ -135,7 +138,7 @@
     <lastmod>2023-09-09T19:13:50.495Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/less</loc>
-    <lastmod>2023-09-09T19:13:50.501Z</lastmod>
+    <lastmod>2024-07-30T18:04:11.433Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/lsof</loc>
     <lastmod>2023-09-09T19:13:50.513Z</lastmod>
@@ -330,7 +333,7 @@
     <lastmod>2023-11-13T02:47:40.989Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Evil</loc>
-    <lastmod>2024-07-22T11:37:37.324Z</lastmod>
+    <lastmod>2024-07-23T08:57:01.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Font-Face-Attribute-Override</loc>
     <lastmod>2023-10-31T14:07:16.033Z</lastmod>
@@ -405,7 +408,7 @@
     <lastmod>2024-07-01T10:02:18.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/rust</loc>
-    <lastmod>2024-02-13T13:38:03.823Z</lastmod>
+    <lastmod>2024-07-22T12:13:17.025Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/tree-sitter</loc>
     <lastmod>2024-02-13T13:36:57.763Z</lastmod>
@@ -687,7 +690,7 @@
     <lastmod>2023-09-23T07:10:51.638Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</loc>
-    <lastmod>2024-07-16T10:17:46.000Z</lastmod>
+    <lastmod>2024-07-23T07:05:55.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/BPF</loc>
     <lastmod>2024-07-15T14:38:11.761Z</lastmod>
@@ -699,7 +702,7 @@
     <lastmod>2024-07-14T11:41:01.114Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</loc>
-    <lastmod>2023-09-10T17:44:56.735Z</lastmod>
+    <lastmod>2024-08-06T05:27:06.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Desktop-Linux-Performance-Optimization</loc>
     <lastmod>2023-10-29T04:35:44.022Z</lastmod>
@@ -757,6 +760,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/epoll</loc>
     <lastmod>2023-09-23T07:11:07.128Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/kdump</loc>
+    <lastmod>2024-07-26T17:20:50.607Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/nftables</loc>
     <lastmod>2023-09-23T05:30:06.247Z</lastmod>
