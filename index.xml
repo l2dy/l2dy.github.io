@@ -6,17 +6,23 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>De-Prioritize Process</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</guid>
+    <description>Credits: cron.daily/mlocate, replace $$ with PID of process. renice +19 -p $$ &gt;/dev/null 2&gt;&amp;1 ionice -c2 -n7 -p $$ &gt;/dev/null 2&gt;&amp;1 However, these days on distributions with systemd, nice value mostly works for interactive sessions, but it no longer works globally.</description>
+    <pubDate>Sun, 18 Aug 2024 09:39:25 GMT</pubDate>
+  </item><item>
+    <title>Hosted Remote Dev Environment (Free Tier)</title>
+    <link>https://l2dy.github.io/notes/Programming/Remote-Development/Hosted-Remote-Dev-Environment-(Free-Tier)</link>
+    <guid>https://l2dy.github.io/notes/Programming/Remote-Development/Hosted-Remote-Dev-Environment-(Free-Tier)</guid>
+    <description>Providers GitHub Codespaces 60 hours of 2 cores, 8 GB RAM, and 32 GB storage per month. Can scale instances up but with reduced time limit. Gitpod 50 hours free per month under the Standard class: up to 4 cores, up to 8GB RAM, 30GB storage.</description>
+    <pubDate>Sun, 18 Aug 2024 03:49:34 GMT</pubDate>
+  </item><item>
     <title>GNU Sed</title>
     <link>https://l2dy.github.io/notes/CLI/GNU-Sed</link>
     <guid>https://l2dy.github.io/notes/CLI/GNU-Sed</guid>
     <description>Append line after match \ (backslash followed by space) starts the appended line with all space characters that follows. Without \, no spaces will be kept in the line appended.</description>
     <pubDate>Fri, 09 Aug 2024 13:30:43 GMT</pubDate>
-  </item><item>
-    <title>De-Prioritize Process</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</guid>
-    <description>Credits: cron.daily/mlocate, replace $$ with PID of process. renice +19 -p $$ &gt;/dev/null 2&gt;&amp;1 ionice -c2 -n7 -p $$ &gt;/dev/null 2&gt;&amp;1 However, these days on distributions with systemd, nice value no longer works globally.</description>
-    <pubDate>Tue, 06 Aug 2024 05:27:06 GMT</pubDate>
   </item><item>
     <title>less</title>
     <link>https://l2dy.github.io/notes/CLI/less</link>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
     <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
     <pubDate>Mon, 22 Jul 2024 12:06:10 GMT</pubDate>
-  </item><item>
-    <title>SO_REUSEPORT</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</guid>
-    <description>Traditional approaches Traditional approaches without SO_REUSEPORT limit the application to one accept queue for each TCP listening port, this creates a bottleneck and the thundering ...</description>
-    <pubDate>Mon, 22 Jul 2024 12:03:50 GMT</pubDate>
   </item>
     </channel>
   </rss>
