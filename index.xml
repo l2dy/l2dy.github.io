@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Go Telemetry</title>
+    <link>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</link>
+    <guid>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</guid>
+    <description>Starting in Go 1.23, the Go toolchain programs collect statistics in local files by default (i.e. go telemetry local mode). Go telemetry is an opt-in system controlled by the go telemetry command, and you can view local reports with: go run golang.org/x/telemetry/cmd/gotelemetry@latest view References go.dev/doc/go1.23#telemetry go.dev/doc/telemetry#reports .</description>
+    <pubDate>Sat, 31 Aug 2024 16:21:17 GMT</pubDate>
+  </item><item>
+    <title>Convenient CLI Tools</title>
+    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
+    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
+    <description>...</description>
+    <pubDate>Sat, 31 Aug 2024 16:20:23 GMT</pubDate>
+  </item><item>
+    <title>Network Load Balancer</title>
+    <link>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</link>
+    <guid>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</guid>
+    <description>Overview Network Load Balancer (NLB) is a L4 load balancer built on Hyperplane that is more elastic than other ELB products from AWS. Client IP preservation Unlike a typical load balancer that terminates incoming connections and initiates outbound connections to targets, Hyperplane operates in a transparent mode and the target resource sees IP information about the client directly from the packets received.</description>
+    <pubDate>Mon, 26 Aug 2024 09:27:44 GMT</pubDate>
+  </item><item>
+    <title>Vim</title>
+    <link>https://l2dy.github.io/notes/CLI/Vim</link>
+    <guid>https://l2dy.github.io/notes/CLI/Vim</guid>
+    <description>Text Objects The commands that start with “a” select “a”n object including white space, the commands starting with “i” select an “inner” object without white space, or just the white ...</description>
+    <pubDate>Thu, 22 Aug 2024 09:39:23 GMT</pubDate>
+  </item><item>
     <title>De-Prioritize Process</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/Emacs/doom/Evil</guid>
     <description>yank forward y f SPC does not yank the space character with evil-snipe-override-mode. See github.com/hlissner/evil-snipe/issues/86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands Repeat last change: .</description>
     <pubDate>Tue, 23 Jul 2024 08:57:01 GMT</pubDate>
-  </item><item>
-    <title>BPF development with Aya on aarch64</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</guid>
-    <description>Prerequisites Rust toolchain Install with rustup. cargo-generate Install openssl headers first. Build bpf-linker with Nix’s LLVM bpf-linker requires LLVM 18.</description>
-    <pubDate>Tue, 23 Jul 2024 07:05:55 GMT</pubDate>
-  </item><item>
-    <title>rust</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/rust</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/rust</guid>
-    <description>Apheleia :editor format wraps Apheleia, which does not support cargo fmt yet. Directly calling rustfmt means the edition specified in Cargo.toml is ignored, and rustfmt may throw an error if unsupported syntax is used.</description>
-    <pubDate>Mon, 22 Jul 2024 12:13:17 GMT</pubDate>
-  </item><item>
-    <title>Blink-based SSH Workstation</title>
-    <link>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</link>
-    <guid>https://l2dy.github.io/notes/Software/Blink-based-SSH-Workstation</guid>
-    <description>Server Setup I use Nix to install latest software, chezmoi to manage configuration files, and starship and fastfetch for my shell (zsh). fd is installed as a dependency for Doom Emacs, and mosh is used with Blink to provide UDP roaming capability.</description>
-    <pubDate>Mon, 22 Jul 2024 12:07:54 GMT</pubDate>
-  </item><item>
-    <title>NIC Scaling and Steering</title>
-    <link>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</link>
-    <guid>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</guid>
-    <description>Receive (RX) flowchart LR nic[NIC hardware buffer] irq[hard IRQ] softirq[soft IRQ] recvq[app socket queue] app[application] nic==&gt;irq==&gt;softirq==&gt;recvq==&gt;app ...</description>
-    <pubDate>Mon, 22 Jul 2024 12:06:10 GMT</pubDate>
   </item>
     </channel>
   </rss>
