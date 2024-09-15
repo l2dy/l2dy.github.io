@@ -6,17 +6,35 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Go Telemetry</title>
-    <link>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</link>
-    <guid>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</guid>
-    <description>Starting in Go 1.23, the Go toolchain programs collect statistics in local files by default (i.e. go telemetry local mode). Go telemetry is an opt-in system controlled by the go telemetry command, and you can view local reports with: go run golang.org/x/telemetry/cmd/gotelemetry@latest view References go.dev/doc/go1.23#telemetry go.dev/doc/telemetry#reports .</description>
-    <pubDate>Sat, 31 Aug 2024 16:21:17 GMT</pubDate>
+    <title>BPF development with Aya on aarch64</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</guid>
+    <description>Prerequisites Rust toolchain Install with rustup. cargo-generate Install openssl headers first. Build bpf-linker with Nix’s LLVM bpf-linker requires LLVM.</description>
+    <pubDate>Mon, 09 Sep 2024 14:35:31 GMT</pubDate>
+  </item><item>
+    <title>less</title>
+    <link>https://l2dy.github.io/notes/CLI/less</link>
+    <guid>https://l2dy.github.io/notes/CLI/less</guid>
+    <description>Do not clear the screen on exit -X or --no-init Disables sending the termcap initialization and deinitialization strings to the terminal. This is sometimes desirable if the deinitialization string does something unnecessary, like clear- ing the screen.</description>
+    <pubDate>Sat, 07 Sep 2024 09:15:26 GMT</pubDate>
+  </item><item>
+    <title>firejail</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/firejail</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/firejail</guid>
+    <description>mkdir ~/jail firejail --private=~/jail bash.</description>
+    <pubDate>Tue, 03 Sep 2024 01:23:44 GMT</pubDate>
   </item><item>
     <title>Convenient CLI Tools</title>
     <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
     <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
     <description>...</description>
-    <pubDate>Sat, 31 Aug 2024 16:20:23 GMT</pubDate>
+    <pubDate>Sat, 31 Aug 2024 16:56:01 GMT</pubDate>
+  </item><item>
+    <title>Go Telemetry</title>
+    <link>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</link>
+    <guid>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</guid>
+    <description>Starting in Go 1.23, the Go toolchain programs collect statistics in local files by default (i.e. go telemetry local mode). Go telemetry is an opt-in system controlled by the go telemetry command, and you can view local reports with: go run golang.org/x/telemetry/cmd/gotelemetry@latest view References go.dev/doc/go1.23#telemetry go.dev/doc/telemetry#reports .</description>
+    <pubDate>Sat, 31 Aug 2024 16:21:17 GMT</pubDate>
   </item><item>
     <title>Network Load Balancer</title>
     <link>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</link>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/GNU-Sed</guid>
     <description>Append line after match \ (backslash followed by space) starts the appended line with all space characters that follows. Without \, no spaces will be kept in the line appended.</description>
     <pubDate>Fri, 09 Aug 2024 13:30:43 GMT</pubDate>
-  </item><item>
-    <title>less</title>
-    <link>https://l2dy.github.io/notes/CLI/less</link>
-    <guid>https://l2dy.github.io/notes/CLI/less</guid>
-    <description>Do not clear the screen on exit -X or --no-init Disables sending the termcap initialization and deinitialization strings to the terminal. This is sometimes desirable if the deinitialization string does something unnecessary, like clear- ing the screen.</description>
-    <pubDate>Tue, 30 Jul 2024 18:04:11 GMT</pubDate>
-  </item><item>
-    <title>kdump</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/kdump</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/kdump</guid>
-    <description>Estimating kdump file size makedumpfile -f --mem-usage /proc/kcore The makedumpfile command reports in pages. This means that you must calculate the size of memory in use against the kernel page size, which in the Red Hat Enterprise Linux kernel, is 4 kilobytes for AMD64 and Intel 64 architectures, and 64 kilobytes for IBM POWER architecture.</description>
-    <pubDate>Fri, 26 Jul 2024 17:20:50 GMT</pubDate>
-  </item><item>
-    <title>Evil</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Evil</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil</guid>
-    <description>yank forward y f SPC does not yank the space character with evil-snipe-override-mode. See github.com/hlissner/evil-snipe/issues/86. (remove-hook &#039;doom-first-input-hook #&#039;evil-snipe-override-mode) Commands Repeat last change: .</description>
-    <pubDate>Tue, 23 Jul 2024 08:57:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
