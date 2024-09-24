@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Touch ID for sudo on macOS</title>
+    <link>https://l2dy.github.io/notes/Operating-System/macOS/Touch-ID-for-sudo-on-macOS</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/macOS/Touch-ID-for-sudo-on-macOS</guid>
+    <description>See /etc/pam.d/sudo_local.template. # sudo_local: local config file which survives system update and is included for sudo # uncomment following line to enable Touch ID for sudo #auth sufficient pam_tid.so Copy it to sudo_local and uncomment the auth line to enable Touch ID for sudo.</description>
+    <pubDate>Tue, 24 Sep 2024 13:24:55 GMT</pubDate>
+  </item><item>
+    <title>Homebrew</title>
+    <link>https://l2dy.github.io/notes/Operating-System/macOS/Homebrew</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/macOS/Homebrew</guid>
+    <description>Package Index Since Homebrew 4.0.0, it defaults to using JSON files downloaded from API rather than local core and cask taps. The API provides links to binaries hosted on their GitHub Packages registry.</description>
+    <pubDate>Tue, 24 Sep 2024 13:24:21 GMT</pubDate>
+  </item><item>
     <title>BPF development with Aya on aarch64</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/BPF-development-with-Aya-on-aarch64</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</guid>
     <description>Credits: cron.daily/mlocate, replace $$ with PID of process. renice +19 -p $$ &gt;/dev/null 2&gt;&amp;1 ionice -c2 -n7 -p $$ &gt;/dev/null 2&gt;&amp;1 However, these days on distributions with systemd, nice value mostly works for interactive sessions, but it no longer works globally.</description>
     <pubDate>Sun, 18 Aug 2024 09:39:25 GMT</pubDate>
-  </item><item>
-    <title>Hosted Remote Dev Environment (Free Tier)</title>
-    <link>https://l2dy.github.io/notes/Programming/Remote-Development/Hosted-Remote-Dev-Environment-(Free-Tier)</link>
-    <guid>https://l2dy.github.io/notes/Programming/Remote-Development/Hosted-Remote-Dev-Environment-(Free-Tier)</guid>
-    <description>Providers GitHub Codespaces 60 hours of 2 cores, 8 GB RAM, and 32 GB storage per month. Can scale instances up but with reduced time limit. Gitpod 50 hours free per month under the Standard class: up to 4 cores, up to 8GB RAM, 30GB storage.</description>
-    <pubDate>Sun, 18 Aug 2024 03:49:34 GMT</pubDate>
-  </item><item>
-    <title>GNU Sed</title>
-    <link>https://l2dy.github.io/notes/CLI/GNU-Sed</link>
-    <guid>https://l2dy.github.io/notes/CLI/GNU-Sed</guid>
-    <description>Append line after match \ (backslash followed by space) starts the appended line with all space characters that follows. Without \, no spaces will be kept in the line appended.</description>
-    <pubDate>Fri, 09 Aug 2024 13:30:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
