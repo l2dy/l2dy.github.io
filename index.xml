@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Navidrome</title>
+    <link>https://l2dy.github.io/notes/Self-Hosting/Navidrome</link>
+    <guid>https://l2dy.github.io/notes/Self-Hosting/Navidrome</guid>
+    <description>Navidrome is a music collection server compatible to Subsonic API. Clients Amperfy (iOS) If you experienced playback issues since Amperfy v1.2.1, first make sure your device can decode your music files natively, then in Settings, set streaming and cache format to “Raw/Original” to fix the issues.</description>
+    <pubDate>Sun, 27 Oct 2024 07:37:20 GMT</pubDate>
+  </item><item>
+    <title>Linux kernel mailing lists</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</guid>
+    <description>Web viewers lore.kernel.org/ (display a full thread with /T/ suffix in URL) .</description>
+    <pubDate>Sun, 27 Oct 2024 07:31:00 GMT</pubDate>
+  </item><item>
+    <title>Flux</title>
+    <link>https://l2dy.github.io/notes/Kubernetes/Flux</link>
+    <guid>https://l2dy.github.io/notes/Kubernetes/Flux</guid>
+    <description>HelmRelease Post Renderer fluxcd.io/flux/components/helm/helmreleases/#post-renderers HelmRelease resources has a built-in Kustomize compatible Post Renderer, which ...</description>
+    <pubDate>Tue, 01 Oct 2024 13:32:36 GMT</pubDate>
+  </item><item>
+    <title>Verify rpmfusion-signed RPMs</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Verify-rpmfusion-signed-RPMs</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Verify-rpmfusion-signed-RPMs</guid>
+    <description>sudo dnf install distribution-gpg-keys # You can also use `rpmkeys`, the difference is unknown. sudo rpmkeys --import /usr/share/distribution-gpg-keys/rpmfusion/RPM-GPG-KEY-rpmfusion-free-el-9 rpmkeys -K libva-intel-driver-2.4.1-7.el9.x86_64.rpm References rpm-misc(8) -K, --checksig See and use rpmkeys(8).</description>
+    <pubDate>Tue, 01 Oct 2024 12:46:16 GMT</pubDate>
+  </item><item>
     <title>Touch ID for sudo on macOS</title>
     <link>https://l2dy.github.io/notes/Operating-System/macOS/Touch-ID-for-sudo-on-macOS</link>
     <guid>https://l2dy.github.io/notes/Operating-System/macOS/Touch-ID-for-sudo-on-macOS</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
     <description>...</description>
     <pubDate>Sat, 31 Aug 2024 16:56:01 GMT</pubDate>
-  </item><item>
-    <title>Go Telemetry</title>
-    <link>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</link>
-    <guid>https://l2dy.github.io/notes/Programming/Go/Go-Telemetry</guid>
-    <description>Starting in Go 1.23, the Go toolchain programs collect statistics in local files by default (i.e. go telemetry local mode). Go telemetry is an opt-in system controlled by the go telemetry command, and you can view local reports with: go run golang.org/x/telemetry/cmd/gotelemetry@latest view References go.dev/doc/go1.23#telemetry go.dev/doc/telemetry#reports .</description>
-    <pubDate>Sat, 31 Aug 2024 16:21:17 GMT</pubDate>
-  </item><item>
-    <title>Network Load Balancer</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Network-Load-Balancer</guid>
-    <description>Overview Network Load Balancer (NLB) is a L4 load balancer built on Hyperplane that is more elastic than other ELB products from AWS. Client IP preservation Unlike a typical load balancer that terminates incoming connections and initiates outbound connections to targets, Hyperplane operates in a transparent mode and the target resource sees IP information about the client directly from the packets received.</description>
-    <pubDate>Mon, 26 Aug 2024 09:27:44 GMT</pubDate>
-  </item><item>
-    <title>Vim</title>
-    <link>https://l2dy.github.io/notes/CLI/Vim</link>
-    <guid>https://l2dy.github.io/notes/CLI/Vim</guid>
-    <description>Text Objects The commands that start with “a” select “a”n object including white space, the commands starting with “i” select an “inner” object without white space, or just the white ...</description>
-    <pubDate>Thu, 22 Aug 2024 09:39:23 GMT</pubDate>
-  </item><item>
-    <title>De-Prioritize Process</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/De-Prioritize-Process</guid>
-    <description>Credits: cron.daily/mlocate, replace $$ with PID of process. renice +19 -p $$ &gt;/dev/null 2&gt;&amp;1 ionice -c2 -n7 -p $$ &gt;/dev/null 2&gt;&amp;1 However, these days on distributions with systemd, nice value mostly works for interactive sessions, but it no longer works globally.</description>
-    <pubDate>Sun, 18 Aug 2024 09:39:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
