@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Latency Numbers</title>
+    <link>https://l2dy.github.io/notes/SRE/Latency-Numbers</link>
+    <guid>https://l2dy.github.io/notes/SRE/Latency-Numbers</guid>
+    <description>Network Cross-region RTT: learn.microsoft.com/en-us/azure/networking/azure-network-latency.</description>
+    <pubDate>Tue, 05 Nov 2024 14:48:34 GMT</pubDate>
+  </item><item>
+    <title>Global DNS Lookup and Ping Services</title>
+    <link>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</link>
+    <guid>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</guid>
+    <description>Web DNS github.com/ccbikai/DNS.Surf Ping ping.pe/ (DNS resolution is performed once in central location) globalping.io/ (max 500 endpoints per run, limited to 100000 per hour ...</description>
+    <pubDate>Tue, 05 Nov 2024 14:48:05 GMT</pubDate>
+  </item><item>
     <title>Navidrome</title>
     <link>https://l2dy.github.io/notes/Self-Hosting/Navidrome</link>
     <guid>https://l2dy.github.io/notes/Self-Hosting/Navidrome</guid>
@@ -53,18 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/less</guid>
     <description>Do not clear the screen on exit -X or --no-init Disables sending the termcap initialization and deinitialization strings to the terminal. This is sometimes desirable if the deinitialization string does something unnecessary, like clear- ing the screen.</description>
     <pubDate>Sat, 07 Sep 2024 09:15:26 GMT</pubDate>
-  </item><item>
-    <title>firejail</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/firejail</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/firejail</guid>
-    <description>mkdir ~/jail firejail --private=~/jail bash.</description>
-    <pubDate>Tue, 03 Sep 2024 01:23:44 GMT</pubDate>
-  </item><item>
-    <title>Convenient CLI Tools</title>
-    <link>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</link>
-    <guid>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</guid>
-    <description>...</description>
-    <pubDate>Sat, 31 Aug 2024 16:56:01 GMT</pubDate>
   </item>
     </channel>
   </rss>

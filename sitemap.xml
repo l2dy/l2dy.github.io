@@ -557,6 +557,9 @@
     <loc>https://l2dy.github.io/notes/Network/Direct-Server-Return</loc>
     <lastmod>2023-09-11T13:49:53.598Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</loc>
+    <lastmod>2024-11-05T14:48:05.590Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</loc>
     <lastmod>2024-02-12T18:03:07.371Z</lastmod>
   </url><url>
@@ -873,7 +876,7 @@
     <lastmod>2023-09-09T19:13:50.593Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Latency-Numbers</loc>
-    <lastmod>2023-09-10T17:26:06.227Z</lastmod>
+    <lastmod>2024-11-05T14:48:34.033Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Managing-Incidents</loc>
     <lastmod>2023-09-09T19:13:50.590Z</lastmod>
