@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Nginx HTTP Variables to Log</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</guid>
+    <description>Improved Log Format log_format main_cf &#039;$remote_addr\t$http_cf_connecting_ip\t$server_addr\t$hostname\t&#039; &#039;$time_iso8601\t$host\t$request_uri\t$request_length\t&#039; ...</description>
+    <pubDate>Thu, 05 Dec 2024 13:12:39 GMT</pubDate>
+  </item><item>
+    <title>Nginx Error Log</title>
+    <link>https://l2dy.github.io/notes/Nginx/Nginx-Error-Log</link>
+    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Error-Log</guid>
+    <description>Format In ngx_log_error_core, the cached time, log level surrounded by [], pid#tid: and *$connection (connection serial number, if exists) are “printed” first ...</description>
+    <pubDate>Thu, 05 Dec 2024 13:07:42 GMT</pubDate>
+  </item><item>
     <title>EWS Support in Thunderbird</title>
     <link>https://l2dy.github.io/notes/Software/EWS-Support-in-Thunderbird</link>
     <guid>https://l2dy.github.io/notes/Software/EWS-Support-in-Thunderbird</guid>
@@ -36,12 +48,6 @@
     <description>On November 11, 2024, Broadcom announced that VMware Fusion and Workstation will be available for free to everyone. However, until a new release is made, VMware Fusion Pro still says “Licensed for Personal Use only.” You can download binaries for free from support.broadcom.com/group/ecx/downloads.</description>
     <pubDate>Thu, 05 Dec 2024 00:09:31 GMT</pubDate>
   </item><item>
-    <title>Nginx HTTP Variables to Log</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</guid>
-    <description>Improved Log Format log_format main_cf &#039;$remote_addr\t$http_cf_connecting_ip\t$server_addr\t$hostname\t&#039; &#039;$time_iso8601\t$host\t$request_uri\t$request_length\t&#039; ...</description>
-    <pubDate>Thu, 05 Dec 2024 00:06:55 GMT</pubDate>
-  </item><item>
     <title>Global DNS Lookup and Ping Services</title>
     <link>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</link>
     <guid>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Self-Hosting/Navidrome</guid>
     <description>Navidrome is a music collection server compatible to Subsonic API. Clients Amperfy (iOS) If you experienced playback issues since Amperfy v1.2.1, first make sure your device can decode your music files natively, then in Settings, set streaming and cache format to “Raw/Original” to fix the issues.</description>
     <pubDate>Sun, 27 Oct 2024 07:37:20 GMT</pubDate>
-  </item><item>
-    <title>Linux kernel mailing lists</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</guid>
-    <description>Web viewers lore.kernel.org/ (display a full thread with /T/ suffix in URL) .</description>
-    <pubDate>Sun, 27 Oct 2024 07:31:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
