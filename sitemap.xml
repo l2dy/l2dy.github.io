@@ -254,6 +254,9 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
     <lastmod>2024-02-12T18:49:31.282Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Free-Domain-Name-Providers</loc>
+    <lastmod>2024-12-05T00:11:14.491Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</loc>
     <lastmod>2023-09-18T16:04:18.623Z</lastmod>
   </url><url>
@@ -558,7 +561,7 @@
     <lastmod>2023-09-11T13:49:53.598Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</loc>
-    <lastmod>2024-11-05T14:48:05.590Z</lastmod>
+    <lastmod>2024-11-05T14:56:30.184Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/ICMP-ping-packet-size</loc>
     <lastmod>2024-02-12T18:03:07.371Z</lastmod>
@@ -605,6 +608,9 @@
     <loc>https://l2dy.github.io/notes/Network/Strong-and-Weak-Host-Model</loc>
     <lastmod>2023-09-26T15:27:00.901Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/TCP-Handshake</loc>
+    <lastmod>2024-12-05T00:10:55.185Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/VXLAN</loc>
     <lastmod>2023-09-26T14:39:20.655Z</lastmod>
   </url><url>
@@ -624,7 +630,7 @@
     <lastmod>2024-07-13T12:13:17.212Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</loc>
-    <lastmod>2023-11-09T12:04:23.513Z</lastmod>
+    <lastmod>2024-12-05T00:06:55.010Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</loc>
     <lastmod>2024-07-21T15:06:45.796Z</lastmod>
@@ -772,6 +778,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/firejail</loc>
     <lastmod>2024-09-03T01:23:44.664Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/iptables</loc>
+    <lastmod>2024-12-05T00:11:36.855Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/kdump</loc>
     <lastmod>2024-07-26T17:20:50.607Z</lastmod>
@@ -962,6 +971,9 @@
     <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
     <lastmod>2024-02-08T16:40:00.231Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/EWS-Support-in-Thunderbird</loc>
+    <lastmod>2024-12-05T00:12:00.559Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Flowed-Text-in-Mutt</loc>
     <lastmod>2024-03-24T04:03:17.198Z</lastmod>
   </url><url>
@@ -997,6 +1009,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/UTM</loc>
     <lastmod>2024-02-12T18:24:58.628Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/VMware-Fusion-and-Workstation</loc>
+    <lastmod>2024-12-05T00:09:31.034Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/WeeChat-Config</loc>
     <lastmod>2023-09-09T19:13:50.514Z</lastmod>
