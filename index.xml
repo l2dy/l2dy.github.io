@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Nginx HTTP Variables to Log</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</guid>
-    <description>Improved Log Format log_format main_cf &#039;$remote_addr\t$http_cf_connecting_ip\t$server_addr\t$hostname\t&#039; &#039;$time_iso8601\t$host\t$request_uri\t$request_length\t&#039; ...</description>
-    <pubDate>Thu, 05 Dec 2024 13:12:39 GMT</pubDate>
+    <title>emacsclient on macOS</title>
+    <link>https://l2dy.github.io/notes/Emacs/emacsclient-on-macOS</link>
+    <guid>https://l2dy.github.io/notes/Emacs/emacsclient-on-macOS</guid>
+    <description>Starting Emacs Server Automatically Configure a macOS launch agent with the plist file and load it with launchctl. launchctl load -w ~/Library/LaunchAgents/gnu.emacs.daemon.plist &lt;!-- Put following in ~/Library/LaunchAgents/gnu.emacs.daemon.plist --&gt; &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt; &lt;plist version=&quot;1.0&quot;&gt; &lt;dict&gt; &lt;key&gt;Label&lt;/key&gt; &lt;string&gt;gnu.emacs.daemon&lt;/string&gt; &lt;key&gt;ProgramArguments&lt;/key&gt; &lt;array&gt; &lt;string&gt;/Applications/MacPorts/Emacs.app/Contents/MacOS/Emacs&lt;/string&gt; &lt;string&gt;--fg-daemon&lt;/string&gt; &lt;/array&gt; &lt;key&gt;RunAtLoad&lt;/key&gt; &lt;true/&gt; &lt;key&gt;ProcessType&lt;/key&gt; &lt;string&gt;Interactive&lt;/string&gt; &lt;/dict&gt; &lt;/plist&gt; Emacs Client with AppleScript Save the following in Script Editor.app as an Application.</description>
+    <pubDate>Tue, 31 Dec 2024 12:05:49 GMT</pubDate>
   </item><item>
-    <title>Nginx Error Log</title>
-    <link>https://l2dy.github.io/notes/Nginx/Nginx-Error-Log</link>
-    <guid>https://l2dy.github.io/notes/Nginx/Nginx-Error-Log</guid>
-    <description>Format In ngx_log_error_core, the cached time, log level surrounded by [], pid#tid: and *$connection (connection serial number, if exists) are “printed” first ...</description>
-    <pubDate>Thu, 05 Dec 2024 13:07:42 GMT</pubDate>
+    <title>less</title>
+    <link>https://l2dy.github.io/notes/CLI/less</link>
+    <guid>https://l2dy.github.io/notes/CLI/less</guid>
+    <description>Keys u / d: move backward/forward one half-window. b / f: move backward/forward one window. ESC u: toggle search highlighting. n / N: repeat last search in normal/reverse direction.</description>
+    <pubDate>Tue, 31 Dec 2024 12:05:30 GMT</pubDate>
   </item><item>
-    <title>EWS Support in Thunderbird</title>
-    <link>https://l2dy.github.io/notes/Software/EWS-Support-in-Thunderbird</link>
-    <guid>https://l2dy.github.io/notes/Software/EWS-Support-in-Thunderbird</guid>
-    <description>Updates meta bug bugzilla.mozilla.org/show_bug.cgi Updates on blog blog.thunderbird.net/tag/exchange/ Bugs no folders to browse with on-prem EWS bugzilla.mozilla.org/show_bug.cgi ...</description>
-    <pubDate>Thu, 05 Dec 2024 00:12:00 GMT</pubDate>
+    <title>nsswitch.conf</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/nsswitch.conf</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/nsswitch.conf</guid>
+    <description>nsswitch.conf, the Name Service Switch configuration file, is used by glibc and certain other applications. Most notably, it controls the user, group and host lookup processes.</description>
+    <pubDate>Tue, 31 Dec 2024 12:05:14 GMT</pubDate>
   </item><item>
-    <title>iptables</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/iptables</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/iptables</guid>
-    <description>Tables and Chains TBD IP sets ipset expresses complex IP addresses and port based rulesets with one single iptables rule, making it very efficient compared to multiple iptable rules. ...</description>
-    <pubDate>Thu, 05 Dec 2024 00:11:36 GMT</pubDate>
+    <title>Unicode</title>
+    <link>https://l2dy.github.io/notes/Unicode</link>
+    <guid>https://l2dy.github.io/notes/Unicode</guid>
+    <description>List of all Emoji characters www.unicode.org/Public/emoji/16.0/emoji-test.txt Names List Charts www.unicode.org/charts/nameslist/ Click on the block name to get to a code ...</description>
+    <pubDate>Tue, 31 Dec 2024 12:05:06 GMT</pubDate>
   </item><item>
-    <title>Free Domain Name Providers</title>
-    <link>https://l2dy.github.io/notes/Cloud/Free-Domain-Name-Providers</link>
-    <guid>https://l2dy.github.io/notes/Cloud/Free-Domain-Name-Providers</guid>
-    <description> nic.us.kg/ (.us.kg) .</description>
-    <pubDate>Thu, 05 Dec 2024 00:11:14 GMT</pubDate>
+    <title>iTerm2 Features</title>
+    <link>https://l2dy.github.io/notes/Software/iTerm2-Features</link>
+    <guid>https://l2dy.github.io/notes/Software/iTerm2-Features</guid>
+    <description>Search To fix a search highlight bug, go to advanced settings and turn off “Synchronize search queries across windows and applications”. Copy Mode To copy text from iTerm2 with keyboard only, press s-S-c to activate copy mode.</description>
+    <pubDate>Tue, 31 Dec 2024 12:05:00 GMT</pubDate>
   </item><item>
-    <title>TCP Handshake</title>
-    <link>https://l2dy.github.io/notes/Network/TCP-Handshake</link>
-    <guid>https://l2dy.github.io/notes/Network/TCP-Handshake</guid>
-    <description>Terminology Numbers Sequence Number: 32 bits The sequence number of the first data octet in this segment (except when SYN is present). If SYN is present the sequence number is the initial sequence number (ISN) and the first data octet is ISN+1.</description>
-    <pubDate>Thu, 05 Dec 2024 00:10:55 GMT</pubDate>
+    <title>Ghostty</title>
+    <link>https://l2dy.github.io/notes/Software/Ghostty</link>
+    <guid>https://l2dy.github.io/notes/Software/Ghostty</guid>
+    <description>My Config # Until search function is implemented. keybind = super+f=write_screen_file:open # For low DPI screens on macOS. font-thicken = true.</description>
+    <pubDate>Tue, 31 Dec 2024 12:04:57 GMT</pubDate>
   </item><item>
-    <title>VMware Fusion and Workstation</title>
-    <link>https://l2dy.github.io/notes/Software/VMware-Fusion-and-Workstation</link>
-    <guid>https://l2dy.github.io/notes/Software/VMware-Fusion-and-Workstation</guid>
-    <description>On November 11, 2024, Broadcom announced that VMware Fusion and Workstation will be available for free to everyone. However, until a new release is made, VMware Fusion Pro still says “Licensed for Personal Use only.” You can download binaries for free from support.broadcom.com/group/ecx/downloads.</description>
-    <pubDate>Thu, 05 Dec 2024 00:09:31 GMT</pubDate>
+    <title>My R environment with Conda</title>
+    <link>https://l2dy.github.io/notes/Programming/My-R-environment-with-Conda</link>
+    <guid>https://l2dy.github.io/notes/Programming/My-R-environment-with-Conda</guid>
+    <description>Installation Follow github.com/conda-forge/miniforge to install Miniforge, and then: mamba create -n r44 r r-tidyverse r-plotly r-arrow r-showtext r-duckdb echo &#039;r ==4.4&#039; ...</description>
+    <pubDate>Tue, 31 Dec 2024 12:04:36 GMT</pubDate>
   </item><item>
-    <title>Global DNS Lookup and Ping Services</title>
-    <link>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</link>
-    <guid>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</guid>
-    <description>Web DNS github.com/ccbikai/DNS.Surf Ping ping.pe/ (DNS resolution is performed once in central location) globalping.io/ (max 500 endpoints per run, limited to 100000 per hour ...</description>
-    <pubDate>Tue, 05 Nov 2024 14:56:30 GMT</pubDate>
+    <title>Name Resolution on Linux</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Name-Resolution-on-Linux</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Name-Resolution-on-Linux</guid>
+    <description>With glibc, name resolution goes getaddrinfo() → nsswitch.conf (for Name Service Switch, which is not Network Security Services) → /etc/hosts or DNS. If DNS: → libresolv → host.conf → /etc/hosts or real DNS.</description>
+    <pubDate>Tue, 31 Dec 2024 12:04:31 GMT</pubDate>
   </item><item>
-    <title>Latency Numbers</title>
-    <link>https://l2dy.github.io/notes/SRE/Latency-Numbers</link>
-    <guid>https://l2dy.github.io/notes/SRE/Latency-Numbers</guid>
-    <description>Network Cross-region RTT: learn.microsoft.com/en-us/azure/networking/azure-network-latency.</description>
-    <pubDate>Tue, 05 Nov 2024 14:48:34 GMT</pubDate>
+    <title>macOS Disk Space Analysis</title>
+    <link>https://l2dy.github.io/notes/Operating-System/macOS/macOS-Disk-Space-Analysis</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/macOS/macOS-Disk-Space-Analysis</guid>
+    <description>Analysis Analyze file tree size: sudo ncdu -x /System/Volumes/Data Monitor file access: sudo fs_usage -w | grep &lt;keyword&gt; Clean up sudo log erase --all # for /var/db/diagnostics ...</description>
+    <pubDate>Tue, 31 Dec 2024 12:04:14 GMT</pubDate>
   </item><item>
-    <title>Navidrome</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Navidrome</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Navidrome</guid>
-    <description>Navidrome is a music collection server compatible to Subsonic API. Clients Amperfy (iOS) If you experienced playback issues since Amperfy v1.2.1, first make sure your device can decode your music files natively, then in Settings, set streaming and cache format to “Raw/Original” to fix the issues.</description>
-    <pubDate>Sun, 27 Oct 2024 07:37:20 GMT</pubDate>
+    <title>Troubleshooting in production with IEx</title>
+    <link>https://l2dy.github.io/notes/Programming/Elixir/Troubleshooting-in-production-with-IEx</link>
+    <guid>https://l2dy.github.io/notes/Programming/Elixir/Troubleshooting-in-production-with-IEx</guid>
+    <description>References www.elixirstreams.com/tips/tracing-with-recon www.youtube.com/watch .</description>
+    <pubDate>Tue, 31 Dec 2024 12:04:02 GMT</pubDate>
   </item>
     </channel>
   </rss>

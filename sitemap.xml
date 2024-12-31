@@ -138,7 +138,7 @@
     <lastmod>2023-09-09T19:13:50.495Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/less</loc>
-    <lastmod>2024-09-07T09:15:26.912Z</lastmod>
+    <lastmod>2024-12-31T12:05:30.975Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/lsof</loc>
     <lastmod>2023-09-09T19:13:50.513Z</lastmod>
@@ -153,7 +153,7 @@
     <lastmod>2023-09-11T14:07:31.420Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ps</loc>
-    <lastmod>2023-11-05T16:38:38.890Z</lastmod>
+    <lastmod>2024-12-28T01:24:50.161Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
     <lastmod>2023-10-24T12:13:40.745Z</lastmod>
@@ -169,6 +169,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/systemd-analyze</loc>
     <lastmod>2024-04-20T03:07:50.332Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/top</loc>
+    <lastmod>2024-12-31T12:02:30.206Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/AWS-Backbone-Network</loc>
     <lastmod>2023-09-20T15:06:49.044Z</lastmod>
@@ -190,6 +193,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Managed-Service-for-Prometheus</loc>
     <lastmod>2023-10-12T14:11:25.979Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/AWS/Application-Load-Balancer</loc>
+    <lastmod>2024-12-07T14:44:25.907Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/AWS/EC2-Performance-Benchmarks</loc>
     <lastmod>2024-03-16T17:29:15.164Z</lastmod>
@@ -314,6 +320,9 @@
     <loc>https://l2dy.github.io/notes/Emacs/Emacs-Frame-Setup</loc>
     <lastmod>2023-09-13T16:52:54.851Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Emacs/Telegra</loc>
+    <lastmod>2024-12-30T00:54:39.571Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/autoload</loc>
     <lastmod>2023-11-20T15:15:52.258Z</lastmod>
   </url><url>
@@ -423,7 +432,7 @@
     <lastmod>2023-09-09T19:13:50.529Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/emacsclient-on-macOS</loc>
-    <lastmod>2023-09-13T16:56:22.833Z</lastmod>
+    <lastmod>2024-12-31T12:05:49.474Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/mu4e/Prefer-Plain-Text-in-mu4e</loc>
     <lastmod>2023-09-13T16:52:43.762Z</lastmod>
@@ -633,7 +642,10 @@
     <lastmod>2024-12-05T13:07:42.302Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</loc>
-    <lastmod>2024-12-05T13:12:39.798Z</lastmod>
+    <lastmod>2024-12-10T11:09:54.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Nginx/Nginx-IPv6-Rate-Limiting</loc>
+    <lastmod>2024-12-07T07:38:45.471Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</loc>
     <lastmod>2024-07-21T15:06:45.796Z</lastmod>
@@ -658,6 +670,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</loc>
     <lastmod>2023-11-13T04:35:37.849Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Observability/Alloy-Collector-Configuration-Example</loc>
+    <lastmod>2024-12-31T12:03:45.089Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Observability/Checking-Grafana-Server-Version</loc>
     <lastmod>2023-10-14T08:49:21.971Z</lastmod>
@@ -693,7 +708,7 @@
     <lastmod>2023-09-11T14:09:34.465Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/Upgrading-FreeBSD</loc>
-    <lastmod>2024-05-01T18:28:51.955Z</lastmod>
+    <lastmod>2024-12-28T01:29:17.078Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Asahi-Linux</loc>
     <lastmod>2024-02-08T16:35:30.571Z</lastmod>
@@ -743,6 +758,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/List-Out-of-Tree-Modules-in-Linux</loc>
     <lastmod>2024-06-05T17:41:19.389Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Name-Resolution-on-Linux</loc>
+    <lastmod>2024-12-31T12:04:31.347Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/NetworkManager</loc>
     <lastmod>2024-05-01T06:44:56.440Z</lastmod>
   </url><url>
@@ -791,6 +809,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/nftables</loc>
     <lastmod>2023-09-23T05:30:06.247Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/nsswitch.conf</loc>
+    <lastmod>2024-12-31T12:05:14.071Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/syslogd</loc>
     <lastmod>2024-06-09T14:07:33.111Z</lastmod>
   </url><url>
@@ -811,6 +832,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/macOS/Touch-ID-for-sudo-on-macOS</loc>
     <lastmod>2024-09-24T13:24:55.346Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/macOS/macOS-Disk-Space-Analysis</loc>
+    <lastmod>2024-12-31T12:04:14.883Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/macOS/macOS-KeyChain-in-CLI-Tools</loc>
     <lastmod>2023-09-13T16:56:16.133Z</lastmod>
@@ -833,6 +857,12 @@
     <loc>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</loc>
     <lastmod>2023-09-09T19:13:50.556Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Elixir/IEx-One-Liners</loc>
+    <lastmod>2024-12-10T15:32:01.606Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Elixir/Troubleshooting-in-production-with-IEx</loc>
+    <lastmod>2024-12-31T12:04:02.654Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Fennel/Fennel-Gotchas</loc>
     <lastmod>2023-09-21T14:42:36.880Z</lastmod>
   </url><url>
@@ -847,6 +877,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/JavaScript/npm-user-prefix-and-installing-corepack</loc>
     <lastmod>2024-05-01T19:14:13.488Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/My-R-environment-with-Conda</loc>
+    <lastmod>2024-12-31T12:04:36.914Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</loc>
     <lastmod>2023-11-19T14:30:03.352Z</lastmod>
@@ -941,6 +974,9 @@
     <loc>https://l2dy.github.io/notes/Self-Hosting/Navidrome</loc>
     <lastmod>2024-10-27T07:37:20.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Push-Notifications-for-iOS</loc>
+    <lastmod>2024-12-09T14:52:34.270Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-AFFiNE</loc>
     <lastmod>2023-10-01T01:29:08.700Z</lastmod>
   </url><url>
@@ -982,6 +1018,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Fuzzing-yash</loc>
     <lastmod>2024-03-22T14:49:15.466Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Ghostty</loc>
+    <lastmod>2024-12-31T12:04:57.316Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/HP-Smart-Scanning-Tips</loc>
     <lastmod>2024-06-08T13:15:37.136Z</lastmod>
@@ -1034,8 +1073,8 @@
     <loc>https://l2dy.github.io/notes/Software/a-Shell</loc>
     <lastmod>2024-02-21T22:51:08.477Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Software/iTerm2-Copy-Mode</loc>
-    <lastmod>2023-11-15T13:44:15.349Z</lastmod>
+    <loc>https://l2dy.github.io/notes/Software/iTerm2-Features</loc>
+    <lastmod>2024-12-31T12:05:00.029Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/nix-env-Dependency-Tree</loc>
     <lastmod>2024-03-31T07:18:46.438Z</lastmod>
@@ -1072,4 +1111,7 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Twitter</loc>
     <lastmod>2023-09-09T19:13:50.477Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Unicode</loc>
+    <lastmod>2024-12-31T12:05:06.518Z</lastmod>
   </url></urlset>
