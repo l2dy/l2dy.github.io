@@ -266,6 +266,9 @@
     <loc>https://l2dy.github.io/notes/Cloud/Free-Domain-Name-Providers</loc>
     <lastmod>2024-11-08T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/GitHub-personal-access-token-to-perform-Git-operations-over-HTTPS</loc>
+    <lastmod>2025-01-08T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Google-Cloud/Andromeda</loc>
     <lastmod>2023-09-12T00:00:00.000Z</lastmod>
   </url><url>
@@ -463,9 +466,6 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Health/20-20-20-Rule</loc>
     <lastmod>2023-09-14T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Krita</loc>
-    <lastmod>2024-04-20T03:07:50.319Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/CRI-Logging-Format</loc>
     <lastmod>2023-10-09T00:00:00.000Z</lastmod>
@@ -701,9 +701,6 @@
     <loc>https://l2dy.github.io/notes/Observability/pwru</loc>
     <lastmod>2025-01-07T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Obsidian</loc>
-    <lastmod>2023-10-17T03:54:47.200Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
@@ -757,6 +754,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</loc>
     <lastmod>2024-02-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</loc>
+    <lastmod>2025-01-09T09:25:38.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</loc>
     <lastmod>2024-10-27T00:00:00.000Z</lastmod>
@@ -826,6 +826,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/yay</loc>
     <lastmod>2024-02-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</loc>
+    <lastmod>2025-01-08T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</loc>
     <lastmod>2023-10-17T00:00:00.000Z</lastmod>
@@ -1037,6 +1040,9 @@
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Krita</loc>
+    <lastmod>2024-04-20T03:07:50.319Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Layer-7-Load-Balancing-Solutions</loc>
     <lastmod>2024-02-29T00:00:00.000Z</lastmod>
   </url><url>
@@ -1045,6 +1051,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Nix-Channel-Status</loc>
     <lastmod>2024-02-11T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Obsidian</loc>
+    <lastmod>2023-10-17T03:54:47.200Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Remote-Linux-Desktop-on-macOS</loc>
     <lastmod>2023-10-29T00:00:00.000Z</lastmod>
@@ -1119,7 +1128,7 @@
     <lastmod>2023-10-28T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Taking-Notes</loc>
-    <lastmod>2023-09-16T03:37:31.186Z</lastmod>
+    <lastmod>2025-01-08T14:51:00.448Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Twitter</loc>
     <lastmod>2023-09-09T19:13:50.477Z</lastmod>

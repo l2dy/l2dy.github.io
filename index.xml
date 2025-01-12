@@ -6,10 +6,34 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linux TCP SYN Retransmission</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</guid>
+    <description>tcp_syn_retries Default value is 6, which corresponds to 63 seconds from first SYN packet till the last retransmission with initial RTO of 1 second. 63 seconds is 1+2+4+…+32, but the connection will not time out until another 64 seconds have passed, totaling 127 seconds.</description>
+    <pubDate>Thu, 09 Jan 2025 09:25:38 GMT</pubDate>
+  </item><item>
+    <title>Taking Notes</title>
+    <link>https://l2dy.github.io/notes/Taking-Notes</link>
+    <guid>https://l2dy.github.io/notes/Taking-Notes</guid>
+    <description>Organizing Notes Capture ideas on the go with Tana Capture. Turn them into organized fleet notes. Keep a private journal for complex tasks. Nurture evergreen notes from fleet notes and journals.</description>
+    <pubDate>Wed, 08 Jan 2025 14:51:00 GMT</pubDate>
+  </item><item>
+    <title>GitHub personal access token to perform Git operations over HTTPS</title>
+    <link>https://l2dy.github.io/notes/Cloud/GitHub-personal-access-token-to-perform-Git-operations-over-HTTPS</link>
+    <guid>https://l2dy.github.io/notes/Cloud/GitHub-personal-access-token-to-perform-Git-operations-over-HTTPS</guid>
+    <description> Create a fine-grained personal access token with “Contents” permission to Repositories you have selected. Configure Git to store credentials on disk: git config --global credential.helper store (Credentials are stored in plaintext!) Access the repo via https with your username and the personal access token as password.</description>
+    <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Rebasing a patched Linux kernel on openEuler Copr (EUR)</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Rebasing-a-patched-Linux-kernel-on-openEuler-Copr-(EUR)</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Rebasing-a-patched-Linux-kernel-on-openEuler-Copr-(EUR)</guid>
     <description>curl -O &#039;repo.openeuler.org/openEuler-24.03-LTS/update/source/Packages/kernel-6.6.0-72.0.0.64.oe2403.src.rpm&#039; bsdtar -xvf kernel-6.6.0-72.0.0.64.oe2403.src.rpm ...</description>
+    <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>nixpkgs</title>
+    <link>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</guid>
+    <description>Nix Channels nixos.org/manual/nixpkgs/unstable/#overview-of-nixpkgs Packages, including the Nix packages collection, are distributed through channels.</description>
     <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>WeeChat</title>
@@ -40,30 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/top</link>
     <guid>https://l2dy.github.io/notes/CLI/top</guid>
     <description>Keys e / E, :Enforce-Task-Memory-Scale and :Enforce-Summary-Memory-Scale. Cycle through the available memory scaling which ranges from KiB through EiB.</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Alloy Collector Configuration Example</title>
-    <link>https://l2dy.github.io/notes/Observability/Alloy-Collector-Configuration-Example</link>
-    <guid>https://l2dy.github.io/notes/Observability/Alloy-Collector-Configuration-Example</guid>
-    <description>node_exporter Based on the template at grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-linux-node/ ...</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Name Resolution on Linux</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Name-Resolution-on-Linux</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Name-Resolution-on-Linux</guid>
-    <description>With glibc, name resolution goes getaddrinfo() → nsswitch.conf (for Name Service Switch, which is not Network Security Services) → /etc/hosts or DNS. If DNS: → libresolv → host.conf → /etc/hosts or real DNS.</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>nsswitch.conf</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/nsswitch.conf</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/nsswitch.conf</guid>
-    <description>nsswitch.conf, the Name Service Switch configuration file, is used by glibc and certain other applications. Most notably, it controls the user, group and host lookup processes.</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>macOS Disk Space Analysis</title>
-    <link>https://l2dy.github.io/notes/Operating-System/macOS/macOS-Disk-Space-Analysis</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/macOS/macOS-Disk-Space-Analysis</guid>
-    <description>Analysis Analyze file tree size: sudo ncdu -x /System/Volumes/Data Monitor file access: sudo fs_usage -w | grep &lt;keyword&gt; Clean up sudo log erase --all # for /var/db/diagnostics ...</description>
     <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
