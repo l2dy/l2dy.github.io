@@ -10,7 +10,7 @@
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</guid>
     <description>tcp_syn_retries Default value is 6, which corresponds to 63 seconds from first SYN packet till the last retransmission with initial RTO of 1 second. 63 seconds is 1+2+4+…+32, but the connection will not time out until another 64 seconds have passed, totaling 127 seconds.</description>
-    <pubDate>Thu, 09 Jan 2025 09:25:38 GMT</pubDate>
+    <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Taking Notes</title>
     <link>https://l2dy.github.io/notes/Taking-Notes</link>
