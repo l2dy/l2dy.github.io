@@ -6,6 +6,36 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Interesting Bug Stories</title>
+    <link>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</link>
+    <guid>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</guid>
+    <description>References beza1e1.tuxen.de/lore/index.html 500mile.email/ .</description>
+    <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>MongoDB Shell</title>
+    <link>https://l2dy.github.io/notes/Database/MongoDB-Shell</link>
+    <guid>https://l2dy.github.io/notes/Database/MongoDB-Shell</guid>
+    <description>show dbs use &lt;database&gt; show collections config.set(&quot;displayBatchSize&quot;, 3) // limit the number of items returned by a cursor db.&lt;collection&gt;.find() ...</description>
+    <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Nmap</title>
+    <link>https://l2dy.github.io/notes/Network/Nmap</link>
+    <guid>https://l2dy.github.io/notes/Network/Nmap</guid>
+    <description>Preparation You can run rustscan first to find open ports, and then use nmap to analyze the services exposed. rustscan -a &lt;comma-delimited list of CIDRs, IPs, or hosts&gt; -u 10000 You may need to increase the local router’s nf_conntrack_max sysctl variable.</description>
+    <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Restore Default OpenWrt Config</title>
+    <link>https://l2dy.github.io/notes/Network/OpenWrt/Restore-Default-OpenWrt-Config</link>
+    <guid>https://l2dy.github.io/notes/Network/OpenWrt/Restore-Default-OpenWrt-Config</guid>
+    <description>You can get the “stock” configuration for OpenWrt from the /rom/etc/config directory. For example, /rom/etc/config/firewall contains the following. Config could be rewritten If changes were made with LuCI or UCI, e.g.</description>
+    <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>grep</title>
+    <link>https://l2dy.github.io/notes/CLI/grep</link>
+    <guid>https://l2dy.github.io/notes/CLI/grep</guid>
+    <description>Multiple patterns can be specified via -e. This is very helpful when you need to grep command output for something and preserve the header. ps aux | grep -e TLS -e crypto .</description>
+    <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Linux TCP SYN Retransmission</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</guid>
@@ -35,36 +65,6 @@
     <guid>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</guid>
     <description>Nix Channels nixos.org/manual/nixpkgs/unstable/#overview-of-nixpkgs Packages, including the Nix packages collection, are distributed through channels.</description>
     <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>WeeChat</title>
-    <link>https://l2dy.github.io/notes/Software/WeeChat</link>
-    <guid>https://l2dy.github.io/notes/Software/WeeChat</guid>
-    <description>See also WeeChat Config. Switch between buffers Press Alt+number to switch to the corresponding numbered buffer. To switch between server and WeeChat core buffers, press Ctrl+X.</description>
-    <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>pwru</title>
-    <link>https://l2dy.github.io/notes/Observability/pwru</link>
-    <guid>https://l2dy.github.io/notes/Observability/pwru</guid>
-    <description>Requirements pwru requires &gt;= 5.3 kernel to run. For --output-skb &gt;= 5.9 kernel is required. (Will auto-detect) For --backend=kprobe-multi &gt;= 5.18 kernel is required.</description>
-    <pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Fontconfig</title>
-    <link>https://l2dy.github.io/notes/MacPorts/Fontconfig</link>
-    <guid>https://l2dy.github.io/notes/MacPorts/Fontconfig</guid>
-    <description>Font directory list &lt;dir&gt;/usr/share/fonts&lt;/dir&gt; &lt;dir&gt;/usr/X11/lib/X11/fonts&lt;/dir&gt; &lt;dir&gt;/opt/local/share/fonts&lt;/dir&gt; &lt;dir&gt;/Library/Fonts&lt;/dir&gt; ...</description>
-    <pubDate>Tue, 31 Dec 2024 15:46:59 GMT</pubDate>
-  </item><item>
-    <title>Package Managers Map</title>
-    <link>https://l2dy.github.io/maps/Package-Managers-Map</link>
-    <guid>https://l2dy.github.io/maps/Package-Managers-Map</guid>
-    <description>For use in $HOME: github.com/conda-forge/miniforge, with the conda-forge channel set as the default (and only) channel. For deterministic and declarative configuration: Nix with nix-installer, and home-mangler for a lightweight package-only alternative to home-manager, or nix-darwin for declarative system-wide configuration on macOS.</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>top</title>
-    <link>https://l2dy.github.io/notes/CLI/top</link>
-    <guid>https://l2dy.github.io/notes/CLI/top</guid>
-    <description>Keys e / E, :Enforce-Task-Memory-Scale and :Enforce-Summary-Memory-Scale. Cycle through the available memory scaling which ranges from KiB through EiB.</description>
-    <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

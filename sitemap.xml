@@ -132,7 +132,7 @@
     <lastmod>2024-03-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/grep</loc>
-    <lastmod>2023-09-21T13:07:13.546Z</lastmod>
+    <lastmod>2025-01-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ip</loc>
     <lastmod>2024-03-19T12:58:51.000Z</lastmod>
@@ -304,6 +304,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</loc>
     <lastmod>2023-11-11T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Database/MongoDB-Shell</loc>
+    <lastmod>2025-02-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/PgBouncer</loc>
     <lastmod>2023-10-02T00:00:00.000Z</lastmod>
@@ -593,11 +596,17 @@
     <loc>https://l2dy.github.io/notes/Network/NIC-Scaling-and-Steering</loc>
     <lastmod>2024-06-21T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Network/OpenWRT-DFS-Channel-Experiment</loc>
+    <loc>https://l2dy.github.io/notes/Network/Nmap</loc>
+    <lastmod>2025-02-01T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/OpenWrt/OpenWrt-DFS-Channel-Experiment</loc>
     <lastmod>2023-10-31T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Network/OpenWRT-LuCI-Protocol</loc>
+    <loc>https://l2dy.github.io/notes/Network/OpenWrt/Reload-installed-LuCI-protocols</loc>
     <lastmod>2024-02-13T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/OpenWrt/Restore-Default-OpenWrt-Config</loc>
+    <lastmod>2025-01-31T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</loc>
     <lastmod>2024-02-12T00:00:00.000Z</lastmod>
@@ -1039,6 +1048,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/HP-Smart-Scanning-Tips</loc>
     <lastmod>2024-06-08T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</loc>
+    <lastmod>2025-02-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
     <lastmod>2023-09-09T19:13:50.516Z</lastmod>
