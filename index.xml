@@ -36,12 +36,6 @@
     <description>Multiple patterns can be specified via -e. This is very helpful when you need to grep command output for something and preserve the header. ps aux | grep -e TLS -e crypto .</description>
     <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Linux TCP SYN Retransmission</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</guid>
-    <description>tcp_syn_retries Default value is 6, which corresponds to 63 seconds from first SYN packet till the last retransmission with initial RTO of 1 second. 63 seconds is 1+2+4+…+32, but the connection will not time out until another 64 seconds have passed, totaling 127 seconds.</description>
-    <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
-  </item><item>
     <title>Taking Notes</title>
     <link>https://l2dy.github.io/notes/Taking-Notes</link>
     <guid>https://l2dy.github.io/notes/Taking-Notes</guid>
@@ -64,6 +58,12 @@
     <link>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</link>
     <guid>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</guid>
     <description>Nix Channels nixos.org/manual/nixpkgs/unstable/#overview-of-nixpkgs Packages, including the Nix packages collection, are distributed through channels.</description>
+    <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>WeeChat</title>
+    <link>https://l2dy.github.io/notes/Software/WeeChat</link>
+    <guid>https://l2dy.github.io/notes/Software/WeeChat</guid>
+    <description>See also WeeChat Config. Switch between buffers Press Alt+number to switch to the corresponding numbered buffer. To switch between server and WeeChat core buffers, press Ctrl+X.</description>
     <pubDate>Wed, 08 Jan 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>

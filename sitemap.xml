@@ -767,9 +767,6 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-Distributions-Adoption-Statistics</loc>
     <lastmod>2024-02-12T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-TCP-SYN-Retransmission</loc>
-    <lastmod>2025-01-12T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-mailing-lists</loc>
     <lastmod>2024-10-27T00:00:00.000Z</lastmod>
   </url><url>
@@ -800,7 +797,7 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</loc>
     <lastmod>2023-10-03T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Client-SYN-Retries</loc>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Client-SYN-Retries-on-Linux</loc>
     <lastmod>2024-07-04T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Kernel-Parameters</loc>
