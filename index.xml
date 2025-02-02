@@ -21,7 +21,7 @@
     <title>Nmap</title>
     <link>https://l2dy.github.io/notes/Network/Nmap</link>
     <guid>https://l2dy.github.io/notes/Network/Nmap</guid>
-    <description>Preparation You can run rustscan first to find open ports, and then use nmap to analyze the services exposed. rustscan -a &lt;comma-delimited list of CIDRs, IPs, or hosts&gt; -u 10000 You may need to increase the local router’s nf_conntrack_max sysctl variable.</description>
+    <description>Preparation You can run rustscan first to find open ports, and then use nmap to analyze the services exposed. rustscan -a &lt;comma-delimited list of CIDRs, IPs, or hosts&gt; -u 10000 --scripts none RustScan’s scripting engine is extensible but difficult to set up, so we disable it here with --scripts none and run nmap ourselves.</description>
     <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Restore Default OpenWrt Config</title>
