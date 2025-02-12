@@ -26,7 +26,7 @@
     <loc>https://l2dy.github.io/maps/Microsoft-Azure-Map</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/maps/Nginx-Map</loc>
+    <loc>https://l2dy.github.io/maps/NGINX-Map</loc>
     <lastmod>2023-09-13T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/maps/Package-Managers-Map</loc>
@@ -88,6 +88,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Neovim</loc>
     <lastmod>2023-09-24T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</loc>
+    <lastmod>2025-02-10T03:52:28.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Replace-fixed-pattern-in-file</loc>
     <lastmod>2024-05-08T00:00:00.000Z</lastmod>
@@ -342,7 +345,7 @@
     <lastmod>2023-09-09T19:13:50.540Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</loc>
-    <lastmod>2023-09-09T19:13:50.525Z</lastmod>
+    <lastmod>2025-02-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Emacs/doom/Eglot</loc>
     <lastmod>2024-07-01T00:00:00.000Z</lastmod>
@@ -566,14 +569,56 @@
     <loc>https://l2dy.github.io/notes/Media/Music-Streaming-Setup</loc>
     <lastmod>2023-10-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</loc>
+    <lastmod>2023-09-09T19:13:50.550Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-Code-Walkthrough---Client-Closed-Request</loc>
+    <lastmod>2024-07-13T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-Code-Walkthrough---Upstream-Connect-Timeout</loc>
+    <lastmod>2024-07-13T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-Error-Log</loc>
+    <lastmod>2024-12-05T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-HTTP-Variables-to-Log</loc>
+    <lastmod>2023-11-09T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-IPv6-Rate-Limiting</loc>
+    <lastmod>2024-12-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-Thundering-Herd-Problem</loc>
+    <lastmod>2024-07-21T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</loc>
+    <lastmod>2023-09-09T19:13:50.545Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/Optimizing-single-box-NGINX-performance</loc>
+    <lastmod>2024-06-09T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</loc>
+    <lastmod>2023-09-09T19:13:50.547Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</loc>
+    <lastmod>2023-09-09T19:13:50.546Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</loc>
+    <lastmod>2025-02-12T17:13:32.199Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/Cloudflare</loc>
     <lastmod>2023-09-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Configure-additional-static-IP-with-netplan</loc>
+    <lastmod>2025-02-06T01:48:56.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/DNS-Caching</loc>
     <lastmod>2023-09-13T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Direct-Server-Return</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Network/Ethernet-Frame</loc>
+    <lastmod>2025-02-07T03:57:22.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</loc>
     <lastmod>2024-11-05T00:00:00.000Z</lastmod>
@@ -640,42 +685,6 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Wi-Fi-6E</loc>
     <lastmod>2023-10-21T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Byte-Range-Request</loc>
-    <lastmod>2023-09-09T19:13:50.550Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-Code---Client-Closed-Request</loc>
-    <lastmod>2024-07-13T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-Code---Upstream-Connect-Timeout</loc>
-    <lastmod>2024-07-13T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-Error-Log</loc>
-    <lastmod>2024-12-05T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-HTTP-Variables-to-Log</loc>
-    <lastmod>2023-11-09T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-IPv6-Rate-Limiting</loc>
-    <lastmod>2024-12-07T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Nginx-Thundering-Herd-Problem</loc>
-    <lastmod>2024-07-21T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/Optimizing-single-box-Nginx-performance</loc>
-    <lastmod>2024-06-09T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/location</loc>
-    <lastmod>2023-09-09T19:13:50.545Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/proxy/Headers</loc>
-    <lastmod>2023-09-09T19:13:50.547Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/proxy/Health-Check</loc>
-    <lastmod>2023-09-09T19:13:50.546Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Nginx/proxy/Upstream-Keepalive</loc>
-    <lastmod>2023-10-01T01:39:48.102Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Ideaverse-Kit-Plugins</loc>
     <lastmod>2023-09-12T17:22:19.000Z</lastmod>
@@ -1001,6 +1010,9 @@
     <loc>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-AFFiNE</loc>
     <lastmod>2023-10-01T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-IaaS-Cloud-on-Bare-Metal</loc>
+    <lastmod>2025-02-07T06:47:55.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</loc>
     <lastmod>2023-09-26T00:00:00.000Z</lastmod>
   </url><url>
@@ -1012,6 +1024,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</loc>
     <lastmod>2024-03-31T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Ansible-Collections</loc>
+    <lastmod>2025-02-10T03:14:14.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Beancount-and-Fava</loc>
     <lastmod>2024-05-04T00:00:00.000Z</lastmod>
@@ -1027,6 +1042,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Contributing-packages-on-conda-forge</loc>
     <lastmod>2024-06-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Convert-.qcow2-files-to-VMware-format</loc>
+    <lastmod>2025-02-05T06:48:03.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
     <lastmod>2023-12-29T00:00:00.000Z</lastmod>
