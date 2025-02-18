@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Customize error page of ngx.exit</title>
+    <link>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</link>
+    <guid>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</guid>
+    <description>This is an example of templating responses for ngx.exit(494) calls from the “legalban” Lua module. # in `server` context error_page 494 =451 @legal_ban; location @legal_ban { # Prevent internal redirection cycle.</description>
+    <pubDate>Tue, 18 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Upstream Keepalive</title>
     <link>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</link>
     <guid>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</guid>
     <description>References beza1e1.tuxen.de/lore/index.html 500mile.email/ .</description>
     <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>MongoDB Shell</title>
-    <link>https://l2dy.github.io/notes/Database/MongoDB-Shell</link>
-    <guid>https://l2dy.github.io/notes/Database/MongoDB-Shell</guid>
-    <description>show dbs use &lt;database&gt; show collections config.set(&quot;displayBatchSize&quot;, 3) // limit the number of items returned by a cursor db.&lt;collection&gt;.find() ...</description>
-    <pubDate>Sat, 01 Feb 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
