@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>How NGINX round-robin upstream implements passive health checks</title>
+    <link>https://l2dy.github.io/notes/NGINX/How-NGINX-round-robin-upstream-implements-passive-health-checks</link>
+    <guid>https://l2dy.github.io/notes/NGINX/How-NGINX-round-robin-upstream-implements-passive-health-checks</guid>
+    <description>Based on NGINX 1.27.4 Passive Health Checks peer-&gt;accessed represents the last failure time. It is initialized as 0, and set to the current time ngx_time() along with peer-&gt;checked when any request to the peer failed.</description>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Resin Source Code Preservation</title>
+    <link>https://l2dy.github.io/notes/Software/Resin-Source-Code-Preservation</link>
+    <guid>https://l2dy.github.io/notes/Software/Resin-Source-Code-Preservation</guid>
+    <description>Online Changelog (Outdated) caucho.com/resin-4.0/changes/changes.xtp Import Process git init resin-src &amp;&amp; cd resin-src Download all resin-4.0.x-src.tar.gz files ...</description>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Health Checks in NGINX</title>
+    <link>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</link>
+    <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
+    <description>If Nginx upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to disable passive health checks. See also How NGINX round-robin upstream implements passive health checks.</description>
+    <pubDate>Mon, 24 Feb 2025 08:36:16 GMT</pubDate>
+  </item><item>
     <title>Customize error page of ngx.exit</title>
     <link>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</link>
     <guid>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/Network/Ethernet-Frame</guid>
     <description>Endianness Ethernet transmits data with the most-significant octet first. This is considered a big-endian system, i.e. transmitted in network order. While higher-level network protocols usually consider octet as their atomic unit, Ethernet belongs to the lowest layers of a network stack and has to deal with ordering of bits within an octet.</description>
     <pubDate>Fri, 07 Feb 2025 03:57:22 GMT</pubDate>
-  </item><item>
-    <title>Configure additional static IP with netplan</title>
-    <link>https://l2dy.github.io/notes/Network/Configure-additional-static-IP-with-netplan</link>
-    <guid>https://l2dy.github.io/notes/Network/Configure-additional-static-IP-with-netplan</guid>
-    <description>It is not advised to overwrite the .yaml file cloud-init created. Instead, we could only list the additional IPs like so: network: version: 2 ethernets: eth0: addresses: - 10.10.10.2/24 This works because netplan generates config by merging YAML files, and the rules are that sequence values are concatenated, with the new values appended to the old list.</description>
-    <pubDate>Thu, 06 Feb 2025 01:48:56 GMT</pubDate>
-  </item><item>
-    <title>Convert .qcow2 files to VMware format</title>
-    <link>https://l2dy.github.io/notes/Software/Convert-.qcow2-files-to-VMware-format</link>
-    <guid>https://l2dy.github.io/notes/Software/Convert-.qcow2-files-to-VMware-format</guid>
-    <description>qemu-img You can use the qemu-img command to convert between supported formats like qcow2, vdi and vmdk. qemu-img convert -f qcow2 -O vmdk img.qcow2 img.vmdk.</description>
-    <pubDate>Wed, 05 Feb 2025 06:48:03 GMT</pubDate>
-  </item><item>
-    <title>Interesting Bug Stories</title>
-    <link>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</link>
-    <guid>https://l2dy.github.io/notes/Software/Interesting-Bug-Stories</guid>
-    <description>References beza1e1.tuxen.de/lore/index.html 500mile.email/ .</description>
-    <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
