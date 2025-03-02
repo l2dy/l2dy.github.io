@@ -14,7 +14,7 @@
 <li>Install the packages above.</li>
 <li>Add <code>unset SSH_TTY</code> to <code>.zprofile</code>. This is a workaround for clipboard integration. See <a href="../../notes/Emacs/doom/tty" class="internal" data-slug="notes/Emacs/doom/tty">tty</a> and <a href="https://github.com/blinksh/blink/issues/1957" class="external">https://github.com/blinksh/blink/issues/1957<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
 <li>Set up starship and fastfetch in <code>.zprofile</code>.</li>
-<li>Alias <code>emacs</code> to <code>env TERM=tmux-direct emacs</code> for 24-bit color in mosh (without tmux). This requires a recent version of ncurses, see details and how to configure tmux <a href="#24-bit-color" class="internal alias">below</a>.</li>
+<li>Alias <code>emacs</code> to <code>env TERM=st-direct emacs</code> for 24-bit color in mosh (without tmux). This requires a recent version of ncurses, see details and how to configure tmux <a href="#24-bit-color" class="internal alias">below</a>.</li>
 <li>Set up Doom Emacs according to <a href="https://github.com/doomemacs/doomemacs" class="external">https://github.com/doomemacs/doomemacs<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
 <li>Add <code>(:if (featurep :system 'linux) (tty +osc))</code> to <code>:os</code> in <code>doom/init.el</code> for clipboard integration.</li>
 <li>Add <code>(add-hook 'tty-setup-hook #'mouse-wheel-mode)</code> to <code>doom/config.el</code> for mouse wheel support.</li>
@@ -62,13 +62,18 @@
 <h3 id="24-bit-color">24-bit color<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#24-bit-color" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p><code>toe -a</code> lists all available terminal types in the system terminfo database.</p>
 <p>You could use <a href="https://gist.github.com/lilydjwg/fdeaf79e921c2f413f44b6f613f6ad53" class="external">this script<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> to check color support in your terminal. “True color gradient” should have a different color under each slash or backslash character and form a smooth gradient.</p>
-<p>For emacs installed with Nix, <code>tmux-direct</code> is supported and can be verified with the following command.</p>
+<p>For emacs installed with Nix, <code>st-direct</code> is supported and can be verified with the following command.</p>
 <figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">find</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;$(</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">nix-store</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -qR</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ~/.nix-profile/bin/emacs </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">|</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> grep</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ncurses)&quot;</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> |</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> grep</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> .-direct</span></span></code></pre></figure>
-<p>In case of mosh (without tmux), <code>tmux-direct</code> has to be used, because mosh does not understand SGR colon syntax yet.</p>
+<p>You need to select which <code>TERM</code> to use carefully:</p>
+<ul>
+<li><code>alacritty-direct</code>, <code>konsole-direct</code> and <code>st-direct</code> support 24-bit color in mosh and bracketed paste mode. These are the best choices, but have not been thoroughly tested in Blink yet.</li>
+<li><code>vscode-direct</code> and alike support 24-bit color in mosh, but do not support bracketed paste mode with recent Emacs and terminfo.</li>
+<li><code>tmux-direct</code> use SGR colon syntax, which mosh does not understand. You can use it in tmux to get 24-bit colors, but bracketed paste mode is broken in ways worse than telling the terminal that it’s not supported.</li>
+</ul>
 <p>You can add the following to <code>.zshrc</code> to apply it to Emacs. <code>env</code> command is used to avoid <code>TERM</code> affecting your shell in case its terminfo database is older than what <code>emacs</code> uses.</p>
 <pre><code>__emacs_term_fix() {
     if [[ &quot;$TERM&quot; == &quot;xterm-256color&quot; ]]; then
-        env TERM=tmux-direct emacs
+        env TERM=st-direct emacs
     else
         emacs
     fi
