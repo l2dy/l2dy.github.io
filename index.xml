@@ -6,9 +6,45 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>NGINX Proxy Cache</title>
+    <link>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</link>
+    <guid>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</guid>
+    <description>Checklist Do not cache sensitive content without authentication token included in proxy_cache_key. It is recommended to include a random secret in the string to further prevent hash collision attacks.</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>NGINX realip configuration for Cloudflare</title>
+    <link>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</link>
+    <guid>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</guid>
+    <description>If you also want to reject requests that does not come from Cloudflare: http { # Load realip module (if not already loaded) load_module modules/ngx_http_realip_module.so; # Include ...</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Upstream Keepalive</title>
+    <link>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</link>
+    <guid>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</guid>
+    <description>To enable keepalive connections to upstream, the keepalive directive must be included in upstream{} blocks, and in the location{} blocks you need to switch HTTP version to 1.1 and ...</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Production App Servers for Node.js</title>
+    <link>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</link>
+    <guid>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</guid>
+    <description>NGINX Unit unit.nginx.org/ Phusion Passenger github.com/phusion/passenger PM2 github.com/Unitech/pm2 Since v6, PM2 supports Bun. HashiCorp Nomad github.com/hashicorp/nomad Hard to find tutorials on deploying multi-process Node.js app.</description>
+    <pubDate>Wed, 05 Mar 2025 05:58:28 GMT</pubDate>
+  </item><item>
+    <title>Ansible Collections</title>
+    <link>https://l2dy.github.io/notes/Software/Ansible-Collections</link>
+    <guid>https://l2dy.github.io/notes/Software/Ansible-Collections</guid>
+    <description>Self-containing collection install Version requirement: ansible-core &gt;= 2.13.9 Take ansible.posix as an example: cat &gt;ansible.cfg &lt;&lt;EOF [defaults] collections_paths ...</description>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>WeeChat Config</title>
+    <link>https://l2dy.github.io/notes/Software/WeeChat-Config</link>
+    <guid>https://l2dy.github.io/notes/Software/WeeChat-Config</guid>
+    <description>ZNC Multi-Connect and CertFP Connect to multiple networks by specifying network name in username in username/networkname format. /server add networkname IP/port -ssl -username=username/networkname -password=x -autoconnect /set irc.server.snoonet.ssl_fingerprint xxxx /set irc.server.libera.ssl_cert &quot;${weechat_config_dir}/ssl/client.pem&quot; Set irc.server.libera.ssl_fingerprint to verify with fingerprint only if your server has a self-signed certificate.</description>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>How NGINX round-robin upstream implements passive health checks</title>
-    <link>https://l2dy.github.io/notes/NGINX/How-NGINX-round-robin-upstream-implements-passive-health-checks</link>
-    <guid>https://l2dy.github.io/notes/NGINX/How-NGINX-round-robin-upstream-implements-passive-health-checks</guid>
+    <link>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</link>
+    <guid>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</guid>
     <description>Based on NGINX 1.27.4 Passive Health Checks peer-&gt;accessed represents the last failure time. It is initialized as 0, and set to the current time ngx_time() along with peer-&gt;checked when any request to the peer failed.</description>
     <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
   </item><item>
@@ -25,46 +61,10 @@
     <pubDate>Mon, 24 Feb 2025 08:36:16 GMT</pubDate>
   </item><item>
     <title>Customize error page of ngx.exit</title>
-    <link>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</link>
-    <guid>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</guid>
+    <link>https://l2dy.github.io/notes/NGINX/openresty/Customize-error-page-of-ngx.exit</link>
+    <guid>https://l2dy.github.io/notes/NGINX/openresty/Customize-error-page-of-ngx.exit</guid>
     <description>This is an example of templating responses for ngx.exit(494) calls from the “legalban” Lua module. # in `server` context error_page 494 =451 @legal_ban; location @legal_ban { # Prevent internal redirection cycle.</description>
     <pubDate>Tue, 18 Feb 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Upstream Keepalive</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</guid>
-    <description>To enable keepalive connections to upstream, the keepalive directive must be included in upstream{} blocks, and in the location{} blocks you need to switch HTTP version to 1.1 and ...</description>
-    <pubDate>Wed, 12 Feb 2025 17:13:32 GMT</pubDate>
-  </item><item>
-    <title>Doom CLI</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Doom-CLI</guid>
-    <description>Commands When you need to force a full byte-compile, for example after upgrading Emacs: doom sync --rebuild When your need to reclaim some disk space occupied by .emacs.d: doom gc ...</description>
-    <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Per, AWK and Sed Tricks for Text File Manipulation</title>
-    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</link>
-    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</guid>
-    <description>Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers ...</description>
-    <pubDate>Mon, 10 Feb 2025 03:52:28 GMT</pubDate>
-  </item><item>
-    <title>Ansible Collections</title>
-    <link>https://l2dy.github.io/notes/Software/Ansible-Collections</link>
-    <guid>https://l2dy.github.io/notes/Software/Ansible-Collections</guid>
-    <description>Self-containing collection install Version requirement: ansible-core &gt;= 2.13.9 Take ansible.posix as an example: cat &gt;ansible.cfg &lt;&lt;EOF [defaults] collections_paths ...</description>
-    <pubDate>Mon, 10 Feb 2025 03:14:14 GMT</pubDate>
-  </item><item>
-    <title>Self-Hosted IaaS Cloud on Bare Metal</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-IaaS-Cloud-on-Bare-Metal</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-IaaS-Cloud-on-Bare-Metal</guid>
-    <description>Oxide Rack Racks assembled by Oxide Computer can run their custom stack of open source software and firmware: github.com/oxidecomputer. OpenStack Widely deployed but complicated with lots of options.</description>
-    <pubDate>Fri, 07 Feb 2025 06:47:55 GMT</pubDate>
-  </item><item>
-    <title>Ethernet Frame</title>
-    <link>https://l2dy.github.io/notes/Network/Ethernet-Frame</link>
-    <guid>https://l2dy.github.io/notes/Network/Ethernet-Frame</guid>
-    <description>Endianness Ethernet transmits data with the most-significant octet first. This is considered a big-endian system, i.e. transmitted in network order. While higher-level network protocols usually consider octet as their atomic unit, Ethernet belongs to the lowest layers of a network stack and has to deal with ordering of bits within an octet.</description>
-    <pubDate>Fri, 07 Feb 2025 03:57:22 GMT</pubDate>
   </item>
     </channel>
   </rss>

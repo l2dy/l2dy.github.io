@@ -569,12 +569,6 @@
     <loc>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/NGINX/Customize-error-page-of-ngx.exit</loc>
-    <lastmod>2025-02-18T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/NGINX/How-NGINX-round-robin-upstream-implements-passive-health-checks</loc>
-    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-Code-Walkthrough---Client-Closed-Request</loc>
     <lastmod>2024-07-13T00:00:00.000Z</lastmod>
   </url><url>
@@ -590,14 +584,23 @@
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-IPv6-Rate-Limiting</loc>
     <lastmod>2024-12-07T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</loc>
+    <lastmod>2025-03-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-Thundering-Herd-Problem</loc>
     <lastmod>2024-07-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</loc>
+    <lastmod>2025-03-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/Optimizing-single-box-NGINX-performance</loc>
     <lastmod>2024-06-09T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/openresty/Customize-error-page-of-ngx.exit</loc>
+    <lastmod>2025-02-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -605,8 +608,11 @@
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</loc>
     <lastmod>2025-02-24T08:36:16.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</loc>
+    <lastmod>2025-02-26T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</loc>
-    <lastmod>2025-02-12T17:13:32.000Z</lastmod>
+    <lastmod>2025-03-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Cloudflare</loc>
     <lastmod>2023-09-29T00:00:00.000Z</lastmod>
@@ -914,6 +920,9 @@
     <loc>https://l2dy.github.io/notes/Programming/My-R-environment-with-Conda</loc>
     <lastmod>2024-12-31T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</loc>
+    <lastmod>2025-03-05T05:58:28.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Programming/PHP/Remove-folder-recursively-in-PHP</loc>
     <lastmod>2023-11-19T00:00:00.000Z</lastmod>
   </url><url>
@@ -1029,7 +1038,7 @@
     <lastmod>2024-03-31T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Ansible-Collections</loc>
-    <lastmod>2025-02-10T03:14:14.000Z</lastmod>
+    <lastmod>2025-03-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Beancount-and-Fava</loc>
     <lastmod>2024-05-04T00:00:00.000Z</lastmod>
@@ -1107,7 +1116,7 @@
     <lastmod>2024-12-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/WeeChat-Config</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/WeeChat</loc>
     <lastmod>2025-01-08T00:00:00.000Z</lastmod>
