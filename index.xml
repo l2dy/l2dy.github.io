@@ -6,6 +6,36 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>ChatGPT</title>
+    <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
+    <guid>https://l2dy.github.io/notes/AI/ChatGPT</guid>
+    <description>Derivatives New Bing Poe .</description>
+    <pubDate>Thu, 06 Mar 2025 14:58:29 GMT</pubDate>
+  </item><item>
+    <title>GPT-4 Chat Demo</title>
+    <link>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</link>
+    <guid>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</guid>
+    <description> Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. Chat Text Could you estimate the average time a TCP request waits in the surge queue of an AWS CLB from CloudWatch metrics? To estimate the average time a TCP request waits in the surge queue of an Amazon Web Services (AWS) Classic Load Balancer (CLB), you can use the SurgeQueueLength and RequestCount metrics from Amazon CloudWatch.</description>
+    <pubDate>Thu, 06 Mar 2025 14:57:23 GMT</pubDate>
+  </item><item>
+    <title>Poe</title>
+    <link>https://l2dy.github.io/notes/AI/Poe</link>
+    <guid>https://l2dy.github.io/notes/AI/Poe</guid>
+    <description>poe.com/ Poe is a platform that enables users to access third-party chatbots, including ChatGPT. Poe can give suggestions on further questions the user could ask, and highlights terms that could be explained further by clicking on them.</description>
+    <pubDate>Thu, 06 Mar 2025 14:53:01 GMT</pubDate>
+  </item><item>
+    <title>New Bing</title>
+    <link>https://l2dy.github.io/notes/AI/New-Bing</link>
+    <guid>https://l2dy.github.io/notes/AI/New-Bing</guid>
+    <description>Based on GPT-4, New Bing is free to use but has a limit of 5 turns per session for unregistered users. You can use New Bing from the Edge browser or via the Bing app on mobile.</description>
+    <pubDate>Thu, 06 Mar 2025 14:52:21 GMT</pubDate>
+  </item><item>
+    <title>LLM Models</title>
+    <link>https://l2dy.github.io/notes/AI/LLM-Models</link>
+    <guid>https://l2dy.github.io/notes/AI/LLM-Models</guid>
+    <description>Open source models Chat Phi-4 Qwen-2.5 Reasoning QwQ Commercial models from OpenAI Chat GPT-4o Reasoning o3-mini o1 .</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>NGINX Proxy Cache</title>
     <link>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</link>
     <guid>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</guid>
@@ -35,36 +65,6 @@
     <guid>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</guid>
     <description>NGINX Unit unit.nginx.org/ Phusion Passenger github.com/phusion/passenger PM2 github.com/Unitech/pm2 Since v6, PM2 supports Bun. HashiCorp Nomad github.com/hashicorp/nomad Hard to find tutorials on deploying multi-process Node.js app.</description>
     <pubDate>Wed, 05 Mar 2025 05:58:28 GMT</pubDate>
-  </item><item>
-    <title>Ansible Collections</title>
-    <link>https://l2dy.github.io/notes/Software/Ansible-Collections</link>
-    <guid>https://l2dy.github.io/notes/Software/Ansible-Collections</guid>
-    <description>Self-containing collection install Version requirement: ansible-core &gt;= 2.13.9 Take ansible.posix as an example: cat &gt;ansible.cfg &lt;&lt;EOF [defaults] collections_paths ...</description>
-    <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>WeeChat Config</title>
-    <link>https://l2dy.github.io/notes/Software/WeeChat-Config</link>
-    <guid>https://l2dy.github.io/notes/Software/WeeChat-Config</guid>
-    <description>ZNC Multi-Connect and CertFP Connect to multiple networks by specifying network name in username in username/networkname format. /server add networkname IP/port -ssl -username=username/networkname -password=x -autoconnect /set irc.server.snoonet.ssl_fingerprint xxxx /set irc.server.libera.ssl_cert &quot;${weechat_config_dir}/ssl/client.pem&quot; Set irc.server.libera.ssl_fingerprint to verify with fingerprint only if your server has a self-signed certificate.</description>
-    <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>How NGINX round-robin upstream implements passive health checks</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</guid>
-    <description>Based on NGINX 1.27.4 Passive Health Checks peer-&gt;accessed represents the last failure time. It is initialized as 0, and set to the current time ngx_time() along with peer-&gt;checked when any request to the peer failed.</description>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Resin Source Code Preservation</title>
-    <link>https://l2dy.github.io/notes/Software/Resin-Source-Code-Preservation</link>
-    <guid>https://l2dy.github.io/notes/Software/Resin-Source-Code-Preservation</guid>
-    <description>Online Changelog (Outdated) caucho.com/resin-4.0/changes/changes.xtp Import Process git init resin-src &amp;&amp; cd resin-src Download all resin-4.0.x-src.tar.gz files ...</description>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Health Checks in NGINX</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
-    <description>If Nginx upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to disable passive health checks. See also How NGINX round-robin upstream implements passive health checks.</description>
-    <pubDate>Mon, 24 Feb 2025 08:36:16 GMT</pubDate>
   </item>
     </channel>
   </rss>
