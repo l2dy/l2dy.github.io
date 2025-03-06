@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Health Checks in NGINX</title>
+    <link>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</link>
+    <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
+    <description>If NGINX upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to turn off passive health checks. See also How NGINX round-robin upstream implements passive health checks.</description>
+    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
+  </item><item>
+    <title>Headers in NGINX</title>
+    <link>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</link>
+    <guid>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</guid>
+    <description>The default set of headers passed to upstream is defined in ngx_http_proxy_headers. static ngx_keyval_t ngx_http_proxy_headers[] = { { ngx_string(&quot;Host&quot;), ngx_string(&quot;$proxy_host&quot;) }, { ngx_string(&quot;Connection&quot;), ngx_string(&quot;close&quot;) }, { ngx_string(&quot;Content-Length&quot;), ngx_string(&quot;$proxy_internal_body_length&quot;) }, { ngx_string(&quot;Transfer-Encoding&quot;), ngx_string(&quot;$proxy_internal_chunked&quot;) }, { ngx_string(&quot;TE&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Keep-Alive&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Expect&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Upgrade&quot;), ngx_string(&quot;&quot;) }, { ngx_null_string, ngx_null_string } };.</description>
+    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
+  </item><item>
+    <title>NGINX location Directive</title>
+    <link>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</link>
+    <guid>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</guid>
+    <description>proxy_pass redirecting If a prefix-matching location ends with a slash (/), and requests are processed by proxy_pass, requests to the exact string minus the trailing slash are redirected ...</description>
+    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
+  </item><item>
+    <title>Byte-Range Request</title>
+    <link>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</link>
+    <guid>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</guid>
+    <description>NGINX tries to slice the response body when one of the following conditions is met and the request specifies a Range header. NGINX is serving static files directly.</description>
+    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
+  </item><item>
     <title>Managing Service Risk</title>
     <link>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</link>
     <guid>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</guid>
@@ -41,30 +65,6 @@
     <guid>https://l2dy.github.io/notes/SRE/Managing-Incidents</guid>
     <description>Recursive separation of responsibilities A role leader might delegate system components to colleagues, who report high-level information back up to the leaders ...</description>
     <pubDate>Thu, 06 Mar 2025 18:06:55 GMT</pubDate>
-  </item><item>
-    <title>Service Level Indicator</title>
-    <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
-    <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
-    <description>Be realistic Sometimes only a proxy is available. For example, client-side latency is often the more user-relevant metric, but it might only be possible to measure latency at the server.</description>
-    <pubDate>Thu, 06 Mar 2025 18:06:35 GMT</pubDate>
-  </item><item>
-    <title>Toil</title>
-    <link>https://l2dy.github.io/notes/SRE/Toil</link>
-    <guid>https://l2dy.github.io/notes/SRE/Toil</guid>
-    <description>Definition Toil is the kind of work tied to running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly ...</description>
-    <pubDate>Thu, 06 Mar 2025 18:06:23 GMT</pubDate>
-  </item><item>
-    <title>Alerting</title>
-    <link>https://l2dy.github.io/notes/SRE/Alerting</link>
-    <guid>https://l2dy.github.io/notes/SRE/Alerting</guid>
-    <description>Software should do the interpreting of the alerting domain, and humans should be notified when action is needed. There are three kinds of valid monitoring output: Alerts (paging): immediate action needed Tickets and email alerts: action needed, but not immediately Logging: recorded for diagnostic or forensic purposes Paging a human is a quite expensive use of an employee’s time.</description>
-    <pubDate>Thu, 06 Mar 2025 18:06:15 GMT</pubDate>
-  </item><item>
-    <title>Krita</title>
-    <link>https://l2dy.github.io/notes/Software/Krita</link>
-    <guid>https://l2dy.github.io/notes/Software/Krita</guid>
-    <description>Pen tablet shortcuts Shift + drag left/right to resize the brush. Button (close to pen tip) + drag to zoom in and out. SPACE + drag to move the canvas. Shift + SPACE + drag to rotate the canvas.</description>
-    <pubDate>Thu, 06 Mar 2025 18:04:45 GMT</pubDate>
   </item>
     </channel>
   </rss>

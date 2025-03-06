@@ -561,7 +561,7 @@
     <lastmod>2023-10-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</loc>
-    <lastmod>2025-03-06T17:37:23.517Z</lastmod>
+    <lastmod>2025-03-06T18:16:31.781Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-Code-Walkthrough---Client-Closed-Request</loc>
     <lastmod>2024-07-13T00:00:00.000Z</lastmod>
@@ -585,7 +585,7 @@
     <lastmod>2024-07-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</loc>
-    <lastmod>2025-03-06T17:37:46.585Z</lastmod>
+    <lastmod>2025-03-06T18:16:31.786Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</loc>
     <lastmod>2025-03-06T00:00:00.000Z</lastmod>
@@ -600,10 +600,10 @@
     <lastmod>2025-03-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:16:31.788Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</loc>
-    <lastmod>2025-03-06T17:35:43.697Z</lastmod>
+    <lastmod>2025-03-06T18:16:31.789Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</loc>
     <lastmod>2025-02-26T00:00:00.000Z</lastmod>
