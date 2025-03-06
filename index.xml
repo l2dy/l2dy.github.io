@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>CORS Origin</title>
-    <link>https://l2dy.github.io/notes/HTTP/CORS-Origin</link>
-    <guid>https://l2dy.github.io/notes/HTTP/CORS-Origin</guid>
-    <description>Access-Control-Allow-Origin: &lt;origin&gt; You can only allow one specific origin. If the server needs to support clients from multiple origins, it must return the origin for the specific client making the request.</description>
-    <pubDate>Thu, 06 Mar 2025 17:08:51 GMT</pubDate>
+    <title>Managing Service Risk</title>
+    <link>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</link>
+    <guid>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</guid>
+    <description>With risk conceptualized as a (nonlinear) continuum, we need to determine where to place individual services on the continuum. We give equal importance to Figure out how to engineer great reliability into our systems.</description>
+    <pubDate>Thu, 06 Mar 2025 18:08:07 GMT</pubDate>
   </item><item>
-    <title>Consult</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
-    <description>Asynchronous search github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats ...</description>
-    <pubDate>Thu, 06 Mar 2025 17:03:06 GMT</pubDate>
+    <title>SLO</title>
+    <link>https://l2dy.github.io/notes/SRE/SLO</link>
+    <guid>https://l2dy.github.io/notes/SRE/SLO</guid>
+    <description>Purpose Managing Service Risk SLOs should be a major driver in prioritizing work for SREs and product developers, because they reflect what users care about ...</description>
+    <pubDate>Thu, 06 Mar 2025 18:07:52 GMT</pubDate>
   </item><item>
-    <title>Evil Collection</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
-    <description>Magit key bindings evil-collection-magit-use-y-for-yank replace “y” for magit-show-refs with “yy” for evil-collection-magit-yank-whole-line, “ys” for magit-copy-section-value, ...</description>
-    <pubDate>Thu, 06 Mar 2025 17:01:56 GMT</pubDate>
+    <title>Monitoring</title>
+    <link>https://l2dy.github.io/notes/SRE/Monitoring</link>
+    <guid>https://l2dy.github.io/notes/SRE/Monitoring</guid>
+    <description>The four golden signals Latency It’s important to distinguish between the latency of successful requests and the latency of failed requests. Should we cout client timeouts as successful requests? They are potentially requests that took too long but could have been successful, on the other hand it could also be a client-side early close.</description>
+    <pubDate>Thu, 06 Mar 2025 18:07:35 GMT</pubDate>
   </item><item>
-    <title>chinese</title>
-    <link>https://l2dy.github.io/notes/Emacs/doom/chinese</link>
-    <guid>https://l2dy.github.io/notes/Emacs/doom/chinese</guid>
-    <description>How to enable ;; Uncomment in init.el (doom! :input chinese :ui unicode ...) Input methods pyim Enabled by default in chinese module. emacs-rime Rime.</description>
-    <pubDate>Thu, 06 Mar 2025 17:01:46 GMT</pubDate>
+    <title>On-Call</title>
+    <link>https://l2dy.github.io/notes/SRE/On-Call</link>
+    <guid>https://l2dy.github.io/notes/SRE/On-Call</guid>
+    <description>Best practice Google recommends a maximum of two events per 8-12-hour on-call shift to have adequate time to handle the event accurately and quickly. A Postmortem should be conducted after each event, subject to postmortem criteria of the company.</description>
+    <pubDate>Thu, 06 Mar 2025 18:07:19 GMT</pubDate>
   </item><item>
-    <title>Per, AWK and Sed Tricks for Text File Manipulation</title>
-    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</link>
-    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</guid>
-    <description>Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers ...</description>
-    <pubDate>Thu, 06 Mar 2025 15:35:20 GMT</pubDate>
+    <title>Eliminating Toil</title>
+    <link>https://l2dy.github.io/notes/SRE/Eliminating-Toil</link>
+    <guid>https://l2dy.github.io/notes/SRE/Eliminating-Toil</guid>
+    <description>Toil TODO: sre.google/workbook/eliminating-toil/ 50% cap “Ops” work like tickets, on-call should be capped to below 50% of each SRE’s time. This ensures a focus on the engineering aspect of SRE.</description>
+    <pubDate>Thu, 06 Mar 2025 18:07:10 GMT</pubDate>
   </item><item>
-    <title>ffmpeg</title>
-    <link>https://l2dy.github.io/notes/CLI/ffmpeg</link>
-    <guid>https://l2dy.github.io/notes/CLI/ffmpeg</guid>
-    <description>One-liners Detect encoding errors ffmpeg -err_detect explode -i &lt;infile&gt; -f null - Convert music file to Opus format find . -type f -name &#039;*.flac&#039; | parallel &#039;test -f {.}.opus || ffmpeg -i {} -vn -c:a libopus -b:a 192k {.}.opus&#039; Keep display aspect ratio when downsampling ffmpeg -i in.mp4 -vf &quot;setsar=&#039;if(sar,sar,1)&#039;,scale=640x480&quot; out.mp4.</description>
-    <pubDate>Thu, 06 Mar 2025 15:24:48 GMT</pubDate>
+    <title>Managing Incidents</title>
+    <link>https://l2dy.github.io/notes/SRE/Managing-Incidents</link>
+    <guid>https://l2dy.github.io/notes/SRE/Managing-Incidents</guid>
+    <description>Recursive separation of responsibilities A role leader might delegate system components to colleagues, who report high-level information back up to the leaders ...</description>
+    <pubDate>Thu, 06 Mar 2025 18:06:55 GMT</pubDate>
   </item><item>
-    <title>curl</title>
-    <link>https://l2dy.github.io/notes/CLI/curl</link>
-    <guid>https://l2dy.github.io/notes/CLI/curl</guid>
-    <description>—connect-to Syntax: --connect-to &lt;HOST1:PORT1:HOST2:PORT2&gt; “HOST1” and “PORT1” may be empty, meaning “match any host/port.” “HOST2” and “PORT2” may also be empty, meaning ...</description>
-    <pubDate>Thu, 06 Mar 2025 15:14:15 GMT</pubDate>
+    <title>Service Level Indicator</title>
+    <link>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</link>
+    <guid>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</guid>
+    <description>Be realistic Sometimes only a proxy is available. For example, client-side latency is often the more user-relevant metric, but it might only be possible to measure latency at the server.</description>
+    <pubDate>Thu, 06 Mar 2025 18:06:35 GMT</pubDate>
   </item><item>
-    <title>Best way to add path to PATH environment variable</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</guid>
-    <description>Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path* ]] checks if PATH ...</description>
-    <pubDate>Thu, 06 Mar 2025 15:12:11 GMT</pubDate>
+    <title>Toil</title>
+    <link>https://l2dy.github.io/notes/SRE/Toil</link>
+    <guid>https://l2dy.github.io/notes/SRE/Toil</guid>
+    <description>Definition Toil is the kind of work tied to running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly ...</description>
+    <pubDate>Thu, 06 Mar 2025 18:06:23 GMT</pubDate>
   </item><item>
-    <title>Here Document</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Here-Document</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Here-Document</guid>
-    <description>Parameter expansion Quote the word in here-documents to inhibit any expansion. &lt;&lt;&#039;word&#039; If any part of word is quoted, the delimiter is the result of quote removal on word, and the lines in the here-document are not expanded.</description>
-    <pubDate>Thu, 06 Mar 2025 15:08:54 GMT</pubDate>
+    <title>Alerting</title>
+    <link>https://l2dy.github.io/notes/SRE/Alerting</link>
+    <guid>https://l2dy.github.io/notes/SRE/Alerting</guid>
+    <description>Software should do the interpreting of the alerting domain, and humans should be notified when action is needed. There are three kinds of valid monitoring output: Alerts (paging): immediate action needed Tickets and email alerts: action needed, but not immediately Logging: recorded for diagnostic or forensic purposes Paging a human is a quite expensive use of an employee’s time.</description>
+    <pubDate>Thu, 06 Mar 2025 18:06:15 GMT</pubDate>
   </item><item>
-    <title>systemd-analyze</title>
-    <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
-    <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
-    <description>Subcommands time: analyze startup time set-log-level: set systemd log level .</description>
-    <pubDate>Thu, 06 Mar 2025 15:06:32 GMT</pubDate>
+    <title>Krita</title>
+    <link>https://l2dy.github.io/notes/Software/Krita</link>
+    <guid>https://l2dy.github.io/notes/Software/Krita</guid>
+    <description>Pen tablet shortcuts Shift + drag left/right to resize the brush. Button (close to pen tip) + drag to zoom in and out. SPACE + drag to move the canvas. Shift + SPACE + drag to rotate the canvas.</description>
+    <pubDate>Thu, 06 Mar 2025 18:04:45 GMT</pubDate>
   </item>
     </channel>
   </rss>

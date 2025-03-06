@@ -21,7 +21,7 @@
 <span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">        ngx_http_upstream_next</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(r, u, NGX_HTTP_UPSTREAM_FT_TIMEOUT);</span></span>
 <span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">        return</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    }</span></span></code></pre></figure>
-<p>On the other hand, let’s search for <code>&quot;connecting to upstream&quot;</code>, which is set in <code>c->log->action</code> and can be seen from the error log. There are 3 matches, but two of them has a different error text, e.g. <code>&quot;connect() failed&quot;</code>.</p>
+<p>On the other hand, let’s search for <code>&quot;connecting to upstream&quot;</code>, which is set in <code>c->log->action</code> and can be seen from the error log. There are 3 matches, but two of them has a different error text: <code>&quot;connect() failed&quot;</code>.</p>
 <p>The last match is <code>ngx_http_upstream_connect()</code>. This function calls <code>ngx_event_connect_peer()</code> to establish a connection, and sets <code>u->write_event_handler</code> to <code>ngx_http_upstream_send_request_handler</code>.</p>
 <p>Therefore, the function call chain is</p>
 <p><code>ngx_http_upstream_connect()</code> <span>→</span> <code>ngx_event_connect_peer()</code> ^> <code>ngx_add_timer(c->write, u->conf->connect_timeout)</code> ^></p>
@@ -102,7 +102,7 @@
 <ol>
 <li><code>ngx_event_connect_peer()</code>: Connection is attempted.</li>
 <li><code>ngx_http_upstream_handler()</code>: Event loop detects the error and calls this handler.</li>
-<li><code>ngx_http_upstream_test_connect()</code>: check for failure and log “connect() failed”.</li>
+<li><code>ngx_http_upstream_test_connect()</code>: check for failure and log “connect() failed.”</li>
 <li><code>ngx_http_upstream_free_round_robin_peer()</code>: <code>fails</code> is accounted for and compared with <code>max_fails</code> to temporarily disable upstream servers.</li>
 <li><code>ngx_close_connection()</code>: old connection to upstream is released.</li>
 </ol>

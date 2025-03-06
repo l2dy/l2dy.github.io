@@ -132,7 +132,7 @@
     <lastmod>2025-01-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/ip</loc>
-    <lastmod>2025-03-06T15:04:36.493Z</lastmod>
+    <lastmod>2025-03-06T17:41:34.340Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/CLI/journalctl</loc>
     <lastmod>2025-03-06T15:00:03.604Z</lastmod>
@@ -534,7 +534,7 @@
     <lastmod>2024-03-23T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/Fontconfig</loc>
-    <lastmod>2024-12-31T15:46:59.000Z</lastmod>
+    <lastmod>2025-03-06T17:19:16.239Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/Ideas</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -549,7 +549,7 @@
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/base/Anatomy</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:21:31.462Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/MacPorts/base/Registry</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -561,7 +561,7 @@
     <lastmod>2023-10-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:37:23.517Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-Code-Walkthrough---Client-Closed-Request</loc>
     <lastmod>2024-07-13T00:00:00.000Z</lastmod>
@@ -585,7 +585,7 @@
     <lastmod>2024-07-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:37:46.585Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</loc>
     <lastmod>2025-03-06T00:00:00.000Z</lastmod>
@@ -603,7 +603,7 @@
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</loc>
-    <lastmod>2025-02-24T08:36:16.000Z</lastmod>
+    <lastmod>2025-03-06T17:35:43.697Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/NGINX/proxy/How-NGINX-round-robin-upstream-implements-passive-health-checks</loc>
     <lastmod>2025-02-26T00:00:00.000Z</lastmod>
@@ -615,7 +615,7 @@
     <lastmod>2023-09-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Configure-additional-static-IP-with-netplan</loc>
-    <lastmod>2025-02-06T01:48:56.000Z</lastmod>
+    <lastmod>2025-03-06T17:22:05.832Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/DNS-Caching</loc>
     <lastmod>2023-09-13T00:00:00.000Z</lastmod>
@@ -624,7 +624,7 @@
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Ethernet-Frame</loc>
-    <lastmod>2025-02-07T03:57:22.000Z</lastmod>
+    <lastmod>2025-03-06T17:29:01.240Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/Global-DNS-Lookup-and-Ping-Services</loc>
     <lastmod>2024-11-05T00:00:00.000Z</lastmod>
@@ -678,7 +678,7 @@
     <lastmod>2023-09-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/TCP-Handshake</loc>
-    <lastmod>2024-12-05T00:10:55.000Z</lastmod>
+    <lastmod>2025-03-06T17:31:30.881Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Network/TCP-Port-Scanning</loc>
     <lastmod>2025-02-01T00:00:00.000Z</lastmod>
@@ -696,7 +696,7 @@
     <lastmod>2023-09-12T17:22:19.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Obsidian</loc>
-    <lastmod>2023-10-17T03:54:47.000Z</lastmod>
+    <lastmod>2025-03-06T17:46:00.289Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Note-Making/Open-Source-Diagram-Editors</loc>
     <lastmod>2023-11-13T00:00:00.000Z</lastmod>
@@ -828,7 +828,7 @@
     <lastmod>2024-07-13T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/epoll</loc>
-    <lastmod>2023-09-23T07:11:07.000Z</lastmod>
+    <lastmod>2025-03-06T17:52:47.143Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/firejail</loc>
     <lastmod>2024-09-03T00:00:00.000Z</lastmod>
@@ -885,10 +885,10 @@
     <lastmod>2023-10-31T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/Compile-Database</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:55:53.085Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/Flame-Graph</loc>
-    <lastmod>2023-09-13T16:59:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:55:46.423Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -939,7 +939,7 @@
     <lastmod>2024-08-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Alerting</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:06:15.626Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Blameless-Culture</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -951,7 +951,7 @@
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Eliminating-Toil</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:07:10.660Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Emergency-Response</loc>
     <lastmod>2023-09-30T00:00:00.000Z</lastmod>
@@ -963,10 +963,10 @@
     <lastmod>2024-11-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Managing-Incidents</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:06:55.619Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</loc>
-    <lastmod>2023-10-01T01:39:48.000Z</lastmod>
+    <lastmod>2025-03-06T18:08:07.348Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Mandatory-Review</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -975,10 +975,10 @@
     <lastmod>2023-10-01T01:39:48.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Monitoring</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:07:35.909Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/On-Call</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:07:19.167Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Postmortem</loc>
     <lastmod>2024-03-21T14:26:25.000Z</lastmod>
@@ -990,16 +990,16 @@
     <lastmod>2024-03-21T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/SLO</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:07:52.739Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Scream-Test</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Service-Level-Indicator</loc>
-    <lastmod>2024-04-20T03:07:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:06:35.033Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Toil</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:06:23.384Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Troubleshooting</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
@@ -1020,7 +1020,7 @@
     <lastmod>2023-10-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Self-Hosted-IaaS-Cloud-on-Bare-Metal</loc>
-    <lastmod>2025-02-07T06:47:55.000Z</lastmod>
+    <lastmod>2025-03-06T17:57:36.561Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Tailscale-Exit-Node</loc>
     <lastmod>2023-09-26T00:00:00.000Z</lastmod>
@@ -1077,16 +1077,16 @@
     <lastmod>2025-02-02T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Irssi-Config</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T17:59:18.346Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Krita</loc>
-    <lastmod>2024-04-20T03:07:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:04:45.289Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Layer-7-Load-Balancing-Solutions</loc>
     <lastmod>2024-02-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Netdata</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:02:40.029Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Nix-Channel-Status</loc>
     <lastmod>2024-02-11T00:00:00.000Z</lastmod>
@@ -1125,7 +1125,7 @@
     <lastmod>2024-03-20T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/ZNC</loc>
-    <lastmod>2023-09-09T19:13:50.000Z</lastmod>
+    <lastmod>2025-03-06T18:02:48.745Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Zellij</loc>
     <lastmod>2024-02-26T00:00:00.000Z</lastmod>
@@ -1167,7 +1167,7 @@
     <lastmod>2023-10-28T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Taking-Notes</loc>
-    <lastmod>2025-01-08T14:51:00.000Z</lastmod>
+    <lastmod>2025-03-06T17:56:55.135Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Twitter</loc>
     <lastmod>2023-09-09T19:13:50.000Z</lastmod>
