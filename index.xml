@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>ChatGPT</title>
-    <link>https://l2dy.github.io/notes/AI/ChatGPT</link>
-    <guid>https://l2dy.github.io/notes/AI/ChatGPT</guid>
-    <description>Derivatives New Bing Poe .</description>
-    <pubDate>Thu, 06 Mar 2025 14:58:29 GMT</pubDate>
+    <title>Per, AWK and Sed Tricks for Text File Manipulation</title>
+    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</link>
+    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</guid>
+    <description>Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers ...</description>
+    <pubDate>Thu, 06 Mar 2025 15:35:20 GMT</pubDate>
   </item><item>
-    <title>GPT-4 Chat Demo</title>
-    <link>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</link>
-    <guid>https://l2dy.github.io/notes/AI/GPT-4-Chat-Demo</guid>
-    <description> Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. Chat Text Could you estimate the average time a TCP request waits in the surge queue of an AWS CLB from CloudWatch metrics? To estimate the average time a TCP request waits in the surge queue of an Amazon Web Services (AWS) Classic Load Balancer (CLB), you can use the SurgeQueueLength and RequestCount metrics from Amazon CloudWatch.</description>
-    <pubDate>Thu, 06 Mar 2025 14:57:23 GMT</pubDate>
+    <title>ffmpeg</title>
+    <link>https://l2dy.github.io/notes/CLI/ffmpeg</link>
+    <guid>https://l2dy.github.io/notes/CLI/ffmpeg</guid>
+    <description>One-liners Detect encoding errors ffmpeg -err_detect explode -i &lt;infile&gt; -f null - Convert music file to Opus format find . -type f -name &#039;*.flac&#039; | parallel &#039;test -f {.}.opus || ffmpeg -i {} -vn -c:a libopus -b:a 192k {.}.opus&#039; Keep display aspect ratio when downsampling ffmpeg -i in.mp4 -vf &quot;setsar=&#039;if(sar,sar,1)&#039;,scale=640x480&quot; out.mp4.</description>
+    <pubDate>Thu, 06 Mar 2025 15:24:48 GMT</pubDate>
   </item><item>
-    <title>Poe</title>
-    <link>https://l2dy.github.io/notes/AI/Poe</link>
-    <guid>https://l2dy.github.io/notes/AI/Poe</guid>
-    <description>poe.com/ Poe is a platform that enables users to access third-party chatbots, including ChatGPT. Poe can give suggestions on further questions the user could ask, and highlights terms that could be explained further by clicking on them.</description>
-    <pubDate>Thu, 06 Mar 2025 14:53:01 GMT</pubDate>
+    <title>curl</title>
+    <link>https://l2dy.github.io/notes/CLI/curl</link>
+    <guid>https://l2dy.github.io/notes/CLI/curl</guid>
+    <description>—connect-to Syntax: --connect-to &lt;HOST1:PORT1:HOST2:PORT2&gt; “HOST1” and “PORT1” may be empty, meaning “match any host/port.” “HOST2” and “PORT2” may also be empty, meaning ...</description>
+    <pubDate>Thu, 06 Mar 2025 15:14:15 GMT</pubDate>
   </item><item>
-    <title>New Bing</title>
-    <link>https://l2dy.github.io/notes/AI/New-Bing</link>
-    <guid>https://l2dy.github.io/notes/AI/New-Bing</guid>
-    <description>Based on GPT-4, New Bing is free to use but has a limit of 5 turns per session for unregistered users. You can use New Bing from the Edge browser or via the Bing app on mobile.</description>
-    <pubDate>Thu, 06 Mar 2025 14:52:21 GMT</pubDate>
+    <title>Best way to add path to PATH environment variable</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</guid>
+    <description>Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path* ]] checks if PATH ...</description>
+    <pubDate>Thu, 06 Mar 2025 15:12:11 GMT</pubDate>
   </item><item>
-    <title>LLM Models</title>
-    <link>https://l2dy.github.io/notes/AI/LLM-Models</link>
-    <guid>https://l2dy.github.io/notes/AI/LLM-Models</guid>
-    <description>Open source models Chat Phi-4 Qwen-2.5 Reasoning QwQ Commercial models from OpenAI Chat GPT-4o Reasoning o3-mini o1 .</description>
-    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <title>Here Document</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Here-Document</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Here-Document</guid>
+    <description>Parameter expansion Quote the word in here-documents to inhibit any expansion. &lt;&lt;&#039;word&#039; If any part of word is quoted, the delimiter is the result of quote removal on word, and the lines in the here-document are not expanded.</description>
+    <pubDate>Thu, 06 Mar 2025 15:08:54 GMT</pubDate>
   </item><item>
-    <title>NGINX Proxy Cache</title>
-    <link>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</link>
-    <guid>https://l2dy.github.io/notes/NGINX/NGINX-Proxy-Cache</guid>
-    <description>Checklist Do not cache sensitive content without authentication token included in proxy_cache_key. It is recommended to include a random secret in the string to further prevent hash collision attacks.</description>
-    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <title>systemd-analyze</title>
+    <link>https://l2dy.github.io/notes/CLI/systemd-analyze</link>
+    <guid>https://l2dy.github.io/notes/CLI/systemd-analyze</guid>
+    <description>Subcommands time: analyze startup time set-log-level: set systemd log level .</description>
+    <pubDate>Thu, 06 Mar 2025 15:06:32 GMT</pubDate>
   </item><item>
-    <title>NGINX realip configuration for Cloudflare</title>
-    <link>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</link>
-    <guid>https://l2dy.github.io/notes/NGINX/NGINX-realip-configuration-for-Cloudflare</guid>
-    <description>If you also want to reject requests that does not come from Cloudflare: http { # Load realip module (if not already loaded) load_module modules/ngx_http_realip_module.so; # Include ...</description>
-    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <title>ip</title>
+    <link>https://l2dy.github.io/notes/CLI/ip</link>
+    <guid>https://l2dy.github.io/notes/CLI/ip</guid>
+    <description>Global options -s for more verbose output (s for statistics). -s -s increases verbosity. Add -h for human readable stats and add -iec to print data size in IEC units (e.g.</description>
+    <pubDate>Thu, 06 Mar 2025 15:04:36 GMT</pubDate>
   </item><item>
-    <title>OpenResty Lua linter</title>
-    <link>https://l2dy.github.io/notes/NGINX/openresty/OpenResty-Lua-linter</link>
-    <guid>https://l2dy.github.io/notes/NGINX/openresty/OpenResty-Lua-linter</guid>
-    <description>Tools Use lj-releng or luacheck to identify global variable references. Tips You can cache ngx to a local variable. local ngx = ngx Always include _VERSION in your module.</description>
-    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <title>Zsh Word Splitting</title>
+    <link>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</link>
+    <guid>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</guid>
+    <description>Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. This is the default in most other shells.</description>
+    <pubDate>Thu, 06 Mar 2025 15:02:34 GMT</pubDate>
   </item><item>
-    <title>Upstream Keepalive</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</guid>
-    <description>To enable keepalive connections to upstream, the keepalive directive must be included in upstream{} blocks, and in the location{} blocks you need to switch HTTP version to 1.1 and ...</description>
-    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+    <title>col</title>
+    <link>https://l2dy.github.io/notes/CLI/col</link>
+    <guid>https://l2dy.github.io/notes/CLI/col</guid>
+    <description>Convert tabs to spaces ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
+    <pubDate>Thu, 06 Mar 2025 15:00:10 GMT</pubDate>
   </item><item>
-    <title>Production App Servers for Node.js</title>
-    <link>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</link>
-    <guid>https://l2dy.github.io/notes/Programming/Node.js/Production-App-Servers-for-Node.js</guid>
-    <description>NGINX Unit unit.nginx.org/ Phusion Passenger github.com/phusion/passenger PM2 github.com/Unitech/pm2 Since v6, PM2 supports Bun. HashiCorp Nomad github.com/hashicorp/nomad Hard to find tutorials on deploying multi-process Node.js app.</description>
-    <pubDate>Wed, 05 Mar 2025 05:58:28 GMT</pubDate>
+    <title>journalctl</title>
+    <link>https://l2dy.github.io/notes/CLI/journalctl</link>
+    <guid>https://l2dy.github.io/notes/CLI/journalctl</guid>
+    <description>Useful options -b (show logs from the current boot only) -e (jump to end in pager mode) -x (augment log lines with catalog info, don&#039;t use for bug reports) ...</description>
+    <pubDate>Thu, 06 Mar 2025 15:00:03 GMT</pubDate>
   </item>
     </channel>
   </rss>
