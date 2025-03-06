@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Consult</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Consult</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Consult</guid>
+    <description>Asynchronous search github.com/minad/consult#asynchronous-search Doom Emacs uses the perl splitting style, which splits the input string at a punctuation character and treats ...</description>
+    <pubDate>Thu, 06 Mar 2025 17:03:06 GMT</pubDate>
+  </item><item>
+    <title>Evil Collection</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
+    <description>Magit key bindings evil-collection-magit-use-y-for-yank replace “y” for magit-show-refs with “yy” for evil-collection-magit-yank-whole-line, “ys” for magit-copy-section-value, ...</description>
+    <pubDate>Thu, 06 Mar 2025 17:01:56 GMT</pubDate>
+  </item><item>
+    <title>chinese</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/chinese</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/chinese</guid>
+    <description>How to enable ;; Uncomment in init.el (doom! :input chinese :ui unicode ...) Input methods pyim Enabled by default in chinese module. emacs-rime Rime.</description>
+    <pubDate>Thu, 06 Mar 2025 17:01:46 GMT</pubDate>
+  </item><item>
     <title>Per, AWK and Sed Tricks for Text File Manipulation</title>
     <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</link>
     <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-Sed-Tricks-for-Text-File-Manipulation</guid>
@@ -47,24 +65,6 @@
     <guid>https://l2dy.github.io/notes/CLI/ip</guid>
     <description>Global options -s for more verbose output (s for statistics). -s -s increases verbosity. Add -h for human readable stats and add -iec to print data size in IEC units (e.g.</description>
     <pubDate>Thu, 06 Mar 2025 15:04:36 GMT</pubDate>
-  </item><item>
-    <title>Zsh Word Splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-Word-Splitting</guid>
-    <description>Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. This is the default in most other shells.</description>
-    <pubDate>Thu, 06 Mar 2025 15:02:34 GMT</pubDate>
-  </item><item>
-    <title>col</title>
-    <link>https://l2dy.github.io/notes/CLI/col</link>
-    <guid>https://l2dy.github.io/notes/CLI/col</guid>
-    <description>Convert tabs to spaces ethtool -l eth0 | col -x converts tabs to spaces with proper indentation.</description>
-    <pubDate>Thu, 06 Mar 2025 15:00:10 GMT</pubDate>
-  </item><item>
-    <title>journalctl</title>
-    <link>https://l2dy.github.io/notes/CLI/journalctl</link>
-    <guid>https://l2dy.github.io/notes/CLI/journalctl</guid>
-    <description>Useful options -b (show logs from the current boot only) -e (jump to end in pager mode) -x (augment log lines with catalog info, don&#039;t use for bug reports) ...</description>
-    <pubDate>Thu, 06 Mar 2025 15:00:03 GMT</pubDate>
   </item>
     </channel>
   </rss>
