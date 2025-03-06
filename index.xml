@@ -18,6 +18,12 @@
     <description>If you also want to reject requests that does not come from Cloudflare: http { # Load realip module (if not already loaded) load_module modules/ngx_http_realip_module.so; # Include ...</description>
     <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
   </item><item>
+    <title>OpenResty Lua linter</title>
+    <link>https://l2dy.github.io/notes/NGINX/openresty/OpenResty-Lua-linter</link>
+    <guid>https://l2dy.github.io/notes/NGINX/openresty/OpenResty-Lua-linter</guid>
+    <description>Tools Use lj-releng or luacheck to identify global variable references. Tips You can cache ngx to a local variable. local ngx = ngx Always include _VERSION in your module.</description>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Upstream Keepalive</title>
     <link>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</link>
     <guid>https://l2dy.github.io/notes/NGINX/proxy/Upstream-Keepalive</guid>
@@ -59,12 +65,6 @@
     <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
     <description>If Nginx upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to disable passive health checks. See also How NGINX round-robin upstream implements passive health checks.</description>
     <pubDate>Mon, 24 Feb 2025 08:36:16 GMT</pubDate>
-  </item><item>
-    <title>Customize error page of ngx.exit</title>
-    <link>https://l2dy.github.io/notes/NGINX/openresty/Customize-error-page-of-ngx.exit</link>
-    <guid>https://l2dy.github.io/notes/NGINX/openresty/Customize-error-page-of-ngx.exit</guid>
-    <description>This is an example of templating responses for ngx.exit(494) calls from the “legalban” Lua module. # in `server` context error_page 494 =451 @legal_ban; location @legal_ban { # Prevent internal redirection cycle.</description>
-    <pubDate>Tue, 18 Feb 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
