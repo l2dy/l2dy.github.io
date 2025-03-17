@@ -119,6 +119,9 @@
     <loc>https://l2dy.github.io/notes/CLI/ffmpeg</loc>
     <lastmod>2025-03-06T15:24:48.368Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/fio</loc>
+    <lastmod>2025-03-16T14:01:03.705Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/git/Git-Partial-Clone</loc>
     <lastmod>2024-07-19T00:00:00.000Z</lastmod>
   </url><url>
@@ -295,6 +298,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Public-IP-Ranges</loc>
     <lastmod>2023-09-23T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</loc>
+    <lastmod>2025-03-17T07:49:54.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</loc>
     <lastmod>2023-09-14T00:00:00.000Z</lastmod>
@@ -764,6 +770,12 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Desktop-Linux-Performance-Optimization</loc>
     <lastmod>2023-10-29T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</loc>
+    <lastmod>2025-03-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</loc>
+    <lastmod>2025-03-08T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld-Specify-Zone-by-IP-Address</loc>
     <lastmod>2023-09-23T00:00:00.000Z</lastmod>
   </url><url>
@@ -803,6 +815,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/SO_REUSEPORT</loc>
     <lastmod>2024-07-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Shrink-root-partition-in-live-CD-environment</loc>
+    <lastmod>2025-03-09T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/SysRq-key</loc>
     <lastmod>2024-04-30T00:00:00.000Z</lastmod>
   </url><url>
@@ -810,7 +825,7 @@
     <lastmod>2024-04-30T06:17:35.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</loc>
-    <lastmod>2023-10-03T00:00:00.000Z</lastmod>
+    <lastmod>2025-03-08T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/TCP-Client-SYN-Retries-on-Linux</loc>
     <lastmod>2024-07-04T00:00:00.000Z</lastmod>
@@ -1031,6 +1046,9 @@
     <loc>https://l2dy.github.io/notes/Software/AltStore-Verification-Code</loc>
     <lastmod>2023-11-16T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Alternative-Browsers</loc>
+    <lastmod>2025-03-07T03:47:50.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/Alternative-Storage-for-Prometheus</loc>
     <lastmod>2024-03-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -1153,6 +1171,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Startup/SaaS-Product-Strategy-at-Tanda</loc>
     <lastmod>2023-10-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</loc>
+    <lastmod>2025-03-10T07:53:47.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Storage/USB-Hub-Power-Supply</loc>
     <lastmod>2023-10-08T00:00:00.000Z</lastmod>

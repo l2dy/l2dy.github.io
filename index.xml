@@ -6,6 +6,54 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Private Cloud Platforms</title>
+    <link>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</guid>
+    <description>OpenStack OpenStack is a cloud computing platform that consists of many interrelated components. It’s great at scaling for large-scale deployment, but the platform is too complicated for small-scale deployments.</description>
+    <pubDate>Mon, 17 Mar 2025 07:49:54 GMT</pubDate>
+  </item><item>
+    <title>Docker Log Drivers</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</guid>
+    <description>On Ubuntu 24.04 Noble, --log-driver=&quot;json-file|syslog|journald|gelf|fluentd|awslogs|splunk|etwlogs|gcplogs|none&quot; Logging driver for the container ...</description>
+    <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>fio</title>
+    <link>https://l2dy.github.io/notes/CLI/fio</link>
+    <guid>https://l2dy.github.io/notes/CLI/fio</guid>
+    <description># Test disk random read sudo fio --filename=&lt;device name&gt; --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based ...</description>
+    <pubDate>Sun, 16 Mar 2025 14:01:03 GMT</pubDate>
+  </item><item>
+    <title>Test hard disk quality</title>
+    <link>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</link>
+    <guid>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</guid>
+    <description>Bad blocks # WARNING: destructive badblocks -wsv /dev/device .</description>
+    <pubDate>Mon, 10 Mar 2025 07:53:47 GMT</pubDate>
+  </item><item>
+    <title>Shrink root partition in live CD environment</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Shrink-root-partition-in-live-CD-environment</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Shrink-root-partition-in-live-CD-environment</guid>
+    <description>sudo e2fsck -f /dev/sdX1 sudo resize2fs /dev/sdX1 50G sudo dumpe2fs -h /dev/sdX1 | grep -E &#039;Block (size|count)&#039; With fdisk, print the partition table first with p, then ...</description>
+    <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Encrypted swap with random keys on Ubuntu</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</guid>
+    <description> Swap partition or swap files Do not use swap files with encryption. When the system is low on RAM, dm-crypt might not be able to handle a swap file. Do not use swap on HDD disks.</description>
+    <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Systemd Service Hardening</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
+    <description>Run systemd-analyze security [UNIT...] to check other available protections. Examples Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
+    <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Alternative Browsers</title>
+    <link>https://l2dy.github.io/notes/Software/Alternative-Browsers</link>
+    <guid>https://l2dy.github.io/notes/Software/Alternative-Browsers</guid>
+    <description>LibreWolf Waterfox Floorp Zen Browser.</description>
+    <pubDate>Fri, 07 Mar 2025 03:47:50 GMT</pubDate>
+  </item><item>
     <title>Health Checks in NGINX</title>
     <link>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</link>
     <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
@@ -17,54 +65,6 @@
     <guid>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</guid>
     <description>The default set of headers passed to upstream is defined in ngx_http_proxy_headers. static ngx_keyval_t ngx_http_proxy_headers[] = { { ngx_string(&quot;Host&quot;), ngx_string(&quot;$proxy_host&quot;) }, { ngx_string(&quot;Connection&quot;), ngx_string(&quot;close&quot;) }, { ngx_string(&quot;Content-Length&quot;), ngx_string(&quot;$proxy_internal_body_length&quot;) }, { ngx_string(&quot;Transfer-Encoding&quot;), ngx_string(&quot;$proxy_internal_chunked&quot;) }, { ngx_string(&quot;TE&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Keep-Alive&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Expect&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Upgrade&quot;), ngx_string(&quot;&quot;) }, { ngx_null_string, ngx_null_string } };.</description>
     <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
-  </item><item>
-    <title>NGINX location Directive</title>
-    <link>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</link>
-    <guid>https://l2dy.github.io/notes/NGINX/NGINX-location-Directive</guid>
-    <description>proxy_pass redirecting If a prefix-matching location ends with a slash (/), and requests are processed by proxy_pass, requests to the exact string minus the trailing slash are redirected ...</description>
-    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
-  </item><item>
-    <title>Byte-Range Request</title>
-    <link>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</link>
-    <guid>https://l2dy.github.io/notes/NGINX/Byte-Range-Request</guid>
-    <description>NGINX tries to slice the response body when one of the following conditions is met and the request specifies a Range header. NGINX is serving static files directly.</description>
-    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
-  </item><item>
-    <title>Managing Service Risk</title>
-    <link>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</link>
-    <guid>https://l2dy.github.io/notes/SRE/Managing-Service-Risk</guid>
-    <description>With risk conceptualized as a (nonlinear) continuum, we need to determine where to place individual services on the continuum. We give equal importance to Figure out how to engineer great reliability into our systems.</description>
-    <pubDate>Thu, 06 Mar 2025 18:08:07 GMT</pubDate>
-  </item><item>
-    <title>SLO</title>
-    <link>https://l2dy.github.io/notes/SRE/SLO</link>
-    <guid>https://l2dy.github.io/notes/SRE/SLO</guid>
-    <description>Purpose Managing Service Risk SLOs should be a major driver in prioritizing work for SREs and product developers, because they reflect what users care about ...</description>
-    <pubDate>Thu, 06 Mar 2025 18:07:52 GMT</pubDate>
-  </item><item>
-    <title>Monitoring</title>
-    <link>https://l2dy.github.io/notes/SRE/Monitoring</link>
-    <guid>https://l2dy.github.io/notes/SRE/Monitoring</guid>
-    <description>The four golden signals Latency It’s important to distinguish between the latency of successful requests and the latency of failed requests. Should we cout client timeouts as successful requests? They are potentially requests that took too long but could have been successful, on the other hand it could also be a client-side early close.</description>
-    <pubDate>Thu, 06 Mar 2025 18:07:35 GMT</pubDate>
-  </item><item>
-    <title>On-Call</title>
-    <link>https://l2dy.github.io/notes/SRE/On-Call</link>
-    <guid>https://l2dy.github.io/notes/SRE/On-Call</guid>
-    <description>Best practice Google recommends a maximum of two events per 8-12-hour on-call shift to have adequate time to handle the event accurately and quickly. A Postmortem should be conducted after each event, subject to postmortem criteria of the company.</description>
-    <pubDate>Thu, 06 Mar 2025 18:07:19 GMT</pubDate>
-  </item><item>
-    <title>Eliminating Toil</title>
-    <link>https://l2dy.github.io/notes/SRE/Eliminating-Toil</link>
-    <guid>https://l2dy.github.io/notes/SRE/Eliminating-Toil</guid>
-    <description>Toil TODO: sre.google/workbook/eliminating-toil/ 50% cap “Ops” work like tickets, on-call should be capped to below 50% of each SRE’s time. This ensures a focus on the engineering aspect of SRE.</description>
-    <pubDate>Thu, 06 Mar 2025 18:07:10 GMT</pubDate>
-  </item><item>
-    <title>Managing Incidents</title>
-    <link>https://l2dy.github.io/notes/SRE/Managing-Incidents</link>
-    <guid>https://l2dy.github.io/notes/SRE/Managing-Incidents</guid>
-    <description>Recursive separation of responsibilities A role leader might delegate system components to colleagues, who report high-level information back up to the leaders ...</description>
-    <pubDate>Thu, 06 Mar 2025 18:06:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
