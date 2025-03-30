@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Static NDP Proxying on Linux</title>
+    <link>https://l2dy.github.io/notes/Network/Static-NDP-Proxying-on-Linux</link>
+    <guid>https://l2dy.github.io/notes/Network/Static-NDP-Proxying-on-Linux</guid>
+    <description>Basics Linux comes with a feature called NDP proxying. You can declare a list of IP addresses to answer neighbor solicitation requests for, and the system will answer them for you, allowing you to receive packets for them.</description>
+    <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Running OPNsense in VMware Fusion</title>
+    <link>https://l2dy.github.io/notes/Software/Running-OPNsense-in-VMware-Fusion</link>
+    <guid>https://l2dy.github.io/notes/Software/Running-OPNsense-in-VMware-Fusion</guid>
+    <description>Custom VM network Create a custom network vmnetX in VMware settings. Uncheck both “Provide addresses on this network via DHCP” and keep “Connect the host Mac to this network” checked before any VM connected to the network is started.</description>
+    <pubDate>Sat, 29 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>VMware Fusion Guest Features</title>
+    <link>https://l2dy.github.io/notes/Software/VMware-Fusion-Guest-Features</link>
+    <guid>https://l2dy.github.io/notes/Software/VMware-Fusion-Guest-Features</guid>
+    <description>Supported guest operating systems Only Windows and Linux. See web.archive.org/web/20241130004426/https://knowledge.broadcom.com/external/article Nested virtulization Not supported yet.</description>
+    <pubDate>Sat, 29 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Process monitoring on Windows</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Windows/Process-monitoring-on-Windows</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Windows/Process-monitoring-on-Windows</guid>
+    <description>System Informer github.com/winsiderss/systeminformer Process Explorer from Sysinternals learn.microsoft.com/en-us/sysinternals/downloads/process-explorer Good ...</description>
+    <pubDate>Thu, 27 Mar 2025 06:45:58 GMT</pubDate>
+  </item><item>
+    <title>nc</title>
+    <link>https://l2dy.github.io/notes/CLI/nc</link>
+    <guid>https://l2dy.github.io/notes/CLI/nc</guid>
+    <description>Terminate on EOF Terminate the TCP connection 60 seconds after receiving an EOF on stdin. nc &lt;IP&gt; &lt;port&gt; -q 60 .</description>
+    <pubDate>Tue, 25 Mar 2025 09:57:44 GMT</pubDate>
+  </item><item>
+    <title>Evil Collection</title>
+    <link>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</link>
+    <guid>https://l2dy.github.io/notes/Emacs/doom/Evil-Collection</guid>
+    <description>Info key bindings u, Info-up: go to the superior node of this node. g1 - g9, gm, gt, gT: same as regular Info key bindings without evil. gj, gk: Info-next and Info-prev, same as n and p in regular Info key bindings.</description>
+    <pubDate>Tue, 25 Mar 2025 04:14:04 GMT</pubDate>
+  </item><item>
+    <title>Systemd Overrides</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Overrides</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Overrides</guid>
+    <description>systemd-networkd-wait-online.service On Debian 12, for some reason, /lib/systemd/systemd-networkd-wait-online --any --ipv6 still blocks when all interfaces have appeared, ...</description>
+    <pubDate>Sun, 23 Mar 2025 18:00:16 GMT</pubDate>
+  </item><item>
+    <title>zram on Debian 12</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/zram-on-Debian-12</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/zram-on-Debian-12</guid>
+    <description>apt-get install systemd-zram-generator # modify config if necessary cat /etc/systemd/zram-generator.conf systemctl daemon-reload systemctl status systemd-zram-setup@zram0.service ...</description>
+    <pubDate>Sat, 22 Mar 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>fio</title>
+    <link>https://l2dy.github.io/notes/CLI/fio</link>
+    <guid>https://l2dy.github.io/notes/CLI/fio</guid>
+    <description>Automated test scripts YABS github.com/masonr/yet-another-bench-script curl -LO raw.githubusercontent.com/l2dy/yet-another-bench-script/0ec2a2afb086506b58c813ff103862a187135cc9/yabs.sh ...</description>
+    <pubDate>Wed, 19 Mar 2025 17:05:14 GMT</pubDate>
+  </item><item>
     <title>Private Cloud Platforms</title>
     <link>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</link>
     <guid>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</guid>
     <description>OpenStack OpenStack is a cloud computing platform that consists of many interrelated components. It’s great at scaling for large-scale deployment, but the platform is too complicated for small-scale deployments.</description>
     <pubDate>Mon, 17 Mar 2025 07:49:54 GMT</pubDate>
-  </item><item>
-    <title>Docker Log Drivers</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</guid>
-    <description>On Ubuntu 24.04 Noble, --log-driver=&quot;json-file|syslog|journald|gelf|fluentd|awslogs|splunk|etwlogs|gcplogs|none&quot; Logging driver for the container ...</description>
-    <pubDate>Mon, 17 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>fio</title>
-    <link>https://l2dy.github.io/notes/CLI/fio</link>
-    <guid>https://l2dy.github.io/notes/CLI/fio</guid>
-    <description># Test disk random read sudo fio --filename=&lt;device name&gt; --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based ...</description>
-    <pubDate>Sun, 16 Mar 2025 14:01:03 GMT</pubDate>
-  </item><item>
-    <title>Test hard disk quality</title>
-    <link>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</link>
-    <guid>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</guid>
-    <description>Bad blocks # WARNING: destructive badblocks -wsv /dev/device .</description>
-    <pubDate>Mon, 10 Mar 2025 07:53:47 GMT</pubDate>
-  </item><item>
-    <title>Shrink root partition in live CD environment</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Shrink-root-partition-in-live-CD-environment</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Shrink-root-partition-in-live-CD-environment</guid>
-    <description>sudo e2fsck -f /dev/sdX1 sudo resize2fs /dev/sdX1 50G sudo dumpe2fs -h /dev/sdX1 | grep -E &#039;Block (size|count)&#039; With fdisk, print the partition table first with p, then ...</description>
-    <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Encrypted swap with random keys on Ubuntu</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</guid>
-    <description> Swap partition or swap files Do not use swap files with encryption. When the system is low on RAM, dm-crypt might not be able to handle a swap file. Do not use swap on HDD disks.</description>
-    <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Systemd Service Hardening</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Systemd-Service-Hardening</guid>
-    <description>Run systemd-analyze security [UNIT...] to check other available protections. Examples Create the user with $HOME at /run/&lt;username&gt; and configure RuntimeDirectory, so that systemd will create and chown the directory automatically.</description>
-    <pubDate>Sat, 08 Mar 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Alternative Browsers</title>
-    <link>https://l2dy.github.io/notes/Software/Alternative-Browsers</link>
-    <guid>https://l2dy.github.io/notes/Software/Alternative-Browsers</guid>
-    <description>LibreWolf Waterfox Floorp Zen Browser.</description>
-    <pubDate>Fri, 07 Mar 2025 03:47:50 GMT</pubDate>
-  </item><item>
-    <title>Health Checks in NGINX</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/Health-Checks-in-NGINX</guid>
-    <description>If NGINX upstream points at a load balancer and overloading is not of concern, you can set max_fails to 0 to turn off passive health checks. See also How NGINX round-robin upstream implements passive health checks.</description>
-    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
-  </item><item>
-    <title>Headers in NGINX</title>
-    <link>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</link>
-    <guid>https://l2dy.github.io/notes/NGINX/proxy/Headers-in-NGINX</guid>
-    <description>The default set of headers passed to upstream is defined in ngx_http_proxy_headers. static ngx_keyval_t ngx_http_proxy_headers[] = { { ngx_string(&quot;Host&quot;), ngx_string(&quot;$proxy_host&quot;) }, { ngx_string(&quot;Connection&quot;), ngx_string(&quot;close&quot;) }, { ngx_string(&quot;Content-Length&quot;), ngx_string(&quot;$proxy_internal_body_length&quot;) }, { ngx_string(&quot;Transfer-Encoding&quot;), ngx_string(&quot;$proxy_internal_chunked&quot;) }, { ngx_string(&quot;TE&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Keep-Alive&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Expect&quot;), ngx_string(&quot;&quot;) }, { ngx_string(&quot;Upgrade&quot;), ngx_string(&quot;&quot;) }, { ngx_null_string, ngx_null_string } };.</description>
-    <pubDate>Thu, 06 Mar 2025 18:16:31 GMT</pubDate>
   </item>
     </channel>
   </rss>
