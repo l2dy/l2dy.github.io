@@ -311,6 +311,7 @@ pre:hover > .expand-button {
 <li>Web interface: drag a direct master’s replica onto the left half of the master’s box. The web interface uses the <code>graceful-master-takeover</code> variation; the replication on demoted master will not kick in.</li>
 </ul>
 </blockquote>
+<p>Safety notes:</p>
 <ul>
 <li><code>super-read-only</code> is used if <code>UseSuperReadOnly</code> is set in orchestrator config.</li>
 <li>Once the server has advertised itself as <code>--read-only</code>, MySQL blocks ongoing transactions’ <code>COMMIT</code> from completing.</li>
