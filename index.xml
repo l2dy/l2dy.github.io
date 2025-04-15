@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Data Backup</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Data-Backup</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Data-Backup</guid>
-    <description> the 3-to-1 rule: have 3 copies of data stored on 2 different storages and have 1 copy kept offsite.</description>
-    <pubDate>Tue, 15 Apr 2025 11:38:27 GMT</pubDate>
-  </item><item>
-    <title>Ecto repository URLs</title>
-    <link>https://l2dy.github.io/notes/Programming/Elixir/Ecto-repository-URLs</link>
-    <guid>https://l2dy.github.io/notes/Programming/Elixir/Ecto-repository-URLs</guid>
-    <description>Repositories by default support URLs.</description>
-    <pubDate>Tue, 15 Apr 2025 11:38:20 GMT</pubDate>
-  </item><item>
-    <title>Remote Connection Managers on Windows</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Windows/Remote-Connection-Managers-on-Windows</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Windows/Remote-Connection-Managers-on-Windows</guid>
-    <description>mRemoteNG mRemoteNG is an open source multi-protocol remote connection manager for Windows.</description>
-    <pubDate>Tue, 15 Apr 2025 11:38:04 GMT</pubDate>
-  </item><item>
-    <title>Free PostgreSQL-compatible PaaS</title>
-    <link>https://l2dy.github.io/notes/Database/Free-PostgreSQL-compatible-PaaS</link>
-    <guid>https://l2dy.github.io/notes/Database/Free-PostgreSQL-compatible-PaaS</guid>
-    <description>YugabyteDB Aeon docs.yugabyte.com/preview/yugabyte-cloud/cloud-basics/create-clusters/create-clusters-free/#inactive-sandbox-clusters Limit of one single node YugabyteDB cluster per account.</description>
-    <pubDate>Tue, 15 Apr 2025 11:37:55 GMT</pubDate>
-  </item><item>
-    <title>iptraf</title>
-    <link>https://l2dy.github.io/notes/CLI/iptraf</link>
-    <guid>https://l2dy.github.io/notes/CLI/iptraf</guid>
-    <description>github.com/iptraf-ng/iptraf-ng iptraf -s &lt;interface&gt; # monitor TCP and UDP traffic on the specified interface, group by port.</description>
-    <pubDate>Tue, 15 Apr 2025 11:37:43 GMT</pubDate>
-  </item><item>
-    <title>Docker stdout and stderr output</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Docker-stdout-and-stderr-output</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Docker-stdout-and-stderr-output</guid>
-    <description>When you run docker exec or docker run with the -t flag, stdout and stderr are indistinguishable and not suitable for redirections.</description>
-    <pubDate>Tue, 15 Apr 2025 11:37:38 GMT</pubDate>
-  </item><item>
-    <title>MySQL Replication and Failover with Percona XtraBackup and Orchestrator</title>
-    <link>https://l2dy.github.io/notes/Database/MySQL-Replication-and-Failover-with-Percona-XtraBackup-and-Orchestrator</link>
-    <guid>https://l2dy.github.io/notes/Database/MySQL-Replication-and-Failover-with-Percona-XtraBackup-and-Orchestrator</guid>
-    <description>Project links docs.percona.com/percona-xtrabackup/8.0/ github.com/percona/orchestrator Supported database versions If you are using MariaDB 10.3 and later, Percona XtraBackup is not supported and you should follow Mariabackup’s documentation instead.</description>
-    <pubDate>Tue, 15 Apr 2025 11:35:36 GMT</pubDate>
-  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science.</description>
-    <pubDate>Mon, 31 Mar 2025 01:20:46 GMT</pubDate>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
   </item><item>
     <title>AI Productivity Tool Map</title>
     <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
     <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
     <description>Chatbots ChatGPT Coding Assistant GitHub Copilot Amazon CodeWhisperer Models LLM Models Toolkit LangChain .</description>
-    <pubDate>Mon, 31 Mar 2025 01:20:46 GMT</pubDate>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description>Networking The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet.</description>
-    <pubDate>Mon, 31 Mar 2025 01:20:46 GMT</pubDate>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>Computer Networking Map</title>
+    <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
+    <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
+    <description>NIC Network interface controller (NIC) is the hardware component for networking.</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>DevOps Roadmap</title>
+    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
+    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
+    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding Skills Architecture Trade-offs Performance Complexity Extensibility, e.g.</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>FreeBSD Map</title>
+    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
+    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
+    <description>Features DTrace Notes Upgrading FreeBSD .</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>Google Cloud Map</title>
+    <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
+    <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
+    <description>Networking Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>Linux Map</title>
+    <link>https://l2dy.github.io/maps/Linux-Map</link>
+    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
+    <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF .</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>Microsoft Azure Map</title>
+    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
+    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
+    <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
+  </item><item>
+    <title>NGINX Map</title>
+    <link>https://l2dy.github.io/maps/NGINX-Map</link>
+    <guid>https://l2dy.github.io/maps/NGINX-Map</guid>
+    <description>NGINX is a high-performance Web server, mostly used to serve HTTP requests.</description>
+    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
