@@ -137,6 +137,9 @@
     <loc>https://l2dy.github.io/notes/CLI/ip</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/iptraf</loc>
+    <lastmod>2025-04-13T06:33:43.347Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/journalctl</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
@@ -308,11 +311,17 @@
     <loc>https://l2dy.github.io/notes/Computer-Science/AWS-CLB-Surge-Queue-and-Little's-Law</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Database/Free-PostgreSQL-compatible-PaaS</loc>
+    <lastmod>2025-04-14T15:06:44.151Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Database/MariaDB-Grant-Privileges-via-Unix-socket</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/MongoDB-Shell</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Database/MySQL-Replication-and-Failover-with-Percona-XtraBackup-and-Orchestrator</loc>
+    <lastmod>2025-04-15T11:35:36.451Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/PgBouncer</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
@@ -779,6 +788,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Docker-Log-Drivers</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Docker-stdout-and-stderr-output</loc>
+    <lastmod>2025-04-14T04:19:59.784Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Encrypted-swap-with-random-keys-on-Ubuntu</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
@@ -884,6 +896,9 @@
     <loc>https://l2dy.github.io/notes/Operating-System/Windows/Process-monitoring-on-Windows</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Windows/Remote-Connection-Managers-on-Windows</loc>
+    <lastmod>2025-04-10T06:51:05.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/macOS/Download-macOS-installer</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
   </url><url>
@@ -919,6 +934,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/C/LLVM/Code-Coverage</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Elixir/Ecto-repository-URLs</loc>
+    <lastmod>2025-04-14T11:43:03.683Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Elixir/IEx-One-Liners</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
@@ -1030,6 +1048,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/SRE/Troubleshooting</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Data-Backup</loc>
+    <lastmod>2025-04-05T02:55:40.842Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Litestream</loc>
     <lastmod>2025-03-31T01:20:46.000Z</lastmod>
