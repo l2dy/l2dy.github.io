@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Experimental Nix commands</title>
+    <link>https://l2dy.github.io/notes/Operating-System/NixOS/Experimental-Nix-commands</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/NixOS/Experimental-Nix-commands</guid>
+    <description>nix shell - run a shell in which the specified packages are available nix develop - run a bash shell that provides the build environment of a derivation nix run - run a Nix application References blog.ysndr.de/posts/guides/2021-12-01-nix-shells/ .</description>
+    <pubDate>Sat, 19 Apr 2025 09:41:16 GMT</pubDate>
+  </item><item>
+    <title>PostgreSQL Logical Replication</title>
+    <link>https://l2dy.github.io/notes/Database/PostgreSQL-Logical-Replication</link>
+    <guid>https://l2dy.github.io/notes/Database/PostgreSQL-Logical-Replication</guid>
+    <description>www.postgresql.org/docs/15/logical-replication-architecture.html Logical replication starts by copying a snapshot of the data on the publisher database.</description>
+    <pubDate>Wed, 16 Apr 2025 02:58:48 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -52,18 +64,6 @@
     <link>https://l2dy.github.io/maps/Linux-Map</link>
     <guid>https://l2dy.github.io/maps/Linux-Map</guid>
     <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF .</description>
-    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
-  </item><item>
-    <title>Microsoft Azure Map</title>
-    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
-    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
-    <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
-    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
-  </item><item>
-    <title>NGINX Map</title>
-    <link>https://l2dy.github.io/maps/NGINX-Map</link>
-    <guid>https://l2dy.github.io/maps/NGINX-Map</guid>
-    <description>NGINX is a high-performance Web server, mostly used to serve HTTP requests.</description>
     <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
   </item>
     </channel>

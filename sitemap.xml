@@ -326,8 +326,11 @@
     <loc>https://l2dy.github.io/notes/Database/PgBouncer</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Database/PostgreSQL</loc>
-    <lastmod>2025-04-15T11:39:04.000Z</lastmod>
+    <loc>https://l2dy.github.io/notes/Database/PostgreSQL-Logical-Replication</loc>
+    <lastmod>2025-04-16T02:58:48.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Database/PostgreSQL-trivia-commands</loc>
+    <lastmod>2025-03-25T13:03:47.041Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/psql-Verify-TLS-Certificate</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
@@ -886,6 +889,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/zram-on-Debian-12</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/NixOS/Experimental-Nix-commands</loc>
+    <lastmod>2025-04-19T09:41:16.077Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>

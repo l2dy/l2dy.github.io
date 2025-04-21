@@ -140,6 +140,7 @@ pre:hover > .expand-button {
 <ol>
 <li>List all grants with these privileges with <code>SELECT GRANTEE, PRIVILEGE_TYPE FROM INFORMATION_SCHEMA.USER_PRIVILEGES WHERE PRIVILEGE_TYPE IN ('SUPER', 'CONNECTION_ADMIN');</code> <a href="https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#dynamic-privileges-migration-from-super" class="external">https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#dynamic-privileges-migration-from-super<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li><code>SELECT user FROM INFORMATION_SCHEMA.PROCESSLIST;</code> to list active users and their privileges.</li>
+<li>Note that static global privileges like <code>SUPER</code> are unaffected for a connected client. These changes take effect only in sessions for subsequent connections.</li>
 <li>Since MySQL 5.7.8, you could also set <code>UseSuperReadOnly</code> in orchestrator’s config to ensure no one can write data.</li>
 </ol>
 </li>
