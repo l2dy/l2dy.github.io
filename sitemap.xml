@@ -74,6 +74,9 @@
     <loc>https://l2dy.github.io/notes/CLI/Bash/Read-a-block-of-text-into-a-variable</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/Check-if-input-is-pure-ASCII</loc>
+    <lastmod>2025-04-26T14:22:40.419Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/Convenient-CLI-Tools</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
   </url><url>
@@ -802,6 +805,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Firewalld</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Get-information-about-block-devices-and-filesystems</loc>
+    <lastmod>2025-04-22T08:30:30.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</loc>
     <lastmod>2025-04-15T11:39:04.000Z</lastmod>
