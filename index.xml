@@ -6,17 +6,29 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Check if input is pure ASCII</title>
-    <link>https://l2dy.github.io/notes/CLI/Check-if-input-is-pure-ASCII</link>
-    <guid>https://l2dy.github.io/notes/CLI/Check-if-input-is-pure-ASCII</guid>
-    <description>pbpaste | LC_ALL=C grep -q &#039;[^ -~]&#039; &amp;&amp; echo &quot;Non-ASCII&quot; pbpaste | iconv -f ASCII -t ASCII &gt;/dev/null || echo &quot;Non-ASCII&quot;.</description>
-    <pubDate>Sat, 26 Apr 2025 14:22:40 GMT</pubDate>
+    <title>Free email alias services</title>
+    <link>https://l2dy.github.io/notes/Cloud/Free-email-alias-services</link>
+    <guid>https://l2dy.github.io/notes/Cloud/Free-email-alias-services</guid>
+    <description> Firefox Relay DuckDuckGo email protection addy.io .</description>
+    <pubDate>Tue, 06 May 2025 17:52:24 GMT</pubDate>
+  </item><item>
+    <title>Scaling K8s to a large cluster</title>
+    <link>https://l2dy.github.io/notes/Kubernetes/Scaling-K8s-to-a-large-cluster</link>
+    <guid>https://l2dy.github.io/notes/Kubernetes/Scaling-K8s-to-a-large-cluster</guid>
+    <description>For K3s: Ensure master nodes have enough memory for etcd, Kubernetes API server, etc.</description>
+    <pubDate>Tue, 06 May 2025 17:52:00 GMT</pubDate>
   </item><item>
     <title>Get information about block devices and filesystems</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Get-information-about-block-devices-and-filesystems</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Get-information-about-block-devices-and-filesystems</guid>
     <description>It is recommended to use lsblk(8) command to get information about block devices, or lsblk --fs to get an overview of filesystems, or findmnt(8) to search in already mounted filesystems.</description>
-    <pubDate>Tue, 22 Apr 2025 08:30:30 GMT</pubDate>
+    <pubDate>Sun, 27 Apr 2025 14:30:00 GMT</pubDate>
+  </item><item>
+    <title>Check if input is pure ASCII</title>
+    <link>https://l2dy.github.io/notes/CLI/Check-if-input-is-pure-ASCII</link>
+    <guid>https://l2dy.github.io/notes/CLI/Check-if-input-is-pure-ASCII</guid>
+    <description>pbpaste | LC_ALL=C grep -q &#039;[^ -~]&#039; &amp;&amp; echo &quot;Non-ASCII&quot; pbpaste | iconv -f ASCII -t ASCII &gt;/dev/null || echo &quot;Non-ASCII&quot;.</description>
+    <pubDate>Sat, 26 Apr 2025 14:22:40 GMT</pubDate>
   </item><item>
     <title>Experimental Nix commands</title>
     <link>https://l2dy.github.io/notes/Operating-System/NixOS/Experimental-Nix-commands</link>
@@ -52,18 +64,6 @@
     <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
     <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
     <description>NIC Network interface controller (NIC) is the hardware component for networking.</description>
-    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
-  </item><item>
-    <title>DevOps Roadmap</title>
-    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
-    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
-    <description>mindmap root((DevOps)) Development Project Management Platform Support Coding Skills Architecture Trade-offs Performance Complexity Extensibility, e.g.</description>
-    <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
-  </item><item>
-    <title>FreeBSD Map</title>
-    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
-    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
-    <description>Features DTrace Notes Upgrading FreeBSD .</description>
     <pubDate>Tue, 15 Apr 2025 11:39:04 GMT</pubDate>
   </item>
     </channel>
