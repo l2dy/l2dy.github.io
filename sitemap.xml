@@ -170,6 +170,9 @@
     <loc>https://l2dy.github.io/notes/CLI/rsync</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/smartctl</loc>
+    <lastmod>2025-05-10T05:41:37.211Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/snmpwalk</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
@@ -272,12 +275,6 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/Cloud/Free-Domain-Name-Providers</loc>
-    <lastmod>2025-05-06T17:53:06.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/Cloud/Free-email-alias-services</loc>
-    <lastmod>2025-05-06T17:53:06.000Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/GitHub-personal-access-token-to-perform-Git-operations-over-HTTPS</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
@@ -310,6 +307,18 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Oracle-Cloud/OCI-Public-IP-Ranges</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/PSaaS/Free-Domain-Name-Providers</loc>
+    <lastmod>2024-12-05T00:11:14.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/PSaaS/Free-email-alias-services</loc>
+    <lastmod>2025-05-06T17:52:24.506Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/PSaaS/Free-email-sending-service</loc>
+    <lastmod>2025-05-11T08:10:19.179Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/PSaaS/SMTP2GO</loc>
+    <lastmod>2025-05-11T08:12:35.336Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/Private-Cloud-Platforms</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
@@ -959,6 +968,9 @@
     <loc>https://l2dy.github.io/notes/Programming/Elixir/IEx-One-Liners</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Programming/Elixir/TLS-peer-verification-in-Erlang-and-Elixir</loc>
+    <lastmod>2025-05-12T15:52:12.095Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Programming/Elixir/Troubleshooting-in-production-with-IEx</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
   </url><url>
@@ -1228,6 +1240,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Startup/SaaS-Product-Strategy-at-Tanda</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Storage/Changing-logical-sector-size-of-NVMe-SSDs</loc>
+    <lastmod>2025-05-11T06:53:34.235Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Storage/Test-hard-disk-quality</loc>
     <lastmod>2025-05-06T17:53:06.000Z</lastmod>
