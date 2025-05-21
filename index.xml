@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Order of a fault in exponential rollout</title>
-    <link>https://l2dy.github.io/notes/SRE/Order-of-a-fault-in-exponential-rollout</link>
-    <guid>https://l2dy.github.io/notes/SRE/Order-of-a-fault-in-exponential-rollout</guid>
-    <description>The book gave a formula CU = RK, where CU is O(U) of C in the sense of big O notation, R is the instantaneous rate at which those error reports would occur under steady traffic, and K is the e-folding time of the rollout.</description>
-    <pubDate>Fri, 16 May 2025 03:38:58 GMT</pubDate>
-  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>AI Productivity Tool Map</title>
     <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
     <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
     <description>Chatbots ChatGPT Coding Assistant GitHub Copilot Amazon CodeWhisperer Models LLM Models Toolkit LangChain .</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description>Networking The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>Computer Networking Map</title>
     <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
     <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
     <description>NIC Network interface controller (NIC) is the hardware component for networking.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>DevOps Roadmap</title>
     <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
     <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
     <description>mindmap root((DevOps)) Development Project Management Coding Skills Software Engineering Architecture Trade-offs Performance Complexity Resilience, e.g.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>FreeBSD Map</title>
     <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
     <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
     <description>Features DTrace Notes Upgrading FreeBSD .</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>Google Cloud Map</title>
     <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
     <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
     <description>Networking Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>Linux Map</title>
     <link>https://l2dy.github.io/maps/Linux-Map</link>
     <guid>https://l2dy.github.io/maps/Linux-Map</guid>
     <description>Process Scheduling De-Prioritize Process Network TCP TCP Kernel Parameters SNMPv2 TCP Statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF .</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item><item>
     <title>Microsoft Azure Map</title>
     <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
     <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
     <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
-    <pubDate>Mon, 12 May 2025 16:08:11 GMT</pubDate>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
+  </item><item>
+    <title>NGINX Map</title>
+    <link>https://l2dy.github.io/maps/NGINX-Map</link>
+    <guid>https://l2dy.github.io/maps/NGINX-Map</guid>
+    <description>NGINX is a high-performance Web server, mostly used to serve HTTP requests.</description>
+    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
