@@ -161,6 +161,9 @@
     <loc>https://l2dy.github.io/notes/CLI/nstat</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/numactl</loc>
+    <lastmod>2025-05-23T15:50:00.839Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/procstat</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
   </url><url>
@@ -695,6 +698,9 @@
     <loc>https://l2dy.github.io/notes/Network/OpenWrt/Restore-Default-OpenWrt-Config</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Network/OpenWrt/Using-the-OpenWrt-SDK-to-build-a-custom-odhcp6c</loc>
+    <lastmod>2025-05-24T02:54:44.847Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Network/Path-MTU-Discovery</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
   </url><url>
@@ -943,6 +949,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/macOS/macOS-KeyChain-in-CLI-Tools</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Performance-Optimization/Optimize-single-box-PostgreSQL-performance</loc>
+    <lastmod>2025-05-23T17:22:30.783Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Privacy/Apple-Private-Relay</loc>
     <lastmod>2025-05-21T14:47:54.000Z</lastmod>
