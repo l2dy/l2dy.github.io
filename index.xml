@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Implementing bulk actions in Plane</title>
+    <link>https://l2dy.github.io/notes/Software/Implementing-bulk-actions-in-Plane</link>
+    <guid>https://l2dy.github.io/notes/Software/Implementing-bulk-actions-in-Plane</guid>
+    <description>First, restore AGPL-3.0 licensed code from Git history: sed -i &#039;s/false;/true;/&#039; web/ce/hooks/use-bulk-operation-status.ts git checkout e3ebb9b61cc5ed63919a07f1c389f1e0f2b0efe5^ -- web/core/components/issues/bulk-operations rm -r web/ce/components/issues/bulk-operations &amp;&amp; git mv w...</description>
+    <pubDate>Fri, 30 May 2025 11:35:55 GMT</pubDate>
+  </item><item>
+    <title>Optimize single-box MariaDB performance</title>
+    <link>https://l2dy.github.io/notes/Performance-Optimization/Optimize-single-box-MariaDB-performance</link>
+    <guid>https://l2dy.github.io/notes/Performance-Optimization/Optimize-single-box-MariaDB-performance</guid>
+    <description>Save your config to /etc/mysql/mariadb.conf.d/90-custom-server.cnf.</description>
+    <pubDate>Wed, 28 May 2025 15:46:35 GMT</pubDate>
+  </item><item>
     <title>Using the OpenWrt SDK to build a custom odhcp6c</title>
     <link>https://l2dy.github.io/notes/Network/OpenWrt/Using-the-OpenWrt-SDK-to-build-a-custom-odhcp6c</link>
     <guid>https://l2dy.github.io/notes/Network/OpenWrt/Using-the-OpenWrt-SDK-to-build-a-custom-odhcp6c</guid>
@@ -52,18 +64,6 @@
     <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
     <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
     <description>mindmap root((DevOps)) Development Project Management Coding Skills Software Engineering Architecture Trade-offs Performance Complexity Resilience, e.g.</description>
-    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
-  </item><item>
-    <title>FreeBSD Map</title>
-    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
-    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
-    <description>Features DTrace Notes Upgrading FreeBSD .</description>
-    <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
-  </item><item>
-    <title>Google Cloud Map</title>
-    <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
-    <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
-    <description>Networking Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
     <pubDate>Wed, 21 May 2025 14:47:54 GMT</pubDate>
   </item>
     </channel>
