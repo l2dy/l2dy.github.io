@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Optimize single-box MariaDB performance</title>
-    <link>https://l2dy.github.io/notes/Performance-tuning/Optimize-single-box-MariaDB-performance</link>
-    <guid>https://l2dy.github.io/notes/Performance-tuning/Optimize-single-box-MariaDB-performance</guid>
-    <description>Save your config to /etc/mysql/mariadb.conf.d/90-custom-server.cnf.</description>
-    <pubDate>Tue, 03 Jun 2025 14:31:30 GMT</pubDate>
-  </item><item>
-    <title>Optimize K3s cluster host limits</title>
-    <link>https://l2dy.github.io/notes/Performance-tuning/Optimize-K3s-cluster-host-limits</link>
-    <guid>https://l2dy.github.io/notes/Performance-tuning/Optimize-K3s-cluster-host-limits</guid>
-    <description>Environment: Ubuntu 24.04 LTS + K3s 1.33 + Cilium 1.17 on QEMU VM with 7.5 GiB RAM on a x86_64 host.</description>
-    <pubDate>Tue, 03 Jun 2025 13:38:09 GMT</pubDate>
-  </item><item>
-    <title>Amazon Linux 2023 on KVM</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Linux-2023-on-KVM</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Linux-2023-on-KVM</guid>
-    <description>Use an empty meta-data file like so to avoid json.decoder.JSONDecodeError from cc_set_hostname.py: #cloud-config.</description>
-    <pubDate>Tue, 03 Jun 2025 08:45:35 GMT</pubDate>
-  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science.</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>AI Productivity Tool Map</title>
     <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
     <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
-    <description>Chatbots ChatGPT Coding Assistant GitHub Copilot Amazon CodeWhisperer Models LLM Models Toolkit LangChain .</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <description>Chatbots ChatGPT Coding Assistant GitHub Copilot Amazon CodeWhisperer Models LLM models Toolkit LangChain .</description>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking The AWS Backbone Network connects AWS Regions, Availability Zones, and the Internet.</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <description>Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet.</description>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>Computer Networking Map</title>
     <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
     <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
     <description>NIC Network interface controller (NIC) is the hardware component for networking.</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>DevOps Roadmap</title>
     <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
     <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
     <description>mindmap root((DevOps)) Development Project Management Coding Skills Software Engineering Architecture Trade-offs Performance Complexity Resilience, e.g.</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>FreeBSD Map</title>
     <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
     <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
     <description>Features DTrace Notes Upgrading FreeBSD .</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item><item>
     <title>Google Cloud Map</title>
     <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
     <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
     <description>Networking Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
-    <pubDate>Fri, 30 May 2025 12:07:43 GMT</pubDate>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
+  </item><item>
+    <title>Linux Map</title>
+    <link>https://l2dy.github.io/maps/Linux-Map</link>
+    <guid>https://l2dy.github.io/maps/Linux-Map</guid>
+    <description>Process Scheduling De-prioritize Linux process Network TCP TCP kernel parameters SNMPv2 TCP statistics BBR Firewall Firewalld nftables Administration SysRq key BPF BPF .</description>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
+  </item><item>
+    <title>Microsoft Azure Map</title>
+    <link>https://l2dy.github.io/maps/Microsoft-Azure-Map</link>
+    <guid>https://l2dy.github.io/maps/Microsoft-Azure-Map</guid>
+    <description>Networking Azure Host SDN is comprised of Virtual Filtering Platform and the hardware offload counterpart Azure Accelerated Networking (AccelNet) with Azure SmartNIC based on FPGAs.</description>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
+  </item><item>
+    <title>NGINX Map</title>
+    <link>https://l2dy.github.io/maps/NGINX-Map</link>
+    <guid>https://l2dy.github.io/maps/NGINX-Map</guid>
+    <description>NGINX is a high-performance Web server, mostly used to serve HTTP requests.</description>
+    <pubDate>Sat, 07 Jun 2025 09:49:37 GMT</pubDate>
   </item>
     </channel>
   </rss>
