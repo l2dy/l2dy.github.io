@@ -44,20 +44,14 @@
     <loc>https://l2dy.github.io/maps/Self-Hosting-Map</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/AI/ChatGPT</loc>
-    <lastmod>2025-06-07T09:50:28.000Z</lastmod>
-  </url><url>
     <loc>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/AI/LLM-models</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/AI/New-Bing</loc>
-    <lastmod>2025-06-07T09:50:28.000Z</lastmod>
-  </url><url>
-    <loc>https://l2dy.github.io/notes/AI/Poe</loc>
-    <lastmod>2025-06-07T09:50:28.000Z</lastmod>
+    <loc>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</loc>
+    <lastmod>2025-07-24T08:39:43.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Apple-Music</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
@@ -581,6 +575,9 @@
     <loc>https://l2dy.github.io/notes/Kubernetes/Traefik</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Kubernetes/cAdvisor-metrics</loc>
+    <lastmod>2025-07-08T08:20:50.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Kubernetes/cert-manager</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
@@ -785,6 +782,12 @@
     <loc>https://l2dy.github.io/notes/Observability/pwru</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Android/Root-access-to-AVD</loc>
+    <lastmod>2025-07-23T03:22:07.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Android/TLS-traffic-analysis-on-AVD</loc>
+    <lastmod>2025-07-23T03:22:20.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/FreeBSD/DTrace</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
@@ -841,6 +844,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/Handling-configuration-updates-on-rpm-based-distros</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Linux/Hibernation-on-Ubuntu-with-LVM-and-LUKS-encryption</loc>
+    <lastmod>2025-07-06T06:48:47.889Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Linux/IBus-on-Wayland</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
@@ -932,11 +938,17 @@
     <loc>https://l2dy.github.io/notes/Operating-System/NixOS/Experimental-Nix-commands</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/NixOS/nix-shell</loc>
+    <lastmod>2025-07-09T02:03:48.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/NixOS/nixpkgs</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/OpenWRT/WiFi</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Operating-System/Windows/Install-.appx-packages-on-Windows-11-LTSC</loc>
+    <lastmod>2025-07-23T03:25:01.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Operating-System/Windows/Process-monitoring-on-Windows</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
@@ -1112,6 +1124,9 @@
     <loc>https://l2dy.github.io/notes/SRE/Troubleshooting</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Search/Search-for-arXiv-papers</loc>
+    <lastmod>2025-06-19T09:00:34.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Data-backup</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
@@ -1157,6 +1172,9 @@
     <loc>https://l2dy.github.io/notes/Software/Blink-based-SSH-workstation</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Software/CSV-manipulation-in-CLI</loc>
+    <lastmod>2025-07-08T12:12:11.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Software/CachyOS-in-UTM</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
   </url><url>
@@ -1174,6 +1192,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/EWS-support-in-Thunderbird</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/FlowDown</loc>
+    <lastmod>2025-07-21T08:44:17.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Flowed-text-in-Mutt</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
@@ -1207,6 +1228,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Nix-channel-status</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Regular-expressions-in-Vector-config</loc>
+    <lastmod>2025-06-23T06:17:48.085Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Remote-Linux-Desktop-on-macOS</loc>
     <lastmod>2025-06-07T09:50:28.000Z</lastmod>

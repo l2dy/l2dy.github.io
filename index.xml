@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>PostgreSQL in disaggregated architecture</title>
-    <link>https://l2dy.github.io/notes/Database/PostgreSQL-in-disaggregated-architecture</link>
-    <guid>https://l2dy.github.io/notes/Database/PostgreSQL-in-disaggregated-architecture</guid>
-    <description> Aurora Serverless v2 docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.how-it-works.html AlloyDB for PostgreSQL cloud.google.com/alloydb/docs/overview Neon github.com/neondatabase/neon OrioleDB (WIP) www.orioledb.com/docs/usage/decoupled-storage .</description>
-    <pubDate>Sun, 08 Jun 2025 13:59:05 GMT</pubDate>
+    <title>Reputable vendors offering free LLM API</title>
+    <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
+    <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
+    <description>Gemini Code Assist developers.google.com/gemini-code-assist/resources/quotas Individual usage quota of requests from Gemini Code Assist agent mode and the Gemini CLI: 60 requests per user per minute 1000 requests per user per day Gemini API ai.google.dev/gemini-api/docs/rate-limits Rate limits in 3 ...</description>
+    <pubDate>Thu, 24 Jul 2025 08:39:43 GMT</pubDate>
   </item><item>
-    <title>Ubicloud Setup</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Ubicloud-Setup</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Ubicloud-Setup</guid>
-    <description>Maintenance Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, start it.</description>
-    <pubDate>Sat, 07 Jun 2025 17:53:36 GMT</pubDate>
+    <title>Install .appx packages on Windows 11 LTSC</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Windows/Install-.appx-packages-on-Windows-11-LTSC</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Windows/Install-.appx-packages-on-Windows-11-LTSC</guid>
+    <description> Open PowerShell as Admin. Use the following command to install the .appx package: Add-AppxPackage &lt;path to .appx file&gt;.</description>
+    <pubDate>Wed, 23 Jul 2025 03:25:01 GMT</pubDate>
   </item><item>
-    <title>Sourcetrail</title>
-    <link>https://l2dy.github.io/notes/Software/Sourcetrail</link>
-    <guid>https://l2dy.github.io/notes/Software/Sourcetrail</guid>
-    <description>C/C++ Indexing Sourcetrail can index a C/C++ project with a JSON compilation database file.</description>
-    <pubDate>Sat, 07 Jun 2025 10:23:46 GMT</pubDate>
+    <title>TLS traffic analysis on AVD</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Android/TLS-traffic-analysis-on-AVD</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Android/TLS-traffic-analysis-on-AVD</guid>
+    <description>With friTap First, you need to set up Root access to AVD and make sure you have allocated enough RAM for the virtual device.</description>
+    <pubDate>Wed, 23 Jul 2025 03:22:20 GMT</pubDate>
   </item><item>
-    <title>Zero&#039;s Garden</title>
-    <link>https://l2dy.github.io/</link>
-    <guid>https://l2dy.github.io/</guid>
-    <description>Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science.</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>Root access to AVD</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Android/Root-access-to-AVD</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Android/Root-access-to-AVD</guid>
+    <description>Google Play Store system images don’t support su or adb root.</description>
+    <pubDate>Wed, 23 Jul 2025 03:22:07 GMT</pubDate>
   </item><item>
-    <title>AI Productivity Tool Map</title>
-    <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
-    <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
-    <description>Chatbots ChatGPT Coding Assistant GitHub Copilot Amazon CodeWhisperer Models LLM models Toolkit LangChain .</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>FlowDown</title>
+    <link>https://l2dy.github.io/notes/Software/FlowDown</link>
+    <guid>https://l2dy.github.io/notes/Software/FlowDown</guid>
+    <description>Model configuration Workgroup is a pseudonym for API key. The name is used to circumvent App Store review issues.</description>
+    <pubDate>Mon, 21 Jul 2025 08:44:17 GMT</pubDate>
   </item><item>
-    <title>AWS Map</title>
-    <link>https://l2dy.github.io/maps/AWS-Map</link>
-    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
-    <description>Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet.</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>nix shell</title>
+    <link>https://l2dy.github.io/notes/Operating-System/NixOS/nix-shell</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/NixOS/nix-shell</guid>
+    <description>nix shell nixpkgs#bash nixpkgs#hello nixpkgs#cowsay --command bash .</description>
+    <pubDate>Wed, 09 Jul 2025 02:03:48 GMT</pubDate>
   </item><item>
-    <title>Computer Networking Map</title>
-    <link>https://l2dy.github.io/maps/Computer-Networking-Map</link>
-    <guid>https://l2dy.github.io/maps/Computer-Networking-Map</guid>
-    <description>NIC Network interface controller (NIC) is the hardware component for networking.</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>CSV manipulation in CLI</title>
+    <link>https://l2dy.github.io/notes/Software/CSV-manipulation-in-CLI</link>
+    <guid>https://l2dy.github.io/notes/Software/CSV-manipulation-in-CLI</guid>
+    <description>CLI github.com/dathere/qsv github.com/medialab/xan github.com/harelba/q TUI github.com/saulpw/visidata .</description>
+    <pubDate>Tue, 08 Jul 2025 12:12:11 GMT</pubDate>
   </item><item>
-    <title>DevOps Roadmap</title>
-    <link>https://l2dy.github.io/maps/DevOps-Roadmap</link>
-    <guid>https://l2dy.github.io/maps/DevOps-Roadmap</guid>
-    <description>mindmap root((DevOps)) Development Project Management Coding Skills Software Engineering Architecture Trade-offs Performance Complexity Resilience, e.g.</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>cAdvisor metrics</title>
+    <link>https://l2dy.github.io/notes/Kubernetes/cAdvisor-metrics</link>
+    <guid>https://l2dy.github.io/notes/Kubernetes/cAdvisor-metrics</guid>
+    <description>Memory We can see from this experiment that container_memory_usage_bytes does account for some filesystem pages that are being cached.</description>
+    <pubDate>Tue, 08 Jul 2025 08:20:50 GMT</pubDate>
   </item><item>
-    <title>FreeBSD Map</title>
-    <link>https://l2dy.github.io/maps/FreeBSD-Map</link>
-    <guid>https://l2dy.github.io/maps/FreeBSD-Map</guid>
-    <description>Features DTrace Notes Upgrading FreeBSD .</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>Hibernation on Ubuntu with LVM and LUKS encryption</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Hibernation-on-Ubuntu-with-LVM-and-LUKS-encryption</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Hibernation-on-Ubuntu-with-LVM-and-LUKS-encryption</guid>
+    <description>References rdrn.me/ubuntu-hibernate-luks/.</description>
+    <pubDate>Sun, 06 Jul 2025 06:48:47 GMT</pubDate>
   </item><item>
-    <title>Google Cloud Map</title>
-    <link>https://l2dy.github.io/maps/Google-Cloud-Map</link>
-    <guid>https://l2dy.github.io/maps/Google-Cloud-Map</guid>
-    <description>Networking Andromeda powers VM-to-VM communication. Maglev powers regional Network Load Balancers.</description>
-    <pubDate>Sat, 07 Jun 2025 09:50:28 GMT</pubDate>
+    <title>Regular expressions in Vector config</title>
+    <link>https://l2dy.github.io/notes/Software/Regular-expressions-in-Vector-config</link>
+    <guid>https://l2dy.github.io/notes/Software/Regular-expressions-in-Vector-config</guid>
+    <description>Character classes docs.rs/regex/latest/regex/#character-classes Any named character class may appear inside a bracketed [...] character class.</description>
+    <pubDate>Mon, 23 Jun 2025 06:17:48 GMT</pubDate>
   </item>
     </channel>
   </rss>
