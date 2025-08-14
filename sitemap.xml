@@ -278,6 +278,9 @@
     <loc>https://l2dy.github.io/notes/Cloud/Azure/Virtual-Filtering-Platform</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Cloud/Backblaze-B2-API-pricing</loc>
+    <lastmod>2025-08-14T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Cloud/GitHub-personal-access-token-to-perform-Git-operations-over-HTTPS</loc>
     <lastmod>2025-01-08T00:00:00.000Z</lastmod>
   </url><url>
@@ -499,6 +502,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/HTTP/CORS-credentials</loc>
     <lastmod>2025-08-08T16:49:22.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/HTTP/Cross-Site-Request-Forgery-(CSRF)</loc>
+    <lastmod>2025-08-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/HTTP/HTTP-request-RTTs</loc>
     <lastmod>2025-08-08T16:49:22.000Z</lastmod>
