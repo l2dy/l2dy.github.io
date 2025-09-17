@@ -10,61 +10,61 @@
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description><![CDATA[ Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>AI Productivity Tool Map</title>
     <link>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</link>
     <guid>https://l2dy.github.io/maps/AI-Productivity-Tool-Map</guid>
-    <description><![CDATA[ Chatbots ChatGPT Coding Assistant GitHub Copilot Gemini CLI Claude Code Amazon Q Developer Models LLM models Toolkit LangChain . ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <description><![CDATA[ Chatbots ChatGPT Coding Assistant GitHub Copilot Gemini CLI Claude Code Amazon Q Developer Models LLM model comparison Toolkit LangChain . ]]></description>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description><![CDATA[ Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>GPT-4 chat demo</title>
     <link>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</link>
     <guid>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</guid>
     <description><![CDATA[  Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Reputable vendors offering free LLM API</title>
     <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
     <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
     <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Best way to add path to PATH environment variable</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Best-way-to-add-path-to-PATH-environment-variable</guid>
     <description><![CDATA[ Solution if [[ ! &quot;$PATH&quot; == *your_path* ]]; then PATH=&quot;${PATH:+${PATH}:}your_path&quot; fi Explanation [[ ! &quot;$PATH&quot; == *your_path* ]] checks if PATH contains your new path already, hence avoiding duplicates. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Here document</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
     <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Line editing</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
     <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Per, AWK and sed tricks for text file manipulation</title>
     <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
     <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
     <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item><item>
     <title>Zsh word splitting</title>
     <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
     <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
     <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
-    <pubDate>Thu, 14 Aug 2025 16:33:16 GMT</pubDate>
+    <pubDate>Wed, 17 Sep 2025 16:41:07 GMT</pubDate>
   </item>
     </channel>
   </rss>
