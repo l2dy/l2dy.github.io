@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 Zero&#039;s Garden</title>
+      <link>https://l2dy.github.io</link>
+      <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>gpg</title>
+    <link>https://l2dy.github.io/notes/CLI/gpg</link>
+    <guid>https://l2dy.github.io/notes/CLI/gpg</guid>
+    <description><![CDATA[ Consider using sq instead. crates.io/crates/sequoia-sq. ]]></description>
+    <pubDate>Tue, 16 Dec 2025 02:41:03 GMT</pubDate>
+  </item><item>
+    <title>Zero&#039;s Garden</title>
+    <link>https://l2dy.github.io/</link>
+    <guid>https://l2dy.github.io/</guid>
+    <description><![CDATA[ Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>AWS Map</title>
+    <link>https://l2dy.github.io/maps/AWS-Map</link>
+    <guid>https://l2dy.github.io/maps/AWS-Map</guid>
+    <description><![CDATA[ Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>GPT-4 chat demo</title>
+    <link>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</link>
+    <guid>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</guid>
+    <description><![CDATA[  Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Reputable vendors offering free LLM API</title>
+    <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
+    <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
+    <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Production container deployments without Kubernetes</title>
+    <link>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</link>
+    <guid>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</guid>
+    <description><![CDATA[ Kamal github.com/basecamp/kamal Kamal offers zero-downtime deploys, rolling restarts, asset bridging, remote builds, accessory service management, and everything else you need to deploy and manage your web app in production with Docker. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Here document</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
+    <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Line editing</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
+    <description><![CDATA[ Read man 3 readline for more information. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Per, AWK and sed tricks for text file manipulation</title>
+    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
+    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
+    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item><item>
+    <title>Zsh word splitting</title>
+    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
+    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
+    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 04:21:11 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

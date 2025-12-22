@@ -1,0 +1,22 @@
+properties:
+  note.multi-instance:
+    displayName: replicas-per-server
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Garden/notes/Self Hosting/PaaS"
+    order:
+      - file.name
+      - git-repo
+      - multi-server
+      - multi-instance
+      - clustering
+      - license
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.multi-instance: 104
+      note.clustering: 220

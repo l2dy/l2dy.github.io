@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Ubicloud Setup</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="🪴 Zero's Garden"/><meta property="og:title" content="Ubicloud Setup"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Ubicloud Setup"/><meta name="twitter:description" content="Maintenance Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, start it."/><meta property="og:description" content="Maintenance Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, start it."/><meta property="og:image:alt" content="Maintenance Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, start it."/><meta property="og:image" content="https://l2dy.github.io/static/og-image.png"/><meta property="og:image:url" content="https://l2dy.github.io/static/og-image.png"/><meta name="twitter:image" content="https://l2dy.github.io/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="l2dy.github.io"/><meta property="og:url" content="https://l2dy.github.io/notes/Self-Hosting/Ubicloud-Setup"/><meta property="twitter:url" content="https://l2dy.github.io/notes/Self-Hosting/Ubicloud-Setup"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Maintenance Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, start it."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2wyZHkvUmVwb3MvYmxvZy1vYnNpZGlhbi9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://l2dy.github.io/index.xml"/></head><body data-slug="notes/Self-Hosting/Ubicloud-Setup"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">🪴 Zero's Garden</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-508"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-508" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../notes/">notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../notes/Self-Hosting/">Self Hosting</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Ubicloud Setup</a></div></nav><h1 class="article-title">Ubicloud Setup</h1><p show-comma="true" class="content-meta"><time>Mar 16, 2025</time><span>16 min read</span></p><div><iframe class="gh-sponsor" src="https://github.com/sponsors/l2dy/button" title="Sponsor l2dy" height="32" width="114"></iframe></div></div></div><article class="popover-hint"><h1 id="maintenance">Maintenance<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#maintenance" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Enter the interactive Ruby shell for maintenance operations. If the control plane is not started yet, <a href="#start-control-plane-after-failure" class="internal alias">start it</a>.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Start interactive Ruby shell</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> exec</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -it</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubicloud-app</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ./bin/pry</span></span></code></pre></figure>
+<h2 id="graceful-reboot">Graceful reboot<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#graceful-reboot" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>You should not <code>reboot</code> a VM host directly. Instead, follow these steps:</p>
+<ol>
+<li>(Optional) Shutdown all VMs from inside.</li>
+<li>From the control plane, issue a command to the <code>VmHost</code> in an interactive shell, which will handle shutdown and recovery. The procedure is defined in <code>prog/vm/host_nexus.rb</code>.</li>
+</ol>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Get your VmHost. If you have multiple ones, you can select by ID etc.</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VmHost</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">all</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VmHost</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">count</span></span>
+<span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">vmh</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VmHost</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">first</span></span>
+<span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">vmh</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VmHost</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">[</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;vhwkcvts540j1npnsdygqb5jvp&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># List and shutdown VMs. Skipped for now because `stop` is not properly implemented.</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Your VMs are likely safe anyways.</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">#vmh.vms</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">#vmh.vms.map { |vm| vm.vm.incr_stop }</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Debug: get a list of all tasks, which should have a `Vm::HostNexus` in &quot;wait&quot; label.</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Strand</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">all</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># . You can see available semaphores here:</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/vm/host_nexus.rb#L300</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vmh.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">incr_reboot</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># After reboot</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># If ufw rules are broken</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">sudo nft list ruleset</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">sudo systemctl restart ufw docker</span></span></code></pre></figure>
+<h2 id="start-control-plane-after-host-failure">Start control plane after host failure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#start-control-plane-after-host-failure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout warning" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>WARNING</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>Only use <code>demo/docker-compose.yml</code> in demo environments. You need a different setup for production.</p>
+</div>
+</blockquote>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">cd</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubicloud/demo/</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker-compose</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> up</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -d</span></span></code></pre></figure>
+<p>After a successful start, open the control plane to check status of VMs. You could use SSH port forwarding like so:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ssh</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -NL127.0.0.1:3000:127.0.0.1:3000</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubuntu@YOU-SERVER-IP</span></span></code></pre></figure>
+<p>If there was an accidental reset and you deployed the control plane as a VM host, try reboot the VM host again in the correct way below and start the control plane again.</p>
+<p>If you encountered this error, which shouldn’t happen if you have disabled <code>ufw</code>, try restarting <code>ufw.service</code> and <code>docker.service</code>, and run <code>docker-compose up</code> again.</p>
+<pre><code>ERROR: Failed to Setup IP tables: Unable to enable SKIP DNAT rule:  (iptables failed: iptables --wait -t nat -I DOCKER -i br-927c92f74753 -j RETURN: iptables: No chain/target/match by that name.
+</code></pre>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> restart</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ufw</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker</span></span></code></pre></figure>
+<h2 id="recover-stopped-vms">Recover stopped VMs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#recover-stopped-vms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Ubicloud considers power off from VM guest OS an unavailable state, but the console still shows that it’s running.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  label </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">def</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> unavailable</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    # If the VM become unavailable due to host unavailability, it first needs to</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">    # go through start_after_host_reboot state to be able to recover.</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    when_start_after_host_reboot_set? </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">do</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      incr_checkup</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      hop_start_after_host_reboot</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    end</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    begin</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">      if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> available?</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        decr_checkup</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        hop_wait</span></span></code></pre></figure>
+<p>In this case, manually start both systemd services for the VM if they are not already running to make <code>available?</code> return true and hop back to <code>wait</code> state.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> start</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> {vm.inhost_name}</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> {vm.inhost_name}-dnsmasq</span></span></code></pre></figure>
+<blockquote class="callout note" data-callout="note">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>NOTE</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>Don’t run <code>vm.incr_start_after_host_reboot</code> by hand. You should reboot the VM host in that case.</p>
+</div>
+</blockquote>
+<h2 id="start--stop-vm-manual">Start / Stop VM (manual)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#start--stop-vm-manual" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Run <code>poweroff</code> from the guest OS, or stop it from the host with <code>systemctl</code>.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> status</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> vm8rf42j.service</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> stop</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> vm8rf42j.service</span></span></code></pre></figure>
+<p>Start it again with <code>systemctl</code>, which takes about 20 seconds.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> start</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> vm8rf42j.service</span></span></code></pre></figure>
+<h2 id="resize-disks-disabling-bdev_ubi">Resize disks (disabling <code>bdev_ubi</code>)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#resize-disks-disabling-bdev_ubi" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote>
+<p>vhost-user-blk now supports live resize, by means of a new device-sync-config command.</p>
+</blockquote>
+<p>Live resize might be a feature request to cloud-hypervisor, but let’s wait for Ubicloud’s response as well. See also <a href="https://github.com/qemu/qemu/commit/3f98408e2e4fb1792102aed2cd5425aa0e34cc9c" class="external">qapi: introduce device-sync-config<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and <a href="https://github.com/qemu/qemu/commit/9eb9350c0e519be97716f6b27f664bd0a3c41a36" class="external">https://github.com/qemu/qemu/commit/9eb9350c0e519be97716f6b27f664bd0a3c41a36<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> on how QEMU implements this.</p>
+<p>For now, we have to accept rebooting the VM as a workaround, which is good enough compared to restarting SPDK that also affects other VMs on the same host.</p>
+<p>To resize disks this way, we need to disable <code>bdev_ubi</code> by modifying <code>model/spdk_installation.rb</code> before VM creation.</p>
+<p>Disk size in Ubicloud is measured in GiB, with 16 MiB added if <code>bdev_ubi</code> is enabled. You should add disk space in GiB as well to match the unit.</p>
+<p>With <code>bdev_ubi</code> disabled, follow these instructions to resize the raw disk file, and reboot the VM to let it recognize the change.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># List vdevs</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /opt/spdk-v23.09-ubi-0.3/scripts/rpc.py</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -s</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /home/spdk/spdk-v23.09-ubi-0.3.sock</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> bdev_get_bdevs</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vm</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">vmtr5tbq</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Resize the disk</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> truncate</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -c</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -s</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> +160G</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /var/storage/</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">${vm}</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">/0/disk.raw</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># The SIZE argument is an integer and optional unit (example: 10K is 10*1024).</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Binary prefixes can be used, too: KiB=K, MiB=M, and so on.</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Rescan size of the Linux AIO bdev</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /opt/spdk-v23.09-ubi-0.3/scripts/rpc.py</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -s</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /home/spdk/spdk-v23.09-ubi-0.3.sock</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> bdev_aio_rescan</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> ${vm}</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">_0</span></span></code></pre></figure>
+<p>Here is a snippet of <code>bdev_get_bdevs</code> output.</p>
+<pre><code>  {
+    &quot;name&quot;: &quot;vm6kqa7e_0&quot;,
+    &quot;aliases&quot;: [
+      &quot;d1c07b28-6a6e-4f92-8f17-57f0bfc120d7&quot;
+    ],
+    &quot;product_name&quot;: &quot;AIO disk&quot;,
+    &quot;block_size&quot;: 512,
+    &quot;num_blocks&quot;: 167772160,
+    &quot;uuid&quot;: &quot;d1c07b28-6a6e-4f92-8f17-57f0bfc120d7&quot;,
+    &quot;assigned_rate_limits&quot;: {
+      &quot;rw_ios_per_sec&quot;: 0,
+      &quot;rw_mbytes_per_sec&quot;: 0,
+      &quot;r_mbytes_per_sec&quot;: 0,
+      &quot;w_mbytes_per_sec&quot;: 0
+    },
+    &quot;claimed&quot;: false,
+    &quot;zoned&quot;: false,
+    &quot;supported_io_types&quot;: {
+      &quot;read&quot;: true,
+      &quot;write&quot;: true,
+      &quot;unmap&quot;: false,
+      &quot;write_zeroes&quot;: true,
+      &quot;flush&quot;: true,
+      &quot;reset&quot;: true,
+      &quot;compare&quot;: false,
+      &quot;compare_and_write&quot;: false,
+      &quot;abort&quot;: false,
+      &quot;nvme_admin&quot;: false,
+      &quot;nvme_io&quot;: false
+    },
+    &quot;driver_specific&quot;: {
+      &quot;aio&quot;: {
+        &quot;filename&quot;: &quot;/var/storage/vm6kqa7e/0/disk.raw&quot;,
+        &quot;block_size_override&quot;: true,
+        &quot;readonly&quot;: false
+      }
+    }
+  }
+</code></pre>
+<h2 id="stop-vm-from-ruby-broken">Stop VM from Ruby (broken)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#stop-vm-from-ruby-broken" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>You can initiate command from the Ruby shell to increment these semaphores, but only restart command works for now.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  semaphore </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:restart</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:stop</span></span></code></pre></figure>
+<p>First, check the the VM <code>:label</code>, which represents its current state.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">st</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Strand</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">[</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">prog:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;Vm::Nexus&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">label</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">semaphores</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">vm</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">subject</span></span></code></pre></figure>
+<blockquote class="callout warning" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>WARNING</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>A stopped VM might be stuck for 1 hour and is difficult to recover. Don’t do it until Ubicloud officially supports stopping VMs.</p>
+</div>
+</blockquote>
+<p>Then, you can operate on the VM. For example, stop it:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vm.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">incr_stop</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Check state</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">reload</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">label</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">semaphores</span></span></code></pre></figure>
+<p>Start it again (not implemented):</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vm.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">incr_restart</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Check state</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">reload</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">label</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">semaphores</span></span></code></pre></figure>
+<p>You can observe the state with:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Strand</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">[</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">prog:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;Vm::Nexus&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">].</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">label</span></span></code></pre></figure>
+<h2 id="project-quota">Project Quota<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#project-quota" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Modify <code>config/default_quotas.yml</code> and create a new <code>ubicloud/ubicloud:latest</code> image to increase the project quota.</p>
+<p>You can also create multiple projects to workaround this.</p>
+<h1 id="set-up">Set up<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#set-up" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="prerequisites">Prerequisites<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prerequisites" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>CPU architecture: x64 or arm64.</li>
+<li>OS: according to <a href="https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/rhizome/host/lib/spdk_setup.rb#L61-L64" class="external">spdk_setup.rb<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, recommended Linux distributions for VM hosts are ubuntu-22.04 and ubuntu-24.04.</li>
+<li>Host upgrades: disable automatic upgrades with <code>sudo apt purge unattended-upgrades</code>.</li>
+<li>RAM: most memory will be reserved as huge pages. Do not run other services on the host.</li>
+<li>Storage: VM images and disks will be stored in <code>/var/storage/</code>, make sure you have sufficient space.</li>
+<li>Encryption: VM disks are encrypted by default, affecting performance.</li>
+<li>Network: VM host must have a public IPv6 prefix of at least /64 that is statically routed. Public IPv4 subnet is optional and can be added in the interactive Ruby shell.</li>
+<li>NIC: Disable Generic Receive Offload (GRO) on the interface used for NAT masquerading.</li>
+<li>Firewall: let Ubicloud mange the nftables firewall, and don’t host other services directly on the control plane node.</li>
+<li>License: Ubicloud is licensed under AGPL-3.0 but <code>bdev_ubi</code> is licensed under Elastic License 2.0. The latter may be revised in the future.</li>
+</ul>
+<blockquote>
+<p>yes, you can use Ubicloud against your on-prem servers. The prerequisite is that you should have a public ipv6 prefix for your servers and ssh access. You can add your servers using one of the non hetzner regions in the location picker. It will only serve as a region name. Your servers don’t have to be located in that provider specifically. If you want to use IPv4 for your resources, you should also make sure that there is an IPv4 subnet that is statically routed to the server as well (no ARP).</p>
+</blockquote>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># /etc/default/ufw</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">DEFAULT_FORWARD_POLICY</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;ACCEPT&quot;</span></span></code></pre></figure>
+<p>To avoid <code>nftables.service</code> reload clearing ufw rules, override <code>flush ruleset</code> commands from <code>ExecStop</code> and the <code>/etc/nftables.conf</code> file <code>ExecReload</code> reads. This breaks the cleanup function <code>block_ip4</code>, but that’s for public IPv4 addresses which we don’t use.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">mkdir</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /etc/systemd/system/ufw.service.d</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">cat</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> ></span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">/etc/systemd/system/ufw.service.d/10-nftables.conf</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;&lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">[Unit]</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">After=nftables.service</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">mkdir</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /etc/systemd/system/nftables.service.d</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">cat</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> ></span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">/etc/systemd/system/nftables.service.d/15-no-flush.conf</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;&lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">[Service]</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">ExecReload=</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">ExecReload=/usr/bin/true</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">ExecStop=</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">ExecStop=/usr/bin/true</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> daemon-reload</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">systemctl</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> cat</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> nftables.service</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ufw.service</span></span></code></pre></figure>
+<p>You should test the firewall rules after deploying the control plane.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># ports: [3000:3000] only exposes the port over IPv4</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">curl</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -v</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">control</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> plane</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> IPv4</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> addres</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">s</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">></span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">:3000</span></span></code></pre></figure>
+<h2 id="disabling-gro">Disabling GRO<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#disabling-gro" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>If you are experiencing packet loss in the VM, try disabled NIC offloads on the host.</p>
+<p>Create a udev rule file:</p>
+<pre><code>sudo vim /etc/udev/rules.d/99-disable-gro.rules
+</code></pre>
+<p>Add the following line (replace <code>enp193s0f0np0</code> with your interface name):</p>
+<pre><code>ACTION==&quot;add&quot;, SUBSYSTEM==&quot;net&quot;, KERNEL==&quot;enp193s0f0np0&quot;, RUN+=&quot;/sbin/ethtool -K enp193s0f0np0 gro off&quot;
+</code></pre>
+<p>You can also run <code>sudo ethtool -K enp193s0f0np0 gro off</code> manually to test the fix first.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ethtool</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -K</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> enp193s0f0np0</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> gro</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> off</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ethtool</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -k</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> enp193s0f0np0</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> |</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> grep</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> receive-offload</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Test in VM with curl</span></span></code></pre></figure>
+<h2 id="ipv4-nat">IPv4 NAT<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ipv4-nat" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout note" data-callout="note">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>NOTE</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>Add the <code>nftables.d</code> configuration by hand and build the image from <a href="https://github.com/l2dy-forks/ubicloud/tree/patch-l2dy" class="external">https://github.com/l2dy-forks/ubicloud/tree/patch-l2dy<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> instead of patching.</p>
+</div>
+</blockquote>
+<blockquote class="callout warning" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>WARNING</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>This may break subnet isolation. Use with care.</p>
+</div>
+</blockquote>
+<p>Ubicloud does not configure NAT masquerading by default, and the packet is dropped at interface <code>enp193s0f0np0</code>.</p>
+<pre><code>ncrxvwnpz3 -> vethivms21c2t -> vethovms21c2t -> enp193s0f0np0
+</code></pre>
+<p>There are two steps to configure IPv4 NAT for VMs.</p>
+<p>First, we need to set up masquerading. Save the following as <code>/etc/nftables.d/99-custom-ubicloud-nat.conf</code>,</p>
+<pre><code>#!/usr/sbin/nft -f
+table ip ubicloud_nat;
+delete table ip ubicloud_nat;
+table ip ubicloud_nat {
+  chain prerouting {
+    type nat hook postrouting priority srcnat; policy accept;
+    oifname == &quot;enp193s0f0np0&quot; ip saddr 10.0.0.0/8 counter masquerade
+  }
+}
+</code></pre>
+<p>and apply it with <code>/usr/sbin/nft -f /etc/nftables.d/99-custom-ubicloud-nat.conf</code>.</p>
+<p>Then, we need to let ubicloud set up routes for <code>local_ipv4</code> along with the existing <code>public_ipv6</code>. To implement this, we have to modify ubicloud code and build the image.</p>
+<p>In <code>vm_setup.rb</code>, there are several addresses involved.</p>
+<ol>
+<li><code>gua</code>: <code>public_ipv6</code> param from <code>ephemeral_net6.to_s</code>.</li>
+<li><code>ip4</code>: <code>public_ipv4</code> param from <code>ip4.to_s || &quot;&quot;</code>.</li>
+<li><code>local_ip4</code>: <code>local_ipv4</code> param from <code>local_vetho_ip.to_s.shellescape || &quot;&quot;</code>.</li>
+<li><code>nics</code>: <code>[nic.private_ipv6.to_s, nic.private_ipv4.to_s, nic.ubid_to_tap_name, nic.mac, nic.private_ipv4_gateway]</code> deserialized into <code>(:net6, :net4, :tap, :mac, :private_ipv4_gateway)</code>.</li>
+</ol>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">class</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> VmSetup</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  Nic</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> =</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> Struct</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">new</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:net6</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:net4</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:tap</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:mac</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:private_ipv4_gateway</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">end</span></span></code></pre></figure>
+<p>and derivate addresses:</p>
+<ol>
+<li><code>local_ip = NetAddr::IPv4Net.parse(local_ip4)</code>
+<ol>
+<li><code>local_ip.network.to_s</code>: <code>vetho</code> address.</li>
+<li><code>local_ip.next_sib.network.to_s</code>: <code>vethi</code> address.</li>
+</ol>
+</li>
+</ol>
+<p>The addresses we care about is <code>private_ipv4</code>, which is now <code>:net4</code> from <code>nics</code>.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="diff" data-theme="github-light github-dark"><code data-language="diff" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">diff --git a/rhizome/host/lib/vm_setup.rb b/rhizome/host/lib/vm_setup.rb</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">index 144e1860..15ae0b2c 100644</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">--- a/rhizome/host/lib/vm_setup.rb</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+++ b/rhizome/host/lib/vm_setup.rb</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-light-font-weight:bold;--shiki-dark:#B392F0;--shiki-dark-font-weight:bold;">@@ -329,6 +329,10 @@</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> add element inet drop_unused_ip_packets allowed_ipv4_addresses { #{ip_net} }</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     r &quot;ip addr replace #{vetho}/32 dev vetho#{q_vm}&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     r &quot;ip route replace #{vm} dev vetho#{q_vm}&quot; if ip4</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+    # BEGIN IPv4 NAT</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+    local_ip4 = NetAddr::IPv4Net.parse(nics.first.net4).network.to_s</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+    r &quot;ip route replace #{local_ip4} dev vetho#{q_vm}&quot;</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+    # END IPv4 NAT</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     r &quot;echo 1 > /proc/sys/net/ipv4/conf/vetho#{q_vm}/proxy_arp&quot;</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     r &quot;ip -n #{q_vm} addr replace #{vethi}/32 dev vethi#{q_vm}&quot;</span></span></code></pre></figure>
+<p>Params: <a href="https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/model/vm.rb#L203-L223" class="external">https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/model/vm.rb#L203-L223<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, and <code>nic.net4</code> is <code>nic.private_ipv4.to_s</code>.</p>
+<p>Finally, we build the docker image and run it in production.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> build</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -t</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubicloud/ubicloud:latest</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> .</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker-compose</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> down</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker-compose</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> up</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -d</span></span></code></pre></figure>
+<p>Note that the changes does not immediately apply to existing VMs. You have to reboot the VM host or recreate the VMs.</p>
+<p>Also, the change does not apply to existing VM hosts. You have to modify the files by hand.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -iu</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> rhizome</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">cd</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ..</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">patch</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -p1</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> xxx.diff</span></span></code></pre></figure>
+<h2 id="set-up-control-plane">Set up control plane<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#set-up-control-plane" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>First, you need to patch ubicloud to get <a href="#ipv4-nat" class="internal alias">IPv4 NAT</a>.</p>
+<p>Then, follow <a href="https://www.ubicloud.com/docs/quick-start/build-your-own-cloud" class="external">https://www.ubicloud.com/docs/quick-start/build-your-own-cloud<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> to set up the control plane, and create a user. You could patch <code>docker-compose.yml</code> to make containers auto-restart on failure:</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">git</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> clone</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> https://github.com/ubicloud/ubicloud.git</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">cd</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubicloud</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">git</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> apply</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;&lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">diff --git a/demo/docker-compose.yml b/demo/docker-compose.yml</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">index a52d77f5..0f631a7b 100644</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">--- a/demo/docker-compose.yml</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">+++ b/demo/docker-compose.yml</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">@@ -1,6 +1,7 @@</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> services:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">   postgres:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     image: postgres:15.4</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">+    restart: unless-stopped</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     container_name: ubicloud-postgres</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     env_file: .env</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     ports:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">@@ -25,6 +26,7 @@ services:</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">   app:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     image: ubicloud/ubicloud:latest</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">+    restart: unless-stopped</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     container_name: ubicloud-app</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">     depends_on:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">       db-migrator:</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">EOF</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Generate secrets for demo</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">./demo/generate_env</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Run containers: db-migrator, app (web &amp; respirate), postgresql</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker-compose</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -f</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> demo/docker-compose.yml</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> up</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Visit localhost:3000</span></span></code></pre></figure>
+<p>Then, <a href="#download-images" class="internal alias">downloading images</a> you need on all VM hosts and change <code>RACK_ENV=development</code> to <code>RACK_ENV=production</code> in <code>.env</code> and restart the stack to prevent self-registration.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">cd</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> demo</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># If you started the services with -d</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker-compose</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> down</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">docker-compose</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> up</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -d</span></span></code></pre></figure>
+<h2 id="cloudify-a-bare-metal-server">Cloudify a bare-metal server<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#cloudify-a-bare-metal-server" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<blockquote class="callout warning" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"></div>
+                  <div class="callout-title-inner"><p>WARNING</p></div>
+                  
+                </div>
+<div class="callout-content">
+<p>This will reboot the server!</p>
+</div>
+</blockquote>
+<p>Run the following commands in the interactive Ruby shell on the control plane host, replacing <code>hostname</code> with your server’s IP address and <code>host_id</code> with its host identifier.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">strand</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Prog</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">::</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Vm</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">::</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">HostNexus</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">assemble</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  hostname,</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  provider_name:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;leaseweb&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  server_identifier:</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> host_id,</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  location:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;leaseweb-wdc02&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  default_boot_images:</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;ubuntu-jammy&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">puts</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;Waiting public SSH keys</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">\n\n</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">until</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> (</span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">ssh_key</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = strand.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">reload</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">subject</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sshable</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">keys</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">map</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">&amp;</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">:public_key</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">).</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">first</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  sleep</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 2</span></span>
+<span data-line><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">end</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">puts</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;Add following public SSH key to '/root/.ssh/authorized_keys' on your machine</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">\n\n</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">puts</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> ssh_key</span></span></code></pre></figure>
+<p>Then add the SSH key to the bare-metal server’s root user and cloudification will proceed automatically.</p>
+<p>See <a href="https://github.com/ubicloud/ubicloud/discussions/2595" class="external">https://github.com/ubicloud/ubicloud/discussions/2595<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for more information. We are using the <code>leaseweb</code> provider because the Hetzner provider calls APIs in <code>Hosting::Apis</code> abstracted from <code>lib/hosting/hetzner_apis.rb</code> and doesn’t work in self-hosted environment.</p>
+<p>Steps ran in the Cloudify process are roughly:</p>
+<ol>
+<li><code>setup_ssh_keys</code></li>
+<li><code>bootstrap_rhizome</code></li>
+<li><code>prep</code></li>
+<li><code>wait_prep</code></li>
+<li><code>setup_hugepages</code></li>
+<li><code>setup_spdk</code></li>
+<li><code>download_boot_images</code></li>
+<li><code>wait_download_boot_images</code></li>
+<li><code>prep_reboot</code></li>
+<li><code>reboot</code></li>
+<li><code>verify_spdk</code></li>
+<li><code>verify_hugepages</code></li>
+<li><code>start_slices</code></li>
+<li><code>start_vms</code></li>
+<li><code>wait</code> (reached ready state)</li>
+</ol>
+<p>Follow <code>hop_*</code> in <a href="https://github.com/ubicloud/ubicloud/blob/main/prog/vm/host_nexus.rb#L47" class="external">https://github.com/ubicloud/ubicloud/blob/main/prog/vm/host_nexus.rb#L47<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<h2 id="download-images">Download images<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#download-images" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The default version is defined in <a href="https://github.com/ubicloud/ubicloud/blob/a670fc0946abc52d945edb2b72caae679d9f073f/config.rb#L151" class="external">https://github.com/ubicloud/ubicloud/blob/a670fc0946abc52d945edb2b72caae679d9f073f/config.rb#L151<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p>Note that <code>&quot;github&quot;, &quot;postgres&quot;, &quot;ai-&quot;</code> images are not available in self-hosted version, because we don’t have access to the <code>ubicloud-images</code> bucket. <a href="https://github.com/ubicloud/ubicloud/blob/a670fc0946abc52d945edb2b72caae679d9f073f/prog/download_boot_image.rb#L30-L59" class="external">https://github.com/ubicloud/ubicloud/blob/a670fc0946abc52d945edb2b72caae679d9f073f/prog/download_boot_image.rb#L30-L59<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Start interactive Ruby shell</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> docker</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> exec</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -it</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ubicloud-app</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ./bin/pry</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Get your VmHost. If you have multiple ones, you can select by ID etc.</span></span>
+<span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">vmh</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VmHost</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">first</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Get a list of current images</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">vmh.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">boot_images</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># I assume your vm's boot image is `ubuntu-noble`. You can see available boot images here: https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/download_boot_image.rb#L61</span></span>
+<span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">st</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = vmh.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">download_boot_image</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;ubuntu-noble&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">version:</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;20240702&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Wait to download. It will be deleted and raise `No Record Found` when done</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">reload</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># If you need to abort the task</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">destroy</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">st.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">reload</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># To get a list of all tasks</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Strand</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">all</span></span></code></pre></figure>
+<h2 id="configproduction-references"><code>Config.production?</code> References<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#configproduction-references" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/download_boot_image.rb#L16-L18" class="external">https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/download_boot_image.rb#L16-L18<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+<h2 id="spdk-cpu-usage">spdk CPU usage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#spdk-cpu-usage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>It is expected that <code>spdk</code> consumes 200% CPU constantly in polling mode. See <a href="https://news.ycombinator.com/item?id=37154138" class="external">https://news.ycombinator.com/item?id=37154138<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> for the background and design decisions.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /opt/spdk-v23.09-ubi-0.3/bin/spdk_top</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -r</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /home/spdk/spdk-v23.09-ubi-0.3.sock</span></span></code></pre></figure>
+<h2 id="vm-disk-encryption">VM disk encryption<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vm-disk-encryption" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>VM disks are encrypted by default.</p>
+<pre><code>[1] ⚠️ clover-production(main)> VmStorageVolume.all
+=> [#&lt;VmStorageVolume[&quot;v1...&quot;] @values={:vm_id=>&quot;vm...&quot;, :boot=>true, :size_gib=>160, :disk_index=>0, :key_encryption_key_1_id=>&quot;k...&quot;, :key_encryption_key_2_id=>nil, :spdk_installation_id=>&quot;etw...&quot;, :use_bdev_ubi=>true, :skip_sync=>false, :storage_device_id=>&quot;etr...&quot;, :boot_image_id=>&quot;et...&quot;, :max_ios_per_sec=>nil, :max_read_mbytes_per_sec=>nil, :max_write_mbytes_per_sec=>nil}>]
+</code></pre>
+<p>With encryption disabled:</p>
+<pre><code>[1] ⚠️ clover-production(main)> VmStorageVolume.all
+=> [#&lt;VmStorageVolume[&quot;v1...&quot;] @values={:vm_id=>&quot;vm...&quot;, :boot=>true, :size_gib=>320, :disk_index=>0, :key_encryption_key_1_id=>nil, :key_encryption_key_2_id=>nil, :spdk_installation_id=>&quot;etw...&quot;, :use_bdev_ubi=>true, :skip_sync=>false, :storage_device_id=>&quot;etr...&quot;, :boot_image_id=>&quot;et...&quot;, :max_ios_per_sec=>nil, :max_read_mbytes_per_sec=>nil, :max_write_mbytes_per_sec=>nil}>]
+</code></pre>
+<p>With encryption, read performance is</p>
+<pre><code>$ sudo fio --filename=/dev/vda --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=iops-test-job --eta-newline=1 --readonly
+...
+iops-test-job: (groupid=0, jobs=4): err= 0: pid=1077: Sun Mar 16 14:15:17 2025
+  read: IOPS=211k, BW=825MiB/s (866MB/s)(96.7GiB/120002msec)
+    slat (usec): min=3, max=5484, avg=17.18, stdev=42.32
+    clat (usec): min=859, max=30932, avg=4827.97, stdev=2601.95
+     lat (usec): min=864, max=30983, avg=4845.16, stdev=2608.66
+    clat percentiles (usec):
+     |  1.00th=[ 1696],  5.00th=[ 2114], 10.00th=[ 2573], 20.00th=[ 3032],
+     | 30.00th=[ 3359], 40.00th=[ 3752], 50.00th=[ 4146], 60.00th=[ 4621],
+     | 70.00th=[ 5276], 80.00th=[ 6128], 90.00th=[ 7701], 95.00th=[ 9896],
+     | 99.00th=[14877], 99.50th=[16712], 99.90th=[21890], 99.95th=[23200],
+     | 99.99th=[25035]
+   bw (  KiB/s): min=702648, max=1015296, per=100.00%, avg=846076.44, stdev=14476.17, samples=956
+   iops        : min=175662, max=253824, avg=211519.07, stdev=3619.04, samples=956
+  lat (usec)   : 1000=0.01%
+  lat (msec)   : 2=3.68%, 4=42.66%, 10=48.79%, 20=4.67%, 50=0.20%
+  cpu          : usr=5.85%, sys=55.20%, ctx=7668070, majf=0, minf=1077
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=25358100,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=256
+
+Run status group 0 (all jobs):
+   READ: bw=825MiB/s (866MB/s), 825MiB/s-825MiB/s (866MB/s-866MB/s), io=96.7GiB (104GB), run=120002-120002msec
+
+Disk stats (read/write):
+  vda: ios=25336953/74, sectors=202696360/968, merge=15/35, ticks=25926982/112, in_queue=25927112, util=100.00%
+</code></pre>
+<p>You can see a 25% performance improvement by disabling disk encryption:</p>
+<pre><code>$ sudo fio --filename=/dev/vda --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=iops-test-job --eta-newline=1 --readonly
+...
+iops-test-job: (groupid=0, jobs=4): err= 0: pid=1212: Mon Mar 17 14:08:35 2025
+  read: IOPS=264k, BW=1033MiB/s (1083MB/s)(121GiB/120001msec)
+    slat (usec): min=3, max=19537, avg=13.46, stdev=58.75
+    clat (usec): min=544, max=46115, avg=3858.24, stdev=1545.45
+     lat (usec): min=554, max=46124, avg=3871.70, stdev=1548.92
+    clat percentiles (usec):
+     |  1.00th=[ 2245],  5.00th=[ 2409], 10.00th=[ 2573], 20.00th=[ 2900],
+     | 30.00th=[ 3130], 40.00th=[ 3326], 50.00th=[ 3523], 60.00th=[ 3720],
+     | 70.00th=[ 3982], 80.00th=[ 4424], 90.00th=[ 5407], 95.00th=[ 6456],
+     | 99.00th=[10028], 99.50th=[12256], 99.90th=[17433], 99.95th=[19530],
+     | 99.99th=[24511]
+   bw (  MiB/s): min=  898, max= 1154, per=100.00%, avg=1033.76, stdev=11.69, samples=956
+   iops        : min=230030, max=295614, avg=264643.08, stdev=2993.21, samples=956
+  lat (usec)   : 750=0.01%, 1000=0.01%
+  lat (msec)   : 2=0.06%, 4=70.03%, 10=28.90%, 20=0.97%, 50=0.04%
+  cpu          : usr=7.28%, sys=78.70%, ctx=2902637, majf=0, minf=1076
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwts: total=31732883,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=256
+
+Run status group 0 (all jobs):
+   READ: bw=1033MiB/s (1083MB/s), 1033MiB/s-1033MiB/s (1083MB/s-1083MB/s), io=121GiB (130GB), run=120001-120001msec
+
+Disk stats (read/write):
+  vda: ios=31700158/91, sectors=253601480/1233, merge=27/57, ticks=27805348/107, in_queue=27805461, util=99.99%
+</code></pre>
+<h2 id="deleting-projects">Deleting projects<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#deleting-projects" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>If you really want to delete a project, after deleting all resources you can from the console, run the following in the interactive Ruby shell.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">project</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> = </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Project</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">[</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;pjmppb65bm4a4m241bdfky3v3r&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># These should be done from the console</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># project.private_subnets.each(&amp;:destroy) # or use .delete to skip callbacks</span></span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># project.firewalls.each(&amp;:destroy) # or use .delete to skip callbacks</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">project.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">destroy</span></span></code></pre></figure>
+<h2 id="creating-a-vm">Creating a VM<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#creating-a-vm" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>You must use a non-Hetzner region in the location picker to avoid calling Hetzner APIs. See <a href="https://github.com/ubicloud/ubicloud/discussions/2615" class="external">https://github.com/ubicloud/ubicloud/discussions/2615<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</p>
+<p>Configure the firewall for your private subnet, and you can leave ufw or firewalld in guest OS disabled.</p>
+<h2 id="load-balancer-need-to-configure-a-domain">Load Balancer (need to configure a domain)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#load-balancer-need-to-configure-a-domain" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>When you create a load balancers, Ubicloud attempts to order a certificate for the LB and got stuck because the domain is invalid.</p>
+<p><a href="https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/vnet/load_balancer_nexus.rb#L83" class="external">https://github.com/ubicloud/ubicloud/blob/cf0d7c1c462e6e4bc3ff0c1ef1933e3994cecb1a/prog/vnet/load_balancer_nexus.rb#L83<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+<h2 id="upgrading-cloud-hypervisor">Upgrading Cloud Hypervisor<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#upgrading-cloud-hypervisor" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>A newer version of Cloud Hypervisor may provide better performance.</p>
+<p>This can be tested on a per-VM-host basis. because <code>bootstrap_rhizome</code> setup is only ran once during the cloudify process.</p>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="bash" data-theme="github-light github-dark"><code data-language="bash" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Modify `VERSION =` to customize cloud-hypervisor version. See the following for an example.</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -iu</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> /home/rhizome</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">vim</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> host/lib/cloud_hypervisor.rb</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">sudo</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> ./host/bin/download-cloud-hypervisor</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 44.0</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">  f58e5d8684a5cbd7c4b8a001a1188ac79b9d4dda8115e1b3d5faa8c29038119c</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> \</span></span>
+<span data-line><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">  6d268b947adf2b9b72c13cc8bda156e27c9a450474001d762e9bd211f90136fa</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># Patch for compatibility with newer cloud-hypervisor</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">patch</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -p1</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> host/lib/vm_setup.rb</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &lt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> xxx.diff</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="ruby" data-theme="github-light github-dark"><code data-language="ruby" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># (:version, :sha256_ch_bin, :sha256_ch_remote)</span></span>
+<span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">VersionClass</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">.</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">new</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;44.0&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;f58e5d8684a5cbd7c4b8a001a1188ac79b9d4dda8115e1b3d5faa8c29038119c&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;6d268b947adf2b9b72c13cc8bda156e27c9a450474001d762e9bd211f90136fa&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span></code></pre></figure>
+<p>Fixes for v44.0:</p>
+<ol>
+<li><code>--disk</code> should only be specified once. <a href="https://github.com/cloud-hypervisor/cloud-hypervisor/issues/6130" class="external">https://github.com/cloud-hypervisor/cloud-hypervisor/issues/6130<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ol>
+<li>Note that if there are no volumes attached, the VM unit file may become invalid.</li>
+</ol>
+</li>
+<li>Grant <code>CAP_NET_ADMIN</code> to fix the <code>TapSetIp</code> permission error. This should not have happened according to <a href="https://github.com/cloud-hypervisor/cloud-hypervisor/issues/1274" class="external">https://github.com/cloud-hypervisor/cloud-hypervisor/issues/1274<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, so keep an eye on Ubicloud changes when they upgrade.</li>
+</ol>
+<pre><code>Mar 16 12:29:06 vhwkcvts540j1npnsdygqb5jvp cloud-hypervisor[34366]: Error booting VM: VmBoot(DeviceManager(CreateVirtioNet(OpenTap(TapSetIp(IoctlError(35094, Os { code: 1, kind: PermissionDenied, message: &quot;Operation not permitted&quot; }))))))
+</code></pre>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="diff" data-theme="github-light github-dark"><code data-language="diff" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">diff --git a/host/lib/vm_setup.rb.orig b/host/lib/vm_setup.rb</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">index 15ae0b2..95f4d92 100644</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">--- a/host/lib/vm_setup.rb.orig</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+++ b/host/lib/vm_setup.rb</span></span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-light-font-weight:bold;--shiki-dark:#B392F0;--shiki-dark-font-weight:bold;">@@ -657,9 +657,9 @@</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> DNSMASQ_SERVICE</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     disk_params = storage_volumes.map { |volume|</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">       if volume.read_only</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">-        &quot;--disk path=#{volume.image_path},readonly=on \\&quot;</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+        &quot;path=#{volume.image_path},readonly=on \\&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">       else</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">-        &quot;--disk vhost_user=true,socket=#{volume.vhost_sock},num_queues=1,queue_size=256 \\&quot;</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+        &quot;vhost_user=true,socket=#{volume.vhost_sock},num_queues=1,queue_size=256 \\&quot;</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">       end</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     }</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#6F42C1;--shiki-light-font-weight:bold;--shiki-dark:#B392F0;--shiki-dark-font-weight:bold;">@@ -688,13 +688,14 @@</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Wants=#{@vm_name}-dnsmasq.service</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> [Service]</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> Slice=#{slice_name}</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> NetworkNamespacePath=/var/run/netns/#{@vm_name}</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+AmbientCapabilities=CAP_NET_ADMIN</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> ExecStartPre=/usr/bin/rm -f #{vp.ch_api_sock}</span></span>
+<span data-line> </span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> ExecStart=#{CloudHypervisor::VERSION.bin} -v \</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> --api-socket path=#{vp.ch_api_sock} \</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> --kernel #{CloudHypervisor::FIRMWARE.path} \</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">-#{disk_params.join(&quot;\n&quot;)}</span></span>
+<span data-line><span style="--shiki-light:#B31D28;--shiki-dark:#FDAEB7;">---disk path=#{vp.cloudinit_img} \</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+--disk #{disk_params.join(&quot;\n&quot;)}</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">+path=#{vp.cloudinit_img} \</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> --console off --serial file=#{vp.serial_log} \</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> --cpus #{cpu_setting} \</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> --memory size=#{mem_gib}G,hugepages=on,hugepage_size=1G \</span></span></code></pre></figure>
+<p>Disk I/O test results seems to imply a performance regression after upgrading to v44.0. This could be related to <code>num_queues=1,queue_size=256</code> in cloud-hypervisor’s arguments or the default encryption, but we’d rather hold and wait for official updates from Ubicloud.</p>
+<h1 id="features-missing">Features missing<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#features-missing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ol>
+<li>Stop and start VMs. <a href="https://github.com/ubicloud/ubicloud/issues/2989" class="external">https://github.com/ubicloud/ubicloud/issues/2989<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<ol>
+<li>But can be done by hand.</li>
+</ol>
+</li>
+<li>Change VM size when VM is powered off. <a href="https://github.com/ubicloud/ubicloud/issues/2989" class="external">https://github.com/ubicloud/ubicloud/issues/2989<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Granular firewall per-VM without splitting subnets.
+<ol>
+<li>With just HTTP services, this does not bother us too much.</li>
+<li>A firewall can be attached to multiple subnets, but not VMs, so rules are composable, but using different subnets brings connectivity barrier.</li>
+</ol>
+</li>
+<li>Connect to serial console.
+<ol>
+<li>Only needed if you or the Linux distribution messed up.</li>
+</ol>
+</li>
+</ol></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-207" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#maintenance" data-for="maintenance">Maintenance</a></li><li class="depth-1"><a href="#graceful-reboot" data-for="graceful-reboot">Graceful reboot</a></li><li class="depth-1"><a href="#start-control-plane-after-host-failure" data-for="start-control-plane-after-host-failure">Start control plane after host failure</a></li><li class="depth-1"><a href="#recover-stopped-vms" data-for="recover-stopped-vms">Recover stopped VMs</a></li><li class="depth-1"><a href="#start--stop-vm-manual" data-for="start--stop-vm-manual">Start / Stop VM (manual)</a></li><li class="depth-1"><a href="#resize-disks-disabling-bdev_ubi" data-for="resize-disks-disabling-bdev_ubi">Resize disks (disabling bdev_ubi)</a></li><li class="depth-1"><a href="#stop-vm-from-ruby-broken" data-for="stop-vm-from-ruby-broken">Stop VM from Ruby (broken)</a></li><li class="depth-1"><a href="#project-quota" data-for="project-quota">Project Quota</a></li><li class="depth-0"><a href="#set-up" data-for="set-up">Set up</a></li><li class="depth-1"><a href="#prerequisites" data-for="prerequisites">Prerequisites</a></li><li class="depth-1"><a href="#disabling-gro" data-for="disabling-gro">Disabling GRO</a></li><li class="depth-1"><a href="#ipv4-nat" data-for="ipv4-nat">IPv4 NAT</a></li><li class="depth-1"><a href="#set-up-control-plane" data-for="set-up-control-plane">Set up control plane</a></li><li class="depth-1"><a href="#cloudify-a-bare-metal-server" data-for="cloudify-a-bare-metal-server">Cloudify a bare-metal server</a></li><li class="depth-1"><a href="#download-images" data-for="download-images">Download images</a></li><li class="depth-1"><a href="#configproduction-references" data-for="configproduction-references">Config.production? References</a></li><li class="depth-1"><a href="#spdk-cpu-usage" data-for="spdk-cpu-usage">spdk CPU usage</a></li><li class="depth-1"><a href="#vm-disk-encryption" data-for="vm-disk-encryption">VM disk encryption</a></li><li class="depth-1"><a href="#deleting-projects" data-for="deleting-projects">Deleting projects</a></li><li class="depth-1"><a href="#creating-a-vm" data-for="creating-a-vm">Creating a VM</a></li><li class="depth-1"><a href="#load-balancer-need-to-configure-a-domain" data-for="load-balancer-need-to-configure-a-domain">Load Balancer (need to configure a domain)</a></li><li class="depth-1"><a href="#upgrading-cloud-hypervisor" data-for="upgrading-cloud-hypervisor">Upgrading Cloud Hypervisor</a></li><li class="depth-0"><a href="#features-missing" data-for="features-missing">Features missing</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/l2dy">GitHub</a></li><li><a href="https://github.com/sponsors/l2dy">Sponsor me</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
