@@ -56,7 +56,7 @@
     <loc>https://l2dy.github.io/notes/AI/Good-Reads-on-AI</loc>
     <lastmod>2025-10-18T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://l2dy.github.io/notes/AI/LLM-model-comparison</loc>
+    <loc>https://l2dy.github.io/notes/AI/LLM-model-comparison-and-leaderboards</loc>
     <lastmod>2025-03-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</loc>
@@ -404,6 +404,9 @@
     <loc>https://l2dy.github.io/notes/Database/PgBouncer</loc>
     <lastmod>2023-10-02T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Database/Pigsty-notes</loc>
+    <lastmod>2025-12-30T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Database/PostgreSQL-and-psql-trivia-commands</loc>
     <lastmod>2023-10-15T00:00:00.000Z</lastmod>
   </url><url>
@@ -418,6 +421,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Database/Verify-TLS-Certificate-in-psql-session</loc>
     <lastmod>2023-10-15T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Database/Workaround-%22permission-denied-for-schema-auth%22-on-Supabase</loc>
+    <lastmod>2026-01-02T05:17:26.974Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Economics/Economics-in-China</loc>
     <lastmod>2025-12-22T13:55:12.000Z</lastmod>
@@ -1238,6 +1244,9 @@
     <loc>https://l2dy.github.io/notes/Search/Search-for-arXiv-papers</loc>
     <lastmod>2025-12-22T13:55:12.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Security/OSINT-resources</loc>
+    <lastmod>2025-12-23T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Data-backup</loc>
     <lastmod>2025-04-05T00:00:00.000Z</lastmod>
   </url><url>
@@ -1333,6 +1342,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Create-.ipa-files-without-a-developer-account</loc>
     <lastmod>2023-12-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Discourse-advanced-search</loc>
+    <lastmod>2025-12-23T07:27:42.889Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/EWS-support-in-Thunderbird</loc>
     <lastmod>2024-12-05T00:00:00.000Z</lastmod>

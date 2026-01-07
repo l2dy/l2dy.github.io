@@ -6,6 +6,30 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Workaround &quot;permission denied for schema auth&quot; on Supabase</title>
+    <link>https://l2dy.github.io/notes/Database/Workaround-%22permission-denied-for-schema-auth%22-on-Supabase</link>
+    <guid>https://l2dy.github.io/notes/Database/Workaround-%22permission-denied-for-schema-auth%22-on-Supabase</guid>
+    <description><![CDATA[ The auth schema is protected and only accessible via the postgres role, so we can’t directly grant the permissions: postgres=&gt; GRANT USAGE ON SCHEMA auth TO your_role; WARNING: no privileges were granted for &quot;auth&quot; GRANT And even if the schema grant succeeded, some tables are also prote... ]]></description>
+    <pubDate>Fri, 02 Jan 2026 05:17:26 GMT</pubDate>
+  </item><item>
+    <title>Pigsty notes</title>
+    <link>https://l2dy.github.io/notes/Database/Pigsty-notes</link>
+    <guid>https://l2dy.github.io/notes/Database/Pigsty-notes</guid>
+    <description><![CDATA[ Unattended upgrades On Ubuntu, it’s recommended to disable unattended upgrades to avoid unexpected database restarts. ]]></description>
+    <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Discourse advanced search</title>
+    <link>https://l2dy.github.io/notes/Software/Discourse-advanced-search</link>
+    <guid>https://l2dy.github.io/notes/Software/Discourse-advanced-search</guid>
+    <description><![CDATA[ Search for a user’s topics in a specific category @&lt;username&gt; #&lt;category&gt; in:first . ]]></description>
+    <pubDate>Tue, 23 Dec 2025 07:27:42 GMT</pubDate>
+  </item><item>
+    <title>OSINT resources</title>
+    <link>https://l2dy.github.io/notes/Security/OSINT-resources</link>
+    <guid>https://l2dy.github.io/notes/Security/OSINT-resources</guid>
+    <description><![CDATA[  platform.censys.io/ en.fofa.info/ www.shodan.io/ . ]]></description>
+    <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -40,30 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
     <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 13:55:12 GMT</pubDate>
-  </item><item>
-    <title>Line editing</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
-    <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 13:55:12 GMT</pubDate>
-  </item><item>
-    <title>Per, AWK and sed tricks for text file manipulation</title>
-    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
-    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
-    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 13:55:12 GMT</pubDate>
-  </item><item>
-    <title>Zsh word splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
-    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
-    <pubDate>Mon, 22 Dec 2025 13:55:12 GMT</pubDate>
-  </item><item>
-    <title>benchstat</title>
-    <link>https://l2dy.github.io/notes/CLI/benchstat</link>
-    <guid>https://l2dy.github.io/notes/CLI/benchstat</guid>
-    <description><![CDATA[ Compare go test -bench=.. results and print nice statistics. ]]></description>
     <pubDate>Mon, 22 Dec 2025 13:55:12 GMT</pubDate>
   </item>
     </channel>
