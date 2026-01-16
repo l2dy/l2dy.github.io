@@ -6,6 +6,18 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>StorCLI</title>
+    <link>https://l2dy.github.io/notes/CLI/StorCLI</link>
+    <guid>https://l2dy.github.io/notes/CLI/StorCLI</guid>
+    <description><![CDATA[ # RAID controller information /opt/MegaRAID/storcli/storcli64 show ctrlcount # number of connected controllers /opt/MegaRAID/storcli/storcli64 show all # list controllers # For controller 0: /opt/MegaRAID/storcli/storcli64 /c0 show all # Overall info /opt/MegaRAID/storcli/storcli64 /c0/eall/sall sho... ]]></description>
+    <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Ubuntu release upgrades</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Ubuntu-release-upgrades</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Ubuntu-release-upgrades</guid>
+    <description><![CDATA[ Preparations I recommend installing either ubuntu-server or ubuntu-desktop before the upgrade, unless you are upgrading Ubuntu in a container. ]]></description>
+    <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -52,18 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
     <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
     <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Wed, 07 Jan 2026 01:01:49 GMT</pubDate>
-  </item><item>
-    <title>Zsh word splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
-    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
-    <pubDate>Wed, 07 Jan 2026 01:01:49 GMT</pubDate>
-  </item><item>
-    <title>benchstat</title>
-    <link>https://l2dy.github.io/notes/CLI/benchstat</link>
-    <guid>https://l2dy.github.io/notes/CLI/benchstat</guid>
-    <description><![CDATA[ Compare go test -bench=.. results and print nice statistics. ]]></description>
     <pubDate>Wed, 07 Jan 2026 01:01:49 GMT</pubDate>
   </item>
     </channel>
