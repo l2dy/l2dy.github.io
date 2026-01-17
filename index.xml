@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Update initramfs on Linux</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Update-initramfs-on-Linux</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Update-initramfs-on-Linux</guid>
+    <description><![CDATA[ Ubuntu For Ubuntu, either dpkg-reconfigure the relevant linux-image package, which works for both new and existing kernels, or for existing kernels only: depmod -a $(uname -r) # if this kernel&#039;s modules changed update-initramfs -u -k all # updates existing kernels&#039; initramfs update-grub # ... ]]></description>
+    <pubDate>Sat, 17 Jan 2026 01:58:45 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -58,12 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
     <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
     <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
-  </item><item>
-    <title>benchstat</title>
-    <link>https://l2dy.github.io/notes/CLI/benchstat</link>
-    <guid>https://l2dy.github.io/notes/CLI/benchstat</guid>
-    <description><![CDATA[ Compare go test -bench=.. results and print nice statistics. ]]></description>
     <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
   </item>
     </channel>
