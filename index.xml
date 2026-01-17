@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Update initramfs on Linux</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Update-initramfs-on-Linux</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Update-initramfs-on-Linux</guid>
-    <description><![CDATA[ Ubuntu For Ubuntu, either dpkg-reconfigure the relevant linux-image package, which works for both new and existing kernels, or for existing kernels only: depmod -a $(uname -r) # if this kernel&#039;s modules changed update-initramfs -u -k all # updates existing kernels&#039; initramfs update-grub # ... ]]></description>
-    <pubDate>Sat, 17 Jan 2026 01:58:45 GMT</pubDate>
-  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description><![CDATA[ Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description><![CDATA[ Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>GPT-4 chat demo</title>
     <link>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</link>
     <guid>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</guid>
     <description><![CDATA[  Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Reputable vendors offering free LLM API</title>
     <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
     <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
     <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Production container deployments without Kubernetes</title>
     <link>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</link>
     <guid>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</guid>
     <description><![CDATA[ Kamal github.com/basecamp/kamal Kamal offers zero-downtime deploys, rolling restarts, asset bridging, remote builds, accessory service management, and everything else you need to deploy and manage your web app in production with Docker. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Here document</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
     <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Line editing</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
     <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Per, AWK and sed tricks for text file manipulation</title>
     <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
     <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
     <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item><item>
     <title>Zsh word splitting</title>
     <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
     <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
     <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
-    <pubDate>Fri, 16 Jan 2026 12:15:00 GMT</pubDate>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
+  </item><item>
+    <title>benchstat</title>
+    <link>https://l2dy.github.io/notes/CLI/benchstat</link>
+    <guid>https://l2dy.github.io/notes/CLI/benchstat</guid>
+    <description><![CDATA[ Compare go test -bench=.. results and print nice statistics. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 02:15:16 GMT</pubDate>
   </item>
     </channel>
   </rss>
