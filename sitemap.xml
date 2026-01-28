@@ -218,6 +218,9 @@
     <loc>https://l2dy.github.io/notes/CLI/ss</loc>
     <lastmod>2023-11-05T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/CLI/ssh</loc>
+    <lastmod>2026-01-22T07:09:15.000Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/CLI/starship</loc>
     <lastmod>2023-10-31T00:00:00.000Z</lastmod>
   </url><url>
@@ -1268,6 +1271,9 @@
     <loc>https://l2dy.github.io/notes/Self-Hosting/Data-backup</loc>
     <lastmod>2025-04-05T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://l2dy.github.io/notes/Self-Hosting/Docker-Compose-multi-instance</loc>
+    <lastmod>2026-01-27T23:34:40.971Z</lastmod>
+  </url><url>
     <loc>https://l2dy.github.io/notes/Self-Hosting/Litestream</loc>
     <lastmod>2023-10-23T00:00:00.000Z</lastmod>
   </url><url>
@@ -1402,6 +1408,9 @@
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Layer-7-Load-Balancing-solutions</loc>
     <lastmod>2024-02-29T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://l2dy.github.io/notes/Software/Mutt-inbox-sweep</loc>
+    <lastmod>2026-01-25T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://l2dy.github.io/notes/Software/Netdata</loc>
     <lastmod>2026-01-18T03:40:02.000Z</lastmod>

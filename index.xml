@@ -6,6 +6,24 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Docker Compose multi-instance</title>
+    <link>https://l2dy.github.io/notes/Self-Hosting/Docker-Compose-multi-instance</link>
+    <guid>https://l2dy.github.io/notes/Self-Hosting/Docker-Compose-multi-instance</guid>
+    <description><![CDATA[ demo: # container_name: .. ]]></description>
+    <pubDate>Tue, 27 Jan 2026 23:34:40 GMT</pubDate>
+  </item><item>
+    <title>Mutt inbox sweep</title>
+    <link>https://l2dy.github.io/notes/Software/Mutt-inbox-sweep</link>
+    <guid>https://l2dy.github.io/notes/Software/Mutt-inbox-sweep</guid>
+    <description><![CDATA[ Use T to tag messages matching ~s &lt;subject regex&gt;, etc. ]]></description>
+    <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>ssh</title>
+    <link>https://l2dy.github.io/notes/CLI/ssh</link>
+    <guid>https://l2dy.github.io/notes/CLI/ssh</guid>
+    <description><![CDATA[ Session persistence Add the following Control* parameters to your OpenSSH client configuration file: Host devbox Hostname x.x.x.x [...] ServerAliveInterval 3600 ControlPersist 1h ControlMaster auto ControlPath ~/.ssh/control/%C and create the directory for control sockets with secured permissions: m... ]]></description>
+    <pubDate>Thu, 22 Jan 2026 07:09:15 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -46,24 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
     <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 03:40:02 GMT</pubDate>
-  </item><item>
-    <title>Line editing</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
-    <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 03:40:02 GMT</pubDate>
-  </item><item>
-    <title>Per, AWK and sed tricks for text file manipulation</title>
-    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
-    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
-    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Sun, 18 Jan 2026 03:40:02 GMT</pubDate>
-  </item><item>
-    <title>Zsh word splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
-    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
     <pubDate>Sun, 18 Jan 2026 03:40:02 GMT</pubDate>
   </item>
     </channel>
