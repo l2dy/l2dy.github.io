@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Opus 4.5 demo</title>
+    <link>https://l2dy.github.io/notes/AI/Opus-4.5-demo</link>
+    <guid>https://l2dy.github.io/notes/AI/Opus-4.5-demo</guid>
+    <description><![CDATA[ Systemd Timer with Traffic Shaping This guide explains how to set up a scheduled task using systemd timers with automatic network bandwidth limiting. ]]></description>
+    <pubDate>Wed, 28 Jan 2026 00:25:31 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -22,12 +28,6 @@
     <link>https://l2dy.github.io/notes/AI/CodeLayer</link>
     <guid>https://l2dy.github.io/notes/AI/CodeLayer</guid>
     <description><![CDATA[ macOS install Install the app from .dmg and run: sudo ln -s /Applications/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer codelayer-nightly; for i in cld hld humanlayer; do sudo ln -s &quot;/Applications/CodeLayer-Nightly.app/Contents/Resources/bin/$i&quot; &quot;/usr/local/bin/$i-nightly&qu... ]]></description>
-    <pubDate>Wed, 28 Jan 2026 00:23:28 GMT</pubDate>
-  </item><item>
-    <title>GPT-4 chat demo</title>
-    <link>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</link>
-    <guid>https://l2dy.github.io/notes/AI/GPT-4-chat-demo</guid>
-    <description><![CDATA[  Attention The chat was saved to demonstrate how to ask GPT-4 questions and provide hints. The formula may be incorrect. ]]></description>
     <pubDate>Wed, 28 Jan 2026 00:23:28 GMT</pubDate>
   </item><item>
     <title>Reputable vendors offering free LLM API</title>
