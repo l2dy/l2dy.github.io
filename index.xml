@@ -6,17 +6,17 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linux kernel hackers</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</guid>
+    <description><![CDATA[ Kairui Song @ryncsn on GitHub and @silsrc on X, primarily worked on swap improvements in 2025. ]]></description>
+    <pubDate>Fri, 30 Jan 2026 15:51:31 GMT</pubDate>
+  </item><item>
     <title>Flamegraph tools</title>
     <link>https://l2dy.github.io/notes/Performance-tuning/Flamegraph-tools</link>
     <guid>https://l2dy.github.io/notes/Performance-tuning/Flamegraph-tools</guid>
     <description><![CDATA[ C/C++ with debug info github.com/mstange/samply. ]]></description>
     <pubDate>Fri, 30 Jan 2026 15:31:29 GMT</pubDate>
-  </item><item>
-    <title>Linux kernel hackers</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</guid>
-    <description><![CDATA[ Kairui Song @ryncsn on GitHub and @silsrc on X, primarily works on swap improvements in 2025. ]]></description>
-    <pubDate>Thu, 29 Jan 2026 04:18:15 GMT</pubDate>
   </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
