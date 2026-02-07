@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Linux kernel hackers</title>
-    <link>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</link>
-    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Linux-kernel-hackers</guid>
-    <description><![CDATA[ Kairui Song @ryncsn on GitHub and @silsrc on X, primarily worked on swap improvements in 2025. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 15:51:31 GMT</pubDate>
-  </item><item>
-    <title>Flamegraph tools</title>
-    <link>https://l2dy.github.io/notes/Performance-tuning/Flamegraph-tools</link>
-    <guid>https://l2dy.github.io/notes/Performance-tuning/Flamegraph-tools</guid>
-    <description><![CDATA[ C/C++ with debug info github.com/mstange/samply. ]]></description>
-    <pubDate>Fri, 30 Jan 2026 15:31:29 GMT</pubDate>
+    <title>PostgreSQL software stack</title>
+    <link>https://l2dy.github.io/notes/Database/PostgreSQL-software-stack</link>
+    <guid>https://l2dy.github.io/notes/Database/PostgreSQL-software-stack</guid>
+    <description><![CDATA[ Postgres HA repmgr pg_auto_failover Patroni Stolon EDB Failover Manager (EFM) EDB Postgres Distributed (PGD) Bucardo Connection pooler PGBouncer PgPool-II PgDog Odyssey ProxySQL Supavisor Backup solutions Barman pgBackRest WAL-G pg_probackup . ]]></description>
+    <pubDate>Thu, 05 Feb 2026 08:54:21 GMT</pubDate>
   </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description><![CDATA[ Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description><![CDATA[ Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>CodeLayer</title>
     <link>https://l2dy.github.io/notes/AI/CodeLayer</link>
     <guid>https://l2dy.github.io/notes/AI/CodeLayer</guid>
     <description><![CDATA[ macOS install Install the app from .dmg and run: sudo ln -s /Applications/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer codelayer-nightly; for i in cld hld humanlayer; do sudo ln -s &quot;/Applications/CodeLayer-Nightly.app/Contents/Resources/bin/$i&quot; &quot;/usr/local/bin/$i-nightly&qu... ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>Opus 4.5 demo</title>
     <link>https://l2dy.github.io/notes/AI/Opus-4.5-demo</link>
     <guid>https://l2dy.github.io/notes/AI/Opus-4.5-demo</guid>
     <description><![CDATA[ Systemd Timer with Traffic Shaping This guide explains how to set up a scheduled task using systemd timers with automatic network bandwidth limiting. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>Reputable vendors offering free LLM API</title>
     <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
     <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
     <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>Production container deployments without Kubernetes</title>
     <link>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</link>
     <guid>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</guid>
     <description><![CDATA[ Kamal github.com/basecamp/kamal Kamal offers zero-downtime deploys, rolling restarts, asset bridging, remote builds, accessory service management, and everything else you need to deploy and manage your web app in production with Docker. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>Here document</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
     <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item><item>
     <title>Line editing</title>
     <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
     <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
     <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Wed, 28 Jan 2026 13:52:13 GMT</pubDate>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
+  </item><item>
+    <title>Per, AWK and sed tricks for text file manipulation</title>
+    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
+    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
+    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
+    <pubDate>Fri, 30 Jan 2026 15:52:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
