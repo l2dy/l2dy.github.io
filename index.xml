@@ -6,65 +6,65 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Git rebase versioned branches</title>
-    <link>https://l2dy.github.io/notes/CLI/git/Git-rebase-versioned-branches</link>
-    <guid>https://l2dy.github.io/notes/CLI/git/Git-rebase-versioned-branches</guid>
-    <description><![CDATA[ git checkout -b 2.0-oss &lt;existing oss branch&gt; # keep the commits to rebase #git rebase -i &lt;fork point&gt; # rebase to tidy patches (as needed) # equivalent to `git reset --hard &lt;upstream/2.0 branch&gt; &amp;&amp; git cherry-pick &lt;fork point&gt;..&lt;existing oss branch&gt;` git rebase... ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>sort</title>
-    <link>https://l2dy.github.io/notes/CLI/sort</link>
-    <guid>https://l2dy.github.io/notes/CLI/sort</guid>
-    <description><![CDATA[ rg .. | sort -t : -sk 1,1 Stable (-s) sort by first key (-k 1,1) only, delimited by : (-t :). In this particular case you could use rg --sort=path .. ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>AWS Global Accelerator</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/AWS-Global-Accelerator</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/AWS-Global-Accelerator</guid>
-    <description><![CDATA[ TCP termination at the edge TCP termination at the edge improves latency: GA also optimizes throughput for the long fat network between edge and target region: Tune TCP parameters for high BDP Use high initcwnd to cheat TCP slow start Jumbo frames Large receive window size, TCP buffers tuning Large ... ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Amazon Aurora</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Aurora</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Amazon-Aurora</guid>
-    <description><![CDATA[ Redundancy 6 copies across 3 AZs to tolerate AZ+1 failures. ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Amazon DynamoDB</title>
-    <link>https://l2dy.github.io/notes/Cloud/AWS/Amazon-DynamoDB</link>
-    <guid>https://l2dy.github.io/notes/Cloud/AWS/Amazon-DynamoDB</guid>
-    <description><![CDATA[ References atscaleconference.com/videos/scale-2019-amazon-dynamodb-fast-and-flexible-nosql-database-service-for-any-scale/ pages.awscloud.com/Deep-Dive-on-Multi-Region-Architectures-with-Amazon-DynamoDB_2021_0427-DAT_OD.html . ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Avoiding overload</title>
-    <link>https://l2dy.github.io/notes/SRE/Avoiding-overload</link>
-    <guid>https://l2dy.github.io/notes/SRE/Avoiding-overload</guid>
-    <description><![CDATA[ Load shedding Indicators to consider: CPU utilization per-tenant quota and overall rate limits average latency concurrent connections Constant work or constant resource allocation It’s possible to apply the constant work principle to effectively avoid overload certain components in a distributed sys... ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Tips for a small PostgreSQL VPS</title>
-    <link>https://l2dy.github.io/notes/Self-Hosting/Tips-for-a-small-PostgreSQL-VPS</link>
-    <guid>https://l2dy.github.io/notes/Self-Hosting/Tips-for-a-small-PostgreSQL-VPS</guid>
-    <description><![CDATA[ Memory Use Linux v7.0+ kernel, and enable zswap to compress memory. ]]></description>
-    <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
     <description><![CDATA[ Welcome to my digital garden, where I keep notes of my thoughts and knowledge about topics I’m interested in like computer science. ]]></description>
-    <pubDate>Sat, 07 Feb 2026 04:00:45 GMT</pubDate>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
   </item><item>
     <title>AWS Map</title>
     <link>https://l2dy.github.io/maps/AWS-Map</link>
     <guid>https://l2dy.github.io/maps/AWS-Map</guid>
     <description><![CDATA[ Networking The AWS backbone network connects AWS Regions, Availability Zones, and the Internet. ]]></description>
-    <pubDate>Sat, 07 Feb 2026 04:00:45 GMT</pubDate>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
   </item><item>
     <title>CodeLayer</title>
     <link>https://l2dy.github.io/notes/AI/CodeLayer</link>
     <guid>https://l2dy.github.io/notes/AI/CodeLayer</guid>
     <description><![CDATA[ macOS install Install the app from .dmg and run: sudo ln -s /Applications/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer codelayer-nightly; for i in cld hld humanlayer; do sudo ln -s &quot;/Applications/CodeLayer-Nightly.app/Contents/Resources/bin/$i&quot; &quot;/usr/local/bin/$i-nightly&qu... ]]></description>
-    <pubDate>Sat, 07 Feb 2026 04:00:45 GMT</pubDate>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Opus 4.5 demo</title>
+    <link>https://l2dy.github.io/notes/AI/Opus-4.5-demo</link>
+    <guid>https://l2dy.github.io/notes/AI/Opus-4.5-demo</guid>
+    <description><![CDATA[ Systemd Timer with Traffic Shaping This guide explains how to set up a scheduled task using systemd timers with automatic network bandwidth limiting. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Reputable vendors offering free LLM API</title>
+    <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
+    <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
+    <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Production container deployments without Kubernetes</title>
+    <link>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</link>
+    <guid>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</guid>
+    <description><![CDATA[ Kamal github.com/basecamp/kamal Kamal offers zero-downtime deploys, rolling restarts, asset bridging, remote builds, accessory service management, and everything else you need to deploy and manage your web app in production with Docker. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Here document</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
+    <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Line editing</title>
+    <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
+    <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
+    <description><![CDATA[ Read man 3 readline for more information. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Per, AWK and sed tricks for text file manipulation</title>
+    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
+    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
+    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
+  </item><item>
+    <title>Zsh word splitting</title>
+    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
+    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
+    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
+    <pubDate>Sun, 22 Feb 2026 14:29:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
