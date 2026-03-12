@@ -6,6 +6,12 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Customize config of Linux distribution kernels</title>
+    <link>https://l2dy.github.io/notes/Operating-System/Linux/Customize-config-of-Linux-distribution-kernels</link>
+    <guid>https://l2dy.github.io/notes/Operating-System/Linux/Customize-config-of-Linux-distribution-kernels</guid>
+    <description><![CDATA[ Ubuntu Obtain kernel sources linux-signed (primary kernel source package) Binary package: packages.ubuntu.com/noble/linux-image-6.8.0-101-generic Source package: packages.ubuntu.com/source/noble/linux-signed Launchpad repository: code.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble pack... ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -58,12 +64,6 @@
     <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
     <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
     <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Tue, 10 Mar 2026 23:39:42 GMT</pubDate>
-  </item><item>
-    <title>Zsh word splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
-    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
     <pubDate>Tue, 10 Mar 2026 23:39:42 GMT</pubDate>
   </item>
     </channel>
