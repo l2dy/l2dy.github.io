@@ -9,7 +9,7 @@
     <title>Customize config of Linux distribution kernels</title>
     <link>https://l2dy.github.io/notes/Operating-System/Linux/Customize-config-of-Linux-distribution-kernels</link>
     <guid>https://l2dy.github.io/notes/Operating-System/Linux/Customize-config-of-Linux-distribution-kernels</guid>
-    <description><![CDATA[ Ubuntu Obtain kernel sources linux-signed (primary kernel source package) Binary package: packages.ubuntu.com/noble/linux-image-6.8.0-101-generic Source package: packages.ubuntu.com/source/noble/linux-signed Launchpad repository: code.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux/+git/noble pack... ]]></description>
+    <description><![CDATA[ Ubuntu Obtain kernel sources linux-signed (primary kernel source package) Binary package: packages.ubuntu.com/noble/linux-image-6.8.0-101-generic Source package: packages.ubuntu.com/source/noble/linux-signed Change log: launchpad.net/ubuntu/+source/linux/+changelog (aggregated) or packages.ubuntu.co... ]]></description>
     <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Zero&#039;s Garden</title>
