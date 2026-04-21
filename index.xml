@@ -6,6 +6,36 @@
       <description>Last 10 notes on 🪴 Zero&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Clojure utility libraries</title>
+    <link>https://l2dy.github.io/notes/Programming/Clojure/Clojure-utility-libraries</link>
+    <guid>https://l2dy.github.io/notes/Programming/Clojure/Clojure-utility-libraries</guid>
+    <description><![CDATA[  github.com/weavejester/medley github.com/plumatic/plumbing github.com/cloojure/tupelo . ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Polylith</title>
+    <link>https://l2dy.github.io/notes/Programming/Clojure/Polylith</link>
+    <guid>https://l2dy.github.io/notes/Programming/Clojure/Polylith</guid>
+    <description><![CDATA[ Polylith guides you on how to structure code within each system, in contrast to microservices and serverless architectures which are about how to deploy systems. ]]></description>
+    <pubDate>Tue, 21 Apr 2026 16:40:23 GMT</pubDate>
+  </item><item>
+    <title>Creating a measurement on RIPE Atlas</title>
+    <link>https://l2dy.github.io/notes/Network/Creating-a-measurement-on-RIPE-Atlas</link>
+    <guid>https://l2dy.github.io/notes/Network/Creating-a-measurement-on-RIPE-Atlas</guid>
+    <description><![CDATA[ Interval and spread One-off measurements have a fixed 600 seconds “interval”, so spread can’t be greater than 600 seconds. ]]></description>
+    <pubDate>Mon, 20 Apr 2026 03:13:36 GMT</pubDate>
+  </item><item>
+    <title>tmux</title>
+    <link>https://l2dy.github.io/notes/CLI/tmux</link>
+    <guid>https://l2dy.github.io/notes/CLI/tmux</guid>
+    <description><![CDATA[ Style From hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/: # VUSIAL # clock mode setw -g clock-mode-colour yellow # copy mode setw -g mode-style &#039;fg=black bg=red bold&#039; # panes set -g pane-border-style &#039;fg=red&#039; set -g pane-active-border-style &#039;fg=yellow&#039; # stat... ]]></description>
+    <pubDate>Fri, 17 Apr 2026 18:28:16 GMT</pubDate>
+  </item><item>
+    <title>Delete custom candidate word in Rime IME</title>
+    <link>https://l2dy.github.io/notes/Software/Delete-custom-candidate-word-in-Rime-IME</link>
+    <guid>https://l2dy.github.io/notes/Software/Delete-custom-candidate-word-in-Rime-IME</guid>
+    <description><![CDATA[ Squirrel On macOS, you can delete a candidate word with Shift + Fn + Delete. ]]></description>
+    <pubDate>Mon, 13 Apr 2026 09:33:09 GMT</pubDate>
+  </item><item>
     <title>Zero&#039;s Garden</title>
     <link>https://l2dy.github.io/</link>
     <guid>https://l2dy.github.io/</guid>
@@ -34,36 +64,6 @@
     <link>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</link>
     <guid>https://l2dy.github.io/notes/AI/Reputable-vendors-offering-free-LLM-API</guid>
     <description><![CDATA[ Cerebras Cerebras provides a generous free tier, but tokens per minute is slightly more limited than others. ]]></description>
-    <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
-  </item><item>
-    <title>Production container deployments without Kubernetes</title>
-    <link>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</link>
-    <guid>https://l2dy.github.io/notes/CICD/Production-container-deployments-without-Kubernetes</guid>
-    <description><![CDATA[ Kamal github.com/basecamp/kamal Kamal offers zero-downtime deploys, rolling restarts, asset bridging, remote builds, accessory service management, and everything else you need to deploy and manage your web app in production with Docker. ]]></description>
-    <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
-  </item><item>
-    <title>Here document</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Here-document</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Here-document</guid>
-    <description><![CDATA[ Parameter expansion Quote the word in here-documents to inhibit any expansion. ]]></description>
-    <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
-  </item><item>
-    <title>Line editing</title>
-    <link>https://l2dy.github.io/notes/CLI/Bash/Line-editing</link>
-    <guid>https://l2dy.github.io/notes/CLI/Bash/Line-editing</guid>
-    <description><![CDATA[ Read man 3 readline for more information. ]]></description>
-    <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
-  </item><item>
-    <title>Per, AWK and sed tricks for text file manipulation</title>
-    <link>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</link>
-    <guid>https://l2dy.github.io/notes/CLI/Per,-AWK-and-sed-tricks-for-text-file-manipulation</guid>
-    <description><![CDATA[ Selecting a paragraph with first line known /^first line content$/,/^$/ works in both AWK and sed for addressing a paragraph, or any content with unique start and end identifiers. ]]></description>
-    <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
-  </item><item>
-    <title>Zsh word splitting</title>
-    <link>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</link>
-    <guid>https://l2dy.github.io/notes/CLI/Zsh-word-splitting</guid>
-    <description><![CDATA[ Use $=VAR instead of $VAR to force parameter expansions to split $VAR into separate words before substitution, using the IFS as a delimiter. ]]></description>
     <pubDate>Thu, 09 Apr 2026 05:46:23 GMT</pubDate>
   </item>
     </channel>
